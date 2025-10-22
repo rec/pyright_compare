@@ -1,0 +1,26 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-20 05:53:57",
+            "id": "a9fabeb012a",
+            "message": "[BE] Fix old TMA API in persistent matmul template (#161030)"
+        },
+        "after": {
+            "committer_date": "2025-08-20 07:51:09",
+            "id": "0533ff2ccba",
+            "message": "[rfc] add hint_override kwarg to mark_dynamic (#161007)"
+        }
+    },
+    "completenessScore": [0.377261, 0.377261],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~912"}, {"name": "11e97bc7bd4~911"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.03367003367003367}},
+        "symbols": {
+            "added": [
+                "torch._subclasses.meta_utils.MetaTensorDesc.dynamo_hint_overrides"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086923.a9fabeb012a-0533ff2ccba.json"
+}

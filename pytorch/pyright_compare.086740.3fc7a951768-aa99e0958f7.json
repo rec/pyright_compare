@@ -1,0 +1,28 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-15 04:27:49",
+            "id": "3fc7a951768",
+            "message": "[audio hash update] update the pinned audio hash (#160485)"
+        },
+        "after": {
+            "committer_date": "2025-08-15 04:59:35",
+            "id": "aa99e0958f7",
+            "message": "Separate provenance tracking to different levels (#160383)"
+        }
+    },
+    "completenessScore": [0.377208, 0.377185],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1095"}, {"name": "11e97bc7bd4~1094"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "completenessScore": -2.313450150903673e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.1180637544273908},
+            "completenessScore": -0.006133088009810324
+        },
+        "symbols": {"added": ["torch.fx.traceback.log"]}
+    },
+    "filename": "pyright_compare.086740.3fc7a951768-aa99e0958f7.json"
+}

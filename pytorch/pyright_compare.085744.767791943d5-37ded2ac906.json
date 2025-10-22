@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-22 19:55:05",
+            "id": "767791943d5",
+            "message": "[ONNX] Set default opset to 20 (#158802)"
+        },
+        "after": {
+            "committer_date": "2025-07-22 19:58:48",
+            "id": "37ded2ac906",
+            "message": "Using torch.accelerator in comm_mode_features_example.py and visualize_sharding_example.py (#157317)"
+        }
+    },
+    "completenessScore": [0.375901, 0.375878],
+    "filename": "pyright_compare.085744.767791943d5-37ded2ac906.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "completenessScore": -2.3155164625143776e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.11976047904191617},
+            "completenessScore": -0.006159911297278908
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.tensor.examples.visualize_sharding_example.device_type"
+            ]
+        }
+    }
+}

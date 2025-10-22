@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-02 20:20:59",
+            "id": "172853547ac",
+            "message": "[inductor] more size_hint_or_throw usage (#157394)"
+        },
+        "after": {
+            "committer_date": "2025-07-02 20:24:24",
+            "id": "e20784f228a",
+            "message": "[dynamo] Support BUILTIN_MATCH serialization. (#157016)"
+        }
+    },
+    "completenessScore": [0.373503, 0.373503],
+    "filename": "pyright_compare.084938.172853547ac-e20784f228a.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.04319654427645788}},
+        "symbols": {
+            "added": [
+                "torch._dynamo.output_graph.OutputGraphGuardsState.name_of_builtins_dict_key_in_fglobals"
+            ]
+        }
+    }
+}

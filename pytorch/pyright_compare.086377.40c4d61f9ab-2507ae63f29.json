@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-06 21:52:14",
+            "id": "40c4d61f9ab",
+            "message": "[Dynamo][Better Engineering] Typing `torch/_dynamo/guards.py` (#159315)"
+        },
+        "after": {
+            "committer_date": "2025-08-06 22:12:47",
+            "id": "2507ae63f29",
+            "message": "Partitioner: Fix to align partition node order with original graph (#157892)"
+        }
+    },
+    "completenessScore": [0.377095, 0.377157],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1458"}, {"name": "11e97bc7bd4~1457"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1},
+            "completenessScore": 6.14062020264372e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016283992835043153,
+                "withAmbiguousType": -0.11918951132300358
+            },
+            "completenessScore": 0.016283992835051782
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.passes.infra.partitioner.Partition.nodes": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Node, Any | None]\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.086377.40c4d61f9ab-2507ae63f29.json"
+}

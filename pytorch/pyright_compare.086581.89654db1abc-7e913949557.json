@@ -1,0 +1,73 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-12 19:59:32",
+            "id": "89654db1abc",
+            "message": "[inductor] fix triton bucketize mask propagation (#159961)"
+        },
+        "after": {
+            "committer_date": "2025-08-12 20:08:49",
+            "id": "7e913949557",
+            "message": "Support NUMA Binding for Callable Entrypoints (#160163)"
+        }
+    },
+    "completenessScore": [0.377257, 0.377356],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1254"}, {"name": "11e97bc7bd4~1253"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2, "withUnknownType": -1},
+            "completenessScore": 9.963427645609535e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.032552083333333336,
+                "withUnknownType": -0.010748065348237317
+            },
+            "completenessScore": 0.026410218528059387
+        },
+        "symbols": {
+            "added": [
+                "torch.numa.binding.AffinityMode",
+                "torch.numa.binding.AffinityMode.CORE_COMPLEX",
+                "torch.numa.binding.AffinityMode.EXCLUSIVE",
+                "torch.numa.binding.AffinityMode.NODE",
+                "torch.numa.binding.AffinityMode.SOCKET",
+                "torch.numa.binding.K",
+                "torch.numa.binding.NumaOptions",
+                "torch.numa.binding.NumaOptions.__dataclass_fields__",
+                "torch.numa.binding.NumaOptions.__eq__",
+                "torch.numa.binding.NumaOptions.__hash__",
+                "torch.numa.binding.NumaOptions.__init__",
+                "torch.numa.binding.NumaOptions.__match_args__",
+                "torch.numa.binding.NumaOptions.__new__",
+                "torch.numa.binding.NumaOptions.affinity_mode",
+                "torch.numa.binding.NumaOptions.should_fall_back_if_binding_fails",
+                "torch.numa.binding.V",
+                "torch.numa.binding.logger",
+                "torch.numa.binding.maybe_get_temporary_python_executable_with_numa_bindings",
+                "torch.numa.binding.maybe_wrap_command_with_numa_bindings"
+            ],
+            "removed": [
+                "torch.distributed.numa.binding.AffinityMode",
+                "torch.distributed.numa.binding.AffinityMode.CORE_COMPLEX",
+                "torch.distributed.numa.binding.AffinityMode.EXCLUSIVE",
+                "torch.distributed.numa.binding.AffinityMode.NODE",
+                "torch.distributed.numa.binding.AffinityMode.SOCKET",
+                "torch.distributed.numa.binding.K",
+                "torch.distributed.numa.binding.NumaOptions",
+                "torch.distributed.numa.binding.NumaOptions.__dataclass_fields__",
+                "torch.distributed.numa.binding.NumaOptions.__eq__",
+                "torch.distributed.numa.binding.NumaOptions.__hash__",
+                "torch.distributed.numa.binding.NumaOptions.__init__",
+                "torch.distributed.numa.binding.NumaOptions.__match_args__",
+                "torch.distributed.numa.binding.NumaOptions.__new__",
+                "torch.distributed.numa.binding.NumaOptions.affinity_mode",
+                "torch.distributed.numa.binding.NumaOptions.should_fall_back_if_binding_fails",
+                "torch.distributed.numa.binding.V",
+                "torch.distributed.numa.binding.logger",
+                "torch.distributed.numa.binding.maybe_wrap_with_numa_bindings"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086581.89654db1abc-7e913949557.json"
+}

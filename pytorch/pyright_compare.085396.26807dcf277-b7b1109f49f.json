@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-15 16:35:55",
+            "id": "26807dcf277",
+            "message": "Revert \"[PT2][fusion] ban fusions with large accumulated reads (#157563)\""
+        },
+        "after": {
+            "committer_date": "2025-07-15 17:46:43",
+            "id": "b7b1109f49f",
+            "message": "Expose opt_einsum in torch.backends (#157740)"
+        }
+    },
+    "completenessScore": [0.374907, 0.374946],
+    "filename": "pyright_compare.085396.26807dcf277-b7b1109f49f.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.857405552210036e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.01646090534979424},
+            "completenessScore": 0.010288954661401057
+        },
+        "symbols": {"added": ["torch.backends.opt_einsum"]}
+    }
+}

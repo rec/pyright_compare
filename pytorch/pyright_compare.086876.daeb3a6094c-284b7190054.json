@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-19 10:25:47",
+            "id": "daeb3a6094c",
+            "message": "Using std::make_unique<T>() instead of unique<T>(new T()) (#160723)"
+        },
+        "after": {
+            "committer_date": "2025-08-19 10:54:08",
+            "id": "284b7190054",
+            "message": "Remove the uncessary empty file (#160728)"
+        }
+    },
+    "completenessScore": [0.377261, 0.377261],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~959"}, {"name": "11e97bc7bd4~958"}],
+        "absolute": {"filesAnalyzed": -2},
+        "percent": {"filesAnalyzed": -0.228310502283105}
+    },
+    "filename": "pyright_compare.086876.daeb3a6094c-284b7190054.json"
+}

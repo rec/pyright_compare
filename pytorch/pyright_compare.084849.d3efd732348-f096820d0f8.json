@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-30 21:16:04",
+            "id": "d3efd732348",
+            "message": "Revert \"[cutlass backend][BE][ez] Make matmul layouts be row x column (#156656)\""
+        },
+        "after": {
+            "committer_date": "2025-06-30 21:16:15",
+            "id": "f096820d0f8",
+            "message": "[precompile] Detect source code changes for save/load. (#156432)"
+        }
+    },
+    "completenessScore": [0.372298, 0.372298],
+    "filename": "full-run/pyright_compare.084849.d3efd732348-f096820d0f8.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 2},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.08650519031141868},
+            "missingFunctionDocStringCount": 0.025220680958385876
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.package.CompilePackage.add_inlined_source",
+                "torch._dynamo.package._DynamoCacheEntry.inlined_sources"
+            ]
+        }
+    }
+}

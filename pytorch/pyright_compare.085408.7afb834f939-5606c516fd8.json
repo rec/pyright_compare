@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-15 19:08:55",
+            "id": "7afb834f939",
+            "message": "Inline dispatch_and_compile into its call site. (#158150)"
+        },
+        "after": {
+            "committer_date": "2025-07-15 19:14:06",
+            "id": "5606c516fd8",
+            "message": "[ONNX] Remove legacy Dort (#158258)"
+        }
+    },
+    "completenessScore": [0.374946, 0.374907],
+    "filename": "pyright_compare.085408.7afb834f939-5606c516fd8.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.857405552210036e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.016458196181698487},
+            "completenessScore": -0.010287896144431145
+        },
+        "symbols": {"removed": ["torch.onnx.is_onnxrt_backend_supported"]}
+    }
+}

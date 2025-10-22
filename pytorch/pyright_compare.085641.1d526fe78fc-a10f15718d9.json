@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-20 00:46:20",
+            "id": "1d526fe78fc",
+            "message": "Fix DLPack stream logic. (#150217)"
+        },
+        "after": {
+            "committer_date": "2025-07-20 00:46:20",
+            "id": "a10f15718d9",
+            "message": "[DLPack] Add support for missing keyword-arguments. (#150218)"
+        }
+    },
+    "completenessScore": [0.375746, 0.375746],
+    "filename": "pyright_compare.085641.1d526fe78fc-a10f15718d9.json",
+    "diff": {
+        "symbols": {
+            "common": {
+                "torch._tensor.Tensor.__dlpack__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"max_version\" is missing",
+                            "Type annotation for parameter \"stream\" is missing"
+                        ]
+                    }
+                },
+                "torch.utils.dlpack.from_dlpack": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"device\" is partially unknown\n\u00a0\u00a0Parameter type is \"device | str | int | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

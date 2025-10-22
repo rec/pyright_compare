@@ -1,0 +1,56 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-20 15:30:04",
+            "id": "edd45f3a020",
+            "message": "Revert \"[Precompile] Hook up backend=\"inductor\"  (#155387)\""
+        },
+        "after": {
+            "committer_date": "2025-06-20 15:32:47",
+            "id": "b4442f42a93",
+            "message": "Revert \"Upgrade to DLPack 1.0. (#145000)\""
+        }
+    },
+    "completenessScore": [0.372181, 0.371964],
+    "filename": "full-run/pyright_compare.084385.edd45f3a020-b4442f42a93.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -5, "withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -0.00021702684135405104
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.08301510874979247,
+                "withUnknownType": 0.010718113612004287
+            },
+            "missingFunctionDocStringCount": 0.02512562814070352,
+            "completenessScore": -0.05831222602743828
+        },
+        "symbols": {
+            "added": [
+                "torch.utils.dlpack.DLDeviceType.kDLCPUPinned",
+                "torch.utils.dlpack.DLDeviceType.kDLGPU",
+                "torch.utils.dlpack.to_dlpack"
+            ],
+            "common": {
+                "torch._tensor.Tensor.__dlpack__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"max_version\" is missing"
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch.utils.dlpack.DLDeviceType.kDLCUDA",
+                "torch.utils.dlpack.DLDeviceType.kDLCUDAHost",
+                "torch.utils.dlpack.DLDeviceType.kDLCUDAManaged",
+                "torch.utils.dlpack.DLDeviceType.kDLHexagon",
+                "torch.utils.dlpack.DLDeviceType.kDLMAIA",
+                "torch.utils.dlpack.DLDeviceType.kDLROCMHost",
+                "torch.utils.dlpack.DLDeviceType.kDLWebGPU"
+            ]
+        }
+    }
+}

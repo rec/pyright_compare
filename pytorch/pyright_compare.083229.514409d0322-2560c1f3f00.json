@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-27 16:15:25",
+            "id": "514409d0322",
+            "message": "update torchvision pin (#154255)"
+        },
+        "after": {
+            "committer_date": "2025-05-27 16:40:18",
+            "id": "2560c1f3f00",
+            "message": "add sticky cache pgo (#154418)"
+        }
+    },
+    "completenessScore": [0.368095, 0.368134],
+    "filename": "full-run/pyright_compare.083229.514409d0322-2560c1f3f00.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.917577580969667e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.01684352366515075},
+            "completenessScore": 0.01064285140701697
+        },
+        "symbols": {"added": ["torch.compiler.config.sticky_pgo_key"]}
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-24 04:56:08",
+            "id": "73772919d2d",
+            "message": "remove deprecated numpy.typing.mypy_plugin in  mypy.ini  (#156601)"
+        },
+        "after": {
+            "committer_date": "2025-06-24 04:59:49",
+            "id": "17eb649d559",
+            "message": "Implement guard collectives (optimized version) (#156562)"
+        }
+    },
+    "completenessScore": [0.371715, 0.371692],
+    "filename": "full-run/pyright_compare.084551.73772919d2d-17eb649d559.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.2985085214921597e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010723860589812333},
+            "completenessScore": -0.006183527083854552
+        },
+        "symbols": {"added": ["torch.compiler.set_enable_guard_collectives"]}
+    }
+}

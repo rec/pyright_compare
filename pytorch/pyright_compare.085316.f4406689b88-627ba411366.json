@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-12 00:46:19",
+            "id": "f4406689b88",
+            "message": "fix MPCT destroy_pg call (#157952)"
+        },
+        "after": {
+            "committer_date": "2025-07-12 01:02:17",
+            "id": "627ba411366",
+            "message": "[DCP][HF] [ez]Change where sharded tensors are saved (#158069)"
+        }
+    },
+    "completenessScore": [0.374923, 0.3749],
+    "filename": "pyright_compare.085316.f4406689b88-627ba411366.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.313339100845635e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010758472296933835},
+            "completenessScore": -0.006170173381880244
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.path"
+            ]
+        }
+    }
+}

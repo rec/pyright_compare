@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-03 02:20:54",
+            "id": "9b81fe281da",
+            "message": "[c10d] Lessen density of barrier warning (#162015)"
+        },
+        "after": {
+            "committer_date": "2025-09-03 02:47:07",
+            "id": "d5643e8f3a6",
+            "message": "[dynamo, nested graph breaks] support nested graph breaks that cause skipped frames (#160470)"
+        }
+    },
+    "completenessScore": [0.375461, 0.375461],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~358"}, {"name": "11e97bc7bd4~357"}],
+        "absolute": {"missingFunctionDocStringCount": -1},
+        "percent": {"missingFunctionDocStringCount": -0.022727272727272728},
+        "symbols": {
+            "common": {
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.create_call_resume_at": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch._dynamo.symbolic_convert.InstructionTranslatorBase.create_call_resume_at\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.087477.9b81fe281da-d5643e8f3a6.json"
+}

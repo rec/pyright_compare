@@ -1,0 +1,22 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-25 14:07:48",
+            "id": "40c0e700a48",
+            "message": "Revert \"[AMD] Fix AMD User Defined Kernel Autotune (#160671)\""
+        },
+        "after": {
+            "committer_date": "2025-08-25 14:53:54",
+            "id": "1113e7de30d",
+            "message": "[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)"
+        }
+    },
+    "completenessScore": [0.377276, 0.377276],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~748"}, {"name": "11e97bc7bd4~747"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.033602150537634407}},
+        "symbols": {"added": ["torch._dynamo.output_graph.OutputGraph.import_sources"]}
+    },
+    "filename": "pyright_compare.087087.40c0e700a48-1113e7de30d.json"
+}

@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-22 08:56:06",
+            "id": "9e491f753ee",
+            "message": "[dynamo] Remove extra if statement in builder _wrap (#161215)"
+        },
+        "after": {
+            "committer_date": "2025-08-22 09:03:35",
+            "id": "9b4adc4db74",
+            "message": "[fr] [xpu] Add FlightRecorder support for ProcessGroupXCCL (#158568)"
+        }
+    },
+    "completenessScore": [0.377338, 0.377338],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~813"}, {"name": "11e97bc7bd4~812"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 1},
+            "missingClassDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.03361344537815126},
+            "missingClassDocStringCount": 0.09107468123861566
+        },
+        "symbols": {
+            "added": [
+                "torch._C._distributed_c10d.Backend.Options.global_ranks_in_group",
+                "torch._C._distributed_c10d.Backend.Options.group_name",
+                "torch._C._distributed_c10d.ProcessGroupXCCL.Options",
+                "torch._C._distributed_c10d.ProcessGroupXCCL.Options.__init__",
+                "torch._C._distributed_c10d.ProcessGroupXCCL.options"
+            ],
+            "removed": [
+                "torch._C._distributed_c10d.ProcessGroupGloo.Options.global_ranks_in_group",
+                "torch._C._distributed_c10d.ProcessGroupGloo.Options.group_name",
+                "torch._C._distributed_c10d.ProcessGroupNCCL.Options.global_ranks_in_group",
+                "torch._C._distributed_c10d.ProcessGroupNCCL.Options.group_name"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087022.9e491f753ee-9b4adc4db74.json"
+}

@@ -1,0 +1,22 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-26 12:32:24",
+            "id": "8c506e6310b",
+            "message": "[easy][test] Add repeat_interleave opinfo that exercises binary search fusion (#161445)"
+        },
+        "after": {
+            "committer_date": "2025-08-26 12:45:59",
+            "id": "e795450a35b",
+            "message": "Revert \"[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)\""
+        }
+    },
+    "completenessScore": [0.377391, 0.377391],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~689"}, {"name": "11e97bc7bd4~688"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": -1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": -0.033602150537634407}},
+        "symbols": {"removed": ["torch._dynamo.output_graph.OutputGraph.import_sources"]}
+    },
+    "filename": "pyright_compare.087146.8c506e6310b-e795450a35b.json"
+}

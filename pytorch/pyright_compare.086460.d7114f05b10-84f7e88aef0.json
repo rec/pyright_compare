@@ -1,0 +1,53 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-08 17:41:10",
+            "id": "d7114f05b10",
+            "message": "Add DeviceAllocator as the base device allocator (#138222)"
+        },
+        "after": {
+            "committer_date": "2025-08-08 17:41:22",
+            "id": "84f7e88aef0",
+            "message": "Add unified memory APIs for torch.accelerator (#152932)"
+        }
+    },
+    "completenessScore": [0.377367, 0.377157],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1375"}, {"name": "11e97bc7bd4~1374"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 14},
+            "completenessScore": -0.00020971644814266055,
+            "filesAnalyzed": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.04886789379377749,
+                "withUnknownType": 0.15068345710903025
+            },
+            "completenessScore": -0.05557366311100834,
+            "filesAnalyzed": 0.11428571428571428
+        },
+        "symbols": {
+            "added": [
+                "torch.accelerator.empty_cache",
+                "torch.accelerator.max_memory_allocated",
+                "torch.accelerator.max_memory_reserved",
+                "torch.accelerator.memory",
+                "torch.accelerator.memory.empty_cache",
+                "torch.accelerator.memory.max_memory_allocated",
+                "torch.accelerator.memory.max_memory_reserved",
+                "torch.accelerator.memory.memory_allocated",
+                "torch.accelerator.memory.memory_reserved",
+                "torch.accelerator.memory.memory_stats",
+                "torch.accelerator.memory.reset_accumulated_memory_stats",
+                "torch.accelerator.memory.reset_peak_memory_stats",
+                "torch.accelerator.memory_allocated",
+                "torch.accelerator.memory_reserved",
+                "torch.accelerator.memory_stats",
+                "torch.accelerator.reset_accumulated_memory_stats",
+                "torch.accelerator.reset_peak_memory_stats"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086460.d7114f05b10-84f7e88aef0.json"
+}

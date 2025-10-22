@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-13 13:54:10",
+            "id": "b2fc9cfea16",
+            "message": "[precompile] Add CompilePackage to serialize dynamo states. (#155118)"
+        },
+        "after": {
+            "committer_date": "2025-06-13 14:11:24",
+            "id": "3819584f12e",
+            "message": "[precompile] Implement PrecompileContext for recording precompile artifacts, integrate with CompilePackage (#154415)"
+        }
+    },
+    "completenessScore": [0.371579, 0.371579],
+    "filename": "full-run/pyright_compare.084033.b2fc9cfea16-3819584f12e.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 2},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.0880281690140845},
+            "missingFunctionDocStringCount": 0.025284450063211124
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.package.CompilePackage.cache_entry",
+                "torch.compiler._cache.CacheArtifact.precompile_compatible",
+                "torch.compiler._cache.CacheInfo.precompile_aot_autograd_artifacts"
+            ],
+            "removed": ["torch._dynamo.package.CompilePackage.save"]
+        }
+    }
+}

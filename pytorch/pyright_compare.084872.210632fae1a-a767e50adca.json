@@ -1,0 +1,79 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-01 08:54:52",
+            "id": "210632fae1a",
+            "message": "[ROCm] support experimental CU carveout (#149466)"
+        },
+        "after": {
+            "committer_date": "2025-07-01 10:36:48",
+            "id": "a767e50adca",
+            "message": "remove allow-untyped-defs from torch/fx/experimental/migrate_gradual_types/util.py (#157236)"
+        }
+    },
+    "completenessScore": [0.373233, 0.373542],
+    "filename": "full-run/pyright_compare.084872.210632fae1a-a767e50adca.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 5, "withUnknownType": -5},
+            "completenessScore": 0.0003086610284585567
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.08269930532583526,
+                "withUnknownType": -0.05365958360163125
+            },
+            "completenessScore": 0.0826993053258379
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.migrate_gradual_types.util.gen_bvar": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"curr\" is missing"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.migrate_gradual_types.util.gen_dvar": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"curr\" is missing"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.migrate_gradual_types.util.gen_nat_constraints": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"list_of_dims\" is missing"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.migrate_gradual_types.util.gen_tensor_dims": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"curr\" is missing",
+                            "Type annotation for parameter \"n\" is missing"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.migrate_gradual_types.util.gen_tvar": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"curr\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

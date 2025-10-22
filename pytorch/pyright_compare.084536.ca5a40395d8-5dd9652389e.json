@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-24 00:06:23",
+            "id": "ca5a40395d8",
+            "message": "[partitioner] Fix _broadcast_on_rank0 to use deterministic hash function (#153734)"
+        },
+        "after": {
+            "committer_date": "2025-06-24 00:07:37",
+            "id": "5dd9652389e",
+            "message": "Clean up HF components (#155707)"
+        }
+    },
+    "completenessScore": [0.372142, 0.371715],
+    "filename": "full-run/pyright_compare.084536.ca5a40395d8-5dd9652389e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -11},
+            "completenessScore": -0.0004270879508683212
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.1826635669212886},
+            "completenessScore": -0.11476481602376574
+        },
+        "symbols": {
+            "removed": [
+                "torch.distributed.checkpoint.hf_storage.CUSTOM_METADATA_KEY",
+                "torch.distributed.checkpoint.hf_storage.DATA_KEY",
+                "torch.distributed.checkpoint.hf_storage.DATA_OFFSETS_KEY",
+                "torch.distributed.checkpoint.hf_storage.DEFAULT_EXTRA_METADATA_KEY",
+                "torch.distributed.checkpoint.hf_storage.DTYPE_KEY",
+                "torch.distributed.checkpoint.hf_storage.DTYPE_MAP",
+                "torch.distributed.checkpoint.hf_storage.FILE_NAME",
+                "torch.distributed.checkpoint.hf_storage.SAVED_OFFSETS_KEY",
+                "torch.distributed.checkpoint.hf_storage.SHAPE_KEY",
+                "torch.distributed.checkpoint.hf_storage.SHARDED_FILE_NAME",
+                "torch.distributed.checkpoint.hf_storage.SUFFIX"
+            ]
+        }
+    }
+}

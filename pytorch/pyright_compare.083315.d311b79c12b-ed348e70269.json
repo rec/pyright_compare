@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-28 21:16:47",
+            "id": "d311b79c12b",
+            "message": "add docblock for _fast_expand (#154398)"
+        },
+        "after": {
+            "committer_date": "2025-05-28 21:19:49",
+            "id": "ed348e70269",
+            "message": "Add docblock for TrackedFake (#154396)"
+        }
+    },
+    "completenessScore": [0.368016, 0.368016],
+    "filename": "full-run/pyright_compare.083315.d311b79c12b-ed348e70269.json",
+    "diff": {
+        "absolute": {"missingClassDocStringCount": -1},
+        "percent": {"missingClassDocStringCount": -0.09746588693957114},
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.TrackedFake": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for class \"torch.fx.experimental.symbolic_shapes.TrackedFake\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

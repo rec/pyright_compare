@@ -1,0 +1,48 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-13 20:52:24",
+            "id": "e9eb2096a59",
+            "message": "[cutlass backend] Allow bmm use cases when batch stride is 0 (#160356)"
+        },
+        "after": {
+            "committer_date": "2025-08-13 21:00:59",
+            "id": "1196bb1c2e4",
+            "message": "Add utility to get computed kernel in torch.library (#158393)"
+        }
+    },
+    "completenessScore": [0.377187, 0.377164],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1186"}, {"name": "11e97bc7bd4~1185"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 5},
+            "missingFunctionDocStringCount": 4,
+            "missingClassDocStringCount": 2,
+            "completenessScore": -2.315451557710624e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010748065348237317},
+            "otherSymbolCounts": {
+                "withKnownType": 0.07207207207207207,
+                "withUnknownType": 0.21901007446342532
+            },
+            "missingFunctionDocStringCount": 0.09952724558347847,
+            "missingClassDocStringCount": 0.18331805682859761,
+            "completenessScore": -0.006138735420499406
+        },
+        "symbols": {
+            "added": [
+                "torch._C._DispatchOperatorHandle",
+                "torch._C._DispatchOperatorHandle.debug",
+                "torch._C._DispatchOperatorHandle.redispatch_boxed",
+                "torch._C._DispatchOperatorHandle.schema",
+                "torch._C._SafeKernelFunction",
+                "torch._C._SafeKernelFunction.call_boxed",
+                "torch._C._SafeKernelFunction.op_handle",
+                "torch.library.get_kernel"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086649.e9eb2096a59-1196bb1c2e4.json"
+}

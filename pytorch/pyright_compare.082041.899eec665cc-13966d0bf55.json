@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-28 03:48:41",
+            "id": "899eec665cc",
+            "message": "[MPS] col2im kernel implementation (#152282)"
+        },
+        "after": {
+            "committer_date": "2025-04-28 03:52:47",
+            "id": "13966d0bf55",
+            "message": "[BE] Migrate dtype_abbrs into one location (#152229)"
+        }
+    },
+    "completenessScore": [0.364715, 0.364738],
+    "filename": "full-run/pyright_compare.082041.899eec665cc-13966d0bf55.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": -1},
+            "completenessScore": 2.266579992094009e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": -0.12165450121654502},
+            "completenessScore": 0.006214654154502776
+        },
+        "symbols": {"removed": ["torch.fx.graph.dtype_abbrs"]}
+    }
+}

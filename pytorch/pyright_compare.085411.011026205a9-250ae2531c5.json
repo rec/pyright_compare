@@ -1,0 +1,258 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-15 19:31:00",
+            "id": "011026205a9",
+            "message": "make node source hashable (#158322)"
+        },
+        "after": {
+            "committer_date": "2025-07-15 19:49:38",
+            "id": "250ae2531c5",
+            "message": "Fix types in graphs.py (#158192)"
+        }
+    },
+    "completenessScore": [0.374884, 0.375995],
+    "filename": "pyright_compare.085411.011026205a9-250ae2531c5.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 18, "withUnknownType": -18},
+            "otherSymbolCounts": {"withKnownType": 3},
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.0011107682813946695
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.2962962962962963,
+                "withUnknownType": -0.19365250134480905
+            },
+            "otherSymbolCounts": {"withKnownType": 0.12809564474807855},
+            "missingClassDocStringCount": 0.0942507068803016,
+            "completenessScore": 0.2962962962963065
+        },
+        "symbols": {
+            "added": [
+                "torch.cuda._POOL_HANDLE",
+                "torch.cuda._POOL_HANDLE.__init__",
+                "torch.cuda._POOL_HANDLE.__new__"
+            ],
+            "common": {
+                "torch.autograd.function.once_differentiable": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"fn\" is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graph_pool_handle": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"keep_graph\" is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.capture_begin": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"capture_error_mode\" is missing",
+                            "Type annotation for parameter \"pool\" is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.capture_end": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.debug_dump": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"debug_path\" is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.enable_debug_mode": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.instantiate": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.pool": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.raw_cuda_graph": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.replay": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.CUDAGraph.reset": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.graph.__enter__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.graph.__exit__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"exc_type\" is missing",
+                            "Type annotation for parameter \"exc_value\" is missing",
+                            "Type annotation for parameter \"traceback\" is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.graph.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"cuda_graph\" is partially unknown\n\u00a0\u00a0Parameter type is \"CUDAGraph\"",
+                            "Type of parameter \"stream\" is partially unknown\n\u00a0\u00a0Parameter type is \"Stream | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"cuda_graph\" is missing",
+                            "Type annotation for parameter \"pool\" is missing",
+                            "Type annotation for parameter \"stream\" is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.graph.capture_stream": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Stream\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Unknown | Stream\"",
+                            "Type unknown for variable \"torch.cuda.graphs.graph.capture_stream\""
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.graph.cuda_graph": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type unknown for variable \"torch.cuda.graphs.graph.cuda_graph\""
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.graph.pool": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"tuple\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"tuple[()] | tuple[Unknown]\""
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.graph_pool_handle": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.is_current_stream_capturing": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.graphs.make_graphed_callables": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Module | ((...) -> object)\"",
+                            "Type of parameter \"callables\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | ((...) -> object)\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"allow_unused_input\" is missing",
+                            "Type annotation for parameter \"callables\" is missing",
+                            "Type annotation for parameter \"num_warmup_iters\" is missing",
+                            "Type annotation for parameter \"pool\" is missing",
+                            "Type annotation for parameter \"sample_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.is_current_stream_capturing": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.make_graphed_callables": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Module | ((...) -> object)\"",
+                            "Type of parameter \"callables\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | ((...) -> object)\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"allow_unused_input\" is missing",
+                            "Type annotation for parameter \"callables\" is missing",
+                            "Type annotation for parameter \"num_warmup_iters\" is missing",
+                            "Type annotation for parameter \"pool\" is missing",
+                            "Type annotation for parameter \"sample_args\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

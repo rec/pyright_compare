@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-23 03:30:51",
+            "id": "78bbb468c66",
+            "message": "Use /var/tmp instead of /tmp for torch cache directory on fbcode (#151466)"
+        },
+        "after": {
+            "committer_date": "2025-04-23 04:32:06",
+            "id": "f9bdfe90ae6",
+            "message": "[MegaCache] Return None on no compilation (#151921)"
+        }
+    },
+    "completenessScore": [0.364546, 0.364546],
+    "filename": "full-run/pyright_compare.081879.78bbb468c66-f9bdfe90ae6.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.05211047420531527},
+            "missingFunctionDocStringCount": 0.02820078962210942
+        },
+        "symbols": {"added": ["torch.compiler._cache.CacheInfo.empty"]}
+    }
+}

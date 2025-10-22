@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-16 19:15:33",
+            "id": "944a140e903",
+            "message": "Revert \"[cuda][cupy] Improve cupy device placement when device is provided (#158320)\""
+        },
+        "after": {
+            "committer_date": "2025-07-16 19:33:57",
+            "id": "f58a680d09e",
+            "message": "[c10d]Prototype of remote_group_merge (#158287)"
+        }
+    },
+    "completenessScore": [0.375847, 0.375847],
+    "filename": "pyright_compare.085475.944a140e903-f58a680d09e.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withUnknownType": 0.043898156277436345},
+            "missingFunctionDocStringCount": 0.025150905432595575
+        },
+        "symbols": {"added": ["torch._C._distributed_c10d.ProcessGroup.merge_remote_group"]}
+    }
+}

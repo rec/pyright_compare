@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-28 16:03:02",
+            "id": "5bf74753f69",
+            "message": "[precompile] Prune local scope variables for guard serialization. (#154431)"
+        },
+        "after": {
+            "committer_date": "2025-05-28 16:25:30",
+            "id": "d23aa7e182e",
+            "message": "Add deprecation warning for `torch.ao.quantization` (#153892)"
+        }
+    },
+    "completenessScore": [0.368134, 0.368173],
+    "filename": "full-run/pyright_compare.083297.5bf74753f69-d23aa7e182e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.917091860611288e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.016840687100033683},
+            "completenessScore": 0.01064039941253959
+        },
+        "symbols": {"added": ["torch.ao.quantization.utils.DEPRECATION_WARNING"]}
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-26 20:01:26",
+            "id": "caf98fde0d5",
+            "message": "Revert \"[dynamo, nested graph breaks] clean up comments and codegen (#160138)\""
+        },
+        "after": {
+            "committer_date": "2025-08-26 20:03:59",
+            "id": "9f6e1b8730d",
+            "message": "Revert \"[ROCm] SDPA fix mem fault when dropout is enabled (#154864)\""
+        }
+    },
+    "completenessScore": [0.377391, 0.377353],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~669"}, {"name": "11e97bc7bd4~668"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.817111900672465e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.016244314489928524},
+            "completenessScore": -0.010114478447655824
+        },
+        "symbols": {"removed": ["torch.backends.cuda.is_ck_sdpa_available"]}
+    },
+    "filename": "pyright_compare.087166.caf98fde0d5-9f6e1b8730d.json"
+}

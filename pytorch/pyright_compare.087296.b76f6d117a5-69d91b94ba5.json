@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-28 19:32:09",
+            "id": "b76f6d117a5",
+            "message": "[ROCm] fix numpy version detection and adjust fudge_factors for MI355 (#161429)"
+        },
+        "after": {
+            "committer_date": "2025-08-28 19:36:19",
+            "id": "69d91b94ba5",
+            "message": "kill allow_complex_guards_as_runtime_asserts (#160198)"
+        }
+    },
+    "completenessScore": [0.377291, 0.377215],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~539"}, {"name": "11e97bc7bd4~538"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -2},
+            "completenessScore": -7.636379932030035e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.032499187520311994},
+            "completenessScore": -0.02024000537395871
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.allow_complex_guards_as_runtime_asserts",
+                "torch.fx.experimental.symbolic_shapes.ShapeEnvSettings.allow_complex_guards_as_runtime_asserts"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087296.b76f6d117a5-69d91b94ba5.json"
+}

@@ -1,0 +1,63 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-08 20:53:05",
+            "id": "dd44faa9d91",
+            "message": "Revert \"Modify ROCm MI2xx-based workflows to run on cron schedule (#162103)\""
+        },
+        "after": {
+            "committer_date": "2025-09-08 21:30:17",
+            "id": "fecd9686f54",
+            "message": "Graph split event tracker (#159795)"
+        }
+    },
+    "completenessScore": [0.375607, 0.375721],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~92"}, {"name": "11e97bc7bd4~91"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 12, "withUnknownType": 15},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": 0.00011406710781419749
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.19639934533551553,
+                "withUnknownType": 0.16108247422680413
+            },
+            "missingFunctionDocStringCount": 0.022722108611679163,
+            "completenessScore": 0.03036873392493536
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.passes.splitter_base.ALL_SUFFIX",
+                "torch.fx.passes.splitter_base.DUMP_PREFIX",
+                "torch.fx.passes.splitter_base.ENV_FX_NET_ACC_SPLITTER_TRACKER_DUMP_PATH",
+                "torch.fx.passes.splitter_base.ENV_FX_NET_ACC_SPLITTER_TRACKER_MODE",
+                "torch.fx.passes.splitter_base.ENV_FX_NET_ACC_SPLITTER_TRACKER_TRACKED_NODES",
+                "torch.fx.passes.splitter_base.FxNetAccNodesFinder.tracker",
+                "torch.fx.passes.splitter_base.NODES_SUFFIX",
+                "torch.fx.passes.splitter_base.NodeEvent",
+                "torch.fx.passes.splitter_base.NodeEvent.__init__",
+                "torch.fx.passes.splitter_base.NodeEvent.dep",
+                "torch.fx.passes.splitter_base.NodeEvent.desc",
+                "torch.fx.passes.splitter_base.NodeEvent.source",
+                "torch.fx.passes.splitter_base.NodeEvent.to_str",
+                "torch.fx.passes.splitter_base.NodeEventTracker",
+                "torch.fx.passes.splitter_base.NodeEventTracker.__init__",
+                "torch.fx.passes.splitter_base.NodeEventTracker.add",
+                "torch.fx.passes.splitter_base.NodeEventTracker.dump",
+                "torch.fx.passes.splitter_base.NodeEventTracker.dump_prefix",
+                "torch.fx.passes.splitter_base.NodeEventTracker.events",
+                "torch.fx.passes.splitter_base.NodeEventTracker.node_events",
+                "torch.fx.passes.splitter_base.NodeEventTracker.print_all",
+                "torch.fx.passes.splitter_base.NodeEventTracker.print_node",
+                "torch.fx.passes.splitter_base.NodeEventTracker.to_dict",
+                "torch.fx.passes.splitter_base.NodeEventTracker.tracker_mode",
+                "torch.fx.passes.splitter_base.NodeEventTracker.writer",
+                "torch.fx.passes.splitter_base.TRACKER_DUMP_PATH",
+                "torch.fx.passes.splitter_base.TRACKER_MODE"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087743.dd44faa9d91-fecd9686f54.json"
+}

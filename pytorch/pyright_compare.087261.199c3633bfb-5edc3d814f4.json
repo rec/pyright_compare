@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-28 02:36:08",
+            "id": "199c3633bfb",
+            "message": "Fix Inductor Periodic (#161617)"
+        },
+        "after": {
+            "committer_date": "2025-08-28 02:41:33",
+            "id": "5edc3d814f4",
+            "message": "Add option for TorchDispatchMode to ignore torch.compile internals (#161648)"
+        }
+    },
+    "completenessScore": [0.377291, 0.377291],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~574"}, {"name": "11e97bc7bd4~573"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 1}},
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.0328515111695138,
+                "withUnknownType": 0.04657661853749418
+            }
+        },
+        "symbols": {
+            "added": [
+                "torch.utils._python_dispatch.TorchDispatchMode.ignore_compile_internals",
+                "torch.utils._python_dispatch.TorchDispatchMode.old_without_ignore_compile_internals_dispatch_mode_flags"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087261.199c3633bfb-5edc3d814f4.json"
+}

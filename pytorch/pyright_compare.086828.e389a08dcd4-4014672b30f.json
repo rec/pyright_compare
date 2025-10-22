@@ -1,0 +1,26 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-18 16:43:09",
+            "id": "e389a08dcd4",
+            "message": "AMD/ROCm OCP Micro-scaling Format (mx-fp8/mx-fp4) Support (#151360)"
+        },
+        "after": {
+            "committer_date": "2025-08-18 17:04:17",
+            "id": "4014672b30f",
+            "message": "Replace guard_serialization_mode with save_guards, remove load cases (#160531)"
+        }
+    },
+    "completenessScore": [0.377261, 0.377261],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1007"}, {"name": "11e97bc7bd4~1006"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.035984166966534725}},
+        "symbols": {
+            "added": [
+                "torch._dynamo.output_graph.OutputGraphGuardsState.skip_guards_check"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086828.e389a08dcd4-4014672b30f.json"
+}

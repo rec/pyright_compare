@@ -1,0 +1,110 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-10 04:52:57",
+            "id": "1c16c18a534",
+            "message": "[nativert][triton] improve hardware registration (#162499)"
+        },
+        "after": {
+            "committer_date": "2025-09-10 17:28:02",
+            "id": "11e97bc7bd4",
+            "message": "[cpp_extension] Add abstract base class to OrderedDictWrapper, and clarify torch.nn.Module typing"
+        }
+    },
+    "completenessScore": [0.376088, 0.376533],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1"}, {"name": "11e97bc7bd4~0"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 8, "withUnknownType": -6},
+            "completenessScore": 0.00044432463347315876
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.13042060645582002,
+                "withUnknownType": -0.06430178973314757
+            },
+            "completenessScore": 0.11814370348789076
+        },
+        "symbols": {
+            "added": [
+                "torch.nn.cpp.OrderedDictWrapper.__delitem__",
+                "torch.nn.cpp.OrderedDictWrapper.__setitem__"
+            ],
+            "common": {
+                "torch.nn.cpp.OrderedDictWrapper.__contains__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"key\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.cpp.OrderedDictWrapper.__getitem__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"key\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.cpp.OrderedDictWrapper.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"attr\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.cpp.OrderedDictWrapper.__iter__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.cpp.OrderedDictWrapper.__len__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.cpp.OrderedDictWrapper.cpp_module": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.nn.cpp.OrderedDictWrapper.cpp_module\""
+                        ]
+                    }
+                },
+                "torch.nn.cpp.OrderedDictWrapper.items": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.cpp.OrderedDictWrapper.keys": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.cpp.OrderedDictWrapper.values": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.087834.1c16c18a534-11e97bc7bd4.json"
+}

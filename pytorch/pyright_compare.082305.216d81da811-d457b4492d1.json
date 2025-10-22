@@ -1,0 +1,38 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-02 19:11:11",
+            "id": "216d81da811",
+            "message": "[CUDA][complex] skip `test_reference_numerics_large_jiterator_unary_cuda_complex64` on CUDA (#148024)"
+        },
+        "after": {
+            "committer_date": "2025-05-02 19:18:58",
+            "id": "d457b4492d1",
+            "message": "Optimize `Sequential` methods description (#147304)"
+        }
+    },
+    "completenessScore": [0.364535, 0.364535],
+    "filename": "full-run/pyright_compare.082305.216d81da811-d457b4492d1.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -2},
+        "percent": {"missingFunctionDocStringCount": -0.05638567803777841},
+        "symbols": {
+            "common": {
+                "torch.nn.modules.container.Sequential.extend": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.container.Sequential.extend\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.container.Sequential.insert": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.container.Sequential.insert\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

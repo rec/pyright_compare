@@ -1,0 +1,36 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-16 20:42:15",
+            "id": "f1bc843a5d8",
+            "message": "Wrap class definitions in `set_fullgraph(False)` in `test_collections` (#159902)"
+        },
+        "after": {
+            "committer_date": "2025-08-16 20:44:40",
+            "id": "f019da2979a",
+            "message": "Implement `list(UserDefinedObject)` via `force_unpack_var_sequence` (#159864)"
+        }
+    },
+    "completenessScore": [0.377185, 0.377185],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1037"}, {"name": "11e97bc7bd4~1036"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 1},
+            "missingFunctionDocStringCount": 2
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.03599712023038157,
+                "withUnknownType": 0.043687199650502405
+            },
+            "missingFunctionDocStringCount": 0.04973887092762994
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.variables.user_defined.UserDefinedObjectVariable.force_unpack_var_sequence",
+                "torch._dynamo.variables.user_defined.UserDefinedObjectVariable.has_force_unpack_var_sequence"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086798.f1bc843a5d8-f019da2979a.json"
+}

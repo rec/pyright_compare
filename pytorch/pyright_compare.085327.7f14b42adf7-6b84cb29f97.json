@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-12 05:47:06",
+            "id": "7f14b42adf7",
+            "message": "[BE][2/16] fix typos in torch/ (torch/_*/) (#156312)"
+        },
+        "after": {
+            "committer_date": "2025-07-12 06:25:46",
+            "id": "6b84cb29f97",
+            "message": "[dynamo] trace through torch.get_device_module (#157980)"
+        }
+    },
+    "completenessScore": [0.374807, 0.374807],
+    "filename": "pyright_compare.085327.7f14b42adf7-6b84cb29f97.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withUnknownType": 0.04391743522178305},
+            "missingFunctionDocStringCount": 0.025163563160543533
+        },
+        "symbols": {"added": ["torch._dynamo.codegen.PyCodegen.create_import_name"]}
+    }
+}

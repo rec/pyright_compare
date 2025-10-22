@@ -1,0 +1,26 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-20 15:16:45",
+            "id": "6ea4be1e2ec",
+            "message": "Revert \"[dynamic shapes] unbacked-safe slicing (#157944)\""
+        },
+        "after": {
+            "committer_date": "2025-08-20 15:31:33",
+            "id": "90ea9ccefe3",
+            "message": "Revert \"[rfc] add hint_override kwarg to mark_dynamic (#161007)\""
+        }
+    },
+    "completenessScore": [0.377261, 0.377261],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~908"}, {"name": "11e97bc7bd4~907"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": -1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": -0.03365870077415012}},
+        "symbols": {
+            "removed": [
+                "torch._subclasses.meta_utils.MetaTensorDesc.dynamo_hint_overrides"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086927.6ea4be1e2ec-90ea9ccefe3.json"
+}

@@ -1,0 +1,36 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-26 20:03:59",
+            "id": "9f6e1b8730d",
+            "message": "Revert \"[ROCm] SDPA fix mem fault when dropout is enabled (#154864)\""
+        },
+        "after": {
+            "committer_date": "2025-08-26 20:13:33",
+            "id": "a7aa480e55e",
+            "message": "Revert \"[dynamo, nested graph breaks] support nested closures (#159817)\""
+        }
+    },
+    "completenessScore": [0.377353, 0.377353],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~668"}, {"name": "11e97bc7bd4~667"}],
+        "absolute": {"otherSymbolCounts": {"withUnknownType": -1}},
+        "percent": {"otherSymbolCounts": {"withUnknownType": -0.046620046620046623}},
+        "symbols": {
+            "common": {
+                "torch._dynamo.codegen.PyCodegen.make_function_with_closure": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"tx\" is partially unknown\n\u00a0\u00a0Parameter type is \"InstructionTranslatorBase\""
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.post_prune_cell_and_freevars"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087167.9f6e1b8730d-a7aa480e55e.json"
+}

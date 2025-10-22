@@ -1,0 +1,88 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-13 19:16:48",
+            "id": "77f884c2ec6",
+            "message": "Optimize Tensor.backward type hints (#155656)"
+        },
+        "after": {
+            "committer_date": "2025-06-13 20:19:51",
+            "id": "bf798a2f016",
+            "message": "Change _hfstorage to hfstorage (#155837)"
+        }
+    },
+    "completenessScore": [0.371579, 0.372063],
+    "filename": "full-run/pyright_compare.084050.77f884c2ec6-bf798a2f016.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 16, "withUnknownType": 6},
+            "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 20},
+            "missingFunctionDocStringCount": 16,
+            "missingClassDocStringCount": 2,
+            "completenessScore": 0.00048387726675086506,
+            "filesAnalyzed": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.26662222962839527,
+                "withUnknownType": 0.0643845906213113
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.08791208791208792,
+                "withUnknownType": 0.8791208791208791
+            },
+            "missingFunctionDocStringCount": 0.40424456796361796,
+            "missingClassDocStringCount": 0.1892147587511826,
+            "completenessScore": 0.13022192731255575,
+            "filesAnalyzed": 0.11467889908256881
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.__init__",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.concat_path",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.create_stream",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.exists",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.fs",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.init_path",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.ls",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.mkdir",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.rename",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.rm_file",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.validate_checkpoint_id",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader.__init__",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader.fs",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader.path",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader.validate_checkpoint_id",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter.__init__",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter.fs",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter.path",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter.validate_checkpoint_id",
+                "torch.distributed.checkpoint.hf_storage",
+                "torch.distributed.checkpoint.hf_storage.CUSTOM_METADATA_KEY",
+                "torch.distributed.checkpoint.hf_storage.DATA_KEY",
+                "torch.distributed.checkpoint.hf_storage.DATA_OFFSETS_KEY",
+                "torch.distributed.checkpoint.hf_storage.DEFAULT_EXTRA_METADATA_KEY",
+                "torch.distributed.checkpoint.hf_storage.DTYPE_KEY",
+                "torch.distributed.checkpoint.hf_storage.DTYPE_MAP",
+                "torch.distributed.checkpoint.hf_storage.FILE_NAME",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageReader",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageReader.__init__",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageReader.read_data",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageReader.read_metadata",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.__init__",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.finish",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.metadata_path",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.prepare_global_plan",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.write_data",
+                "torch.distributed.checkpoint.hf_storage.SAVED_OFFSETS_KEY",
+                "torch.distributed.checkpoint.hf_storage.SHAPE_KEY",
+                "torch.distributed.checkpoint.hf_storage.SHARDED_FILE_NAME",
+                "torch.distributed.checkpoint.hf_storage.SUFFIX"
+            ]
+        }
+    }
+}

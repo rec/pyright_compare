@@ -1,0 +1,962 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-25 21:59:14",
+            "id": "e65ab9a868a",
+            "message": "Enable generating generic c_shim that doesn't bypass dispatcher (#158974)"
+        },
+        "after": {
+            "committer_date": "2025-07-25 22:03:55",
+            "id": "9e8f27cc795",
+            "message": "[BE] Make torch.nn.modules.* satisfy the docs coverage test (#158491)"
+        }
+    },
+    "completenessScore": [0.377298, 0.377298],
+    "filename": "full-run/pyright_compare.085942.e65ab9a868a-9e8f27cc795.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -134},
+        "percent": {"missingFunctionDocStringCount": -3.311094638003459},
+        "symbols": {
+            "common": {
+                "torch.nn.modules.activation.CELU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.CELU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.CELU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.CELU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.ELU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.ELU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.ELU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.ELU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.GELU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.GELU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.GELU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.GELU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.GLU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.GLU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.GLU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.GLU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Hardshrink.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Hardshrink.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Hardshrink.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Hardshrink.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Hardsigmoid.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Hardsigmoid.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Hardswish.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Hardswish.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Hardtanh.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Hardtanh.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Hardtanh.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Hardtanh.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.LeakyReLU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.LeakyReLU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.LeakyReLU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.LeakyReLU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.LogSigmoid.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.LogSigmoid.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.LogSoftmax.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.LogSoftmax.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.LogSoftmax.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.LogSoftmax.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Mish.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Mish.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Mish.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Mish.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.PReLU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.PReLU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.PReLU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.PReLU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.PReLU.reset_parameters": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.PReLU.reset_parameters\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.RReLU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.RReLU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.RReLU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.RReLU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.ReLU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.ReLU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.ReLU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.ReLU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.ReLU6.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.ReLU6.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.SELU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.SELU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.SELU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.SELU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.SiLU.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.SiLU.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.SiLU.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.SiLU.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Sigmoid.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Sigmoid.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softmax.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softmax.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softmax.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softmax.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softmax2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softmax2d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softmin.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softmin.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softmin.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softmin.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softplus.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softplus.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softplus.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softplus.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softshrink.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softshrink.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softshrink.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softshrink.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softsign.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Softsign.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Tanh.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Tanh.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Tanhshrink.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Tanhshrink.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Threshold.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Threshold.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Threshold.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.activation.Threshold.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.adaptive.AdaptiveLogSoftmaxWithLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.adaptive.AdaptiveLogSoftmaxWithLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.adaptive.AdaptiveLogSoftmaxWithLoss.reset_parameters": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.adaptive.AdaptiveLogSoftmaxWithLoss.reset_parameters\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.batchnorm.SyncBatchNorm.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.batchnorm.SyncBatchNorm.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.channelshuffle.ChannelShuffle.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.channelshuffle.ChannelShuffle.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.channelshuffle.ChannelShuffle.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.channelshuffle.ChannelShuffle.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.container.ParameterList.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.container.ParameterList.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.container.Sequential.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.container.Sequential.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.container.Sequential.pop": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.container.Sequential.pop\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.distance.CosineSimilarity.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.distance.CosineSimilarity.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.distance.PairwiseDistance.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.distance.PairwiseDistance.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.dropout.AlphaDropout.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.dropout.AlphaDropout.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.dropout.Dropout.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.dropout.Dropout.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.dropout.Dropout1d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.dropout.Dropout1d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.dropout.Dropout2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.dropout.Dropout2d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.dropout.Dropout3d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.dropout.Dropout3d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.dropout.FeatureAlphaDropout.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.dropout.FeatureAlphaDropout.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.flatten.Flatten.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.flatten.Flatten.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.flatten.Flatten.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.flatten.Flatten.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.flatten.Unflatten.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.flatten.Unflatten.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.flatten.Unflatten.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.flatten.Unflatten.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.fold.Fold.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.fold.Fold.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.fold.Fold.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.fold.Fold.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.fold.Unfold.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.fold.Unfold.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.fold.Unfold.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.fold.Unfold.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.linear.Bilinear.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.linear.Bilinear.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.linear.Bilinear.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.linear.Bilinear.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.linear.Bilinear.reset_parameters": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.linear.Bilinear.reset_parameters\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.linear.Identity.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.linear.Identity.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.linear.LazyLinear.initialize_parameters": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.linear.LazyLinear.initialize_parameters\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.linear.LazyLinear.reset_parameters": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.linear.LazyLinear.reset_parameters\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.linear.Linear.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.linear.Linear.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.linear.Linear.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.linear.Linear.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.linear.Linear.reset_parameters": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.linear.Linear.reset_parameters\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.BCELoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.BCELoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.BCEWithLogitsLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.BCEWithLogitsLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.CTCLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.CTCLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.CosineEmbeddingLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.CosineEmbeddingLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.CrossEntropyLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.CrossEntropyLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.GaussianNLLLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.GaussianNLLLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.HingeEmbeddingLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.HingeEmbeddingLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.HuberLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.HuberLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.KLDivLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.KLDivLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.L1Loss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.L1Loss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.MSELoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.MSELoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.MarginRankingLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.MarginRankingLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.MultiLabelMarginLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.MultiLabelMarginLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.MultiLabelSoftMarginLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.MultiLabelSoftMarginLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.MultiMarginLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.MultiMarginLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.NLLLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.NLLLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.PoissonNLLLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.PoissonNLLLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.SmoothL1Loss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.SmoothL1Loss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.SoftMarginLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.SoftMarginLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.TripletMarginLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.TripletMarginLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.loss.TripletMarginWithDistanceLoss.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.loss.TripletMarginWithDistanceLoss.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.normalization.CrossMapLRN2d.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.normalization.CrossMapLRN2d.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.normalization.CrossMapLRN2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.normalization.CrossMapLRN2d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.normalization.LocalResponseNorm.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.normalization.LocalResponseNorm.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.normalization.LocalResponseNorm.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.normalization.LocalResponseNorm.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.padding.ZeroPad1d.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.padding.ZeroPad1d.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.padding.ZeroPad2d.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.padding.ZeroPad2d.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.padding.ZeroPad3d.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.padding.ZeroPad3d.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pixelshuffle.PixelShuffle.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pixelshuffle.PixelShuffle.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pixelshuffle.PixelShuffle.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pixelshuffle.PixelShuffle.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pixelshuffle.PixelUnshuffle.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pixelshuffle.PixelUnshuffle.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pixelshuffle.PixelUnshuffle.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pixelshuffle.PixelUnshuffle.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.AdaptiveAvgPool1d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.AdaptiveAvgPool1d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.AdaptiveAvgPool2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.AdaptiveAvgPool2d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.AdaptiveAvgPool3d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.AdaptiveAvgPool3d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.AdaptiveMaxPool1d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.AdaptiveMaxPool1d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.AdaptiveMaxPool2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.AdaptiveMaxPool2d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.AdaptiveMaxPool3d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.AdaptiveMaxPool3d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.AvgPool1d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.AvgPool1d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.AvgPool2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.AvgPool2d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.AvgPool3d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.AvgPool3d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.LPPool1d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.LPPool1d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.LPPool2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.LPPool2d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.LPPool3d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.LPPool3d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.MaxPool1d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.MaxPool1d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.MaxPool2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.MaxPool2d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.MaxPool3d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.MaxPool3d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.MaxUnpool1d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.MaxUnpool1d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.MaxUnpool2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.MaxUnpool2d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.pooling.MaxUnpool3d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.pooling.MaxUnpool3d.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.rnn.RNN.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.rnn.RNN.forward\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.upsampling.Upsample.extra_repr": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.upsampling.Upsample.extra_repr\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.upsampling.Upsample.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.upsampling.Upsample.forward\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

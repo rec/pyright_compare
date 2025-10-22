@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-16 23:31:10",
+            "id": "a4d753295ee",
+            "message": "[Dynamo][Better Engineering] Add enhanced typing support to `_dynamo/eval_frame.py` (#158276)"
+        },
+        "after": {
+            "committer_date": "2025-07-16 23:48:45",
+            "id": "1d584761622",
+            "message": "[PP] Add eval() API to schedule (#157795)"
+        }
+    },
+    "completenessScore": [0.375847, 0.375847],
+    "filename": "pyright_compare.085489.a4d753295ee-1d584761622.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withUnknownType": 1}},
+        "percent": {"otherSymbolCounts": {"withUnknownType": 0.044464206313917294}},
+        "symbols": {
+            "added": [
+                "torch.distributed.pipelining.schedules._PipelineSchedule.eval"
+            ]
+        }
+    }
+}

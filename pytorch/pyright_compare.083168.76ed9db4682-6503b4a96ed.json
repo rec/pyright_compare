@@ -1,0 +1,86 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-24 03:43:35",
+            "id": "76ed9db4682",
+            "message": "[cuBLAS][cuBLASLt] Use cuBLAS default workspace size in Lt (#153556)"
+        },
+        "after": {
+            "committer_date": "2025-05-24 04:30:57",
+            "id": "6503b4a96ed",
+            "message": "Update to using mypy 1.15 (#154054)"
+        }
+    },
+    "completenessScore": [0.367977, 0.368101],
+    "filename": "full-run/pyright_compare.083168.76ed9db4682-6503b4a96ed.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 2,
+                "withAmbiguousType": 1,
+                "withUnknownType": -3
+            },
+            "completenessScore": 0.0001240233163835036
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.03370407819346141,
+                "withAmbiguousType": 0.12150668286755771,
+                "withUnknownType": -0.03202049311559398
+            },
+            "completenessScore": 0.0337040781934678
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.proxy_tensor.wrap_key": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"tensors\" is unknown"
+                        ]
+                    }
+                },
+                "torch.fx.passes.graph_drawer.FxGraphDrawer.get_all_dot_graphs": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[str, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.passes.graph_drawer.FxGraphDrawer.get_dot_graph": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.fx.passes.graph_drawer.FxGraphDrawer.get_main_dot_graph": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.fx.passes.graph_drawer.FxGraphDrawer.get_submod_dot_graph": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.fx.passes.graph_transform_observer.GraphTransformObserver.input_dot_graph": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ],
+                        "removed": [
+                            "Type unknown for variable \"torch.fx.passes.graph_transform_observer.GraphTransformObserver.input_dot_graph\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

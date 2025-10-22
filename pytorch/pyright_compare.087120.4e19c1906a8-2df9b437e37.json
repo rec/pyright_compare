@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-26 00:49:49",
+            "id": "4e19c1906a8",
+            "message": "Get Inductor periodic CI green (#161297)"
+        },
+        "after": {
+            "committer_date": "2025-08-26 00:57:39",
+            "id": "2df9b437e37",
+            "message": "[dynamo, nested graph breaks] implement new resume frame stack/locals/cell layout convention (#157971)"
+        }
+    },
+    "completenessScore": [0.377315, 0.377315],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~715"}, {"name": "11e97bc7bd4~714"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": -3},
+            "missingFunctionDocStringCount": -3
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": -0.10073875083948959},
+            "missingFunctionDocStringCount": -0.0730816077953715
+        },
+        "symbols": {
+            "removed": [
+                "torch._dynamo.symbolic_convert.InstructionTranslator.create_call_resume_at",
+                "torch._dynamo.symbolic_convert.InstructionTranslator.run",
+                "torch._dynamo.symbolic_convert.InstructionTranslator.should_compile_partial_graph"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087120.4e19c1906a8-2df9b437e37.json"
+}

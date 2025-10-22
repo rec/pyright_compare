@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-17 15:06:43",
+            "id": "813c76b98d5",
+            "message": "Revert \"Unify torch.tensor and torch.ops.aten.scalar_tensor behavior (#158537)\""
+        },
+        "after": {
+            "committer_date": "2025-07-17 15:40:36",
+            "id": "2ecf083b724",
+            "message": "Add torch compile force disable caches alias (#158072)"
+        }
+    },
+    "completenessScore": [0.375646, 0.375685],
+    "filename": "pyright_compare.085532.813c76b98d5-2ecf083b724.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.84335861794427e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.01638806948541462},
+            "completenessScore": 0.010231320450653347
+        },
+        "symbols": {"added": ["torch.compiler.config.force_disable_caches"]}
+    }
+}

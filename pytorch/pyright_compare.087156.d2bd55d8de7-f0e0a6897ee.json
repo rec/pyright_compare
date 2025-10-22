@@ -1,0 +1,610 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-26 17:16:42",
+            "id": "d2bd55d8de7",
+            "message": "Typo correction in variable name inital_grad of Class TestFullyShardG\u2026 (#161501)"
+        },
+        "after": {
+            "committer_date": "2025-08-26 17:38:49",
+            "id": "f0e0a6897ee",
+            "message": "type misc init and tools for dynamo (#161293)"
+        }
+    },
+    "completenessScore": [0.377391, 0.377391],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~679"}, {"name": "11e97bc7bd4~678"}],
+        "absolute": {
+            "otherSymbolCounts": {
+                "withKnownType": 56,
+                "withAmbiguousType": 17,
+                "withUnknownType": -73
+            }
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 1.8823529411764706,
+                "withAmbiguousType": 12.5,
+                "withUnknownType": -3.291253381424707
+            }
+        },
+        "symbols": {
+            "common": {
+                "torch._C._dynamo.eval_frame._CacheEntry": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._C._dynamo.eval_frame._CacheEntry.guard_manager": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._C._dynamo.guards.DictGuardManager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._C._dynamo.guards.GuardManager\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.DictGuardManager.get_key_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GuardManager\"",
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"index\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.DictGuardManager.get_value_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GuardManager\"",
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"index\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager": {"isTypeKnown": true},
+                "torch._C._dynamo.guards.GuardManager.add_dict_contains_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"contains\" is missing",
+                            "Type annotation for parameter \"key\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_dict_length_check_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_dict_version_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_dispatch_key_set_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"dispatch_key\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_dynamic_indices_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_equals_match_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"equals_val\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_global_state_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"initial_state\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_id_match_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"id_val\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_lambda_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"user_lambda\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_length_check_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_mapping_keys_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_no_hasattr_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"attr_name\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_range_iterator_match_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"start\" is missing",
+                            "Type annotation for parameter \"step\" is missing",
+                            "Type annotation for parameter \"stop\" is missing",
+                            "Type annotation for parameter \"type_id\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_set_contains_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"contains\" is missing",
+                            "Type annotation for parameter \"item\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_tensor_match_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"dispatch_keys\" is missing",
+                            "Type annotation for parameter \"ptype\" is missing",
+                            "Type annotation for parameter \"sizes\" is missing",
+                            "Type annotation for parameter \"strides\" is missing",
+                            "Type annotation for parameter \"tensor_name\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_torch_function_mode_stack_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"initial_stack\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_tuple_iterator_length_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"length\" is missing",
+                            "Type annotation for parameter \"type_id\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.add_type_match_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.call_function_no_args_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.check": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.check_verbose": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.closure_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.code_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.dict_getitem_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"key\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.framelocals_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.func_defaults_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.func_kwdefaults_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.generic_getattr_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.get_generic_dict_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.getattr_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.getitem_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"key\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.global_weakref_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.globals_dict_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.grad_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.indexed_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.lambda_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"python_lambda\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.list_getitem_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"key\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.set_getitem_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"index\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.tensor_property_shape_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.tensor_property_size_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.tensor_property_storage_offset_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.tuple_getitem_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"key\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.tuple_iterator_getitem_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"index\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.type_dict_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.type_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.type_mro_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.GuardManager.weakref_call_manager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"example_value\" is missing",
+                            "Type annotation for parameter \"guard_manager_enum\" is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._dynamo.guards.RootGuardManager": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._C._dynamo.guards.GuardManager\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._dynamo.eval_frame._TorchDynamoContext.__init__": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.eval_frame._TorchDynamoContext.callback": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.eval_frame._TorchDynamoContext.prior": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.guards.GuardManagerWrapper": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.guards.GuardManagerWrapper.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"RootGuardManager | None\""
+                        ]
+                    }
+                },
+                "torch._dynamo.guards.GuardManagerWrapper.clone_with_chosen_sources": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"RootGuardManager\""
+                        ]
+                    }
+                },
+                "torch._dynamo.guards.GuardManagerWrapper.construct_dict_manager_string": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"mgr\" is partially unknown\n\u00a0\u00a0Parameter type is \"DictGuardManager\""
+                        ]
+                    }
+                },
+                "torch._dynamo.guards.GuardManagerWrapper.construct_manager_string": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"mgr\" is partially unknown\n\u00a0\u00a0Parameter type is \"GuardManager\""
+                        ]
+                    }
+                },
+                "torch._dynamo.guards.GuardManagerWrapper.diff_guard_root": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.guards.GuardManagerWrapper.get_manager_line": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"guard_manager\" is partially unknown\n\u00a0\u00a0Parameter type is \"GuardManager\""
+                        ]
+                    }
+                },
+                "torch._dynamo.guards.GuardManagerWrapper.root": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.types.ConvertFrameReturn": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.types.ConvertFrameReturn.guarded_code": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.types.DynamoCallbackFn": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.types.DynamoCallbackFn.__call__": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.types.GuardFn": {"isTypeAmbiguous": true},
+                "torch._dynamo.types.GuardFn.cache_entry": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.types.GuardedCode": {"isTypeAmbiguous": true},
+                "torch._dynamo.types.GuardedCode.guard_manager": {
+                    "isTypeAmbiguous": true
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.087156.d2bd55d8de7-f0e0a6897ee.json"
+}

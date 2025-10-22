@@ -1,0 +1,22 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-20 17:37:26",
+            "id": "9e050b63394",
+            "message": "[dynamo] Refactor convert_frame._compile_inner to return compiled bytecode + output graph. [3/n] (#160855)"
+        },
+        "after": {
+            "committer_date": "2025-08-20 17:37:26",
+            "id": "5255e65c01b",
+            "message": "[dynamo] Refactor convert_frame to remove usage of nonlocal tracer output return. [4/n] (#160899)"
+        }
+    },
+    "completenessScore": [0.377261, 0.377261],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~900"}, {"name": "11e97bc7bd4~899"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.03367003367003367}},
+        "symbols": {"added": ["torch._dynamo.exc.TorchDynamoException.__init__"]}
+    },
+    "filename": "pyright_compare.086935.9e050b63394-5255e65c01b.json"
+}

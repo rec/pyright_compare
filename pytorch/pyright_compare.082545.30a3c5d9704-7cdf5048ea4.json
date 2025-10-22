@@ -1,0 +1,40 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-08 17:58:05",
+            "id": "30a3c5d9704",
+            "message": "Skip lintchecks for now (#153156)"
+        },
+        "after": {
+            "committer_date": "2025-05-08 18:25:34",
+            "id": "7cdf5048ea4",
+            "message": "Fix evaluate_expr to include suppress_guards_tls in cache key (#152661)"
+        }
+    },
+    "completenessScore": [0.364677, 0.364614],
+    "filename": "full-run/pyright_compare.082545.30a3c5d9704-7cdf5048ea4.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
+            "completenessScore": -6.218905472638037e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.017053206002728513,
+                "withUnknownType": 0.010642826734780758
+            },
+            "completenessScore": -0.017053206002731858
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.evaluate_expr": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fx_node\" is partially unknown\n\u00a0\u00a0Parameter type is \"Node | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

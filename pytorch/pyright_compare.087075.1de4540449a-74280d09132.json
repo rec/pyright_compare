@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-24 03:28:29",
+            "id": "1de4540449a",
+            "message": "Use -compress-mode=size for CUDA 13 build for binary size reduction (#161316)"
+        },
+        "after": {
+            "committer_date": "2025-08-24 08:03:04",
+            "id": "74280d09132",
+            "message": "[muon] Introduce Muon optimizer to PyTorch (#160213)"
+        }
+    },
+    "completenessScore": [0.377338, 0.377315],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~760"}, {"name": "11e97bc7bd4~759"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 2},
+            "missingClassDocStringCount": 2,
+            "completenessScore": -2.313535661058186e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010744600838078865},
+            "otherSymbolCounts": {
+                "withKnownType": 0.033602150537634407,
+                "withUnknownType": 0.09029345372460497
+            },
+            "missingClassDocStringCount": 0.18198362147406733,
+            "completenessScore": -0.006131207847935969
+        },
+        "symbols": {
+            "added": [
+                "torch.optim.Muon",
+                "torch.optim._muon.Muon",
+                "torch.optim._muon.Muon.__init__",
+                "torch.optim._muon.Muon.step"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087075.1de4540449a-74280d09132.json"
+}

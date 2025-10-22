@@ -1,0 +1,22 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-04 17:05:33",
+            "id": "ba7f546cccc",
+            "message": "Update torch-xpu-ops commit pin (#162062)"
+        },
+        "after": {
+            "committer_date": "2025-09-04 17:10:17",
+            "id": "f36f2859537",
+            "message": "[dynamo] change error_on_graph_break/fullgraph semantics (#161747)"
+        }
+    },
+    "completenessScore": [0.375592, 0.375592],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~262"}, {"name": "11e97bc7bd4~261"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0315059861373661}},
+        "symbols": {"added": ["torch._dynamo.eval_frame._TorchDynamoContext.fullgraph"]}
+    },
+    "filename": "pyright_compare.087573.ba7f546cccc-f36f2859537.json"
+}

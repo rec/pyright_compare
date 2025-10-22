@@ -1,0 +1,51 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-28 14:10:07",
+            "id": "35a473e3644",
+            "message": "[ez] add docblock for guard_scalar (#154385)"
+        },
+        "after": {
+            "committer_date": "2025-05-28 14:13:22",
+            "id": "473a93eb589",
+            "message": "[ez] add docblock for _ShapeGuardPrinter (#154402)"
+        }
+    },
+    "completenessScore": [0.368134, 0.368134],
+    "filename": "full-run/pyright_compare.083293.35a473e3644-473a93eb589.json",
+    "diff": {
+        "absolute": {
+            "missingFunctionDocStringCount": -2,
+            "missingClassDocStringCount": -1
+        },
+        "percent": {
+            "missingFunctionDocStringCount": -0.056433408577878104,
+            "missingClassDocStringCount": -0.09718172983479106
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes._ShapeGuardPrinter": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for class \"torch.fx.experimental.symbolic_shapes._ShapeGuardPrinter\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes._ShapeGuardPrinter.doprint": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.fx.experimental.symbolic_shapes._ShapeGuardPrinter.doprint\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes._ShapeGuardPrinter.print_source": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.fx.experimental.symbolic_shapes._ShapeGuardPrinter.print_source\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

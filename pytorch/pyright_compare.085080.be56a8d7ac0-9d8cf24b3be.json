@@ -1,0 +1,80 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-07 23:57:17",
+            "id": "be56a8d7ac0",
+            "message": "Automatically load and save dynamo entries via caching_precompile (#155913)"
+        },
+        "after": {
+            "committer_date": "2025-07-08 00:11:52",
+            "id": "9d8cf24b3be",
+            "message": "remove allow-untyped-defs from torch/_classes.py (#157231)"
+        }
+    },
+    "completenessScore": [0.373642, 0.373642],
+    "filename": "pyright_compare.085080.be56a8d7ac0-9d8cf24b3be.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withAmbiguousType": 1,
+                "withUnknownType": -1
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 7,
+                "withAmbiguousType": 1,
+                "withUnknownType": -4
+            },
+            "missingClassDocStringCount": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withAmbiguousType": 0.11990407673860912,
+                "withUnknownType": -0.010737678513905294
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.3017241379310345,
+                "withAmbiguousType": 0.9259259259259259,
+                "withUnknownType": -0.17452006980802792
+            },
+            "missingClassDocStringCount": 0.0942507068803016
+        },
+        "symbols": {
+            "added": [
+                "torch._classes._ClassNamespace",
+                "torch._classes._ClassNamespace.__getattr__",
+                "torch._classes._ClassNamespace.__init__",
+                "torch._classes._ClassNamespace.name"
+            ],
+            "common": {
+                "torch._classes._Classes": {"isTypeAmbiguous": true},
+                "torch._classes._Classes.__getattr__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._classes._Classes.load_library": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"path\" is missing"
+                        ]
+                    }
+                },
+                "torch._classes._Classes.loaded_libraries": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.classes": {"isTypeAmbiguous": true}
+            }
+        }
+    }
+}

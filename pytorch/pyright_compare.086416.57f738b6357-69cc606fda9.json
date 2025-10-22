@@ -1,0 +1,80 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-07 17:07:26",
+            "id": "57f738b6357",
+            "message": "[inductor] move all cpu scalars using pinned memory for graph partition (#155360) (#158983)"
+        },
+        "after": {
+            "committer_date": "2025-08-07 17:22:54",
+            "id": "69cc606fda9",
+            "message": "HF component update to not use fsspec components (#159405)"
+        }
+    },
+    "completenessScore": [0.377367, 0.377367],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1419"}, {"name": "11e97bc7bd4~1418"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": -2, "withUnknownType": -20},
+            "missingFunctionDocStringCount": -11,
+            "missingClassDocStringCount": -2
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": -0.07207207207207207,
+                "withUnknownType": -0.8680555555555556
+            },
+            "missingFunctionDocStringCount": -0.2728174603174603,
+            "missingClassDocStringCount": -0.18298261665141813
+        },
+        "symbols": {
+            "common": {
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageReader": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of base class \"torch.distributed.checkpoint.filesystem.FileSystemReader\" is partially unknown"
+                        ],
+                        "removed": [
+                            "Type of base class \"torch.distributed.checkpoint._fsspec_filesystem.FsspecReader\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of base class \"torch.distributed.checkpoint.filesystem.FileSystemWriter\" is partially unknown"
+                        ],
+                        "removed": [
+                            "Type of base class \"torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter\" is partially unknown"
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.__init__",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.concat_path",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.create_stream",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.exists",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.fs",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.init_path",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.ls",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.mkdir",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.rename",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.rm_file",
+                "torch.distributed.checkpoint._fsspec_filesystem.FileSystem.validate_checkpoint_id",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader.__init__",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader.fs",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader.path",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecReader.validate_checkpoint_id",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter.__init__",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter.fs",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter.path",
+                "torch.distributed.checkpoint._fsspec_filesystem.FsspecWriter.validate_checkpoint_id"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086416.57f738b6357-69cc606fda9.json"
+}

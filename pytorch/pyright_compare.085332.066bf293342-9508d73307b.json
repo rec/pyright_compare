@@ -1,0 +1,65 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-12 15:42:12",
+            "id": "066bf293342",
+            "message": "remove allow-untyped-defs from torch/_higher_order_ops/run_const_graph.py (#157847)"
+        },
+        "after": {
+            "committer_date": "2025-07-12 15:42:12",
+            "id": "9508d73307b",
+            "message": "remove allow-untyped-defs from torch/ao/nn/intrinsic/quantized/dynamic/modules/linear_relu.py (#157848)"
+        }
+    },
+    "completenessScore": [0.374807, 0.374931],
+    "filename": "pyright_compare.085332.066bf293342-9508d73307b.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2, "withUnknownType": -2},
+            "completenessScore": 0.00012343393198788188
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.032932652725177015,
+                "withUnknownType": -0.02151694459386767
+            },
+            "completenessScore": 0.03293265272517125
+        },
+        "symbols": {
+            "common": {
+                "torch.ao.nn.intrinsic.quantized.dynamic.modules.linear_relu.LinearReLU.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"bias\" is missing",
+                            "Type annotation for parameter \"dtype\" is missing",
+                            "Type annotation for parameter \"in_features\" is missing",
+                            "Type annotation for parameter \"out_features\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.intrinsic.quantized.dynamic.modules.linear_relu.LinearReLU.from_float": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"mod\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"mod\" is missing",
+                            "Type annotation for parameter \"use_precomputed_fake_quant\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.intrinsic.quantized.dynamic.modules.linear_relu.LinearReLU.from_reference": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"ref_qlinear_relu\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

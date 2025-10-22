@@ -1,0 +1,1393 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-15 09:14:43",
+            "id": "129a2976a88",
+            "message": "[ROCm] Improvements to non-vectorized elementwise kernels (#153184)"
+        },
+        "after": {
+            "committer_date": "2025-05-15 09:36:42",
+            "id": "f7a5aa1d8d3",
+            "message": "[torchgen] Refactor and simplify `gen_pyi.py` to use Generic TypeAlias (PEP 585) and Union Type (PEP 604) (#150727)"
+        }
+    },
+    "completenessScore": [0.365235, 0.366478],
+    "filename": "full-run/pyright_compare.082819.129a2976a88-f7a5aa1d8d3.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 20, "withUnknownType": -20},
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 0.0012429308308992693
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.3403096818104475,
+                "withUnknownType": -0.21290185224611455
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.052002080083203325,
+                "withUnknownType": -0.058788947677836566
+            },
+            "completenessScore": 0.3403096818104499
+        },
+        "symbols": {
+            "added": [
+                "torch.return_types.aminmax.n_sequence_fields",
+                "torch.return_types.cummax.n_sequence_fields",
+                "torch.return_types.cummin.n_sequence_fields",
+                "torch.return_types.frexp.n_sequence_fields",
+                "torch.return_types.geqrf.n_sequence_fields",
+                "torch.return_types.histogram.n_sequence_fields",
+                "torch.return_types.histogramdd.n_sequence_fields",
+                "torch.return_types.kthvalue.n_sequence_fields",
+                "torch.return_types.lu_unpack.n_sequence_fields",
+                "torch.return_types.max.n_sequence_fields",
+                "torch.return_types.median.n_sequence_fields",
+                "torch.return_types.min.n_sequence_fields",
+                "torch.return_types.mode.n_sequence_fields",
+                "torch.return_types.nanmedian.n_sequence_fields",
+                "torch.return_types.qr.n_sequence_fields",
+                "torch.return_types.slogdet.n_sequence_fields",
+                "torch.return_types.sort.n_sequence_fields",
+                "torch.return_types.svd.n_sequence_fields",
+                "torch.return_types.topk.n_sequence_fields",
+                "torch.return_types.triangular_solve.n_sequence_fields"
+            ],
+            "common": {
+                "torch._C.TensorBase.__setitem__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"value\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"val\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.add": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.add_": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.as_strided": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.as_strided_": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.as_strided_scatter": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.bincount": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"minlength\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"minlength\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.broadcast_to": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.contiguous": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"memory_format\" is missing"
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.expand": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.floor_divide": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.floor_divide_": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.is_contiguous": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"memory_format\" is missing"
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.kthvalue": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"k\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"k\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.mul": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.mul_": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.multinomial": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"num_samples\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"num_samples\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.narrow": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"length\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"length\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.narrow_copy": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"length\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"length\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.new_empty": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.new_ones": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.new_zeros": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.nonzero_static": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.repeat": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"repeats\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"repeats\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.repeat_interleave": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"output_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"repeats\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"output_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"repeats\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.reshape": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"shape\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"shape\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.resize_": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.roll": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"shifts\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"shifts\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.select": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.select_scatter": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.slice_inverse": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.slice_scatter": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.storage_offset": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.sub": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.sub_": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | complex | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.sum_to_size": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.tensor_split": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"sections\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"sections\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.tile": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dims\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dims\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.topk": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"k\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"k\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.true_divide": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.true_divide_": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | SymInt | SymFloat\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymFloat\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | SymInt | SymFloat\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.unsafe_split": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"split_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"split_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch._C.TensorBase.view": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.as_strided": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\""
+                        ]
+                    }
+                },
+                "torch.as_strided_": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\""
+                        ]
+                    }
+                },
+                "torch.as_strided_copy": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\""
+                        ]
+                    }
+                },
+                "torch.as_strided_scatter": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"storage_offset\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\""
+                        ]
+                    }
+                },
+                "torch.bincount": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"minlength\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"minlength\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.channel_shuffle": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.conv1d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.conv2d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.conv3d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.conv_transpose1d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.conv_transpose2d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.conv_transpose3d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.convolution": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.cudnn_convolution": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.cudnn_convolution_add_relu": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.cudnn_convolution_relu": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.cudnn_convolution_transpose": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.embedding": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"padding_idx\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"padding_idx\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.empty": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.eye": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"m\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"n\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"m\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"n\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.kthvalue": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"k\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"k\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.miopen_convolution": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.miopen_convolution_add_relu": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.miopen_convolution_relu": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.miopen_convolution_transpose": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.miopen_depthwise_convolution": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.mkldnn_convolution": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.multinomial": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"num_samples\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"num_samples\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.narrow": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"length\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"length\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.narrow_copy": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"length\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"length\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.native_channel_shuffle": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.native_group_norm": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"C\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"HxW\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"N\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"C\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"HxW\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"N\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.nn.functional.channel_shuffle": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.nn.functional.conv1d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.nn.functional.conv2d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.nn.functional.conv3d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.nn.functional.conv_transpose1d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.nn.functional.conv_transpose2d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.nn.functional.conv_transpose3d": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"dilation\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"output_padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"padding\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"",
+                            "Type of parameter \"stride\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.nn.functional.native_channel_shuffle": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"groups\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.nonzero_static": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.ones": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.rand": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.randint": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"high\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"low\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"high\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"low\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.randint_like": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"high\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"low\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"high\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"",
+                            "Type of parameter \"low\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.randn": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.randperm": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"n\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"n\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.repeat_interleave": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"output_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"repeats\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"output_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"repeats\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.return_types.aminmax.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.cummax.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.cummin.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.frexp.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.geqrf.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.histogram.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.histogramdd.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.kthvalue.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.lu_unpack.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.max.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.median.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.min.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.mode.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.nanmedian.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.qr.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.slogdet.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.sort.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.svd.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.topk.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.return_types.triangular_solve.__new__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                },
+                "torch.roll": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"shifts\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"shifts\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | Sequence[int | SymInt]\""
+                        ]
+                    }
+                },
+                "torch.select": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.select_copy": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.select_scatter": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"index\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.slice_copy": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.slice_inverse": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.slice_scatter": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"end\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"start\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt | None\"",
+                            "Type of parameter \"step\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.split_copy": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"split_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"split_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.tensor_split": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"sections\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"sections\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.topk": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"k\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"k\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.unsafe_split": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"split_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"split_size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                },
+                "torch.zeros": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"SymInt\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"size\" is partially unknown\n\u00a0\u00a0Parameter type is \"int | SymInt\""
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch.return_types.aminmax.n_sequeunce_fields",
+                "torch.return_types.cummax.n_sequeunce_fields",
+                "torch.return_types.cummin.n_sequeunce_fields",
+                "torch.return_types.frexp.n_sequeunce_fields",
+                "torch.return_types.geqrf.n_sequeunce_fields",
+                "torch.return_types.histogram.n_sequeunce_fields",
+                "torch.return_types.histogramdd.n_sequeunce_fields",
+                "torch.return_types.kthvalue.n_sequeunce_fields",
+                "torch.return_types.lu_unpack.n_sequeunce_fields",
+                "torch.return_types.max.n_sequeunce_fields",
+                "torch.return_types.median.n_sequeunce_fields",
+                "torch.return_types.min.n_sequeunce_fields",
+                "torch.return_types.mode.n_sequeunce_fields",
+                "torch.return_types.nanmedian.n_sequeunce_fields",
+                "torch.return_types.qr.n_sequeunce_fields",
+                "torch.return_types.slogdet.n_sequeunce_fields",
+                "torch.return_types.sort.n_sequeunce_fields",
+                "torch.return_types.svd.n_sequeunce_fields",
+                "torch.return_types.topk.n_sequeunce_fields",
+                "torch.return_types.triangular_solve.n_sequeunce_fields"
+            ]
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-11 23:35:26",
+            "id": "f44a9eee477",
+            "message": "[AOTI] Add missing ops to set of C-shim ops which can have nullptr returns (#158073)"
+        },
+        "after": {
+            "committer_date": "2025-07-12 00:06:37",
+            "id": "0d77364ee3f",
+            "message": "dist2: cleanup non-option methods on PG (missing, timeouts) (#158123)"
+        }
+    },
+    "completenessScore": [0.374923, 0.374923],
+    "filename": "pyright_compare.085311.f44a9eee477-0d77364ee3f.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -1, "missingDefaultParamCount": -1},
+        "percent": {
+            "missingFunctionDocStringCount": -0.025157232704402517,
+            "missingDefaultParamCount": -0.9345794392523364
+        },
+        "symbols": {
+            "common": {
+                "torch._C._distributed_c10d.ProcessGroup.barrier": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch._C._distributed_c10d.ProcessGroup.barrier\"",
+                            "One or more default values in function \"torch._C._distributed_c10d.ProcessGroup.barrier\" is specified as \"...\""
+                        ]
+                    }
+                },
+                "torch._C._distributed_c10d.ProcessGroup.reduce_scatter": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"op\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

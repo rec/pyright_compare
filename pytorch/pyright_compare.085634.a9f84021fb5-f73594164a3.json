@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-19 06:51:57",
+            "id": "a9f84021fb5",
+            "message": "[CI] Fixes CI for CUDA Version > 12.9 (#157385)"
+        },
+        "after": {
+            "committer_date": "2025-07-19 07:27:15",
+            "id": "f73594164a3",
+            "message": "[BE] document Adadelta and Adagrad APIs properly (#158483)"
+        }
+    },
+    "completenessScore": [0.375746, 0.375746],
+    "filename": "pyright_compare.085634.a9f84021fb5-f73594164a3.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -1},
+        "percent": {"missingFunctionDocStringCount": -0.025131942699170646},
+        "symbols": {
+            "common": {
+                "torch.optim.adagrad.Adagrad.share_memory": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.optim.adagrad.Adagrad.share_memory\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

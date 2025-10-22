@@ -1,0 +1,51 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-28 14:13:22",
+            "id": "473a93eb589",
+            "message": "[ez] add docblock for _ShapeGuardPrinter (#154402)"
+        },
+        "after": {
+            "committer_date": "2025-05-28 14:17:17",
+            "id": "476e0a643a2",
+            "message": "[ez] add docblock for ShapeGuardPythonPrinter (#154403)"
+        }
+    },
+    "completenessScore": [0.368134, 0.368134],
+    "filename": "full-run/pyright_compare.083294.473a93eb589-476e0a643a2.json",
+    "diff": {
+        "absolute": {
+            "missingFunctionDocStringCount": -2,
+            "missingClassDocStringCount": -1
+        },
+        "percent": {
+            "missingFunctionDocStringCount": -0.05646527385657821,
+            "missingClassDocStringCount": -0.09727626459143969
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.ShapeGuardPythonPrinter": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for class \"torch.fx.experimental.symbolic_shapes.ShapeGuardPythonPrinter\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeGuardPythonPrinter.doprint": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.fx.experimental.symbolic_shapes.ShapeGuardPythonPrinter.doprint\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeGuardPythonPrinter.print_source": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.fx.experimental.symbolic_shapes.ShapeGuardPythonPrinter.print_source\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

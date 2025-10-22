@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-03 07:40:42",
+            "id": "a4da1d4a471",
+            "message": "[Graph Partition] support standalone_compile (#154698)"
+        },
+        "after": {
+            "committer_date": "2025-06-03 07:58:38",
+            "id": "ea5b9eca74e",
+            "message": "Combine sticky pgo key with job id (#154863)"
+        }
+    },
+    "completenessScore": [0.371577, 0.371538],
+    "filename": "full-run/pyright_compare.083538.a4da1d4a471-ea5b9eca74e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.893332185805898e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.016672224074691565},
+            "completenessScore": -0.010477853975204869
+        },
+        "symbols": {"removed": ["torch.compiler.config.sticky_pgo_key"]}
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-30 21:20:52",
+            "id": "5a66c1d9212",
+            "message": "[nativert] Add utility function to convert strings into numbers. (#151467)"
+        },
+        "after": {
+            "committer_date": "2025-04-30 21:27:29",
+            "id": "3f10091d3c0",
+            "message": "Clean up conda usage in benchmark scripts (#152552)"
+        }
+    },
+    "completenessScore": [0.364738, 0.36449],
+    "filename": "full-run/pyright_compare.082204.5a66c1d9212-3f10091d3c0.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": -8,
+                "withAmbiguousType": -1,
+                "withUnknownType": -2
+            },
+            "missingFunctionDocStringCount": -1,
+            "completenessScore": -0.00024800257614421284,
+            "filesAnalyzed": -1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.13630942238882263,
+                "withAmbiguousType": -0.12165450121654502,
+                "withUnknownType": -0.02127659574468085
+            },
+            "missingFunctionDocStringCount": -0.02818489289740699,
+            "completenessScore": -0.06799470868523648,
+            "filesAnalyzed": -0.1148105625717566
+        },
+        "symbols": {
+            "removed": [
+                "torch.utils.benchmark.examples.blas_compare_setup.BASE_PKG_DEPS",
+                "torch.utils.benchmark.examples.blas_compare_setup.EIGEN",
+                "torch.utils.benchmark.examples.blas_compare_setup.GENERIC_ENV_VARS",
+                "torch.utils.benchmark.examples.blas_compare_setup.MKL_2020_0",
+                "torch.utils.benchmark.examples.blas_compare_setup.MKL_2020_3",
+                "torch.utils.benchmark.examples.blas_compare_setup.OPEN_BLAS",
+                "torch.utils.benchmark.examples.blas_compare_setup.SUB_ENVS",
+                "torch.utils.benchmark.examples.blas_compare_setup.SubEnvSpec",
+                "torch.utils.benchmark.examples.blas_compare_setup.WORKING_ROOT",
+                "torch.utils.benchmark.examples.blas_compare_setup.conda_run",
+                "torch.utils.benchmark.examples.blas_compare_setup.main"
+            ]
+        }
+    }
+}

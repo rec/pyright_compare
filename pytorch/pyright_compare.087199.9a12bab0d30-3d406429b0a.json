@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-27 04:56:11",
+            "id": "9a12bab0d30",
+            "message": "Add debug handle to inductor provenance tracking (#161110)"
+        },
+        "after": {
+            "committer_date": "2025-08-27 09:55:31",
+            "id": "3d406429b0a",
+            "message": "[dynamo][vllm] Support typing.get_type_hints (#161362)"
+        }
+    },
+    "completenessScore": [0.377353, 0.377353],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~636"}, {"name": "11e97bc7bd4~635"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 2},
+            "missingFunctionDocStringCount": 2
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.032981530343007916,
+                "withUnknownType": 0.09328358208955224
+            },
+            "missingFunctionDocStringCount": 0.04875670404680644
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_vars",
+                "torch._dynamo.variables.builtin.BuiltinVariable.var_getattr",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.ban_mutation"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087199.9a12bab0d30-3d406429b0a.json"
+}

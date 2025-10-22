@@ -1,0 +1,26 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-15 22:04:12",
+            "id": "144965ca9af",
+            "message": "[BE][S538760] get rid of TORCH_CHECK_.* and CHECK macros (#158269)"
+        },
+        "after": {
+            "committer_date": "2025-07-15 23:48:20",
+            "id": "651b4a68f2a",
+            "message": "[hop][dynamo] track run-ahead sym variables in side effects (#158273)"
+        }
+    },
+    "completenessScore": [0.375995, 0.375995],
+    "filename": "pyright_compare.085425.144965ca9af-651b4a68f2a.json",
+    "diff": {
+        "symbols": {
+            "added": [
+                "torch._dynamo.side_effects.SideEffects.track_runahead_tensor_and_symvar_side_effects"
+            ],
+            "removed": [
+                "torch._dynamo.side_effects.SideEffects.track_tensor_variables_from_runahead_side_effects"
+            ]
+        }
+    }
+}

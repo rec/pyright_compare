@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-21 23:34:50",
+            "id": "08540b13c6a",
+            "message": "Use cuda error code instead of error text in get_cuda_error_help (#158688)"
+        },
+        "after": {
+            "committer_date": "2025-07-21 23:42:44",
+            "id": "2c37acfd891",
+            "message": "[AOTI][CPU] Consider bias=None case for fbgemm_linear_fp16_weight (#158535)"
+        }
+    },
+    "completenessScore": [0.375692, 0.375692],
+    "filename": "pyright_compare.085709.08540b13c6a-2c37acfd891.json",
+    "diff": {
+        "symbols": {
+            "common": {
+                "torch.fbgemm_linear_fp16_weight_fp32_activation": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"bias\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"bias\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

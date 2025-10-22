@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-18 07:27:00",
+            "id": "920f6e681ec",
+            "message": "[dynamo] add set_fullgraph decorator/context manager (#154289)"
+        },
+        "after": {
+            "committer_date": "2025-06-18 07:27:09",
+            "id": "3c8c48f7934",
+            "message": "[dynamo] fix set_fullgraph for nested calls (#154782)"
+        }
+    },
+    "completenessScore": [0.371964, 0.371964],
+    "filename": "full-run/pyright_compare.084269.920f6e681ec-3c8c48f7934.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withUnknownType": 0.043535045711798},
+            "missingFunctionDocStringCount": 0.02513826043237808
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.symbolic_convert.SpeculationEntry.error_on_graph_break"
+            ],
+            "common": {
+                "torch._dynamo.symbolic_convert.SpeculationEntry.failed": {
+                    "diagnostics": {
+                        "added": [
+                            "No docstring found for function \"torch._dynamo.symbolic_convert.SpeculationEntry.failed\"",
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"tx\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-09 03:01:41",
+            "id": "c515385b0ac",
+            "message": "Add Intel GPU info collection to the collect env script (#157351)"
+        },
+        "after": {
+            "committer_date": "2025-07-09 03:11:37",
+            "id": "8d070187e34",
+            "message": "fix type hints for interpolation functions (#157202)"
+        }
+    },
+    "completenessScore": [0.37365, 0.37365],
+    "filename": "pyright_compare.085147.c515385b0ac-8d070187e34.json",
+    "diff": {
+        "symbols": {
+            "common": {
+                "torch.nn.functional.interpolate": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"input\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

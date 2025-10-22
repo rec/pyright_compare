@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-12 08:53:33",
+            "id": "b9003ed3d87",
+            "message": "Dynamo Deep Dive Documentation Fix (#158860)"
+        },
+        "after": {
+            "committer_date": "2025-08-12 09:37:03",
+            "id": "f990490a238",
+            "message": "Add `label_smoothing` param in `nn.BCELoss` and `nn.BCEWithLogitsLoss` (#150282)"
+        }
+    },
+    "completenessScore": [0.37718, 0.377257],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1273"}, {"name": "11e97bc7bd4~1272"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "completenessScore": 7.648531818243987e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0325626831650928},
+            "completenessScore": 0.020278198002000175
+        },
+        "symbols": {
+            "added": [
+                "torch.nn.modules.loss.BCELoss.label_smoothing",
+                "torch.nn.modules.loss.BCEWithLogitsLoss.label_smoothing"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086562.b9003ed3d87-f990490a238.json"
+}

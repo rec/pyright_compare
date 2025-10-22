@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-13 23:42:24",
+            "id": "50a8c118754",
+            "message": "Add getCurrentDeviceIndex to torch::stable::accelerator (#160453)"
+        },
+        "after": {
+            "committer_date": "2025-08-14 00:05:17",
+            "id": "a06ec54d400",
+            "message": "[MPS] Add API to query GPU core count (#160414)"
+        }
+    },
+    "completenessScore": [0.377141, 0.377217],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1175"}, {"name": "11e97bc7bd4~1174"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "completenessScore": 7.645728195387891e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.032552083333333336},
+            "completenessScore": 0.020272877283701845
+        },
+        "symbols": {
+            "added": [
+                "torch.backends.mps.get_core_count",
+                "torch.backends.mps.get_name"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086660.50a8c118754-a06ec54d400.json"
+}

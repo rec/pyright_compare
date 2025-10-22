@@ -1,0 +1,46 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-27 21:21:19",
+            "id": "014b98dd09b",
+            "message": "Revert \"Add inductor backend to device interface; make minifier_tests more device agnostic (#151314)\""
+        },
+        "after": {
+            "committer_date": "2025-08-27 21:26:25",
+            "id": "c36d18d7e86",
+            "message": "[rfc] aot precompile with custom backend api (#161383)"
+        }
+    },
+    "completenessScore": [0.377353, 0.37733],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~608"}, {"name": "11e97bc7bd4~607"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "otherSymbolCounts": {"withKnownType": 10},
+            "missingClassDocStringCount": 1,
+            "completenessScore": -2.313344205262524e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010743446497636441},
+            "otherSymbolCounts": {"withKnownType": 0.32970656116056707},
+            "missingClassDocStringCount": 0.09082652134423251,
+            "completenessScore": -0.006130456105936154
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.hooks.Hooks",
+                "torch._dynamo.hooks.Hooks.__dataclass_fields__",
+                "torch._dynamo.hooks.Hooks.__eq__",
+                "torch._dynamo.hooks.Hooks.__hash__",
+                "torch._dynamo.hooks.Hooks.__init__",
+                "torch._dynamo.hooks.Hooks.__match_args__",
+                "torch._dynamo.hooks.Hooks.__new__",
+                "torch._dynamo.hooks.Hooks.guard_export_fn",
+                "torch._dynamo.hooks.Hooks.guard_fail_fn",
+                "torch._dynamo.hooks.Hooks.guard_filter_fn",
+                "torch.compiler.load_compiled_function"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087227.014b98dd09b-c36d18d7e86.json"
+}

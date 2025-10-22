@@ -1,0 +1,29 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-23 07:23:09",
+            "id": "431846a6323",
+            "message": "[AMD] Fix AMD User Defined Kernel Autotune (#160671)"
+        },
+        "after": {
+            "committer_date": "2025-08-23 07:23:22",
+            "id": "33346b58148",
+            "message": "Support NUMA Binding for Callable Entrypoints, Take 2 (#161183)"
+        }
+    },
+    "completenessScore": [0.377338, 0.377338],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~765"}, {"name": "11e97bc7bd4~764"}],
+        "symbols": {
+            "added": [
+                "torch.multiprocessing.spawn.should_use_parallel_start",
+                "torch.numa.binding.maybe_temporarily_apply_numa_binding_to_current_process"
+            ],
+            "removed": [
+                "torch.numa.binding.maybe_get_temporary_python_executable_with_numa_bindings",
+                "torch.numa.binding.maybe_wrap_command_with_numa_bindings"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087070.431846a6323-33346b58148.json"
+}

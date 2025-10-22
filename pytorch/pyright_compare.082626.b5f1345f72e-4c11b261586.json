@@ -1,0 +1,76 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-10 08:27:56",
+            "id": "b5f1345f72e",
+            "message": "[Dynamo] Optimize dedupe region ancestor tracking (#152589)"
+        },
+        "after": {
+            "committer_date": "2025-05-10 11:13:04",
+            "id": "4c11b261586",
+            "message": "refine fp32 precision api (#125888)"
+        }
+    },
+    "completenessScore": [0.364614, 0.364405],
+    "filename": "full-run/pyright_compare.082626.b5f1345f72e-4c11b261586.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 11},
+            "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 4},
+            "missingFunctionDocStringCount": 2,
+            "missingClassDocStringCount": 2,
+            "completenessScore": -0.0002097547311911696
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.017056114617090227,
+                "withUnknownType": 0.11705863573480899
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.10400416016640665,
+                "withUnknownType": 0.23515579071134626
+            },
+            "missingFunctionDocStringCount": 0.05638567803777841,
+            "missingClassDocStringCount": 0.19398642095053345,
+            "completenessScore": -0.05752781984571051
+        },
+        "symbols": {
+            "added": [
+                "torch.backends.GenericModule",
+                "torch.backends.GenericModule.__init__",
+                "torch.backends.GenericModule.fp32_precision",
+                "torch.backends._FP32Precision",
+                "torch.backends._FP32Precision.__getattr__",
+                "torch.backends._FP32Precision.__init__",
+                "torch.backends._FP32Precision.__setattr__",
+                "torch.backends._FP32Precision.backend",
+                "torch.backends._FP32Precision.op",
+                "torch.backends.cudnn.CudnnModule.conv",
+                "torch.backends.cudnn.CudnnModule.fp32_precision",
+                "torch.backends.cudnn.CudnnModule.rnn",
+                "torch.backends.flags",
+                "torch.backends.mkldnn.MkldnnModule.conv",
+                "torch.backends.mkldnn.MkldnnModule.fp32_precision",
+                "torch.backends.mkldnn.MkldnnModule.matmul",
+                "torch.backends.mkldnn.MkldnnModule.rnn",
+                "torch.backends.set_flags"
+            ],
+            "common": {
+                "torch.backends.cudnn.set_flags": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"_fp32_precision\" is missing"
+                        ]
+                    }
+                },
+                "torch.backends.mkldnn.set_flags": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"_fp32_precision\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-25 20:12:18",
+            "id": "995397d47a0",
+            "message": "[inductor] structured-log graph execution order + test (#160448)"
+        },
+        "after": {
+            "committer_date": "2025-08-25 20:57:37",
+            "id": "cf94cadbeee",
+            "message": "[CUDAGraph] Add getter for cuda graph exec (#161294)"
+        }
+    },
+    "completenessScore": [0.377276, 0.377315],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~730"}, {"name": "11e97bc7bd4~729"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": 3.818048127030016e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.01625223468226881},
+            "otherSymbolCounts": {"withKnownType": 0.033602150537634407},
+            "missingFunctionDocStringCount": 0.024366471734892786,
+            "completenessScore": 0.01012003037603324
+        },
+        "symbols": {
+            "added": [
+                "torch._C._CUDAGraph.raw_cuda_graph_exec",
+                "torch.cuda.graphs.CUDAGraph.raw_cuda_graph_exec"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087105.995397d47a0-cf94cadbeee.json"
+}

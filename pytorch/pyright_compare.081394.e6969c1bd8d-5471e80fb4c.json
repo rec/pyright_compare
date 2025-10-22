@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-10 15:06:23",
+            "id": "e6969c1bd8d",
+            "message": "[export] Symint support (nonstrict, Dim.DYNAMIC) (#150198)"
+        },
+        "after": {
+            "committer_date": "2025-04-10 16:19:00",
+            "id": "5471e80fb4c",
+            "message": "Remove guard_size_oblivious from vector_norm decomposition. (#148809)"
+        }
+    },
+    "completenessScore": [0.36341, 0.363387],
+    "filename": "full-run/pyright_compare.081394.e6969c1bd8d-5471e80fb4c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "completenessScore": -2.2628264377266838e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.12254901960784313},
+            "completenessScore": -0.006226650062277727
+        },
+        "symbols": {"added": ["torch.fx.experimental.symbolic_shapes.sym_or"]}
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-04 21:51:53",
+            "id": "a7f3bdf5506",
+            "message": "[Dynamo][Better Engineering] Type coverage for `torch/_dynamo/utils.py` (#159580)"
+        },
+        "after": {
+            "committer_date": "2025-08-04 22:40:33",
+            "id": "fd6655a0f5e",
+            "message": "Feature: Implement support for `cudnn_batch_norm_out` kernel to replace the autogen approach. (#123020)"
+        }
+    },
+    "completenessScore": [0.377252, 0.377252],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1557"}, {"name": "11e97bc7bd4~1556"}],
+        "symbols": {
+            "common": {
+                "torch.cudnn_batch_norm": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | tuple[Tensor, ...] | list[Tensor] | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.086278.a7f3bdf5506-fd6655a0f5e.json"
+}

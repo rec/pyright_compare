@@ -1,0 +1,29 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-18 02:18:43",
+            "id": "ce4554352be",
+            "message": "Shunt fx_interpreter graphmodule print on error into tlparse (#158469)"
+        },
+        "after": {
+            "committer_date": "2025-07-18 02:18:43",
+            "id": "89d842fec52",
+            "message": "Make torch.distributed.breakpoint() set a long timeout (#158481)"
+        }
+    },
+    "completenessScore": [0.375762, 0.375762],
+    "filename": "pyright_compare.085569.ce4554352be-89d842fec52.json",
+    "diff": {
+        "symbols": {
+            "common": {
+                "torch.distributed.breakpoint": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"timeout_s\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

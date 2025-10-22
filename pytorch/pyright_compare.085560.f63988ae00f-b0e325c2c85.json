@@ -1,0 +1,142 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-17 23:24:50",
+            "id": "f63988ae00f",
+            "message": "[BE]Clean up old APIs in AOTI c shim (#158400)"
+        },
+        "after": {
+            "committer_date": "2025-07-17 23:31:26",
+            "id": "b0e325c2c85",
+            "message": "[Dynamo][Better Engineering] Add type coverage to decorators (#158509)"
+        }
+    },
+    "completenessScore": [0.375685, 0.375762],
+    "filename": "pyright_compare.085560.f63988ae00f-b0e325c2c85.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "otherSymbolCounts": {
+                "withKnownType": 65,
+                "withAmbiguousType": 1,
+                "withUnknownType": 12
+            },
+            "missingFunctionDocStringCount": 1,
+            "missingClassDocStringCount": 12,
+            "completenessScore": 7.685297887610743e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.03277076847452073},
+            "otherSymbolCounts": {
+                "withKnownType": 2.7162557459256162,
+                "withAmbiguousType": 0.9174311926605505,
+                "withUnknownType": 0.5333333333333333
+            },
+            "missingFunctionDocStringCount": 0.02513826043237808,
+            "missingClassDocStringCount": 1.1288805268109126,
+            "completenessScore": 0.020456769487831643
+        },
+        "symbols": {
+            "added": [
+                "torch._C._dynamo.eval_frame._CacheEntry",
+                "torch._C._dynamo.eval_frame._CacheEntry.check_fn",
+                "torch._C._dynamo.eval_frame._CacheEntry.code",
+                "torch._C._dynamo.eval_frame._CacheEntry.next",
+                "torch._C._dynamo.eval_frame._ExtraState",
+                "torch._C._dynamo.eval_frame._ExtraState.invalidate",
+                "torch._C._dynamo.eval_frame._FrameAction",
+                "torch._C._dynamo.eval_frame._FrameAction.DEFAULT",
+                "torch._C._dynamo.eval_frame._FrameAction.RUN_ONLY",
+                "torch._C._dynamo.eval_frame._FrameAction.SKIP",
+                "torch._C._dynamo.eval_frame._FrameExecStrategy",
+                "torch._C._dynamo.eval_frame._FrameExecStrategy.__init__",
+                "torch._C._dynamo.eval_frame._FrameExecStrategy.cur_action",
+                "torch._C._dynamo.eval_frame._FrameExecStrategy.recursive_action",
+                "torch._C._dynamo.eval_frame._PyInterpreterFrame",
+                "torch._C._dynamo.eval_frame._PyInterpreterFrame.closure",
+                "torch._C._dynamo.eval_frame._PyInterpreterFrame.f_back",
+                "torch._C._dynamo.eval_frame._PyInterpreterFrame.f_builtins",
+                "torch._C._dynamo.eval_frame._PyInterpreterFrame.f_code",
+                "torch._C._dynamo.eval_frame._PyInterpreterFrame.f_globals",
+                "torch._C._dynamo.eval_frame._PyInterpreterFrame.f_lasti",
+                "torch._C._dynamo.eval_frame._PyInterpreterFrame.f_lineno",
+                "torch._C._dynamo.eval_frame._PyInterpreterFrame.f_locals",
+                "torch._dynamo.eval_frame.DisableContext",
+                "torch._dynamo.eval_frame.DisableContext.__call__",
+                "torch._dynamo.eval_frame.DisableContext.__init__",
+                "torch._dynamo.eval_frame.DisableContext.__reduce__",
+                "torch._dynamo.eval_frame.DisableContext.msg",
+                "torch._dynamo.eval_frame.DisableContext.wrapping",
+                "torch._dynamo.eval_frame.Unset",
+                "torch._dynamo.eval_frame.Unset.token",
+                "torch._dynamo.eval_frame._TorchDynamoContext",
+                "torch._dynamo.eval_frame._TorchDynamoContext.__call__",
+                "torch._dynamo.eval_frame._TorchDynamoContext.__enter__",
+                "torch._dynamo.eval_frame._TorchDynamoContext.__exit__",
+                "torch._dynamo.eval_frame._TorchDynamoContext.__init__",
+                "torch._dynamo.eval_frame._TorchDynamoContext.callback",
+                "torch._dynamo.eval_frame._TorchDynamoContext.cleanup_fns",
+                "torch._dynamo.eval_frame._TorchDynamoContext.compiler_config",
+                "torch._dynamo.eval_frame._TorchDynamoContext.enter_exit_hooks",
+                "torch._dynamo.eval_frame._TorchDynamoContext.error_on_graph_break",
+                "torch._dynamo.eval_frame._TorchDynamoContext.export",
+                "torch._dynamo.eval_frame._TorchDynamoContext.first_ctx",
+                "torch._dynamo.eval_frame._TorchDynamoContext.prior",
+                "torch._dynamo.eval_frame._TorchDynamoContext.prior_skip_guard_eval_unsafe",
+                "torch._dynamo.types.ConvertFrameReturn",
+                "torch._dynamo.types.ConvertFrameReturn.__dataclass_fields__",
+                "torch._dynamo.types.ConvertFrameReturn.__eq__",
+                "torch._dynamo.types.ConvertFrameReturn.__hash__",
+                "torch._dynamo.types.ConvertFrameReturn.__init__",
+                "torch._dynamo.types.ConvertFrameReturn.__match_args__",
+                "torch._dynamo.types.ConvertFrameReturn.__new__",
+                "torch._dynamo.types.ConvertFrameReturn.apply_to_code",
+                "torch._dynamo.types.ConvertFrameReturn.frame_exec_strategy",
+                "torch._dynamo.types.ConvertFrameReturn.guarded_code",
+                "torch._dynamo.types.DynamoCallbackFn",
+                "torch._dynamo.types.DynamoCallbackFn.__call__",
+                "torch._dynamo.types.GuardFn",
+                "torch._dynamo.types.GuardFn.__call__",
+                "torch._dynamo.types.GuardFn.args",
+                "torch._dynamo.types.GuardFn.cache_entry",
+                "torch._dynamo.types.GuardFn.closure_vars",
+                "torch._dynamo.types.GuardFn.code_parts",
+                "torch._dynamo.types.GuardFn.extra_state",
+                "torch._dynamo.types.GuardFn.global_scope",
+                "torch._dynamo.types.GuardFn.guard_fail_fn",
+                "torch._dynamo.types.GuardFn.verbose_code_parts",
+                "torch._dynamo.types.GuardedCode",
+                "torch._dynamo.types.GuardedCode.__dataclass_fields__",
+                "torch._dynamo.types.GuardedCode.__eq__",
+                "torch._dynamo.types.GuardedCode.__hash__",
+                "torch._dynamo.types.GuardedCode.__init__",
+                "torch._dynamo.types.GuardedCode.__match_args__",
+                "torch._dynamo.types.GuardedCode.__new__",
+                "torch._dynamo.types.GuardedCode.code",
+                "torch._dynamo.types.GuardedCode.compile_id",
+                "torch._dynamo.types.GuardedCode.guard_manager",
+                "torch._dynamo.types.GuardedCode.trace_annotation",
+                "torch.compiler.F",
+                "torch.compiler.FuncType"
+            ],
+            "common": {
+                "torch.compiler.set_stance": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"force_backend\" is missing",
+                            "Type annotation for parameter \"skip_guard_eval_unsafe\" is missing"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.rewriter.AST_Rewriter.rewrite": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.fx.experimental.rewriter.AST_Rewriter.rewrite\"",
+                            "Return type annotation is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

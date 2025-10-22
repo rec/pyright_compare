@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-17 17:08:42",
+            "id": "960c03daf65",
+            "message": "Remove unused CONDA_CMAKE option (#160832)"
+        },
+        "after": {
+            "committer_date": "2025-08-17 17:54:55",
+            "id": "63e1b58a134",
+            "message": "[easy] [Precompile] Refactor guards, improve typing (#160530)"
+        }
+    },
+    "completenessScore": [0.377185, 0.377185],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1028"}, {"name": "11e97bc7bd4~1027"}],
+        "symbols": {
+            "common": {
+                "torch._dynamo.output_graph.OutputGraphGuardsState.guards": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GuardsSet\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GuardsSet | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.086807.960c03daf65-63e1b58a134.json"
+}

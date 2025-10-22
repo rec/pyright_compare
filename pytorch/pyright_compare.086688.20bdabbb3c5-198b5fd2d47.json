@@ -1,0 +1,55 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-14 14:54:49",
+            "id": "20bdabbb3c5",
+            "message": "[Dynamo] Fix MTIA dynamo backend by avoiding has_trition() at import time (#160604)"
+        },
+        "after": {
+            "committer_date": "2025-08-14 14:58:35",
+            "id": "198b5fd2d47",
+            "message": "[PP] Add DualPipeV schedule (#159591)"
+        }
+    },
+    "completenessScore": [0.377294, 0.377208],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1147"}, {"name": "11e97bc7bd4~1146"}],
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 2,
+                "withAmbiguousType": 5,
+                "withUnknownType": 2
+            },
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 1},
+            "completenessScore": -8.560125338724633e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.03253090435914118,
+                "withAmbiguousType": 0.5938242280285035,
+                "withUnknownType": 0.021493820526598602
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.036010082823190494,
+                "withUnknownType": 0.043706293706293704
+            },
+            "completenessScore": -0.022688230708282027
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.pipelining.ScheduleDualPipeV",
+                "torch.distributed.pipelining.schedules.ScheduleDualPipeV",
+                "torch.distributed.pipelining.schedules.ScheduleDualPipeV.__init__",
+                "torch.distributed.pipelining.schedules.ScheduleDualPipeV.n_local_stages",
+                "torch.distributed.pipelining.schedules.ScheduleDualPipeV.num_stages",
+                "torch.distributed.pipelining.schedules.ScheduleDualPipeV.pipeline_order",
+                "torch.distributed.pipelining.schedules.ScheduleDualPipeV.pp_group_size",
+                "torch.distributed.pipelining.schedules.ScheduleDualPipeV.rank",
+                "torch.distributed.pipelining.schedules.ScheduleDualPipeV.stage_index_to_group_rank",
+                "torch.distributed.pipelining.schedules._PipelineScheduleRuntime",
+                "torch.distributed.pipelining.schedules._PipelineScheduleRuntime.pipeline_order_with_comms"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086688.20bdabbb3c5-198b5fd2d47.json"
+}

@@ -1,0 +1,35 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-01 19:53:41",
+            "id": "8ea86a6e313",
+            "message": "Actually test STD_TORCH_CHECK, add testfile to CMake (#159603)"
+        },
+        "after": {
+            "committer_date": "2025-08-01 20:22:30",
+            "id": "5e8b95605f5",
+            "message": "[PP] Support OVERLAP_F_B computation type (#158978)"
+        }
+    },
+    "completenessScore": [0.377237, 0.377213],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1633"}, {"name": "11e97bc7bd4~1632"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1},
+            "completenessScore": -2.3194581419083704e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010763104079216447},
+            "otherSymbolCounts": {"withKnownType": 0.03855050115651504},
+            "completenessScore": -0.006148548942437789
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.pipelining.schedules.OVERLAP_F_B",
+                "torch.distributed.pipelining.schedules._ComputationType.OVERLAP_F_B"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086202.8ea86a6e313-5e8b95605f5.json"
+}

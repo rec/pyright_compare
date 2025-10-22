@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-17 18:39:06",
+            "id": "7a68d02292f",
+            "message": "Use numpy 1.26.2 for Python 3.9 and 3.10 (#160836)"
+        },
+        "after": {
+            "committer_date": "2025-08-18 01:41:08",
+            "id": "075a2e69678",
+            "message": "[PGO] add extra read/write keys (#160715)"
+        }
+    },
+    "completenessScore": [0.377185, 0.377261],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1026"}, {"name": "11e97bc7bd4~1025"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "completenessScore": 7.638622522798677e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.032520325203252036},
+            "completenessScore": 0.02025166507873698
+        },
+        "symbols": {
+            "added": [
+                "torch.compiler.config.pgo_extra_read_key",
+                "torch.compiler.config.pgo_extra_write_key"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086809.7a68d02292f-075a2e69678.json"
+}

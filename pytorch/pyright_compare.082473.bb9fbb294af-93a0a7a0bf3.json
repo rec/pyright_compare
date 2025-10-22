@@ -1,0 +1,49 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-07 04:27:31",
+            "id": "bb9fbb294af",
+            "message": "[Testing] Add logic for running MPS tests (#153012)"
+        },
+        "after": {
+            "committer_date": "2025-05-07 06:04:22",
+            "id": "93a0a7a0bf3",
+            "message": "Fix bug visualizing 1D Tensor using rich (#152871)"
+        }
+    },
+    "completenessScore": [0.364637, 0.364677],
+    "filename": "full-run/pyright_compare.082473.bb9fbb294af-93a0a7a0bf3.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 1,
+                "withAmbiguousType": -1,
+                "withUnknownType": 1
+            },
+            "missingFunctionDocStringCount": 2,
+            "completenessScore": 3.951261789197913e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.017056114617090227,
+                "withAmbiguousType": -0.1218026796589525,
+                "withUnknownType": 0.010643959552953698
+            },
+            "missingFunctionDocStringCount": 0.056417489421720736,
+            "completenessScore": 0.01083614844081754
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.tensor.examples.visualize_sharding_example.m",
+                "torch.distributed.tensor.examples.visualize_sharding_example.section",
+                "torch.distributed.tensor.examples.visualize_sharding_example.t",
+                "torch.distributed.tensor.examples.visualize_sharding_example.visualize"
+            ],
+            "removed": [
+                "torch.distributed.tensor.examples.visualize_sharding_example.mesh",
+                "torch.distributed.tensor.examples.visualize_sharding_example.tensor",
+                "torch.distributed.tensor.examples.visualize_sharding_example.world_size"
+            ]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-16 17:22:37",
+            "id": "a3693500654",
+            "message": "enable compiled autograd on CPU windows (#158432)"
+        },
+        "after": {
+            "committer_date": "2025-07-16 17:26:20",
+            "id": "82b1c482929",
+            "message": "[hop] add supports_higher_order_operators flag to TorchDispatchMode (#158077)"
+        }
+    },
+    "completenessScore": [0.375847, 0.375847],
+    "filename": "pyright_compare.085466.a3693500654-82b1c482929.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.042643923240938165}},
+        "symbols": {
+            "added": [
+                "torch.utils._python_dispatch.TorchDispatchMode.supports_higher_order_operators"
+            ]
+        }
+    }
+}

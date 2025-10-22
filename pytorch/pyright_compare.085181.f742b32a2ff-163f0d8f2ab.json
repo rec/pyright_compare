@@ -1,0 +1,122 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-09 20:14:34",
+            "id": "f742b32a2ff",
+            "message": "[dynamo] Avoid recompiling over unused objects (#156891)"
+        },
+        "after": {
+            "committer_date": "2025-07-09 21:12:25",
+            "id": "163f0d8f2ab",
+            "message": "[BE][Ez]: Auto add return type annotations for methods in torch/nn/module (#157925)"
+        }
+    },
+    "completenessScore": [0.37402, 0.374391],
+    "filename": "pyright_compare.085181.f742b32a2ff-163f0d8f2ab.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 6, "withUnknownType": -6},
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 0.0003702560937982602
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.09899356541824782,
+                "withUnknownType": -0.06445375443119562
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.0429553264604811,
+                "withUnknownType": -0.043725404459991256
+            },
+            "completenessScore": 0.09899356541826113
+        },
+        "symbols": {
+            "common": {
+                "torch.nn.modules.activation.LogSoftmax.extra_repr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.PReLU.reset_parameters": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.RReLU.extra_repr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Softmin.extra_repr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.activation.Threshold.extra_repr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.module.Module.__delattr__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.module.Module.__repr__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.module._IncompatibleKeys.__repr__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.rnn.LSTM.check_forward_args": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.rnn.RNNBase.__setattr__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.rnn.RNNBase.check_forward_args": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

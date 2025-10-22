@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-07 23:16:45",
+            "id": "3effe0c2932",
+            "message": "[SymmMem] find_path does not search /usr/local/lib (#157695)"
+        },
+        "after": {
+            "committer_date": "2025-07-07 23:57:17",
+            "id": "be56a8d7ac0",
+            "message": "Automatically load and save dynamo entries via caching_precompile (#155913)"
+        }
+    },
+    "completenessScore": [0.373642, 0.373642],
+    "filename": "pyright_compare.085079.3effe0c2932-be56a8d7ac0.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 4},
+            "missingFunctionDocStringCount": 3
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.17271157167530224},
+            "missingFunctionDocStringCount": 0.07564296520423601
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.package.CompilePackage.initialize",
+                "torch._dynamo.package.CompilePackage.is_initialized",
+                "torch._dynamo.package.CompilePackage.source_id_from_fn",
+                "torch.compiler._cache.CacheInfo.precompile_dynamo_artifacts"
+            ]
+        }
+    }
+}

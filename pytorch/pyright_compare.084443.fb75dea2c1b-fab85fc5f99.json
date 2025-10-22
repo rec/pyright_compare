@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-21 14:17:19",
+            "id": "fb75dea2c1b",
+            "message": "[logging] dynamo_timed for CachingAutotuner.coordinate_descent_tuning (#156517)"
+        },
+        "after": {
+            "committer_date": "2025-06-21 15:14:59",
+            "id": "fab85fc5f99",
+            "message": "[compile][hierarchical compilation] Release nested_compile_region API (#156449)"
+        }
+    },
+    "completenessScore": [0.371941, 0.371918],
+    "filename": "full-run/pyright_compare.084443.fb75dea2c1b-fab85fc5f99.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.298625965579948e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010715816545220747},
+            "completenessScore": -0.006180087757242199
+        },
+        "symbols": {"added": ["torch.compiler.nested_compile_region"]}
+    }
+}

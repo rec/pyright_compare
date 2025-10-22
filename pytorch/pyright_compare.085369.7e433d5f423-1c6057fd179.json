@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-15 00:18:31",
+            "id": "7e433d5f423",
+            "message": "[cutlass backend] cache a few things for codegen and properties (#158158)"
+        },
+        "after": {
+            "committer_date": "2025-07-15 00:50:06",
+            "id": "1c6057fd179",
+            "message": "add eq function to NodeSource (#158170)"
+        }
+    },
+    "completenessScore": [0.374931, 0.374907],
+    "filename": "pyright_compare.085369.7e433d5f423-1c6057fd179.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3138149124468654e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010760787689658883},
+            "completenessScore": -0.00617131572450643
+        },
+        "symbols": {"added": ["torch.fx.traceback.NodeSource.__eq__"]}
+    }
+}

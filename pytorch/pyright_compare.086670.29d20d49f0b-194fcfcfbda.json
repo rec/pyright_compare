@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-14 03:23:46",
+            "id": "29d20d49f0b",
+            "message": "[cutlass] fix dictionary iteration error (#160552)"
+        },
+        "after": {
+            "committer_date": "2025-08-14 03:34:04",
+            "id": "194fcfcfbda",
+            "message": "Add support for param mutation under inference mode (#159661)"
+        }
+    },
+    "completenessScore": [0.377217, 0.377294],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1165"}, {"name": "11e97bc7bd4~1164"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "completenessScore": 7.643851367356014e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.03254149040026033},
+            "completenessScore": 0.02026379276412814
+        },
+        "symbols": {
+            "added": [
+                "torch.export.graph_signature.ExportGraphSignature.parameters_to_mutate",
+                "torch.export.graph_signature.OutputKind.PARAMETER_MUTATION"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086670.29d20d49f0b-194fcfcfbda.json"
+}

@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-02 17:35:44",
+            "id": "72337bdcf2f",
+            "message": "[ATen][CUDA] Optimize 128 bit vectorization (#148320)"
+        },
+        "after": {
+            "committer_date": "2025-05-02 18:08:11",
+            "id": "376529c78b7",
+            "message": "consolidate guard_or_x and definitely_x (#152463)"
+        }
+    },
+    "completenessScore": [0.36449, 0.364535],
+    "filename": "full-run/pyright_compare.082299.72337bdcf2f-376529c78b7.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -2},
+            "completenessScore": 4.534022263358306e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.02128112364332837},
+            "completenessScore": 0.01243935812912499
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.definitely_false",
+                "torch.fx.experimental.symbolic_shapes.definitely_true"
+            ]
+        }
+    }
+}

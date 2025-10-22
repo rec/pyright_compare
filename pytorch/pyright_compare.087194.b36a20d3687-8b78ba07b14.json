@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-27 02:45:20",
+            "id": "b36a20d3687",
+            "message": "Ensure large tensor int32 -> int64 indexing is enabled (#157767)"
+        },
+        "after": {
+            "committer_date": "2025-08-27 03:00:56",
+            "id": "8b78ba07b14",
+            "message": "[dynamo, nested graph breaks] add nested graph break tests (#144516)"
+        }
+    },
+    "completenessScore": [0.377353, 0.377353],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~641"}, {"name": "11e97bc7bd4~640"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.03299241174529858},
+            "missingFunctionDocStringCount": 0.0243842965130456
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.graph_break_on_leaf_function"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087194.b36a20d3687-8b78ba07b14.json"
+}

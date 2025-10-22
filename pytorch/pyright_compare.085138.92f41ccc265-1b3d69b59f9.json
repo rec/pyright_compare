@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-08 23:22:17",
+            "id": "92f41ccc265",
+            "message": "[Inductor] Support precomputed size args in the FX backend.  (#157758)"
+        },
+        "after": {
+            "committer_date": "2025-07-08 23:55:46",
+            "id": "1b3d69b59f9",
+            "message": "Work: block_current_stream API (#156883)"
+        }
+    },
+    "completenessScore": [0.373704, 0.373704],
+    "filename": "pyright_compare.085138.92f41ccc265-1b3d69b59f9.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": -1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.08598452278589853,
+                "withUnknownType": -0.043706293706293704
+            },
+            "missingFunctionDocStringCount": 0.025195263290501386
+        },
+        "symbols": {
+            "added": ["torch._C._distributed_c10d.Work.block_current_stream"],
+            "common": {
+                "torch._C._distributed_c10d.Work.synchronize": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is unknown"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

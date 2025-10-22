@@ -1,0 +1,713 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-05 03:44:01",
+            "id": "4fd5fabee9b",
+            "message": "skip XPU for dataloader CPU only unit test (#159811)"
+        },
+        "after": {
+            "committer_date": "2025-08-05 03:50:54",
+            "id": "b6c53383fe2",
+            "message": "[Dynamo][Better Engineering] Type annotation for `torch/_dynamo/output_graph.py` (#159602)"
+        }
+    },
+    "completenessScore": [0.377252, 0.377252],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1535"}, {"name": "11e97bc7bd4~1534"}],
+        "absolute": {
+            "otherSymbolCounts": {
+                "withKnownType": 91,
+                "withAmbiguousType": 3,
+                "withUnknownType": -37
+            },
+            "missingFunctionDocStringCount": 10,
+            "missingClassDocStringCount": 3
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 3.5067437379576107,
+                "withAmbiguousType": 2.34375,
+                "withUnknownType": -1.6313932980599648
+            },
+            "missingFunctionDocStringCount": 0.2555583950932788,
+            "missingClassDocStringCount": 0.27752081406105455
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.output_graph.AliasingInfo",
+                "torch._dynamo.output_graph.AliasingInfo.__dataclass_fields__",
+                "torch._dynamo.output_graph.AliasingInfo.__eq__",
+                "torch._dynamo.output_graph.AliasingInfo.__hash__",
+                "torch._dynamo.output_graph.AliasingInfo.__init__",
+                "torch._dynamo.output_graph.AliasingInfo.__match_args__",
+                "torch._dynamo.output_graph.AliasingInfo.__new__",
+                "torch._dynamo.output_graph.AliasingInfo.has_aliasing",
+                "torch._dynamo.output_graph.AliasingInfo.msg",
+                "torch._dynamo.output_graph.FakeRootModule",
+                "torch._dynamo.output_graph.FakeRootModule.__init__",
+                "torch._dynamo.output_graph.FakeRootModule.__repr__",
+                "torch._dynamo.output_graph.FakeRootModule.add_nn_modules",
+                "torch._dynamo.output_graph.LazyProxy",
+                "torch._dynamo.output_graph.LazyProxy.__call__",
+                "torch._dynamo.output_graph.LazyProxy.__init__",
+                "torch._dynamo.output_graph.LazyProxy.args",
+                "torch._dynamo.output_graph.LazyProxy.fn",
+                "torch._dynamo.output_graph.LazyProxy.kwargs",
+                "torch._dynamo.output_graph.LazyProxy.tracer",
+                "torch._dynamo.output_graph.MutationInfo",
+                "torch._dynamo.output_graph.MutationInfo.__dataclass_fields__",
+                "torch._dynamo.output_graph.MutationInfo.__eq__",
+                "torch._dynamo.output_graph.MutationInfo.__hash__",
+                "torch._dynamo.output_graph.MutationInfo.__init__",
+                "torch._dynamo.output_graph.MutationInfo.__match_args__",
+                "torch._dynamo.output_graph.MutationInfo.__new__",
+                "torch._dynamo.output_graph.MutationInfo.has_mutation",
+                "torch._dynamo.output_graph.MutationInfo.msg",
+                "torch._dynamo.output_graph.SubgraphTracer",
+                "torch._dynamo.output_graph.SubgraphTracer.__init__",
+                "torch._dynamo.output_graph.SubgraphTracer.allow_side_effects_under_checkpoint",
+                "torch._dynamo.output_graph.SubgraphTracer.bound_symbols",
+                "torch._dynamo.output_graph.SubgraphTracer.create_graph_input",
+                "torch._dynamo.output_graph.SubgraphTracer.create_node",
+                "torch._dynamo.output_graph.SubgraphTracer.create_proxy",
+                "torch._dynamo.output_graph.SubgraphTracer.debug_level",
+                "torch._dynamo.output_graph.SubgraphTracer.graph",
+                "torch._dynamo.output_graph.SubgraphTracer.has_aliasing",
+                "torch._dynamo.output_graph.SubgraphTracer.has_input_mutation",
+                "torch._dynamo.output_graph.SubgraphTracer.input_name_to_proxy",
+                "torch._dynamo.output_graph.SubgraphTracer.is_export",
+                "torch._dynamo.output_graph.SubgraphTracer.is_reconstructing_generator",
+                "torch._dynamo.output_graph.SubgraphTracer.lift_tracked_freevar_to_input",
+                "torch._dynamo.output_graph.SubgraphTracer.lifted_freevars",
+                "torch._dynamo.output_graph.SubgraphTracer.lookup_unbound_symbols",
+                "torch._dynamo.output_graph.SubgraphTracer.maybe_lift_tracked_freevar_to_input",
+                "torch._dynamo.output_graph.SubgraphTracer.output_graph",
+                "torch._dynamo.output_graph.SubgraphTracer.parent",
+                "torch._dynamo.output_graph.SubgraphTracer.prev_inst",
+                "torch._dynamo.output_graph.SubgraphTracer.real_value_cache",
+                "torch._dynamo.output_graph.SubgraphTracer.remove_node",
+                "torch._dynamo.output_graph.SubgraphTracer.source_fn_stack",
+                "torch._dynamo.output_graph.SubgraphTracer.source_target",
+                "torch._dynamo.output_graph.SubgraphTracer.track_unbacked_symbols",
+                "torch._dynamo.output_graph.SubgraphTracer.under_activation_checkpoint",
+                "torch._dynamo.output_graph.SubgraphTracer.unsafe_allow_externally_visible_side_effects"
+            ],
+            "common": {
+                "torch._dynamo.codegen.PyCodegen.new_var": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.GraphCompileReason": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.output_graph.GraphCompileReason.__post_init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"export_constraints\" is missing",
+                            "Type annotation for parameter \"f_code\" is missing",
+                            "Type annotation for parameter \"frame_state\" is missing",
+                            "Type annotation for parameter \"package\" is missing",
+                            "Type annotation for parameter \"root_tx\" is missing",
+                            "Type annotation for parameter \"torch_function_mode_stack\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.add_backward_state_hook": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"prefix\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.add_cleanup_hook": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.aotautograd_guards": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.bound_symbols": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.call_cleanup_hooks": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.cleanup_graph": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.codegen_suffix": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"cg\" is missing",
+                            "Type annotation for parameter \"stack_values\" is missing",
+                            "Type annotation for parameter \"tx\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.compile_and_call_fx_graph": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeRootModule\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"root\" is missing",
+                            "Type annotation for parameter \"rv\" is missing",
+                            "Type annotation for parameter \"tx\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.compile_subgraph": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"partial_convert\" is missing",
+                            "Type annotation for parameter \"stack_pops\" is missing",
+                            "Type of parameter \"reason\" is partially unknown\n\u00a0\u00a0Parameter type is \"GraphCompileReason\""
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.compile_subgraph_reason": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.output_graph.OutputGraph.count_calls": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.create_node": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Node\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.create_proxy": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Proxy\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.current_tracer": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"SubgraphTracer\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.current_tx": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.dedup_pass": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.dump_guards_state": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"OutputGraphGuardsState\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.example_value_from_input_node": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.export_constraints": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"Unknown | bool\""
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.fake_mode": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"FakeTensorMode\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.frame_state": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type unknown for variable \"torch._dynamo.output_graph.OutputGraph.frame_state\""
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.get_backward_state_proxy": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Proxy\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.get_graph_sizes": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.get_graph_sizes_structured": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.get_submodule": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Module | Any\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"keys\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.graph": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Graph\"",
+                            "Type of parameter \"value\" is partially unknown\n\u00a0\u00a0Parameter type is \"Graph\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.handle_aliases_for_stolen_lists": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"tx\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.init_ambient_guards": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.input_name_to_proxy": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.install_builtins_dict_in_fglobals": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.install_global": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"prefix\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.install_global_by_id": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"prefix\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.install_global_unsafe": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"name\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.install_subgraph": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"sub_gm\" is partially unknown\n\u00a0\u00a0Parameter type is \"GraphModule\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"name\" is missing",
+                            "Type annotation for parameter \"sub_gm\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.is_empty_graph": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.is_root_tracer": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.mark_bytecode_tracing_start": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.mark_bytecode_tracing_stop": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.module_key_name": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"names\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.new_var": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.output": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.package": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type unknown for variable \"torch._dynamo.output_graph.OutputGraph.package\""
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.partial_convert": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"bool\""
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.pop_tx": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.push_tx": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"tx\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.real_value_cache": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.register_attr_or_module": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"names\" is missing",
+                            "Type annotation for parameter \"options\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.remove_node": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.root_tracer": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"SubgraphTracer\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.root_tx": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"InstructionTranslatorBase\""
+                        ],
+                        "removed": [
+                            "Type unknown for variable \"torch._dynamo.output_graph.OutputGraph.root_tx\""
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.run_compiler_collective": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.save_global_state": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"out\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.shape_env": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"ShapeEnv\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.synthetic_graph_input": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"fn\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraph.update_co_names": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraphGuardsState.aotautograd_guards": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraphGuardsState.guards": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GuardsSet | None\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.OutputGraphGuardsState.shape_env": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"ShapeEnv\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.VariableTrackerCache.add": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"vt\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"source\" is missing",
+                            "Type annotation for parameter \"value\" is missing",
+                            "Type annotation for parameter \"vt\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.VariableTrackerCache.cache": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"dict\" has unknown type",
+                            "Type argument 2 for class \"dict\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Unknown, Unknown]\""
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.VariableTrackerCache.clear": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.VariableTrackerCache.clone": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.output_graph.VariableTrackerCache.lookup": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker | None\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"source\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.SpeculationEntry.reason": {
+                    "isTypeKnown": true
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.086300.4fd5fabee9b-b6c53383fe2.json"
+}

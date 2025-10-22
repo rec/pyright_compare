@@ -1,0 +1,582 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-02 16:31:55",
+            "id": "d33840c542b",
+            "message": "Update Kineto submodule (#161572)"
+        },
+        "after": {
+            "committer_date": "2025-09-02 16:53:55",
+            "id": "d6b74568e2c",
+            "message": "Revert \"Add __init__.pyi to torch/linalg (#160750)\""
+        }
+    },
+    "completenessScore": [0.375561, 0.375461],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~391"}, {"name": "11e97bc7bd4~390"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -2, "withAmbiguousType": 1},
+            "otherSymbolCounts": {"withKnownType": -5, "withUnknownType": -4},
+            "missingFunctionDocStringCount": -41,
+            "missingClassDocStringCount": -2,
+            "completenessScore": -9.995314823946222e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.0327653997378768,
+                "withAmbiguousType": 0.11848341232227488
+            },
+            "otherSymbolCounts": {
+                "withKnownType": -0.15728216420257943,
+                "withUnknownType": -0.16999575010624735
+            },
+            "missingFunctionDocStringCount": -0.9232154920063049,
+            "missingClassDocStringCount": -0.18148820326678766,
+            "completenessScore": -0.026614326971428237
+        },
+        "symbols": {
+            "common": {
+                "torch.linalg.cholesky": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.cholesky\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.cholesky\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.cholesky_ex": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.cholesky_ex\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.cholesky_ex\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"_lu_with_info\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.common_notes": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[str, str]\""
+                        ]
+                    }
+                },
+                "torch.linalg.cond": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.cond\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.cond\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.cross": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.cross\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.cross\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"input\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.det": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.det\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.det\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.diagonal": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.diagonal\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.diagonal\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.eig": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.eig\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.eig\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.eigh": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.eigh\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.eigh\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.eigvals": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.eigvals\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.eigvals\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.eigvalsh": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.eigvalsh\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.eigvalsh\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.householder_product": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.householder_product\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.householder_product\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"tau\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.inv": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.inv\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.inv\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.inv_ex": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.inv_ex\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.inv_ex\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.ldl_factor": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.ldl_factor\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.ldl_factor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.ldl_factor_ex": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.ldl_factor_ex\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.ldl_factor_ex\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.ldl_solve": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.ldl_solve\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.ldl_solve\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"B\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"LD\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"pivots\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.lstsq": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.lstsq\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.lstsq\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"B\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.lu": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.lu\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.lu\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.lu_factor": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.lu_factor\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.lu_factor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.lu_factor_ex": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.lu_factor_ex\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.lu_factor_ex\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.lu_solve": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.lu_solve\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.lu_solve\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"B\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"LU\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"pivots\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.matmul": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.matmul\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.matmul\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"input\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.matrix_exp": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.matrix_exp\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.matrix_exp\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.matrix_norm": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.matrix_norm\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.matrix_norm\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.matrix_power": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.matrix_power\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.matrix_power\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.matrix_rank": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.matrix_rank\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.matrix_rank\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.multi_dot": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.multi_dot\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.multi_dot\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.norm": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.norm\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.norm\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.pinv": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.pinv\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.pinv\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.qr": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.qr\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.qr\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"qr\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.slogdet": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.slogdet\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.slogdet\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"slogdet\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.solve": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.solve\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.solve\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"B\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.solve_ex": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.solve_ex\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.solve_ex\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"B\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.solve_triangular": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.solve_triangular\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.solve_triangular\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"B\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.svd": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.svd\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.svd\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.svdvals": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.svdvals\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.svdvals\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.tensorinv": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.tensorinv\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.tensorinv\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.tensorsolve": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.tensorsolve\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.tensorsolve\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"A\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"B\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ]
+                    }
+                },
+                "torch.linalg.vander": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.vander\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.vander\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"x\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.vecdot": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.vecdot\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.vecdot\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"x\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"y\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.linalg.vector_norm": {
+                    "diagnostics": {
+                        "added": [
+                            "Type unknown for variable \"torch.linalg.vector_norm\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.linalg.vector_norm\"",
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"out\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"x\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch.linalg.LinAlgError",
+                "torch.return_types._lu_with_info",
+                "torch.return_types._lu_with_info.LU",
+                "torch.return_types._lu_with_info.__init_subclass__",
+                "torch.return_types._lu_with_info.__new__",
+                "torch.return_types._lu_with_info.info",
+                "torch.return_types._lu_with_info.n_fields",
+                "torch.return_types._lu_with_info.n_sequence_fields",
+                "torch.return_types._lu_with_info.n_unnamed_fields",
+                "torch.return_types._lu_with_info.pivots"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087444.d33840c542b-d6b74568e2c.json"
+}

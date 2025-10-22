@@ -1,0 +1,45 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-06 16:47:13",
+            "id": "ae0edc133e6",
+            "message": "[3/N] Enable 6 fsdp test on Intel GPU (#161601)"
+        },
+        "after": {
+            "committer_date": "2025-09-06 20:03:52",
+            "id": "047603d35bd",
+            "message": "New export implementation with flat inp/out (#162167)"
+        }
+    },
+    "completenessScore": [0.375945, 0.375945],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~152"}, {"name": "11e97bc7bd4~151"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 10, "withAmbiguousType": 1},
+            "missingClassDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.31446540880503143,
+                "withAmbiguousType": 0.6289308176100629
+            },
+            "missingClassDocStringCount": 0.09082652134423251
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.output_graph.ExportMetaData",
+                "torch._dynamo.output_graph.ExportMetaData.__dataclass_fields__",
+                "torch._dynamo.output_graph.ExportMetaData.__eq__",
+                "torch._dynamo.output_graph.ExportMetaData.__hash__",
+                "torch._dynamo.output_graph.ExportMetaData.__init__",
+                "torch._dynamo.output_graph.ExportMetaData.__match_args__",
+                "torch._dynamo.output_graph.ExportMetaData.__new__",
+                "torch._dynamo.output_graph.ExportMetaData.graph_input_idx_to_local_source",
+                "torch._dynamo.output_graph.ExportMetaData.out_spec",
+                "torch._dynamo.output_graph.ExportMetaData.output_return_type",
+                "torch._dynamo.output_graph.OutputGraph.export_metadata"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087683.ae0edc133e6-047603d35bd.json"
+}

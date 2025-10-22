@@ -1,0 +1,38 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-25 16:09:39",
+            "id": "c8316d0e79c",
+            "message": "Revert \"[BE] Remove torch deploy | remove torch deploy specific files (#158290)\""
+        },
+        "after": {
+            "committer_date": "2025-07-25 16:09:39",
+            "id": "f8fafdc7a6d",
+            "message": "Revert \"[BE] remove torch deploy - conditionals (#158288)\""
+        }
+    },
+    "completenessScore": [0.376616, 0.376655],
+    "filename": "full-run/pyright_compare.085909.c8316d0e79c-f8fafdc7a6d.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.8378613539780115e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.016347882949158083},
+            "completenessScore": 0.010190378308208414
+        },
+        "symbols": {
+            "added": ["torch.version"],
+            "common": {
+                "torch.utils.cmake_prefix_path": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

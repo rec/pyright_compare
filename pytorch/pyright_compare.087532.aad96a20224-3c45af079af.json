@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-04 00:14:22",
+            "id": "aad96a20224",
+            "message": "Revert \"Contiguous subgraph decomposition (#161241)\""
+        },
+        "after": {
+            "committer_date": "2025-09-04 00:17:01",
+            "id": "3c45af079af",
+            "message": "kill allow_complex_guards_as_runtime_asserts (#161794)"
+        }
+    },
+    "completenessScore": [0.375461, 0.375385],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~303"}, {"name": "11e97bc7bd4~302"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -2},
+            "completenessScore": -7.686627917985467e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.03277613897082924},
+            "completenessScore": -0.02047248064947555
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.allow_complex_guards_as_runtime_asserts",
+                "torch.fx.experimental.symbolic_shapes.ShapeEnvSettings.allow_complex_guards_as_runtime_asserts"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087532.aad96a20224-3c45af079af.json"
+}

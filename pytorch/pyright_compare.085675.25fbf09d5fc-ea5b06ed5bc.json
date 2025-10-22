@@ -1,0 +1,623 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-21 19:23:47",
+            "id": "25fbf09d5fc",
+            "message": "Use more fine-grained locks in sym mem kernels (#158523)"
+        },
+        "after": {
+            "committer_date": "2025-07-21 19:34:14",
+            "id": "ea5b06ed5bc",
+            "message": "[Dynamo][BetterEngineering] Type side_effects.py (#158605)"
+        }
+    },
+    "completenessScore": [0.3757, 0.3757],
+    "filename": "pyright_compare.085675.25fbf09d5fc-ea5b06ed5bc.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {
+                "withKnownType": 19,
+                "withAmbiguousType": 2,
+                "withUnknownType": 69
+            },
+            "missingFunctionDocStringCount": 66,
+            "missingClassDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.772986167615948,
+                "withAmbiguousType": 1.8181818181818181,
+                "withUnknownType": 3.050397877984085
+            },
+            "missingFunctionDocStringCount": 1.6591251885369533,
+            "missingClassDocStringCount": 0.09302325581395349
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.variables.tensor.TensorVariable",
+                "torch._dynamo.variables.tensor.TensorVariable.__init__",
+                "torch._dynamo.variables.tensor.TensorVariable.as_proxy",
+                "torch._dynamo.variables.tensor.TensorVariable.call_id",
+                "torch._dynamo.variables.tensor.TensorVariable.call_method",
+                "torch._dynamo.variables.tensor.TensorVariable.call_obj_hasattr",
+                "torch._dynamo.variables.tensor.TensorVariable.class_type",
+                "torch._dynamo.variables.tensor.TensorVariable.debug_repr",
+                "torch._dynamo.variables.tensor.TensorVariable.device",
+                "torch._dynamo.variables.tensor.TensorVariable.dtype",
+                "torch._dynamo.variables.tensor.TensorVariable.dynamic_getattr",
+                "torch._dynamo.variables.tensor.TensorVariable.get_real_value",
+                "torch._dynamo.variables.tensor.TensorVariable.has_grad_fn",
+                "torch._dynamo.variables.tensor.TensorVariable.has_unpack_var_sequence",
+                "torch._dynamo.variables.tensor.TensorVariable.is_contiguous",
+                "torch._dynamo.variables.tensor.TensorVariable.is_nested",
+                "torch._dynamo.variables.tensor.TensorVariable.is_quantized",
+                "torch._dynamo.variables.tensor.TensorVariable.is_sparse",
+                "torch._dynamo.variables.tensor.TensorVariable.layout",
+                "torch._dynamo.variables.tensor.TensorVariable.method___contains__",
+                "torch._dynamo.variables.tensor.TensorVariable.method___getitem__",
+                "torch._dynamo.variables.tensor.TensorVariable.method___len__",
+                "torch._dynamo.variables.tensor.TensorVariable.method___setitem__",
+                "torch._dynamo.variables.tensor.TensorVariable.method_add_",
+                "torch._dynamo.variables.tensor.TensorVariable.method_addcdiv_",
+                "torch._dynamo.variables.tensor.TensorVariable.method_addcmul_",
+                "torch._dynamo.variables.tensor.TensorVariable.method_as_subclass",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr__version",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_data",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_device",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_dtype",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_grad_fn",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_is_cuda",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_is_nested",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_is_quantized",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_is_sparse",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_layout",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_ndim",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_requires_grad",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_retain_grad",
+                "torch._dynamo.variables.tensor.TensorVariable.method_attr_shape",
+                "torch._dynamo.variables.tensor.TensorVariable.method_backward",
+                "torch._dynamo.variables.tensor.TensorVariable.method_data_ptr",
+                "torch._dynamo.variables.tensor.TensorVariable.method_dim",
+                "torch._dynamo.variables.tensor.TensorVariable.method_element_size",
+                "torch._dynamo.variables.tensor.TensorVariable.method_get_device",
+                "torch._dynamo.variables.tensor.TensorVariable.method_is_complex",
+                "torch._dynamo.variables.tensor.TensorVariable.method_is_contiguous",
+                "torch._dynamo.variables.tensor.TensorVariable.method_is_floating_point",
+                "torch._dynamo.variables.tensor.TensorVariable.method_is_inference",
+                "torch._dynamo.variables.tensor.TensorVariable.method_item",
+                "torch._dynamo.variables.tensor.TensorVariable.method_ndimension",
+                "torch._dynamo.variables.tensor.TensorVariable.method_nelement",
+                "torch._dynamo.variables.tensor.TensorVariable.method_new",
+                "torch._dynamo.variables.tensor.TensorVariable.method_numel",
+                "torch._dynamo.variables.tensor.TensorVariable.method_numpy",
+                "torch._dynamo.variables.tensor.TensorVariable.method_redistribute",
+                "torch._dynamo.variables.tensor.TensorVariable.method_register_hook",
+                "torch._dynamo.variables.tensor.TensorVariable.method_register_post_accumulate_grad_hook",
+                "torch._dynamo.variables.tensor.TensorVariable.method_requires_grad_",
+                "torch._dynamo.variables.tensor.TensorVariable.method_resize_",
+                "torch._dynamo.variables.tensor.TensorVariable.method_resize_as_",
+                "torch._dynamo.variables.tensor.TensorVariable.method_set_",
+                "torch._dynamo.variables.tensor.TensorVariable.method_size",
+                "torch._dynamo.variables.tensor.TensorVariable.method_sparse_resize_",
+                "torch._dynamo.variables.tensor.TensorVariable.method_sparse_resize_and_clear_",
+                "torch._dynamo.variables.tensor.TensorVariable.method_stride",
+                "torch._dynamo.variables.tensor.TensorVariable.method_to_local",
+                "torch._dynamo.variables.tensor.TensorVariable.method_tolist",
+                "torch._dynamo.variables.tensor.TensorVariable.method_type",
+                "torch._dynamo.variables.tensor.TensorVariable.method_untyped_storage",
+                "torch._dynamo.variables.tensor.TensorVariable.ndim",
+                "torch._dynamo.variables.tensor.TensorVariable.proxy",
+                "torch._dynamo.variables.tensor.TensorVariable.python_type",
+                "torch._dynamo.variables.tensor.TensorVariable.requires_grad",
+                "torch._dynamo.variables.tensor.TensorVariable.set_name_hint",
+                "torch._dynamo.variables.tensor.TensorVariable.size",
+                "torch._dynamo.variables.tensor.TensorVariable.specialize",
+                "torch._dynamo.variables.tensor.TensorVariable.stride",
+                "torch._dynamo.variables.tensor.TensorVariable.unpack_var_sequence",
+                "torch._dynamo.variables.tensor.TensorVariable.valid_size",
+                "torch._dynamo.variables.tensor.TensorVariable.var_getattr",
+                "torch._dynamo.variables.user_defined.RemovableHandleVariable",
+                "torch._dynamo.variables.user_defined.RemovableHandleVariable.REMOVED",
+                "torch._dynamo.variables.user_defined.RemovableHandleVariable.__init__",
+                "torch._dynamo.variables.user_defined.RemovableHandleVariable.call_method",
+                "torch._dynamo.variables.user_defined.RemovableHandleVariable.idx",
+                "torch._dynamo.variables.user_defined.RemovableHandleVariable.mutation_type",
+                "torch._dynamo.variables.user_defined.RemovableHandleVariable.python_type",
+                "torch._dynamo.variables.user_defined.RemovableHandleVariable.reconstruct"
+            ],
+            "common": {
+                "torch._dynamo.side_effects.SideEffects.__contains__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"item\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.__getitem__": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"item\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"id_to_variable\" is missing",
+                            "Type annotation for parameter \"keepalive\" is missing",
+                            "Type annotation for parameter \"output_graph\" is missing",
+                            "Type annotation for parameter \"save_for_backward\" is missing",
+                            "Type annotation for parameter \"store_attr_mutations\" is missing",
+                            "Type annotation for parameter \"tensor_hooks\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.ca_final_callbacks_var": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"ListVariable\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.check_allowed_side_effect": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.clear": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.clone": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.cls_supports_mutation_side_effects": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"cls\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.codegen_hooks": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"cg\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.codegen_save_tempvars": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.codegen_update_mutated": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.get_ca_final_callbacks_var": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"ListVariable\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.get_example_value": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"base_cls_vt\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\"",
+                            "Type of parameter \"cls_vt\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"base_cls_vt\" is missing",
+                            "Type annotation for parameter \"cls_vt\" is missing",
+                            "Type annotation for parameter \"init_args\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.get_variable_cls": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"user_cls\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.has_existing_dict_mutation": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.has_pending_mutation": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"item\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"item\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.has_pending_mutation_of_attr": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"item\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"item\" is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.ignore_mutation_on_these_variables": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"set\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[Unknown]\""
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.ignore_mutations_on": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"var\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"var\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.is_attribute_mutation": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"item\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"item\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.is_empty": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.is_modified": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"item\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"item\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.is_reconstructing_generator": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.load_attr": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\"",
+                            "Type of parameter \"item\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"check\" is missing",
+                            "Type annotation for parameter \"deleted_ok\" is missing",
+                            "Type annotation for parameter \"item\" is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.load_cell": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\"",
+                            "Type of parameter \"cellvar\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"cellvar\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.load_global": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.mutation": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"var\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"var\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.output_graph_weakref": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"ReferenceType[OutputGraph]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"ReferenceType[Unknown]\""
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.prune_dead_object_new": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"tx\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.register_hook": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"handle\" is partially unknown\n\u00a0\u00a0Parameter type is \"RemovableHandleVariable\"",
+                            "Type of parameter \"hook\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\"",
+                            "Type of parameter \"tensor\" is partially unknown\n\u00a0\u00a0Parameter type is \"TensorVariable\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"handle\" is missing",
+                            "Type annotation for parameter \"hook\" is missing",
+                            "Type annotation for parameter \"name\" is missing",
+                            "Type annotation for parameter \"tensor\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.remove_hook": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"idx\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.save_for_backward": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[tuple[AutogradFunctionContextVariable, list[VariableTracker]]]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"list\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Unknown | list[Unknown]\"",
+                            "Type unknown for variable \"torch._dynamo.side_effects.SideEffects.save_for_backward\""
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.should_allow_externally_visible_side_effects_in_subtracer": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.should_allow_side_effects_under_checkpoint": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.stop_ignoring_mutations_on": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"var\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"var\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.store_attr": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.store_cell": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"cellvar\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\"",
+                            "Type of parameter \"value\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"cellvar\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.store_global": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.tensor_hooks": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[int, tuple[TensorVariable, VariableTracker, RemovableHandleVariable, str]]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"dict\" has unknown type",
+                            "Type argument 2 for class \"dict\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Unknown | dict[Unknown, Unknown]\"",
+                            "Type unknown for variable \"torch._dynamo.side_effects.SideEffects.tensor_hooks\""
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_cell_existing": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_cell_new": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_global_existing": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_mutable": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"mutation_type_cls\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_new_user_defined_object": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\"",
+                            "Type of parameter \"base_cls_vt\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\"",
+                            "Type of parameter \"cls_vt\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"base_cls_vt\" is missing",
+                            "Type annotation for parameter \"cls_vt\" is missing",
+                            "Type annotation for parameter \"init_args\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_object_existing": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_object_new": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"options\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_runahead_tensor_and_symvar_side_effects": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_save_for_backward": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"ctx\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"ctx\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

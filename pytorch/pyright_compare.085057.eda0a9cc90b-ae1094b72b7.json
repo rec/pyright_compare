@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-07 14:51:32",
+            "id": "eda0a9cc90b",
+            "message": "[list] Add list.__delitem__ (#156339)"
+        },
+        "after": {
+            "committer_date": "2025-07-07 16:53:35",
+            "id": "ae1094b72b7",
+            "message": "Revert \"[WIP] Automatically load and save dynamo entries via caching_precompile (#155913)\""
+        }
+    },
+    "completenessScore": [0.373526, 0.373526],
+    "filename": "pyright_compare.085057.eda0a9cc90b-ae1094b72b7.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": -4},
+            "missingFunctionDocStringCount": -3
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": -0.1724137931034483},
+            "missingFunctionDocStringCount": -0.07558578987150416
+        },
+        "symbols": {
+            "removed": [
+                "torch._dynamo.package.CompilePackage.initialize",
+                "torch._dynamo.package.CompilePackage.is_initialized",
+                "torch._dynamo.package.CompilePackage.source_id_from_fn",
+                "torch.compiler._cache.CacheInfo.precompile_dynamo_artifacts"
+            ]
+        }
+    }
+}

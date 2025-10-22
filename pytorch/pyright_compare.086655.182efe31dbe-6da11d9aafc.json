@@ -1,0 +1,28 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-13 22:54:18",
+            "id": "182efe31dbe",
+            "message": "[inductor] add lowering for repeat_interleave.Tensor with output size specified (#147160) (#158462)"
+        },
+        "after": {
+            "committer_date": "2025-08-13 23:05:29",
+            "id": "6da11d9aafc",
+            "message": "[C10D] Add check_rng_sync util (#160283)"
+        }
+    },
+    "completenessScore": [0.377164, 0.377141],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1180"}, {"name": "11e97bc7bd4~1179"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "completenessScore": -2.3151672962740122e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.11890606420927467},
+            "completenessScore": -0.006138358602914007
+        },
+        "symbols": {"added": ["torch.distributed.collective_utils.logger"]}
+    },
+    "filename": "pyright_compare.086655.182efe31dbe-6da11d9aafc.json"
+}

@@ -1,0 +1,59 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-30 06:53:25",
+            "id": "0fdd568b785",
+            "message": "[forward fix] add support for MemoryFormat after type tightening (#154658)"
+        },
+        "after": {
+            "committer_date": "2025-05-30 06:53:37",
+            "id": "d173ba5a756",
+            "message": "Revert \"Remove MemPoolContext  (#154042)\""
+        }
+    },
+    "completenessScore": [0.370919, 0.371075],
+    "filename": "full-run/pyright_compare.083393.0fdd568b785-d173ba5a756.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 4},
+            "otherSymbolCounts": {"withKnownType": 3},
+            "missingFunctionDocStringCount": 1,
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.0001558578437246272
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.06681142475363287},
+            "otherSymbolCounts": {"withKnownType": 0.13386880856760375},
+            "missingFunctionDocStringCount": 0.0253613999492772,
+            "missingClassDocStringCount": 0.09487666034155598,
+            "completenessScore": 0.04201939962517467
+        },
+        "symbols": {
+            "added": [
+                "torch._C._MemPoolContext",
+                "torch._C._MemPoolContext.__init__",
+                "torch._C._MemPoolContext.active_pool",
+                "torch.cuda.MemPoolContext",
+                "torch.cuda.memory.MemPoolContext",
+                "torch.cuda.memory.MemPoolContext.__init__",
+                "torch.cuda.memory.MemPoolContext.active_pool"
+            ],
+            "common": {
+                "torch.cuda.memory.memory_snapshot": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"mempool_id\" is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.memory_snapshot": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"mempool_id\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-07 01:25:52",
+            "id": "e3068cdb446",
+            "message": "[dynamo] Use relaxed CLOSURE_MATCH guard then ID_MATCH (#162247)"
+        },
+        "after": {
+            "committer_date": "2025-09-07 01:29:54",
+            "id": "b919560c4a7",
+            "message": "[nativert] AOTI lowering and packaging as NativeRT delegate (#162285)"
+        }
+    },
+    "completenessScore": [0.375945, 0.375898],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~144"}, {"name": "11e97bc7bd4~143"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 7},
+            "missingFunctionDocStringCount": 1,
+            "missingClassDocStringCount": 2,
+            "completenessScore": -4.664635630635683e-05,
+            "filesAnalyzed": 3
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.04904364884747425,
+                "withUnknownType": 0.07519604683639489
+            },
+            "missingFunctionDocStringCount": 0.022727272727272728,
+            "missingClassDocStringCount": 0.18148820326678766,
+            "completenessScore": -0.012407763012272878,
+            "filesAnalyzed": 0.34285714285714286
+        },
+        "symbols": {
+            "added": [
+                "torch.nativert.backends.LoweredBackendModule",
+                "torch.nativert.backends.lower_utils.lower_exported_program",
+                "torch.nativert.backends.lower_utils.package_nativert_with_aoti_delegate",
+                "torch.nativert.backends.lowered_aoti_module",
+                "torch.nativert.backends.lowered_aoti_module.LoweredBackendModule",
+                "torch.nativert.backends.lowered_aoti_module.LoweredBackendModule.__init__",
+                "torch.nativert.backends.lowered_aoti_module.LoweredBackendModule.backend_id",
+                "torch.nativert.backends.lowered_aoti_module.LoweredBackendModule.forward",
+                "torch.nativert.backends.lowered_aoti_module.LoweredBackendModule.module_name",
+                "torch.nativert.backends.lowered_aoti_module.LoweredBackendModule.original_module"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087691.e3068cdb446-b919560c4a7.json"
+}

@@ -1,0 +1,45 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-04 00:35:23",
+            "id": "9458d1ac3bd",
+            "message": "[inductor] pdl inductor option (disabled by default) (#160928)"
+        },
+        "after": {
+            "committer_date": "2025-09-04 01:09:53",
+            "id": "12814701555",
+            "message": "[DCP][HuggingFace] Add Support for dequantization of SafeTensors checkpoints (#160682)"
+        }
+    },
+    "completenessScore": [0.375385, 0.375592],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~301"}, {"name": "11e97bc7bd4~300"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 6, "withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": 0.00020743726962585418,
+            "filesAnalyzed": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.09836065573770492,
+                "withUnknownType": 0.010746910263299301
+            },
+            "missingFunctionDocStringCount": 0.022732439190725165,
+            "completenessScore": 0.05525992838393657,
+            "filesAnalyzed": 0.11441647597254005
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.quantized_hf_storage",
+                "torch.distributed.checkpoint.quantized_hf_storage.QuantizedHuggingFaceStorageReader",
+                "torch.distributed.checkpoint.quantized_hf_storage.QuantizedHuggingFaceStorageReader.__init__",
+                "torch.distributed.checkpoint.quantized_hf_storage.QuantizedHuggingFaceStorageReader.block_size",
+                "torch.distributed.checkpoint.quantized_hf_storage.QuantizedHuggingFaceStorageReader.read_metadata",
+                "torch.distributed.checkpoint.quantized_hf_storage.QuantizedHuggingFaceStorageReader.target_dtype",
+                "torch.distributed.checkpoint.quantized_hf_storage.logger"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087534.9458d1ac3bd-12814701555.json"
+}

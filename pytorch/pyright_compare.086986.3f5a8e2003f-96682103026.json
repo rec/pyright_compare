@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-21 17:38:32",
+            "id": "3f5a8e2003f",
+            "message": "Fix torchaudio build when TORCH_CUDA_ARCH_LIST is not set (#161084)"
+        },
+        "after": {
+            "committer_date": "2025-08-21 18:20:42",
+            "id": "96682103026",
+            "message": "Allow bypasses for Precompile when guards, etc. cannot be serialized (#160902)"
+        }
+    },
+    "completenessScore": [0.377299, 0.377299],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~849"}, {"name": "11e97bc7bd4~848"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 2},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.06727211570803902},
+            "missingFunctionDocStringCount": 0.024366471734892786
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.output_graph.OutputGraph.bypass_package",
+                "torch._dynamo.package.CompilePackage.bypass_current_entry"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086986.3f5a8e2003f-96682103026.json"
+}

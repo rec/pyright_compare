@@ -1,0 +1,22 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-09 02:08:13",
+            "id": "a965f097930",
+            "message": "[export] Update PT2 archive docs (#162308)"
+        },
+        "after": {
+            "committer_date": "2025-09-09 02:42:11",
+            "id": "d8b6622bb6a",
+            "message": "testing infra and some fixes (#162183)"
+        }
+    },
+    "completenessScore": [0.376073, 0.376073],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~72"}, {"name": "11e97bc7bd4~71"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.03134796238244514}},
+        "symbols": {"added": ["torch._dynamo.output_graph.ExportMetaData.module_call_spec"]}
+    },
+    "filename": "pyright_compare.087763.a965f097930-d8b6622bb6a.json"
+}

@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-05 23:40:31",
+            "id": "28796f71d04",
+            "message": "Redo D75092426: [internal] Expose additional metadata to compilation callbacks (#155063)"
+        },
+        "after": {
+            "committer_date": "2025-06-06 03:08:48",
+            "id": "0db3e0cf296",
+            "message": "Revert \"Add Intel GPU info collection to the collect env script (#137846)\""
+        }
+    },
+    "completenessScore": [0.371107, 0.371183],
+    "filename": "full-run/pyright_compare.083694.28796f71d04-0db3e0cf296.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": -5},
+            "missingFunctionDocStringCount": -5,
+            "completenessScore": 7.59858403269198e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.01668613382279326,
+                "withUnknownType": -0.05361930294906166
+            },
+            "missingFunctionDocStringCount": -0.12655024044545685,
+            "completenessScore": 0.020475476980467675
+        },
+        "symbols": {
+            "removed": [
+                "torch.utils.collect_env.ONEAPI_PATTERNS",
+                "torch.utils.collect_env.detect_linux_pkg_manager",
+                "torch.utils.collect_env.get_intel_gpu_detected",
+                "torch.utils.collect_env.get_intel_gpu_driver_version",
+                "torch.utils.collect_env.get_intel_gpu_onboard",
+                "torch.utils.collect_env.get_linux_pkg_version"
+            ]
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-07 21:55:29",
+            "id": "ec2e3687c79",
+            "message": "[while_loop][autograd] support autograd_key of while_loop (#160483)"
+        },
+        "after": {
+            "committer_date": "2025-09-07 23:37:31",
+            "id": "eb9073a6b71",
+            "message": "[easy] [precompile] Convert CompileArtifacts to callable (#162169)"
+        }
+    },
+    "completenessScore": [0.375546, 0.375607],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~128"}, {"name": "11e97bc7bd4~127"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 6.147415011986679e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.01636929120969062,
+                "withUnknownType": -0.010737678513905294
+            },
+            "completenessScore": 0.016369291209688542
+        },
+        "symbols": {
+            "common": {
+                "torch.compiler.load_compiled_function": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.087707.ec2e3687c79-eb9073a6b71.json"
+}

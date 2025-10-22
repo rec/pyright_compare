@@ -1,0 +1,29 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-10 04:40:16",
+            "id": "1a1a32ce5af",
+            "message": "[elastic][test] fix race condition in test_barrier_timeout_rank_tracing (#150768)"
+        },
+        "after": {
+            "committer_date": "2025-04-10 05:05:37",
+            "id": "4273e5d15cf",
+            "message": "Expose is_available API for torch.backends.mkldnn (#147432)"
+        }
+    },
+    "completenessScore": [0.36324, 0.363217],
+    "filename": "full-run/pyright_compare.081388.1a1a32ce5af-4273e5d15cf.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.263035794591861e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010633772862611655},
+            "missingFunctionDocStringCount": 0.028288543140028287,
+            "completenessScore": -0.006230141424219446
+        },
+        "symbols": {"added": ["torch.backends.mkldnn.MkldnnModule.is_available"]}
+    }
+}

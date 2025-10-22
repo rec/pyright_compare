@@ -1,0 +1,45 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-15 03:42:39",
+            "id": "55061c96028",
+            "message": "[PT2]: Add Static Dispatch Kernel for scale_gradient (#160454)"
+        },
+        "after": {
+            "committer_date": "2025-08-15 04:06:17",
+            "id": "858fb80b9b2",
+            "message": "[PT2]: Add Static Dispatch Kernel for wrapped_fbgemm_linear_fp16_weight (#160451)"
+        }
+    },
+    "completenessScore": [0.377208, 0.377208],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1097"}, {"name": "11e97bc7bd4~1096"}],
+        "absolute": {"missingFunctionDocStringCount": -2},
+        "percent": {"missingFunctionDocStringCount": -0.049714143673875215},
+        "symbols": {
+            "common": {
+                "torch.fbgemm_linear_fp16_weight": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"output\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.fbgemm_linear_fp16_weight\""
+                        ]
+                    }
+                },
+                "torch.fbgemm_linear_fp16_weight_fp32_activation": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"output\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "No docstring found for function \"torch.fbgemm_linear_fp16_weight_fp32_activation\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.086738.55061c96028-858fb80b9b2.json"
+}

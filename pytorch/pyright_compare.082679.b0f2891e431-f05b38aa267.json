@@ -1,0 +1,123 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-12 22:35:59",
+            "id": "b0f2891e431",
+            "message": "[AOTInductor] Fix clang-tidy warnings in wrapper (#153197)"
+        },
+        "after": {
+            "committer_date": "2025-05-12 22:55:25",
+            "id": "f05b38aa267",
+            "message": "[BE]: Improve decorator typing for Optimizer subclasses (#153374)"
+        }
+    },
+    "completenessScore": [0.364631, 0.365253],
+    "filename": "full-run/pyright_compare.082679.b0f2891e431-f05b38aa267.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 10, "withUnknownType": -10},
+            "completenessScore": 0.0006218132073125271
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.17053206002728513,
+                "withUnknownType": -0.10640561821664184
+            },
+            "completenessScore": 0.17053206002728616
+        },
+        "symbols": {
+            "common": {
+                "torch.optim.adadelta.Adadelta.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.adagrad.Adagrad.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.adam.Adam.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.adamax.Adamax.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.asgd.ASGD.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.nadam.NAdam.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.radam.RAdam.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.rmsprop.RMSprop.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.rprop.Rprop.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.sgd.SGD.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"closure\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

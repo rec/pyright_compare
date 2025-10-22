@@ -1,0 +1,35 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-24 08:03:04",
+            "id": "74280d09132",
+            "message": "[muon] Introduce Muon optimizer to PyTorch (#160213)"
+        },
+        "after": {
+            "committer_date": "2025-08-25 03:09:32",
+            "id": "726dce3c944",
+            "message": "[nccl symm mem] don't use arg for mempool, correctly use symmetric registration in hooks (#161238)"
+        }
+    },
+    "completenessScore": [0.377315, 0.377276],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~759"}, {"name": "11e97bc7bd4~758"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "otherSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.818048127030016e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.016249593760155997},
+            "otherSymbolCounts": {"withKnownType": -0.03359086328518643},
+            "completenessScore": -0.01011900632951894
+        },
+        "symbols": {
+            "removed": [
+                "torch._C._MemPool.is_symmetric",
+                "torch.cuda.memory.MemPool.is_symmetric"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087076.74280d09132-726dce3c944.json"
+}

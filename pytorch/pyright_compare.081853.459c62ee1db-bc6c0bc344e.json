@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-22 21:08:30",
+            "id": "459c62ee1db",
+            "message": "Revert \"Do not log exception when recording is disabled or already recording (#151038)\""
+        },
+        "after": {
+            "committer_date": "2025-04-22 21:08:30",
+            "id": "bc6c0bc344e",
+            "message": "Revert \"Do not generate long log messaged for suppressed data dependent errors. (#151023)\""
+        }
+    },
+    "completenessScore": [0.364586, 0.364546],
+    "filename": "full-run/pyright_compare.081853.459c62ee1db-bc6c0bc344e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.950842977679114e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.017053206002728513},
+            "completenessScore": -0.01083652088216079
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.dde_suppressed"
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-21 19:14:47",
+            "id": "ad2dec19970",
+            "message": "[SymmMem] Add NVSHMEM alltoall support into Triton (#158513)"
+        },
+        "after": {
+            "committer_date": "2025-07-21 19:17:01",
+            "id": "22920c9138f",
+            "message": "Grab bag of (mostly) typing improvements (#158075)"
+        }
+    },
+    "completenessScore": [0.375723, 0.3757],
+    "filename": "pyright_compare.085673.ad2dec19970-22920c9138f.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.312570043422335e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010744600838078865},
+            "completenessScore": -0.006154982458296077
+        },
+        "symbols": {
+            "added": ["torch.export.ShapesCollection"],
+            "common": {
+                "torch.export.exported_program.ExportedProgram.module": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GraphModule\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Module\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

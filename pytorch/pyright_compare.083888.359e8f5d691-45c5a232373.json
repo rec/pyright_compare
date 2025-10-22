@@ -1,0 +1,40 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-11 15:11:38",
+            "id": "359e8f5d691",
+            "message": "[CI] Use `setup-python` from test-infra to do MacOS builds (#155515)"
+        },
+        "after": {
+            "committer_date": "2025-06-11 15:18:47",
+            "id": "45c5a232373",
+            "message": "Revert \"Add Intel GPU info collection to the collect env script (#137846)\""
+        }
+    },
+    "completenessScore": [0.371246, 0.371299],
+    "filename": "full-run/pyright_compare.083888.359e8f5d691-45c5a232373.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": -4},
+            "missingFunctionDocStringCount": -4,
+            "completenessScore": 5.3030584186319896e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.01667778519012675,
+                "withUnknownType": -0.0429000429000429
+            },
+            "missingFunctionDocStringCount": -0.10124019235636547,
+            "completenessScore": 0.014284472401488536
+        },
+        "symbols": {
+            "removed": [
+                "torch.utils.collect_env.ONEAPI_PATTERNS",
+                "torch.utils.collect_env.get_intel_gpu_detected",
+                "torch.utils.collect_env.get_intel_gpu_driver_version",
+                "torch.utils.collect_env.get_intel_gpu_onboard",
+                "torch.utils.collect_env.get_linux_pkg_version"
+            ]
+        }
+    }
+}

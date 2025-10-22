@@ -1,0 +1,59 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-31 00:46:12",
+            "id": "932733e0e69",
+            "message": "Fix memory leaks in mps_linear_nograph (#154765)"
+        },
+        "after": {
+            "committer_date": "2025-05-31 01:21:54",
+            "id": "f01e628e3b3",
+            "message": "Resubmit Remove MemPoolContext  (#154042) (#154746)"
+        }
+    },
+    "completenessScore": [0.371283, 0.371128],
+    "filename": "full-run/pyright_compare.083453.932733e0e69-f01e628e3b3.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -4},
+            "otherSymbolCounts": {"withKnownType": -3},
+            "missingFunctionDocStringCount": -1,
+            "missingClassDocStringCount": -1,
+            "completenessScore": -0.0001558157499481072
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.0667334000667334},
+            "otherSymbolCounts": {"withKnownType": -0.13368983957219252},
+            "missingFunctionDocStringCount": -0.025342118601115054,
+            "missingClassDocStringCount": -0.0947867298578199,
+            "completenessScore": -0.04196679124394799
+        },
+        "symbols": {
+            "common": {
+                "torch.cuda.memory.memory_snapshot": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"mempool_id\" is missing"
+                        ]
+                    }
+                },
+                "torch.cuda.memory_snapshot": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"mempool_id\" is missing"
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch._C._MemPoolContext",
+                "torch._C._MemPoolContext.__init__",
+                "torch._C._MemPoolContext.active_pool",
+                "torch.cuda.MemPoolContext",
+                "torch.cuda.memory.MemPoolContext",
+                "torch.cuda.memory.MemPoolContext.__init__",
+                "torch.cuda.memory.MemPoolContext.active_pool"
+            ]
+        }
+    }
+}

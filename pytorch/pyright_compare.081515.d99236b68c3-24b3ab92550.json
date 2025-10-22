@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-14 13:53:10",
+            "id": "d99236b68c3",
+            "message": "Optimize `cdist` param description (#151178)"
+        },
+        "after": {
+            "committer_date": "2025-04-14 15:22:33",
+            "id": "24b3ab92550",
+            "message": "Revert \"Add inductor standalone_compile API (#150670)\""
+        }
+    },
+    "completenessScore": [0.363161, 0.363099],
+    "filename": "full-run/pyright_compare.081515.d99236b68c3-24b3ab92550.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withAmbiguousType": 1},
+            "completenessScore": -6.22703779811773e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.017146776406035666,
+                "withAmbiguousType": 0.1221001221001221
+            },
+            "completenessScore": -0.01714677640603097
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.proxy_tensor.ProxyTorchDispatchMode.emulate_precision_casts": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"bool\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-25 14:03:37",
+            "id": "6e8602b5586",
+            "message": "Relax tolerance on test_aot_autograd_exhaustive_matmul_cpu_float32 without MKL (#152106)"
+        },
+        "after": {
+            "committer_date": "2025-04-25 14:16:23",
+            "id": "a34c28e0d25",
+            "message": "[dynamo] Add guard serialization for tensor matches. (#151318)"
+        }
+    },
+    "completenessScore": [0.364636, 0.364636],
+    "filename": "full-run/pyright_compare.081981.6e8602b5586-a34c28e0d25.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.10416666666666667,
+                "withUnknownType": 0.058823529411764705
+            },
+            "missingFunctionDocStringCount": 0.028192839018889203
+        },
+        "symbols": {
+            "added": [
+                "torch._C.DispatchKeySet.from_raw_repr",
+                "torch._subclasses.fake_tensor.FakeTensor.dispatch_keys",
+                "torch._subclasses.fake_tensor.FakeTensor.pytype"
+            ],
+            "common": {
+                "torch._subclasses.fake_tensor.FakeTensor.__new__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"pytype\" is partially unknown\n\u00a0\u00a0Parameter type is \"type[Tensor] | None\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.from_meta_and_device": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"pytype\" is partially unknown\n\u00a0\u00a0Parameter type is \"type[Tensor] | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

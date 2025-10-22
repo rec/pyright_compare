@@ -1,0 +1,67 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-27 18:08:58",
+            "id": "f472ea63bb2",
+            "message": "[BE] Fix typos in SyntaxError description (#154436)"
+        },
+        "after": {
+            "committer_date": "2025-05-27 18:13:38",
+            "id": "5075df6feec",
+            "message": "Make torch importable if compiled without TensorPipe (#154382)"
+        }
+    },
+    "completenessScore": [0.368134, 0.368134],
+    "filename": "full-run/pyright_compare.083234.f472ea63bb2-5075df6feec.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": -7, "withUnknownType": -2},
+            "missingClassDocStringCount": -2,
+            "missingDefaultParamCount": -2
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": -0.3619441571871768,
+                "withUnknownType": -0.11764705882352941
+            },
+            "missingClassDocStringCount": -0.1937984496124031,
+            "missingDefaultParamCount": -1.8518518518518519
+        },
+        "symbols": {
+            "common": {
+                "torch.distributed.rpc.options.TensorPipeRpcBackendOptions": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of base class unknown",
+                            "Type of metaclass unknown"
+                        ],
+                        "removed": [
+                            "Type of base class \"torch._C._distributed_rpc._TensorPipeRpcBackendOptionsBase\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch.distributed.rpc.options.TensorPipeRpcBackendOptions.devices": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[device]\""
+                        ],
+                        "removed": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"list[device]\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch._C._distributed_rpc.RpcBackendOptions",
+                "torch._C._distributed_rpc.RpcBackendOptions.__init__",
+                "torch._C._distributed_rpc.RpcBackendOptions.init_method",
+                "torch._C._distributed_rpc.RpcBackendOptions.rpc_timeout",
+                "torch._C._distributed_rpc._TensorPipeRpcBackendOptionsBase",
+                "torch._C._distributed_rpc._TensorPipeRpcBackendOptionsBase.__init__",
+                "torch._C._distributed_rpc._TensorPipeRpcBackendOptionsBase.device_maps",
+                "torch._C._distributed_rpc._TensorPipeRpcBackendOptionsBase.devices",
+                "torch._C._distributed_rpc._TensorPipeRpcBackendOptionsBase.num_worker_threads"
+            ]
+        }
+    }
+}

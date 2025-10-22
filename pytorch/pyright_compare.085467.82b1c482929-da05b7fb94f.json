@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-16 17:26:20",
+            "id": "82b1c482929",
+            "message": "[hop] add supports_higher_order_operators flag to TorchDispatchMode (#158077)"
+        },
+        "after": {
+            "committer_date": "2025-07-16 17:26:20",
+            "id": "da05b7fb94f",
+            "message": "[cond] add _FlopCounterMode support for cond  (#158067)"
+        }
+    },
+    "completenessScore": [0.375847, 0.375847],
+    "filename": "pyright_compare.085467.82b1c482929-da05b7fb94f.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.042625745950554135}},
+        "symbols": {
+            "added": [
+                "torch.utils.flop_counter._FlopCounterMode.supports_higher_order_operators"
+            ]
+        }
+    }
+}

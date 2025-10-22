@@ -1,0 +1,36 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-28 00:30:45",
+            "id": "0c4a79b7e06",
+            "message": "Replace some calls to new with make_{unique,shared} (#160581)"
+        },
+        "after": {
+            "committer_date": "2025-08-28 01:15:58",
+            "id": "768a1017c55",
+            "message": "Allow parallel start NUMA binding (#161576)"
+        }
+    },
+    "completenessScore": [0.37733, 0.377291],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~581"}, {"name": "11e97bc7bd4~580"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.817487748630777e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.016246953696181964},
+            "completenessScore": -0.010117117815705156
+        },
+        "symbols": {
+            "added": [
+                "torch.numa.binding.maybe_temporarily_apply_numa_binding_to_current_thread"
+            ],
+            "removed": [
+                "torch.multiprocessing.spawn.should_use_parallel_start",
+                "torch.numa.binding.maybe_temporarily_apply_numa_binding_to_current_process"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087254.0c4a79b7e06-768a1017c55.json"
+}

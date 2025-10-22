@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-01 20:56:14",
+            "id": "f7c09f864a6",
+            "message": "[Docs] Reformat sparse example (#154785)"
+        },
+        "after": {
+            "committer_date": "2025-06-01 21:02:43",
+            "id": "0350c7e72c7",
+            "message": "[BE] Introduce torch.AcceleratorError (#152023)"
+        }
+    },
+    "completenessScore": [0.371499, 0.371577],
+    "filename": "full-run/pyright_compare.083478.f7c09f864a6-0350c7e72c7.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "otherSymbolCounts": {"withKnownType": 1},
+            "missingClassDocStringCount": 2,
+            "completenessScore": 7.787146816734536e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0333555703802535},
+            "otherSymbolCounts": {"withKnownType": 0.04462293618920125},
+            "missingClassDocStringCount": 0.18975332068311196,
+            "completenessScore": 0.020961399203151335
+        },
+        "symbols": {
+            "added": [
+                "torch.AcceleratorError",
+                "torch._C.AcceleratorError",
+                "torch.cuda.AcceleratorError"
+            ]
+        }
+    }
+}

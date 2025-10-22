@@ -1,0 +1,1890 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-20 01:16:35",
+            "id": "599f639ddb8",
+            "message": "[dynamo] Refactor transform() so that instruction translator can be used as a tracing function. [2/n] (#160815)"
+        },
+        "after": {
+            "committer_date": "2025-08-20 01:24:31",
+            "id": "54cc63b467f",
+            "message": "[BE][Dynamo] Type coverage for symbolic_convert (#160922)"
+        }
+    },
+    "completenessScore": [0.377261, 0.377261],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~920"}, {"name": "11e97bc7bd4~919"}],
+        "absolute": {
+            "otherSymbolCounts": {
+                "withKnownType": 190,
+                "withAmbiguousType": 2,
+                "withUnknownType": -74
+            },
+            "missingFunctionDocStringCount": 80,
+            "missingClassDocStringCount": 5
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 6.83453237410072,
+                "withAmbiguousType": 1.492537313432836,
+                "withUnknownType": -3.2314410480349345
+            },
+            "missingFunctionDocStringCount": 1.9885657469550087,
+            "missingClassDocStringCount": 0.45745654162854527
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.exc.ObservedException",
+                "torch._dynamo.variables.builtin.BuiltinVariable",
+                "torch._dynamo.variables.builtin.BuiltinVariable.__init__",
+                "torch._dynamo.variables.builtin.BuiltinVariable.__repr__",
+                "torch._dynamo.variables.builtin.BuiltinVariable.as_proxy",
+                "torch._dynamo.variables.builtin.BuiltinVariable.as_python_constant",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_abs",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_and_",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_bool",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_callable",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_cast",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_complex",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_contains",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_custom_dict",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_custom_dict_fromkeys",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_deepcopy",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_delattr",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_dict",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_dir",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_filter",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_float",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_format",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_frozenset",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_function",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_function_handler_cache",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_getattr",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_getitem",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_hasattr",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_iand",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_id",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_index",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_int",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_ior",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_isinstance",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_issubclass",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_isub",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_iter",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_ixor",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_len",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_list",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_map",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_max",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_method",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_min",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_neg",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_next",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_not_",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_or_",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_pos",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_range",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_reversed",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_round",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_set",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_setattr",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_slice",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_sorted",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_str",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_sub",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_super",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_tuple",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_type",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_xor",
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_zip",
+                "torch._dynamo.variables.builtin.BuiltinVariable.can_constant_fold_through",
+                "torch._dynamo.variables.builtin.BuiltinVariable.can_insert_in_graph",
+                "torch._dynamo.variables.builtin.BuiltinVariable.constant_args",
+                "torch._dynamo.variables.builtin.BuiltinVariable.create_with_source",
+                "torch._dynamo.variables.builtin.BuiltinVariable.fn",
+                "torch._dynamo.variables.builtin.BuiltinVariable.has_constant_handler",
+                "torch._dynamo.variables.builtin.BuiltinVariable.python_and_tensor_constant_only",
+                "torch._dynamo.variables.builtin.BuiltinVariable.reconstruct",
+                "torch._dynamo.variables.builtin.BuiltinVariable.tensor_args",
+                "torch._dynamo.variables.builtin.BuiltinVariable.tensor_args_type",
+                "torch._dynamo.variables.builtin.BuiltinVariable.unwrap_unspec_args_kwargs",
+                "torch._dynamo.variables.misc.ExceptionVariable",
+                "torch._dynamo.variables.misc.ExceptionVariable.__cause__",
+                "torch._dynamo.variables.misc.ExceptionVariable.__context__",
+                "torch._dynamo.variables.misc.ExceptionVariable.__init__",
+                "torch._dynamo.variables.misc.ExceptionVariable.__repr__",
+                "torch._dynamo.variables.misc.ExceptionVariable.__str__",
+                "torch._dynamo.variables.misc.ExceptionVariable.__suppress_context__",
+                "torch._dynamo.variables.misc.ExceptionVariable.__traceback__",
+                "torch._dynamo.variables.misc.ExceptionVariable.args",
+                "torch._dynamo.variables.misc.ExceptionVariable.call_method",
+                "torch._dynamo.variables.misc.ExceptionVariable.call_setattr",
+                "torch._dynamo.variables.misc.ExceptionVariable.exc_type",
+                "torch._dynamo.variables.misc.ExceptionVariable.python_type",
+                "torch._dynamo.variables.misc.ExceptionVariable.reconstruct",
+                "torch._dynamo.variables.misc.ExceptionVariable.set_context",
+                "torch._dynamo.variables.misc.ExceptionVariable.var_getattr",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.__init__",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.__repr__",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.as_proxy",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.as_python_constant",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.call_function",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.call_method",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.call_obj_hasattr",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.can_constant_fold_through",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.const_getattr",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.has_key_in_generic_dict",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.is_standard_new",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.is_supported_new_method",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.supported_c_new_functions",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.value",
+                "torch._dynamo.variables.user_defined.UserDefinedClassVariable.var_getattr",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionClassVariable",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionClassVariable.fn",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionClassVariable.python_type",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionObjectVariable",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionObjectVariable.__context__",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionObjectVariable.__init__",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionObjectVariable.args",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionObjectVariable.call_method",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionObjectVariable.exc_type",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionObjectVariable.exc_vt",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionObjectVariable.fn",
+                "torch._dynamo.variables.user_defined.UserDefinedExceptionObjectVariable.set_context"
+            ],
+            "common": {
+                "torch._dynamo.codegen.PyCodegen.cell_and_freevars": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"() -> list[str]\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"() -> Any\""
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.BytecodeDistpatchTableMeta": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.symbolic_convert.BytecodeDistpatchTableMeta.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"bases\" is missing",
+                            "Type annotation for parameter \"dct\" is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.BytecodeDistpatchTableMeta.dispatch_table": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[Any | partial[None] | None]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[Any | partial[NoReturn] | None]\""
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.ExceptionStack.__getitem__": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"ExceptionVariable | UserDefinedExceptionClassVariable | UserDefinedExceptionObjectVariable\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"index\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.ExceptionStack.__len__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.ExceptionStack.__str__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.ExceptionStack.append": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"val\" is partially unknown\n\u00a0\u00a0Parameter type is \"ExceptionVariable | UserDefinedExceptionClassVariable | UserDefinedExceptionObjectVariable\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"val\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.ExceptionStack.clear_current_exception": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.ExceptionStack.get_current_exception": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"ExceptionVariable | UserDefinedExceptionClassVariable | UserDefinedExceptionObjectVariable\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.ExceptionStack.move_current_exception_to_stack": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.ExceptionStack.pop": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"ExceptionVariable | UserDefinedExceptionClassVariable | UserDefinedExceptionObjectVariable\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.ExceptionStack.set_current_exception": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"val\" is partially unknown\n\u00a0\u00a0Parameter type is \"ExceptionVariable | UserDefinedExceptionClassVariable | UserDefinedExceptionObjectVariable\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"val\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.RETURN_CONST": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.RETURN_VALUE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"closure\" is missing",
+                            "Type annotation for parameter \"code_options\" is missing",
+                            "Type annotation for parameter \"compiler_fn\" is missing",
+                            "Type annotation for parameter \"export\" is missing",
+                            "Type annotation for parameter \"export_constraints\" is missing",
+                            "Type annotation for parameter \"f_builtins\" is missing",
+                            "Type annotation for parameter \"f_code\" is missing",
+                            "Type annotation for parameter \"f_globals\" is missing",
+                            "Type annotation for parameter \"f_locals\" is missing",
+                            "Type annotation for parameter \"frame_state\" is missing",
+                            "Type annotation for parameter \"one_graph\" is missing",
+                            "Type annotation for parameter \"torch_function_mode_stack\" is missing",
+                            "Type of parameter \"speculation_log\" is partially unknown\n\u00a0\u00a0Parameter type is \"SpeculationLog\""
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.create_call_resume_at": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"all_stack_locals_metadata\" is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.export": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type unknown for variable \"torch._dynamo.symbolic_convert.InstructionTranslator.export\""
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.get_example_value": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.replace_tos_if_return_is_generator": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.run": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.should_compile_partial_graph": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.symbolic_locals_contain_module_class": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BEFORE_WITH": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BEGIN_FINALLY": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BINARY_SUBSCR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 2 for class \"_Wrapped\" has unknown type",
+                            "Type argument 4 for class \"_Wrapped\" has unknown type"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_CONST_KEY_MAP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_LIST": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_LIST_UNPACK": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"cls\" is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_MAP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_MAP_UNPACK": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_MAP_UNPACK_WITH_CALL": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_SET": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_SLICE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_STRING": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_TUPLE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_TUPLE_UNPACK": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.BUILD_TUPLE_UNPACK_WITH_CALL": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CACHE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CALL": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CALL_FUNCTION": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CALL_FUNCTION_EX": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CALL_FUNCTION_KW": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CALL_INTRINSIC_1": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CALL_KW": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CALL_METHOD": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CHECK_EXC_MATCH": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CLEANUP_THROW": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.COMPARE_OP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CONTAINS_OP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.CONVERT_VALUE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.COPY": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.COPY_FREE_VARS": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.DELETE_ATTR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.DELETE_FAST": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.DELETE_SUBSCR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.DICT_MERGE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.DICT_UPDATE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.DUP_TOP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.DUP_TOP_TWO": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.EAGER_IMPORT_NAME": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.END_FOR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.END_SEND": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.FORMAT_SIMPLE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.FORMAT_VALUE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.FORMAT_WITH_SPEC": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.FOR_ITER": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.GEN_START": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.GET_ITER": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.GET_LEN": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.IMPORT_FROM": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.IMPORT_NAME": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.IS_OP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.JUMP_ABSOLUTE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.JUMP_BACKWARD": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.JUMP_BACKWARD_NO_INTERRUPT": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.JUMP_FORWARD": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.JUMP_IF_FALSE_OR_POP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.JUMP_IF_NOT_EXC_MATCH": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.JUMP_IF_TRUE_OR_POP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.KW_NAMES": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LIST_APPEND": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LIST_EXTEND": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LIST_TO_TUPLE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_ASSERTION_ERROR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_ATTR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_ATTR_SUPER": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_BUILD_CLASS": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_CLOSURE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_CONST": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_DEREF": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_FAST": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_FAST_AND_CLEAR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_FAST_CHECK": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_GLOBAL": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_METHOD": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_METHOD_SUPER": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.LOAD_SUPER_ATTR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.MAKE_CELL": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.MAKE_FUNCTION": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.MAP_ADD": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.MATCH_KEYS": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.MATCH_MAPPING": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.MATCH_SEQUENCE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.NOP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.POP_BLOCK": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.POP_EXCEPT": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.POP_JUMP_BACKWARD_IF_FALSE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.POP_JUMP_BACKWARD_IF_TRUE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.POP_JUMP_FORWARD_IF_FALSE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.POP_JUMP_FORWARD_IF_TRUE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.POP_JUMP_IF_FALSE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.POP_JUMP_IF_TRUE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.POP_TOP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.PRECALL": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.PUSH_EXC_INFO": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.PUSH_NULL": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.RAISE_VARARGS": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.RERAISE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.RESUME": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.RETURN_GENERATOR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.ROT_FOUR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.ROT_THREE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.ROT_TWO": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.SETUP_EXCEPT": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.SETUP_FINALLY": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.SETUP_LOOP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.SETUP_WITH": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.SET_ADD": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.SET_FUNCTION_ATTRIBUTE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.SET_UPDATE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.STOPITERATION_ERROR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.STORE_ATTR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.STORE_DEREF": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.STORE_FAST": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.STORE_GLOBAL": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.STORE_SUBSCR": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.SWAP": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.TO_BOOL": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.UNPACK_EX": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.UNPACK_SEQUENCE": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.WITH_CLEANUP_FINISH": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.WITH_CLEANUP_START": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.WITH_EXCEPT_START": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"speculation_log\" is partially unknown\n\u00a0\u00a0Parameter type is \"SpeculationLog\""
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.append_prefix_inst": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.calc_package": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.call_function": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.cell_and_freevars": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.cellvars": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.check_if_exc_matches": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.create_call_resume_at": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"all_stack_locals_metadata\" is missing",
+                            "Type annotation for parameter \"offset\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.current_speculation": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.exception_handler": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"raised_exception\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.fake_mode": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"FakeTensorMode | None\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.format_frame_summary": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"additional_stack_frames\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.frame_summary": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.freevars": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.get_line_of_code_header": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"lineno\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.get_log_starts_line_log_str": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.inline_generator_function": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fn\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"fn\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.inline_user_function_return": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fn\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"fn\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.is_co_filename_from_nn_modules": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.is_non_empty_graph": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.jump": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.load_builtin": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.mark_inconsistent_side_effects": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.maybe_has_backedge": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.next_instruction": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.prune_dead_locals": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.push": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.push_many": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.resolve_name": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"level\" is missing",
+                            "Type annotation for parameter \"name\" is missing",
+                            "Type annotation for parameter \"package\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.run": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.run_ctx_mgr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.setup_or_before_with": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.speculate": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"SpeculationEntry\""
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.speculation_log": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.starts_line": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"lineno\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.step_graph_break": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"continue_inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.store_attr_graph_break": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.store_global_weakref_by_id": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"prefix\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.update_block_stack": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.SpeculationEntry": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.symbolic_convert.SpeculationEntry.fail_and_restart_analysis": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.SpeculationEntry.failed": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"tx\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.SpeculationLog": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.symbolic_convert.SpeculationLog.clear": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.SpeculationLog.next": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"SpeculationEntry\"",
+                            "Type annotation for parameter \"inst\" is missing",
+                            "Type annotation for parameter \"instruction_pointer\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.SpeculationLog.restart": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.variables.constant.ConstantVariable": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._dynamo.variables.base.VariableTracker\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._dynamo.variables.constant.ConstantVariable.call_method": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\"",
+                            "Type of parameter \"tx\" is partially unknown\n\u00a0\u00a0Parameter type is \"InstructionTranslator\""
+                        ]
+                    }
+                },
+                "torch._dynamo.variables.constant.ConstantVariable.call_obj_hasattr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\"",
+                            "Type of parameter \"tx\" is partially unknown\n\u00a0\u00a0Parameter type is \"InstructionTranslator\""
+                        ]
+                    }
+                },
+                "torch._dynamo.variables.constant.ConstantVariable.const_getattr": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"tx\" is partially unknown\n\u00a0\u00a0Parameter type is \"InstructionTranslator\""
+                        ]
+                    }
+                },
+                "torch._dynamo.variables.constant.ConstantVariable.create": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"VariableTracker\""
+                        ]
+                    }
+                },
+                "torch._dynamo.variables.constant.ConstantVariable.getitem_const": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\"",
+                            "Type of parameter \"tx\" is partially unknown\n\u00a0\u00a0Parameter type is \"InstructionTranslator\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.086915.599f639ddb8-54cc63b467f.json"
+}

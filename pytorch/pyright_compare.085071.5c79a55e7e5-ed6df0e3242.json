@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-07 20:57:30",
+            "id": "5c79a55e7e5",
+            "message": "[oss] Add version to metadata (#155343)"
+        },
+        "after": {
+            "committer_date": "2025-07-07 21:43:35",
+            "id": "ed6df0e3242",
+            "message": "correctly import torch.version (#157584)"
+        }
+    },
+    "completenessScore": [0.373603, 0.373642],
+    "filename": "pyright_compare.085071.5c79a55e7e5-ed6df0e3242.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.866646241690308e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.016523463317911435},
+            "completenessScore": 0.010349603844868027
+        },
+        "symbols": {"added": ["torch.version"]}
+    }
+}

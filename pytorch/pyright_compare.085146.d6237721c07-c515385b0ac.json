@@ -1,0 +1,40 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-09 02:59:08",
+            "id": "d6237721c07",
+            "message": "[Build] Make PyTorch compilable with gcc-14 on ARM (#157867)"
+        },
+        "after": {
+            "committer_date": "2025-07-09 03:01:41",
+            "id": "c515385b0ac",
+            "message": "Add Intel GPU info collection to the collect env script (#157351)"
+        }
+    },
+    "completenessScore": [0.373704, 0.37365],
+    "filename": "pyright_compare.085146.d6237721c07-c515385b0ac.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 4},
+            "missingFunctionDocStringCount": 4,
+            "completenessScore": -5.3595712343035284e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016518004625041296,
+                "withUnknownType": 0.0429599398560842
+            },
+            "missingFunctionDocStringCount": 0.10075566750629723,
+            "completenessScore": -0.014341766434707161
+        },
+        "symbols": {
+            "added": [
+                "torch.utils.collect_env.ONEAPI_PATTERNS",
+                "torch.utils.collect_env.get_intel_gpu_detected",
+                "torch.utils.collect_env.get_intel_gpu_driver_version",
+                "torch.utils.collect_env.get_intel_gpu_onboard",
+                "torch.utils.collect_env.get_linux_pkg_version"
+            ]
+        }
+    }
+}

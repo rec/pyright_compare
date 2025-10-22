@@ -1,0 +1,28 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-05 11:42:25",
+            "id": "625108ede28",
+            "message": "[inductor] consolidate common GEMM triton param retrieval (#159383)"
+        },
+        "after": {
+            "committer_date": "2025-08-05 12:44:14",
+            "id": "aeb5321b636",
+            "message": "Allow controlling PG backend and options via init_device_mesh (#159371)"
+        }
+    },
+    "completenessScore": [0.377252, 0.377252],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1528"}, {"name": "11e97bc7bd4~1527"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.03723008190618019},
+            "missingFunctionDocStringCount": 0.02549069589599796
+        },
+        "symbols": {"added": ["torch._C._distributed_c10d.Backend.name"]}
+    },
+    "filename": "pyright_compare.086307.625108ede28-aeb5321b636.json"
+}

@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-20 20:12:22",
+            "id": "de1930a4290",
+            "message": "Add ONNX dynamo metadata documentation (#155816)"
+        },
+        "after": {
+            "committer_date": "2025-06-20 20:18:24",
+            "id": "754c04aa062",
+            "message": "Revert \"[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)\""
+        }
+    },
+    "completenessScore": [0.371964, 0.371964],
+    "filename": "full-run/pyright_compare.084406.de1930a4290-754c04aa062.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withAmbiguousType": -1}},
+        "percent": {"otherSymbolCounts": {"withAmbiguousType": -0.9615384615384616}},
+        "symbols": {
+            "removed": [
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.is_tracing_resume_prologue"
+            ]
+        }
+    }
+}

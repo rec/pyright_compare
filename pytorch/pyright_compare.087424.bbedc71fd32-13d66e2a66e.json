@@ -1,0 +1,28 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-02 01:48:30",
+            "id": "bbedc71fd32",
+            "message": "test: ensure editable cached wrapper is respected (#160943)"
+        },
+        "after": {
+            "committer_date": "2025-09-02 02:06:50",
+            "id": "13d66e2a66e",
+            "message": "[BE][Easy] restore #157584 after #158288 (#158541)"
+        }
+    },
+    "completenessScore": [0.377391, 0.377429],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~411"}, {"name": "11e97bc7bd4~410"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.816643916620954e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.016244314489928524},
+            "completenessScore": 0.010113238396348442
+        },
+        "symbols": {"added": ["torch.version"]}
+    },
+    "filename": "pyright_compare.087424.bbedc71fd32-13d66e2a66e.json"
+}

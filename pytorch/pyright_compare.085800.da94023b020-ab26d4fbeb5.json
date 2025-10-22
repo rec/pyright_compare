@@ -1,0 +1,38 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-23 20:03:52",
+            "id": "da94023b020",
+            "message": "[Profiler] Fix lost C call events problem in Python 3.12.0-3.12.4 (#155446)"
+        },
+        "after": {
+            "committer_date": "2025-07-23 20:27:28",
+            "id": "ab26d4fbeb5",
+            "message": "[BE] remove torch deploy - conditionals (#158288)"
+        }
+    },
+    "completenessScore": [0.375878, 0.375839],
+    "filename": "pyright_compare.085800.da94023b020-ab26d4fbeb5.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.844774303207732e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.01638806948541462},
+            "completenessScore": -0.010228788272414671
+        },
+        "symbols": {
+            "common": {
+                "torch.utils.cmake_prefix_path": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                }
+            },
+            "removed": ["torch.version"]
+        }
+    }
+}

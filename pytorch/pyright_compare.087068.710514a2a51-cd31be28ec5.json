@@ -1,0 +1,28 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-23 07:17:30",
+            "id": "710514a2a51",
+            "message": "Revert \"Enable output padding when only outermost dim is dynamic (#159404)\""
+        },
+        "after": {
+            "committer_date": "2025-08-23 07:20:58",
+            "id": "cd31be28ec5",
+            "message": "Reland D80238201: [Torch.Export] Add flat arg paths in error message (#160919)"
+        }
+    },
+    "completenessScore": [0.377299, 0.377338],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~767"}, {"name": "11e97bc7bd4~766"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.818140383127222e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.01625223468226881},
+            "completenessScore": 0.010119654374782827
+        },
+        "symbols": {"added": ["torch.export.unflatten.FlatArgsAdapter.get_flat_arg_paths"]}
+    },
+    "filename": "pyright_compare.087068.710514a2a51-cd31be28ec5.json"
+}

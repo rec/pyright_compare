@@ -1,0 +1,1062 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-06 17:06:55",
+            "id": "49f6cce736f",
+            "message": "[MPS] grad scaler (#150255)"
+        },
+        "after": {
+            "committer_date": "2025-04-06 17:50:35",
+            "id": "6c38b9be730",
+            "message": "[typing] Add type hints to `__init__` methods in `torch.distributions`. (#144197)"
+        }
+    },
+    "completenessScore": [0.363364, 0.363308],
+    "filename": "full-run/pyright_compare.081254.49f6cce736f-6c38b9be730.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 2,
+                "withAmbiguousType": -33,
+                "withUnknownType": 39
+            },
+            "completenessScore": -5.651613361745689e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.03431708991077557,
+                "withAmbiguousType": -3.8869257950530036,
+                "withUnknownType": 0.41657765434736166
+            },
+            "completenessScore": -0.015553573560233201
+        },
+        "symbols": {
+            "added": [
+                "torch.distributions.half_cauchy.HalfCauchy.base_dist",
+                "torch.distributions.half_normal.HalfNormal.base_dist",
+                "torch.distributions.independent.D",
+                "torch.distributions.inverse_gamma.InverseGamma.base_dist",
+                "torch.distributions.log_normal.LogNormal.base_dist",
+                "torch.distributions.logistic_normal.LogisticNormal.base_dist",
+                "torch.distributions.relaxed_bernoulli.RelaxedBernoulli.base_dist",
+                "torch.distributions.relaxed_categorical.RelaxedOneHotCategorical.base_dist"
+            ],
+            "common": {
+                "torch.distributions.bernoulli.Bernoulli.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.beta.Beta.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"concentration0\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"concentration1\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"concentration0\" is missing",
+                            "Type annotation for parameter \"concentration1\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.binomial.Binomial.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"total_count\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"total_count\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.binomial.Binomial.total_count": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.categorical.Categorical.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.cauchy.Cauchy.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.cauchy.Cauchy.loc": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.cauchy.Cauchy.scale": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.chi2.Chi2.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"df\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"df\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.continuous_bernoulli.ContinuousBernoulli.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"lims\" is missing",
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.dirichlet.Dirichlet.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"concentration\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"concentration\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.exponential.Exponential.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"rate\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"rate\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.exponential.Exponential.rate": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.fishersnedecor.FisherSnedecor.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"df1\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"df2\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"df1\" is missing",
+                            "Type annotation for parameter \"df2\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.fishersnedecor.FisherSnedecor.df1": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.fishersnedecor.FisherSnedecor.df2": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.gamma.Gamma.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"concentration\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"rate\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"concentration\" is missing",
+                            "Type annotation for parameter \"rate\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.gamma.Gamma.concentration": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.gamma.Gamma.rate": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.geometric.Geometric.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.gumbel.Gumbel.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.gumbel.Gumbel.loc": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.gumbel.Gumbel.scale": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.half_cauchy.HalfCauchy.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.half_normal.HalfNormal.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.independent.Independent.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"base_distribution\" is missing",
+                            "Type annotation for parameter \"reinterpreted_batch_ndims\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.inverse_gamma.InverseGamma.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"concentration\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"rate\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"concentration\" is missing",
+                            "Type annotation for parameter \"rate\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.kumaraswamy.Kumaraswamy.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"concentration0\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"concentration1\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"concentration0\" is missing",
+                            "Type annotation for parameter \"concentration1\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.kumaraswamy.Kumaraswamy.concentration0": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.kumaraswamy.Kumaraswamy.concentration1": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.laplace.Laplace.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.laplace.Laplace.loc": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.laplace.Laplace.scale": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.lkj_cholesky.LKJCholesky.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"concentration\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"concentration\" is missing",
+                            "Type annotation for parameter \"dim\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.lkj_cholesky.LKJCholesky.concentration": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.log_normal.LogNormal.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.logistic_normal.LogisticNormal.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.lowrank_multivariate_normal.LowRankMultivariateNormal.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"cov_diag\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"cov_factor\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"cov_diag\" is missing",
+                            "Type annotation for parameter \"cov_factor\" is missing",
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.mixture_same_family.MixtureSameFamily.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.multinomial.Multinomial.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"total_count\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.multivariate_normal.MultivariateNormal.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"covariance_matrix\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"precision_matrix\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"scale_tril\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"covariance_matrix\" is missing",
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"precision_matrix\" is missing",
+                            "Type annotation for parameter \"scale_tril\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.multivariate_normal.MultivariateNormal.loc": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type unknown for variable \"torch.distributions.multivariate_normal.MultivariateNormal.loc\""
+                        ]
+                    }
+                },
+                "torch.distributions.negative_binomial.NegativeBinomial.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"total_count\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"total_count\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.negative_binomial.NegativeBinomial.total_count": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.normal.Normal.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.normal.Normal.loc": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.normal.Normal.scale": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.one_hot_categorical.OneHotCategorical.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.pareto.Pareto.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"alpha\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"alpha\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.distributions.pareto.Pareto.alpha": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.pareto.Pareto.scale": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.poisson.Poisson.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"rate\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"rate\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.poisson.Poisson.rate": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.relaxed_bernoulli.LogitRelaxedBernoulli.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\"",
+                            "Type of parameter \"temperature\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"temperature\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.relaxed_bernoulli.RelaxedBernoulli.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool | None\"",
+                            "Type of parameter \"temperature\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"temperature\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.relaxed_categorical.ExpRelaxedCategorical.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"temperature\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"temperature\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.relaxed_categorical.RelaxedOneHotCategorical.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"temperature\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"logits\" is missing",
+                            "Type annotation for parameter \"probs\" is missing",
+                            "Type annotation for parameter \"temperature\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.studentT.StudentT.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"df\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"df\" is missing",
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.studentT.StudentT.df": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.studentT.StudentT.loc": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.studentT.StudentT.scale": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.transformed_distribution.TransformedDistribution.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"base_distribution\" is partially unknown\n\u00a0\u00a0Parameter type is \"Distribution\"",
+                            "Type of parameter \"transforms\" is partially unknown\n\u00a0\u00a0Parameter type is \"Transform | list[Transform]\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"base_distribution\" is missing",
+                            "Type annotation for parameter \"transforms\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.transformed_distribution.TransformedDistribution.transforms": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"list\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[Unknown]\""
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.AffineTransform.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"cache_size\" is missing",
+                            "Type annotation for parameter \"event_dim\" is missing",
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"scale\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.AffineTransform.sign": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor | int\""
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.CatTransform.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"cache_size\" is missing",
+                            "Type annotation for parameter \"dim\" is missing",
+                            "Type annotation for parameter \"lengths\" is missing",
+                            "Type annotation for parameter \"tseq\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.CatTransform.dim": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"int\""
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.ComposeTransform.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"cache_size\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.CumulativeDistributionTransform.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"distribution\" is partially unknown\n\u00a0\u00a0Parameter type is \"Distribution\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"cache_size\" is missing",
+                            "Type annotation for parameter \"distribution\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.CumulativeDistributionTransform.domain": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Constraint | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Constraint\""
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.IndependentTransform.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"base_transform\" is partially unknown\n\u00a0\u00a0Parameter type is \"Transform\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"base_transform\" is missing",
+                            "Type annotation for parameter \"cache_size\" is missing",
+                            "Type annotation for parameter \"reinterpreted_batch_ndims\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.IndependentTransform.base_transform": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Transform\""
+                        ],
+                        "removed": [
+                            "Type unknown for variable \"torch.distributions.transforms.IndependentTransform.base_transform\""
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.PowerTransform.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"exponent\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"cache_size\" is missing",
+                            "Type annotation for parameter \"exponent\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.PowerTransform.exponent": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.ReshapeTransform.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"cache_size\" is missing",
+                            "Type annotation for parameter \"in_shape\" is missing",
+                            "Type annotation for parameter \"out_shape\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.StackTransform.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"cache_size\" is missing",
+                            "Type annotation for parameter \"dim\" is missing",
+                            "Type annotation for parameter \"tseq\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.StackTransform.dim": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"int\""
+                        ]
+                    }
+                },
+                "torch.distributions.transforms.Transform.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"cache_size\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.uniform.Uniform.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"high\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"low\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"high\" is missing",
+                            "Type annotation for parameter \"low\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.uniform.Uniform.high": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.uniform.Uniform.low": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.utils.broadcast_all": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"values\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | int | float | bool\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"values\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.von_mises.VonMises.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"concentration\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\"",
+                            "Type of parameter \"loc\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"concentration\" is missing",
+                            "Type annotation for parameter \"loc\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.von_mises.VonMises.concentration": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.von_mises.VonMises.loc": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.weibull.Weibull.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"concentration\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\"",
+                            "Type of parameter \"scale\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | float\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"concentration\" is missing",
+                            "Type annotation for parameter \"scale\" is missing",
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.weibull.Weibull.concentration": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.weibull.Weibull.concentration_reciprocal": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.weibull.Weibull.scale": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributions.wishart.Wishart.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"validate_args\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

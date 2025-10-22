@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-29 02:49:22",
+            "id": "9c7b902cb2c",
+            "message": "[MPSInductor][BE] Make all reductions cacheable (#152363)"
+        },
+        "after": {
+            "committer_date": "2025-04-29 03:51:32",
+            "id": "119cdcc926e",
+            "message": "Add rich support to torch.distributed.tensor.debug.visualize_sharding (#152027)"
+        }
+    },
+    "completenessScore": [0.364738, 0.364761],
+    "filename": "full-run/pyright_compare.082093.9c7b902cb2c-119cdcc926e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "completenessScore": 2.26686172981605e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.010637166258908627},
+            "completenessScore": 0.006215040397762831
+        },
+        "symbols": {
+            "removed": [
+                "torch.distributed.tensor.examples.visualize_sharding_example.dtensor"
+            ]
+        }
+    }
+}

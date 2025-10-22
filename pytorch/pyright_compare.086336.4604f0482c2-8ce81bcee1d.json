@@ -1,0 +1,38 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-06 02:22:18",
+            "id": "4604f0482c2",
+            "message": "Add UT for torch.accelerator memory-related API (#155200)"
+        },
+        "after": {
+            "committer_date": "2025-08-06 02:26:10",
+            "id": "8ce81bcee1d",
+            "message": "[Torch Package] Make get names of OrderedImporters support fallback to importers (#155743)"
+        }
+    },
+    "completenessScore": [0.37708, 0.377095],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1499"}, {"name": "11e97bc7bd4~1498"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": 1.509605273669612e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016286644951140065,
+                "withAmbiguousType": 0.11933174224343675
+            },
+            "missingFunctionDocStringCount": 0.0254841997961264,
+            "completenessScore": 0.0040034043438375065
+        },
+        "symbols": {
+            "added": [
+                "torch.package.importer.OrderedImporter.get_name",
+                "torch.package.importer.log"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086336.4604f0482c2-8ce81bcee1d.json"
+}

@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-28 05:34:25",
+            "id": "dcdaef5206d",
+            "message": "[ez] add docblock for free_symbols (#154378)"
+        },
+        "after": {
+            "committer_date": "2025-05-28 05:37:25",
+            "id": "07405a6cffc",
+            "message": "[ez] add docblock for free_unbacked_symbols (#154379)"
+        }
+    },
+    "completenessScore": [0.368134, 0.368134],
+    "filename": "full-run/pyright_compare.083271.dcdaef5206d-07405a6cffc.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -1},
+        "percent": {"missingFunctionDocStringCount": -0.02818489289740699},
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.free_unbacked_symbols": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.fx.experimental.symbolic_shapes.free_unbacked_symbols\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

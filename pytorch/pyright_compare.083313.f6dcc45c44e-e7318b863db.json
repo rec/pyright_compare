@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-28 20:36:19",
+            "id": "f6dcc45c44e",
+            "message": "[Kineto x Insight] Add device to activity type map in pytorch (#154253)"
+        },
+        "after": {
+            "committer_date": "2025-05-28 21:11:53",
+            "id": "e7318b863db",
+            "message": "[ez] add docblock to cast_symbool_to_symint_guardless (#154400)"
+        }
+    },
+    "completenessScore": [0.368016, 0.368016],
+    "filename": "full-run/pyright_compare.083313.f6dcc45c44e-e7318b863db.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -1},
+        "percent": {"missingFunctionDocStringCount": -0.028256569652444195},
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.cast_symbool_to_symint_guardless": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.fx.experimental.symbolic_shapes.cast_symbool_to_symint_guardless\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

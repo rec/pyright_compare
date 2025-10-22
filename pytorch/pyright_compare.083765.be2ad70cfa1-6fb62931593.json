@@ -1,0 +1,40 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-09 02:06:16",
+            "id": "be2ad70cfa1",
+            "message": "Fix dynamo tracing into AOTAutogradCache results in cpu tensors (#155251)"
+        },
+        "after": {
+            "committer_date": "2025-06-09 03:13:27",
+            "id": "6fb62931593",
+            "message": "Revert \"Add Intel GPU info collection to the collect env script (#137846)\""
+        }
+    },
+    "completenessScore": [0.37113, 0.371183],
+    "filename": "full-run/pyright_compare.083765.be2ad70cfa1-6fb62931593.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": -4},
+            "missingFunctionDocStringCount": -4,
+            "completenessScore": 5.3004259322086966e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.01668613382279326,
+                "withUnknownType": -0.0429000429000429
+            },
+            "missingFunctionDocStringCount": -0.10126582278481013,
+            "completenessScore": 0.014281875179927588
+        },
+        "symbols": {
+            "removed": [
+                "torch.utils.collect_env.ONEAPI_PATTERNS",
+                "torch.utils.collect_env.get_intel_gpu_detected",
+                "torch.utils.collect_env.get_intel_gpu_driver_version",
+                "torch.utils.collect_env.get_intel_gpu_onboard",
+                "torch.utils.collect_env.get_linux_pkg_version"
+            ]
+        }
+    }
+}

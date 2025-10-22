@@ -1,0 +1,40 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-30 17:18:21",
+            "id": "3027051590e",
+            "message": "[export] avoid float/bool specialization for scalar tensor construction (#154661)"
+        },
+        "after": {
+            "committer_date": "2025-05-30 17:23:36",
+            "id": "fc0135ca118",
+            "message": "Re-enable FakeTensor caching for SymInts (#152662)"
+        }
+    },
+    "completenessScore": [0.371345, 0.371283],
+    "filename": "full-run/pyright_compare.083417.3027051590e-fc0135ca118.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
+            "completenessScore": -6.194251734392697e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.016680567139282735,
+                "withUnknownType": 0.010719262514738986
+            },
+            "completenessScore": -0.01668056713928869
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.evaluate_expr": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fx_node\" is partially unknown\n\u00a0\u00a0Parameter type is \"Node | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

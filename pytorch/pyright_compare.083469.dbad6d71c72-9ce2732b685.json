@@ -1,0 +1,85 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-31 23:01:19",
+            "id": "dbad6d71c72",
+            "message": "[BE][Ez]: Unskip conv1d MPS test (#154795)"
+        },
+        "after": {
+            "committer_date": "2025-05-31 23:06:45",
+            "id": "9ce2732b685",
+            "message": "[BE][Ez]: Fully type nn.utils.clip_grad (#154801)"
+        }
+    },
+    "completenessScore": [0.371128, 0.371499],
+    "filename": "full-run/pyright_compare.083469.dbad6d71c72-9ce2732b685.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 6, "withUnknownType": -6},
+            "completenessScore": 0.0003717472118959231
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.1001669449081803,
+                "withUnknownType": -0.06430868167202572
+            },
+            "completenessScore": 0.1001669449081836
+        },
+        "symbols": {
+            "common": {
+                "torch.nn.utils.clip_grad.clip_grad_norm_": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"parameters\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | Iterable[Tensor]\""
+                        ]
+                    }
+                },
+                "torch.nn.utils.clip_grad.clip_grad_value_": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"parameters\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | Iterable[Tensor]\""
+                        ]
+                    }
+                },
+                "torch.nn.utils.clip_grad_norm_": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"parameters\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | Iterable[Tensor]\""
+                        ]
+                    }
+                },
+                "torch.nn.utils.clip_grad_value_": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"parameters\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | Iterable[Tensor]\""
+                        ]
+                    }
+                },
+                "torch.nn.utils.clip_grads_with_norm_": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"parameters\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | Iterable[Tensor]\"",
+                            "Type of parameter \"total_norm\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.nn.utils.get_total_norm": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"tensors\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | Iterable[Tensor]\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

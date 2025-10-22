@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-21 23:17:38",
+            "id": "99cc3633f69",
+            "message": "Revert \"[BE] Modify PyObjectSlot the assume only a single interpreter is in use (#158407)\""
+        },
+        "after": {
+            "committer_date": "2025-07-21 23:17:38",
+            "id": "920f26c7617",
+            "message": "Revert \"[BE] Remove __reduce_deploy__ (#158291)\""
+        }
+    },
+    "completenessScore": [0.3757, 0.375654],
+    "filename": "pyright_compare.085702.99cc3633f69-920f26c7617.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 2},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -4.624286162285829e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.021486892995272882},
+            "missingFunctionDocStringCount": 0.024727992087042534,
+            "completenessScore": -0.012308449750763083
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.graph_module.GraphModule.__reduce_deploy__",
+                "torch.fx.graph_module.reduce_deploy_graph_module"
+            ]
+        }
+    }
+}

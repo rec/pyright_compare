@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-12 01:47:22",
+            "id": "7a92b511965",
+            "message": "[BE][2/16] fix typos in torch/ (torch/_*/) (#156312)"
+        },
+        "after": {
+            "committer_date": "2025-07-12 02:30:47",
+            "id": "2eff14c4455",
+            "message": "[ONNX] Delete torch.onnx.dynamo_export (#158130)"
+        }
+    },
+    "completenessScore": [0.3749, 0.374807],
+    "filename": "pyright_compare.085319.7a92b511965-2eff14c4455.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -3, "withUnknownType": -1},
+            "completenessScore": -9.260020127566104e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.04937458854509546,
+                "withUnknownType": -0.010757314974182444
+            },
+            "completenessScore": -0.02469999114671887
+        },
+        "symbols": {
+            "removed": [
+                "torch.onnx.ExportOptions",
+                "torch.onnx.ExportOptions.__init__",
+                "torch.onnx.ExportOptions.dynamic_shapes",
+                "torch.onnx.dynamo_export"
+            ]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-15 18:43:59",
+            "id": "b22f01fcb9d",
+            "message": "Delete TorchScript based Android demo app and point to ExecuTorch (#153633)"
+        },
+        "after": {
+            "committer_date": "2025-05-15 19:01:57",
+            "id": "a4c828199e0",
+            "message": "[BE] Add `__all__` to `torch/nn/functional.pyi` and `torch/return_types.pyi` (#150729)"
+        }
+    },
+    "completenessScore": [0.36654, 0.36658],
+    "filename": "full-run/pyright_compare.082833.b22f01fcb9d-a4c828199e0.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "missingFunctionDocStringCount": 2,
+            "completenessScore": 3.936488304551178e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0169548999660902},
+            "missingFunctionDocStringCount": 0.05636978579481398,
+            "completenessScore": 0.010739578383949306
+        },
+        "symbols": {
+            "added": ["torch.return_types.pytree_register_structseq"],
+            "common": {
+                "torch.nn.functional.logsigmoid": {
+                    "diagnostics": {
+                        "added": [
+                            "No docstring found for function \"torch.nn.functional.logsigmoid\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

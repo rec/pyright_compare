@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-29 20:07:17",
+            "id": "4fac43b21f0",
+            "message": "[BE] Move _freeze.py to torch/fb/utils (#159307)"
+        },
+        "after": {
+            "committer_date": "2025-07-29 20:41:45",
+            "id": "c0c24b61ff4",
+            "message": "Revert \"Partitioner: Fix to align partition node order with original graph (#157892)\""
+        }
+    },
+    "completenessScore": [0.376453, 0.376453],
+    "filename": "pyright_compare.086044.4fac43b21f0-c0c24b61ff4.json",
+    "diff": {
+        "symbols": {
+            "common": {
+                "torch.fx.passes.infra.partitioner.Partition.nodes": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Node, Any | None]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Node, int | None]\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

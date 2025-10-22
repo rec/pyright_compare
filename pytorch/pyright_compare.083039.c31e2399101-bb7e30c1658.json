@@ -1,0 +1,40 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-21 18:08:42",
+            "id": "c31e2399101",
+            "message": "[precompile] Add BundledAOTAutogradCacheEntry (#152840)"
+        },
+        "after": {
+            "committer_date": "2025-05-21 18:18:47",
+            "id": "bb7e30c1658",
+            "message": "[MegaCache] Make MegaCache generic to allow external plugins registration (#152977)"
+        }
+    },
+    "completenessScore": [0.370318, 0.370318],
+    "filename": "full-run/pyright_compare.083039.c31e2399101-bb7e30c1658.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": -2},
+            "missingFunctionDocStringCount": 2
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": -0.10395010395010396},
+            "missingFunctionDocStringCount": 0.056338028169014086
+        },
+        "symbols": {
+            "added": [
+                "torch.compiler._cache.CacheArtifact.encode",
+                "torch.compiler._cache.CacheArtifact.populate_cache",
+                "torch.compiler._cache.CacheInfo.artifacts"
+            ],
+            "removed": [
+                "torch.compiler._cache.CacheArtifactType",
+                "torch.compiler._cache.CacheArtifactType.AOT_AUTOGRAD",
+                "torch.compiler._cache.CacheArtifactType.AUTOTUNE",
+                "torch.compiler._cache.CacheArtifactType.INDUCTOR",
+                "torch.compiler._cache.CacheArtifactType.PGO"
+            ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-11 05:54:16",
+            "id": "cec59b76ca6",
+            "message": "[2/N] cost coverage improvment  (#157738)"
+        },
+        "after": {
+            "committer_date": "2025-07-11 06:16:38",
+            "id": "b4fc42ca807",
+            "message": "Add `torch.segment_reduce` docs (#154352)"
+        }
+    },
+    "completenessScore": [0.374923, 0.374923],
+    "filename": "pyright_compare.085272.cec59b76ca6-b4fc42ca807.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -1},
+        "percent": {"missingFunctionDocStringCount": -0.025163563160543533},
+        "symbols": {
+            "common": {
+                "torch.segment_reduce": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.segment_reduce\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

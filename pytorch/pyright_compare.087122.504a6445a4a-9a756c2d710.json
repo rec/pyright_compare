@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-26 00:57:48",
+            "id": "504a6445a4a",
+            "message": "[dynamo, nested graph breaks] use CALL_FUNCTION_EX when calling resume function (#159281)"
+        },
+        "after": {
+            "committer_date": "2025-08-26 00:57:58",
+            "id": "9a756c2d710",
+            "message": "[dynamo, nested graph breaks] add nested graph break tests (#144516)"
+        }
+    },
+    "completenessScore": [0.377315, 0.377315],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~713"}, {"name": "11e97bc7bd4~712"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.03361344537815126},
+            "missingFunctionDocStringCount": 0.02437835202340322
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.graph_break_on_leaf_function"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087122.504a6445a4a-9a756c2d710.json"
+}

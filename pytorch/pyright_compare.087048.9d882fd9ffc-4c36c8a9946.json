@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-22 21:38:28",
+            "id": "9d882fd9ffc",
+            "message": "[benchmark] Add torchscript jit.trace to benchmark option (#161223)"
+        },
+        "after": {
+            "committer_date": "2025-08-22 21:40:03",
+            "id": "4c36c8a9946",
+            "message": "[dynamo] Support method calls on complex ConstantVariables (#161122)"
+        }
+    },
+    "completenessScore": [0.377338, 0.377338],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~787"}, {"name": "11e97bc7bd4~786"}],
+        "absolute": {
+            "otherSymbolCounts": {"withUnknownType": -1},
+            "missingFunctionDocStringCount": -1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withUnknownType": -0.04512635379061372},
+            "missingFunctionDocStringCount": -0.024360535931790498
+        },
+        "symbols": {
+            "removed": [
+                "torch._dynamo.variables.builtin.BuiltinVariable.call_complex"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087048.9d882fd9ffc-4c36c8a9946.json"
+}

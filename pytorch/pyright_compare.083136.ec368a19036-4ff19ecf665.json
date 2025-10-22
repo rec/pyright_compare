@@ -1,0 +1,71 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-23 18:01:00",
+            "id": "ec368a19036",
+            "message": "Add sitemap (#154158)"
+        },
+        "after": {
+            "committer_date": "2025-05-23 18:29:08",
+            "id": "4ff19ecf665",
+            "message": "Revert \"[export] Move PT2ArchiveWriter/Reader to torch/export (#153795)\""
+        }
+    },
+    "completenessScore": [0.367977, 0.367984],
+    "filename": "full-run/pyright_compare.083136.ec368a19036-4ff19ecf665.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": -1,
+                "withAmbiguousType": -1,
+                "withUnknownType": -1
+            },
+            "otherSymbolCounts": {
+                "withKnownType": -16,
+                "withAmbiguousType": -2,
+                "withUnknownType": -2
+            },
+            "completenessScore": 6.446166292195521e-06
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.016852039096730706,
+                "withAmbiguousType": -0.12150668286755771,
+                "withUnknownType": -0.010673497705197993
+            },
+            "otherSymbolCounts": {
+                "withKnownType": -0.827300930713547,
+                "withAmbiguousType": -2.816901408450704,
+                "withUnknownType": -0.11764705882352941
+            },
+            "completenessScore": 0.0017517842539255977
+        },
+        "symbols": {
+            "removed": [
+                "torch.export.pt2_archive.PT2ArchiveReader",
+                "torch.export.pt2_archive.PT2ArchiveWriter",
+                "torch.export.pt2_archive._package.PT2ArchiveReader",
+                "torch.export.pt2_archive._package.PT2ArchiveReader.__enter__",
+                "torch.export.pt2_archive._package.PT2ArchiveReader.__exit__",
+                "torch.export.pt2_archive._package.PT2ArchiveReader.__init__",
+                "torch.export.pt2_archive._package.PT2ArchiveReader.archive_file",
+                "torch.export.pt2_archive._package.PT2ArchiveReader.archive_version",
+                "torch.export.pt2_archive._package.PT2ArchiveReader.read_bytes",
+                "torch.export.pt2_archive._package.PT2ArchiveReader.read_string",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.__enter__",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.__exit__",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.__init__",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.archive_file",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.close",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.count_prefix",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.has_record",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.write_bytes",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.write_file",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.write_folder",
+                "torch.export.pt2_archive._package.PT2ArchiveWriter.write_string",
+                "torch.export.pt2_archive.is_pt2_package"
+            ]
+        }
+    }
+}

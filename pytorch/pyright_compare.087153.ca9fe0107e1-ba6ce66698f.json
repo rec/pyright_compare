@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-26 16:12:07",
+            "id": "ca9fe0107e1",
+            "message": "[Inductor] Update Outer Reduction Heuristic (#159093)"
+        },
+        "after": {
+            "committer_date": "2025-08-26 17:06:54",
+            "id": "ba6ce66698f",
+            "message": "[dynamo] lift backed symint output of item() (#161198)"
+        }
+    },
+    "completenessScore": [0.377391, 0.377391],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~682"}, {"name": "11e97bc7bd4~681"}],
+        "symbols": {
+            "added": [
+                "torch._dynamo.output_graph.SubgraphTracer.track_produced_symints"
+            ],
+            "removed": [
+                "torch._dynamo.output_graph.SubgraphTracer.track_unbacked_symbols"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087153.ca9fe0107e1-ba6ce66698f.json"
+}

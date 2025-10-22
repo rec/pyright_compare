@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-28 13:57:24",
+            "id": "63632fc7eee",
+            "message": "Add new_zeros dtype variant to the shim and as a stable op (#161597)"
+        },
+        "after": {
+            "committer_date": "2025-08-28 15:40:37",
+            "id": "a8270dd1248",
+            "message": "Revert \"kill allow_complex_guards_as_runtime_asserts (#160198)\""
+        }
+    },
+    "completenessScore": [0.377215, 0.377291],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~550"}, {"name": "11e97bc7bd4~549"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "completenessScore": 7.636379932030035e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.032509752925877766},
+            "completenessScore": 0.020244102781449586
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.allow_complex_guards_as_runtime_asserts",
+                "torch.fx.experimental.symbolic_shapes.ShapeEnvSettings.allow_complex_guards_as_runtime_asserts"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087285.63632fc7eee-a8270dd1248.json"
+}

@@ -1,0 +1,26 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-25 05:07:30",
+            "id": "511d9873789",
+            "message": "only call re-plan if historic max's were updated. (#159016)"
+        },
+        "after": {
+            "committer_date": "2025-07-25 05:24:09",
+            "id": "02ca965560e",
+            "message": "Device agnostic for DCP (#158337)"
+        }
+    },
+    "completenessScore": [0.376663, 0.376663],
+    "filename": "pyright_compare.085891.511d9873789-02ca965560e.json",
+    "diff": {
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.staging.StagingOptions.use_non_blocking_copy"
+            ],
+            "removed": [
+                "torch.distributed.checkpoint.staging.StagingOptions.use_cuda_non_blocking_copy"
+            ]
+        }
+    }
+}

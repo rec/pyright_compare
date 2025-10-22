@@ -1,0 +1,79 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-30 15:04:26",
+            "id": "0f81c7a28d3",
+            "message": "[CI] Pin the torchao version used when testing torchbench (#154723)"
+        },
+        "after": {
+            "committer_date": "2025-05-30 15:50:31",
+            "id": "ba3f91af97c",
+            "message": "Type hints for distributions/utils (#154712)"
+        }
+    },
+    "completenessScore": [0.371283, 0.371345],
+    "filename": "full-run/pyright_compare.083410.0f81c7a28d3-ba3f91af97c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1},
+            "completenessScore": 6.194251734392697e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.01668335001668335,
+                "withAmbiguousType": -0.1218026796589525
+            },
+            "completenessScore": 0.016683350016689306
+        },
+        "symbols": {
+            "common": {
+                "torch.distributions.utils.clamp_probs": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"probs\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.utils.euler_constant": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"float\""
+                        ]
+                    }
+                },
+                "torch.distributions.utils.logits_to_probs": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"logits\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"is_binary\" is missing",
+                            "Type annotation for parameter \"logits\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributions.utils.probs_to_logits": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"probs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"is_binary\" is missing",
+                            "Type annotation for parameter \"probs\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

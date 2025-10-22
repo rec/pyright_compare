@@ -1,0 +1,28 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-02 22:42:22",
+            "id": "d2792f51b21",
+            "message": "[bucketing] Use max of input/output size for bucketing (#159717)"
+        },
+        "after": {
+            "committer_date": "2025-08-02 23:23:17",
+            "id": "a29ed5e1acc",
+            "message": "Add torch compile force disable caches alias (#158072)"
+        }
+    },
+    "completenessScore": [0.377213, 0.377252],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1601"}, {"name": "11e97bc7bd4~1600"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.828997985738658e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.016299918500407497},
+            "completenessScore": 0.010150745434401554
+        },
+        "symbols": {"added": ["torch.compiler.config.force_disable_caches"]}
+    },
+    "filename": "pyright_compare.086234.d2792f51b21-a29ed5e1acc.json"
+}

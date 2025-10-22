@@ -1,0 +1,38 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-17 05:08:11",
+            "id": "79d7c754ab8",
+            "message": "DDE-Free select with unbacked index. (#157605)"
+        },
+        "after": {
+            "committer_date": "2025-07-17 05:56:07",
+            "id": "1a4268b8113",
+            "message": "[BE] remove torch deploy - conditionals (#158288)"
+        }
+    },
+    "completenessScore": [0.375639, 0.3756],
+    "filename": "pyright_compare.085507.79d7c754ab8-1a4268b8113.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.8431701376961946e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.016385384237260363},
+            "completenessScore": -0.010231031497157147
+        },
+        "symbols": {
+            "common": {
+                "torch.utils.cmake_prefix_path": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                }
+            },
+            "removed": ["torch.version"]
+        }
+    }
+}

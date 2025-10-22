@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-19 15:58:40",
+            "id": "dccd19c2efc",
+            "message": "[Inductor] Construct subgraph with benchmarking args not example_inputs (#153753)"
+        },
+        "after": {
+            "committer_date": "2025-05-19 16:15:14",
+            "id": "0ec8fe46d7c",
+            "message": "cleanup, refactor and add missing  self._dde_suppressed checks (#152657)"
+        }
+    },
+    "completenessScore": [0.368085, 0.368147],
+    "filename": "full-run/pyright_compare.082934.dccd19c2efc-0ec8fe46d7c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 6.201935003724568e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016849199663016005,
+                "withUnknownType": -0.010681478316599017
+            },
+            "completenessScore": 0.016849199663025265
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.evaluate_expr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"fx_node\" is partially unknown\n\u00a0\u00a0Parameter type is \"Node | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

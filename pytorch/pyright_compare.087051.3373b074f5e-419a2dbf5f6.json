@@ -1,0 +1,28 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-22 22:11:25",
+            "id": "3373b074f5e",
+            "message": "[Profiler] Add GC Events to Python Stack Tracer (#161209)"
+        },
+        "after": {
+            "committer_date": "2025-08-22 22:15:27",
+            "id": "419a2dbf5f6",
+            "message": "[ONNX] Remove enable_fake_mode and exporter_legacy (#161222)"
+        }
+    },
+    "completenessScore": [0.377338, 0.377299],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~784"}, {"name": "11e97bc7bd4~783"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.818140383127222e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.016249593760155997},
+            "completenessScore": -0.010118630404358444
+        },
+        "symbols": {"removed": ["torch.onnx.enable_fake_mode"]}
+    },
+    "filename": "pyright_compare.087051.3373b074f5e-419a2dbf5f6.json"
+}

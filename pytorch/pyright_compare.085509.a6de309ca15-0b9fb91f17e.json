@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-17 05:56:18",
+            "id": "a6de309ca15",
+            "message": "[BE] Remove torch deploy | remove torch deploy specific files (#158290)"
+        },
+        "after": {
+            "committer_date": "2025-07-17 05:56:26",
+            "id": "0b9fb91f17e",
+            "message": "[BE] Remove __reduce_deploy__ (#158291)"
+        }
+    },
+    "completenessScore": [0.3756, 0.375646],
+    "filename": "pyright_compare.085509.a6de309ca15-0b9fb91f17e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -2},
+            "missingFunctionDocStringCount": -1,
+            "completenessScore": 4.6244785487425943e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.021484584810398537},
+            "missingFunctionDocStringCount": -0.025131942699170646,
+            "completenessScore": 0.012312238364941362
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.graph_module.GraphModule.__reduce_deploy__",
+                "torch.fx.graph_module.reduce_deploy_graph_module"
+            ]
+        }
+    }
+}

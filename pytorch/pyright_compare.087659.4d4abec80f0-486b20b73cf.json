@@ -1,0 +1,60 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-05 22:49:39",
+            "id": "4d4abec80f0",
+            "message": "allow user to pass in custom partitioner function (#157580)"
+        },
+        "after": {
+            "committer_date": "2025-09-05 23:21:46",
+            "id": "486b20b73cf",
+            "message": "Add return-max-scores to flex-attention (#161667)"
+        }
+    },
+    "completenessScore": [0.375592, 0.375945],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~176"}, {"name": "11e97bc7bd4~175"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 11, "withUnknownType": 3},
+            "completenessScore": 0.00035288004811268037
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.18015067147068456,
+                "withUnknownType": 0.032237266279819474
+            },
+            "completenessScore": 0.09395301248227719
+        },
+        "symbols": {
+            "added": [
+                "torch.nn.attention.flex_attention.AuxOutput",
+                "torch.nn.attention.flex_attention.AuxOutput.__eq__",
+                "torch.nn.attention.flex_attention.AuxOutput.__init__",
+                "torch.nn.attention.flex_attention.AuxOutput.__match_args__",
+                "torch.nn.attention.flex_attention.AuxOutput.__new__",
+                "torch.nn.attention.flex_attention.AuxOutput.lse",
+                "torch.nn.attention.flex_attention.AuxOutput.max_scores",
+                "torch.nn.attention.flex_attention.AuxRequest",
+                "torch.nn.attention.flex_attention.AuxRequest.__eq__",
+                "torch.nn.attention.flex_attention.AuxRequest.__init__",
+                "torch.nn.attention.flex_attention.AuxRequest.__match_args__",
+                "torch.nn.attention.flex_attention.AuxRequest.__new__",
+                "torch.nn.attention.flex_attention.AuxRequest.lse",
+                "torch.nn.attention.flex_attention.AuxRequest.max_scores"
+            ],
+            "common": {
+                "torch.nn.attention.flex_attention.flex_attention": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor | tuple[Tensor, Tensor] | tuple[Tensor, AuxOutput]\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor | tuple[Tensor, Tensor]\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.087659.4d4abec80f0-486b20b73cf.json"
+}

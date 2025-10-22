@@ -1,0 +1,44 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-13 16:12:02",
+            "id": "db32b60662b",
+            "message": "[ci] Add riscv opt-int build (#143979)"
+        },
+        "after": {
+            "committer_date": "2025-08-13 16:20:28",
+            "id": "6ee175195ac",
+            "message": "[DCP][OSS] Rank local checkpointing in DCP without collectives (#147758)"
+        }
+    },
+    "completenessScore": [0.377257, 0.377187],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1197"}, {"name": "11e97bc7bd4~1196"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 3},
+            "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": -1},
+            "completenessScore": -6.948060765410435e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.35799522673031026},
+            "otherSymbolCounts": {
+                "withKnownType": 0.0721240533717995,
+                "withUnknownType": -0.043782837127845885
+            },
+            "completenessScore": -0.018417336853104548
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.filesystem.FileSystemReader.rank",
+                "torch.distributed.checkpoint.filesystem.FileSystemReader.use_collectives",
+                "torch.distributed.checkpoint.filesystem._FileSystemWriter.rank",
+                "torch.distributed.checkpoint.filesystem._FileSystemWriter.use_collectives",
+                "torch.distributed.checkpoint.state_dict_loader.logger"
+            ],
+            "removed": [
+                "torch.distributed.checkpoint.filesystem._FileSystemWriter.metadata_path"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086638.db32b60662b-6ee175195ac.json"
+}

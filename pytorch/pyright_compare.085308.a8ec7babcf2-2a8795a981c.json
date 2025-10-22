@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-11 22:51:28",
+            "id": "a8ec7babcf2",
+            "message": "[dynamo] expand_hints does exc() to expand graph_break_hints (#158078)"
+        },
+        "after": {
+            "committer_date": "2025-07-11 23:09:50",
+            "id": "2a8795a981c",
+            "message": "[c10d] ProcessGroupGloo: support per operation timeouts (#158128)"
+        }
+    },
+    "completenessScore": [0.374923, 0.374923],
+    "filename": "pyright_compare.085308.a8ec7babcf2-2a8795a981c.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 2},
+            "missingFunctionDocStringCount": 2
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.08550662676357418},
+            "missingFunctionDocStringCount": 0.05033979360684621
+        },
+        "symbols": {
+            "added": [
+                "torch._C._distributed_c10d.Backend.set_timeout",
+                "torch._C._distributed_c10d.ProcessGroup.set_timeout"
+            ]
+        }
+    }
+}

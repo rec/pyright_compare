@@ -1,0 +1,36 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-04 21:26:05",
+            "id": "89d41d3f61d",
+            "message": "[SymmMem] Feed tensor.data_ptr instead of handle.buffer_ptr into kernels (#162193)"
+        },
+        "after": {
+            "committer_date": "2025-09-04 21:57:27",
+            "id": "0d71a9dd5b4",
+            "message": "fix incorrect interaction between DDPOptimizer and donated buffers (#160745)"
+        }
+    },
+    "completenessScore": [0.375592, 0.375592],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~235"}, {"name": "11e97bc7bd4~234"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 5},
+            "missingClassDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.15748031496062992},
+            "missingClassDocStringCount": 0.09090909090909091
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.backends.distributed.DDPOptimizerContext",
+                "torch._dynamo.backends.distributed.DDPOptimizerContext.__init__",
+                "torch._dynamo.backends.distributed.DDPOptimizerContext.curr_bucket",
+                "torch._dynamo.backends.distributed.DDPOptimizerContext.metadata_per_bucket",
+                "torch._guards.TracingContext.ddp_optimizer_ctx"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087600.89d41d3f61d-0d71a9dd5b4.json"
+}

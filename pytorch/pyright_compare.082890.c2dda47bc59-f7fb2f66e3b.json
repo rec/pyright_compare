@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-16 18:49:57",
+            "id": "c2dda47bc59",
+            "message": "Revert \"[dynamo] Make `OptimizedModule` more robust in attribute reads and writes (#153637)\""
+        },
+        "after": {
+            "committer_date": "2025-05-16 19:10:04",
+            "id": "f7fb2f66e3b",
+            "message": "cleanup, refactor and add missing  self._dde_suppressed checks (#152657)"
+        }
+    },
+    "completenessScore": [0.366787, 0.366849],
+    "filename": "full-run/pyright_compare.082890.c2dda47bc59-f7fb2f66e3b.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 6.210408644891086e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016931933626820182,
+                "withUnknownType": -0.010667804565820354
+            },
+            "completenessScore": 0.016931933626826323
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.evaluate_expr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"fx_node\" is partially unknown\n\u00a0\u00a0Parameter type is \"Node | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

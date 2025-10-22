@@ -1,0 +1,439 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-16 21:50:55",
+            "id": "ada44e5ba78",
+            "message": "[Dynamo][Better Engineering] Add typing to bytecode analysis and transform (#158293)"
+        },
+        "after": {
+            "committer_date": "2025-07-16 22:09:01",
+            "id": "5951fcd50ac",
+            "message": "[Dynamo][Better Engineering] Support typing in codegen.py (#158386)"
+        }
+    },
+    "completenessScore": [0.375847, 0.375847],
+    "filename": "pyright_compare.085484.ada44e5ba78-5951fcd50ac.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 46, "withUnknownType": -30},
+            "missingFunctionDocStringCount": 2,
+            "missingClassDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 1.95994887089902,
+                "withUnknownType": -1.3163668275559457
+            },
+            "missingFunctionDocStringCount": 0.050289162685441285,
+            "missingClassDocStringCount": 0.09416195856873823
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.variables.builder.GraphArg",
+                "torch._dynamo.variables.builder.GraphArg.__dataclass_fields__",
+                "torch._dynamo.variables.builder.GraphArg.__eq__",
+                "torch._dynamo.variables.builder.GraphArg.__hash__",
+                "torch._dynamo.variables.builder.GraphArg.__init__",
+                "torch._dynamo.variables.builder.GraphArg.__match_args__",
+                "torch._dynamo.variables.builder.GraphArg.__new__",
+                "torch._dynamo.variables.builder.GraphArg.__post_init__",
+                "torch._dynamo.variables.builder.GraphArg.erase",
+                "torch._dynamo.variables.builder.GraphArg.example",
+                "torch._dynamo.variables.builder.GraphArg.example_strong_ref",
+                "torch._dynamo.variables.builder.GraphArg.fake_tensor",
+                "torch._dynamo.variables.builder.GraphArg.is_tensor",
+                "torch._dynamo.variables.builder.GraphArg.pass_arg_as_tensor",
+                "torch._dynamo.variables.builder.GraphArg.reconstruct",
+                "torch._dynamo.variables.builder.GraphArg.source"
+            ],
+            "common": {
+                "torch._dynamo.codegen.PyCodegen.__call__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"value\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker | Source\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"allow_cache\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"overridden_sources\" is missing",
+                            "Type annotation for parameter \"tempvars\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.add_cache": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"value\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker | Source\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.add_graph_output": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"value\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.add_push_null": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"call_function_ex\" is missing",
+                            "Type annotation for parameter \"gen_fn\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.append_output": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"inst\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.call_function": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.call_method": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"nargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.call_reconstruct": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"value\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker | Source | GraphArg\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.clear_tos": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_call_function_kw": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"kw_names\" is missing",
+                            "Type annotation for parameter \"nargs\" is missing",
+                            "Type annotation for parameter \"push_null\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_delete": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_import_name": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"module_name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_load": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_load_attr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_load_attrs": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"names\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_load_closure": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_load_const": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_load_const_unchecked": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_load_deref": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_load_global": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"add\" is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_load_python_module": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"mod\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_store": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_store_attr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.create_store_deref": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.dup_top": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.extend_output": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"insts\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.foreach": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"items\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.graph_output_vars": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.load_attr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.load_deref": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"varname\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.load_function_name": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"fn_name\" is missing",
+                            "Type annotation for parameter \"num_on_stack\" is missing",
+                            "Type annotation for parameter \"push_null\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.load_graph_output": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"index\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.load_import_from": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"module_name\" is missing",
+                            "Type annotation for parameter \"object_name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.load_method": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.make_function_with_closure": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"num_on_stack\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.pop_top": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.restore_stack": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"stack_values\" is missing",
+                            "Type annotation for parameter \"value_from_source\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.rot_n": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"n\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.setup_globally_cached": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"name\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.store": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"varname\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.store_attr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.codegen.PyCodegen.tempvars": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"dict\" has unknown type",
+                            "Type argument 2 for class \"dict\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Unknown | dict[Unknown, Unknown]\"",
+                            "Type unknown for variable \"torch._dynamo.codegen.PyCodegen.tempvars\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

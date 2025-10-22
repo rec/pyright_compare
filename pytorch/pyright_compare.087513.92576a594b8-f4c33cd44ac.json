@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-03 19:21:27",
+            "id": "92576a594b8",
+            "message": "Prototype for building non-strict leak detector (#160456)"
+        },
+        "after": {
+            "committer_date": "2025-09-03 19:29:00",
+            "id": "f4c33cd44ac",
+            "message": "[pt2e] Avoid getting model device once per node (#159901)"
+        }
+    },
+    "completenessScore": [0.375461, 0.375461],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~322"}, {"name": "11e97bc7bd4~321"}],
+        "symbols": {
+            "common": {
+                "torch.ao.quantization.fx.convert.convert_weighted_module": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"model_device\" is partially unknown\n\u00a0\u00a0Parameter type is \"device | None\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.utils.create_getattr_from_value": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"device\" is partially unknown\n\u00a0\u00a0Parameter type is \"device | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.087513.92576a594b8-f4c33cd44ac.json"
+}

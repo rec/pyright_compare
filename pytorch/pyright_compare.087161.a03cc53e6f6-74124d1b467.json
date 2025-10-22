@@ -1,0 +1,22 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-26 19:04:13",
+            "id": "a03cc53e6f6",
+            "message": "Back out \"Refactor CUDAAllocatorConfig to reuse AcceleratorAllocatorConfig (#150312)\" (#161002)"
+        },
+        "after": {
+            "committer_date": "2025-08-26 19:16:05",
+            "id": "74124d1b467",
+            "message": "[reland] [dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#161514)"
+        }
+    },
+    "completenessScore": [0.377391, 0.377391],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~674"}, {"name": "11e97bc7bd4~673"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.03299241174529858}},
+        "symbols": {"added": ["torch._dynamo.output_graph.OutputGraph.import_sources"]}
+    },
+    "filename": "pyright_compare.087161.a03cc53e6f6-74124d1b467.json"
+}

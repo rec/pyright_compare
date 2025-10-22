@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-20 22:07:32",
+            "id": "2e038793ef9",
+            "message": "[inductor][templates] Finalize all registered hooks (#157270)"
+        },
+        "after": {
+            "committer_date": "2025-07-20 22:52:54",
+            "id": "4b02bd76d3e",
+            "message": "DCP safetensors test fix (#158685)"
+        }
+    },
+    "completenessScore": [0.375746, 0.375723],
+    "filename": "pyright_compare.085647.2e038793ef9-4b02bd76d3e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3128547550321787e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.01074575542660649},
+            "completenessScore": -0.0061553613197080186
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.path"
+            ]
+        }
+    }
+}

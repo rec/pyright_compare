@@ -1,0 +1,28 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-21 10:47:03",
+            "id": "18271148d32",
+            "message": "[dist] expose unsafe_get_ptr for dist.ProcessGroupNCCL.NCCLConfig (#161136)"
+        },
+        "after": {
+            "committer_date": "2025-08-21 14:23:13",
+            "id": "3caddd4daa5",
+            "message": "[ROCm] SDPA fix mem fault when dropout is enabled (#154864)"
+        }
+    },
+    "completenessScore": [0.377261, 0.377299],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~855"}, {"name": "11e97bc7bd4~854"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.818608665512313e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.016254876462938883},
+            "completenessScore": 0.010121919946116595
+        },
+        "symbols": {"added": ["torch.backends.cuda.is_ck_sdpa_available"]}
+    },
+    "filename": "pyright_compare.086980.18271148d32-3caddd4daa5.json"
+}

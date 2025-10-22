@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-08 04:44:15",
+            "id": "2d25e4d478b",
+            "message": "[1/n][Optimus][Auto-AC] Support activation quantization without scaling (#148380)"
+        },
+        "after": {
+            "committer_date": "2025-05-08 04:49:59",
+            "id": "94ca3a4666d",
+            "message": "Add torch._C.Tag.needs_contiguous_strides (#152859)"
+        }
+    },
+    "completenessScore": [0.364677, 0.364677],
+    "filename": "full-run/pyright_compare.082513.2d25e4d478b-94ca3a4666d.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.05202913631633715}},
+        "symbols": {"added": ["torch._C.Tag.needs_contiguous_strides"]}
+    }
+}

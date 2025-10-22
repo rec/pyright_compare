@@ -1,0 +1,44 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-10 13:33:27",
+            "id": "7b7b9d707e7",
+            "message": "[CI] Add XPU compiled check in CICD (#150771)"
+        },
+        "after": {
+            "committer_date": "2025-04-10 13:44:31",
+            "id": "73f3d6d9aaa",
+            "message": "Revert \"ProcessGroupGloo: support lazy_init (#150801)\""
+        }
+    },
+    "completenessScore": [0.363217, 0.363217],
+    "filename": "full-run/pyright_compare.081390.7b7b9d707e7-73f3d6d9aaa.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1}},
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.0522466039707419,
+                "withUnknownType": -0.058823529411764705
+            }
+        },
+        "symbols": {
+            "common": {
+                "torch._C._distributed_c10d.ProcessGroupGloo.create_default_device": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"lazy_init\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._distributed_c10d.ProcessGroupGloo.create_device": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"lazy_init\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

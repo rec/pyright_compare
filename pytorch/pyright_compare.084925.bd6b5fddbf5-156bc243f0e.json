@@ -1,0 +1,35 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-02 16:34:37",
+            "id": "bd6b5fddbf5",
+            "message": "[Precompile] [easy] Serialize requires_grad for tensors when serializing guards (#157372)"
+        },
+        "after": {
+            "committer_date": "2025-07-02 16:51:07",
+            "id": "156bc243f0e",
+            "message": "Back out \"Include c++ stack traces when we hit constraint violation (#155603)\" (#157406)"
+        }
+    },
+    "completenessScore": [0.373542, 0.373503],
+    "filename": "full-run/pyright_compare.084925.bd6b5fddbf5-156bc243f0e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.867504774413e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.016526194017517766},
+            "completenessScore": -0.010353612599688675
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.specialization_stacks"
+            ],
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.framework_specialization_stacks",
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.user_specialization_stacks"
+            ]
+        }
+    }
+}

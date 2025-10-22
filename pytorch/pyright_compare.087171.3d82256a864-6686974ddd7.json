@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-26 20:40:11",
+            "id": "3d82256a864",
+            "message": "[FP8][cuBLAS][SM100] cuBLAS doesn't support rowwise-scaling on `sm110` or `sm120` either (#161236)"
+        },
+        "after": {
+            "committer_date": "2025-08-26 20:40:17",
+            "id": "6686974ddd7",
+            "message": "Revert \"[dynamo, nested graph breaks] add nested graph break tests (#144516)\""
+        }
+    },
+    "completenessScore": [0.377353, 0.377353],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~664"}, {"name": "11e97bc7bd4~663"}],
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": -1},
+            "missingFunctionDocStringCount": -1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": -0.032981530343007916},
+            "missingFunctionDocStringCount": -0.024372410431391666
+        },
+        "symbols": {
+            "removed": [
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.graph_break_on_leaf_function"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087171.3d82256a864-6686974ddd7.json"
+}

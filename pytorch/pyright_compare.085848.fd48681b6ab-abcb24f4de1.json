@@ -1,0 +1,965 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-24 15:40:13",
+            "id": "fd48681b6ab",
+            "message": "[DeviceMesh][ez] Make the logic within flatten simpler (#158999)"
+        },
+        "after": {
+            "committer_date": "2025-07-24 15:55:18",
+            "id": "abcb24f4de1",
+            "message": "[Dynamo][Better Engineering] Add typing annotations to guard and source (#158397)"
+        }
+    },
+    "completenessScore": [0.375862, 0.376602],
+    "filename": "pyright_compare.085848.fd48681b6ab-abcb24f4de1.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 12, "withUnknownType": -12},
+            "otherSymbolCounts": {
+                "withKnownType": 116,
+                "withAmbiguousType": 15,
+                "withUnknownType": -65
+            },
+            "missingClassDocStringCount": 3,
+            "completenessScore": 0.0007392804337111869
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.19668906736600558,
+                "withUnknownType": -0.129101667563206
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 4.683084376261607,
+                "withAmbiguousType": 13.392857142857142,
+                "withUnknownType": -2.7873070325900513
+            },
+            "missingClassDocStringCount": 0.2788104089219331,
+            "completenessScore": 0.19668906736600533
+        },
+        "symbols": {
+            "added": [
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.__dataclass_fields__",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.__eq__",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.__init__",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.__match_args__",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.__new__",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.__post_init__",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.aliased_out_indices",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.bw_donated_idxs",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.deterministic",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.dynamic_outputs",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.dynamic_saved_tensors_idxs",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.grad_enabled_mutation",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.graphsafe_rng_state_index",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.indices_of_inputs_that_requires_grad_with_mutations_in_bw",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.input_info",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.is_rng_op_functionalized",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.is_train",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.keep_input_mutations",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.make_runtime_safe",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.mutated_graph_handled_indices",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.mutated_graph_handled_indices_seen_by_autograd",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.mutated_inp_runtime_indices",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_backward_tokens",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_forward",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_forward_returns",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_graphsafe_rng_states",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_intermediate_bases",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_mutated_graph_handled_indices",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_mutated_graph_handled_indices_seen_by_autograd",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_mutated_inp_runtime_indices",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_outputs",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_outputs_aliased",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_outputs_aliased_to_inputs",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_outputs_aliased_to_intermediates",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_outputs_non_aliased",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_outputs_rng_offset",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_symints_saved_for_bw",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.num_unsafe_view_outputs",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.output_info",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.output_types",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.static_input_indices",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.subclass_fw_graph_out_meta",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.subclass_inp_meta",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.subclass_tangent_meta",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.symints_saved_for_backwards_slice",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.tensors_saved_for_backwards_slice",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.tokens",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.traced_tangent_metas",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.traced_tangents",
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.unsafe_view_out_indices",
+                "torch._guards.GlobalContextCheckpointState",
+                "torch._guards.GlobalContextCheckpointState.__eq__",
+                "torch._guards.GlobalContextCheckpointState.__init__",
+                "torch._guards.GlobalContextCheckpointState.diff",
+                "torch._guards.GlobalContextCheckpointState.global_state",
+                "torch._guards.GuardsCheckpointState",
+                "torch._guards.GuardsCheckpointState.__eq__",
+                "torch._guards.GuardsCheckpointState.__init__",
+                "torch._guards.GuardsCheckpointState.diff",
+                "torch._guards.GuardsCheckpointState.dynamo_guards",
+                "torch._guards.ModuleContextCheckpointState",
+                "torch._guards.ModuleContextCheckpointState.__eq__",
+                "torch._guards.ModuleContextCheckpointState.__init__",
+                "torch._guards.ModuleContextCheckpointState.diff",
+                "torch._guards.ModuleContextCheckpointState.nn_modules"
+            ],
+            "common": {
+                "torch._dynamo.codegen.PyCodegen.mark_source_temp": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch._dynamo.eval_frame._TorchDynamoContext.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"callback\" is partially unknown\n\u00a0\u00a0Parameter type is \"DynamoCallbackFn | bool | None\""
+                        ]
+                    }
+                },
+                "torch._dynamo.eval_frame._TorchDynamoContext.callback": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.eval_frame._TorchDynamoContext.prior": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.output_graph.OutputGraph.dynamo_compile_id": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.output_graph.OutputGraph.guards": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._dynamo.side_effects.SideEffects.track_cell_existing": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source | None\""
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_global_existing": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch._dynamo.side_effects.SideEffects.track_object_new": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"cls_source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TensorProperty": {"isTypeKnown": true},
+                "torch._dynamo.source.TensorProperty.method_name": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TensorPropertySource": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._guards.ChainedSource\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TensorPropertySource.__post_init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TensorPropertySource.guard_source": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TensorPropertySource.name": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TensorPropertySource.prop": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.source.TensorPropertySource.reconstruct": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TypeSource": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._guards.ChainedSource\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TypeSource.__post_init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TypeSource.guard_source": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TypeSource.name": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.source.TypeSource.reconstruct": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._dynamo.symbolic_convert.InstructionTranslator.get_example_value": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch._dynamo.types.ConvertFrameReturn": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.types.ConvertFrameReturn.guarded_code": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.types.DynamoCallbackFn": {"isTypeKnown": true},
+                "torch._dynamo.types.DynamoCallbackFn.__call__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"ConvertFrameReturn\""
+                        ]
+                    }
+                },
+                "torch._dynamo.types.GuardedCode": {"isTypeKnown": true},
+                "torch._dynamo.types.GuardedCode.compile_id": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.variables.base.VariableTracker.__init__": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch._dynamo.variables.base.VariableTracker.build": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source | None\""
+                        ]
+                    }
+                },
+                "torch._dynamo.variables.base.VariableTracker.source": {
+                    "isTypeKnown": true
+                },
+                "torch._dynamo.variables.builder.GraphArg.source": {
+                    "isTypeKnown": true
+                },
+                "torch._guards.ChainedSource": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._guards.Source\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._guards.ChainedSource.base": {"isTypeKnown": true},
+                "torch._guards.ChainedSource.get_base": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Source\""
+                        ]
+                    }
+                },
+                "torch._guards.ChainedSource.is_dict_key": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.ChainedSource.is_ephemeral": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.Checkpointable": {"isTypeKnown": true},
+                "torch._guards.Checkpointable.restore_graphstate": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.CompileId": {"isTypeKnown": true},
+                "torch._guards.CompileId.__str__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.CompileId.from_string": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GlobalContext": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._guards.Checkpointable\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._guards.GlobalContext.copy_graphstate": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GlobalContextCheckpointState\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GlobalContext.restore_graphstate": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"state\" is partially unknown\n\u00a0\u00a0Parameter type is \"GlobalContextCheckpointState\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"state\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardSource": {"isTypeKnown": true},
+                "torch._guards.GuardSource.is_local": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsContext": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._guards.Checkpointable\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsContext.copy_graphstate": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsContext.dynamo_guards": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._guards.GuardsContext.restore_graphstate": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"state\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsSet": {"isTypeAmbiguous": true},
+                "torch._guards.GuardsSet.__bool__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsSet.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"inner\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsSet.__iter__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsSet.__len__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsSet.__sub__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsSet.add": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"collect_debug_stack\" is missing",
+                            "Type annotation for parameter \"skip\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsSet.inner": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[DataclassInstance]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"set\" has unknown type",
+                            "Type unknown for variable \"torch._guards.GuardsSet.inner\""
+                        ]
+                    }
+                },
+                "torch._guards.GuardsSet.remove_guards_with_source": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"source\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.GuardsSet.update": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.HopSubgraphCache.add_autograd_key_entry": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.HopSubgraphCache.add_dynamo_installed_submodule": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.HopSubgraphCache.add_lazy_bwd_entry": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.HopSubgraphCache.add_proxy_dispatch_entry": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.HopSubgraphCache.get_autograd_key_entry": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.HopSubgraphCache.get_proxy_dispatch_entry": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.ModuleContext": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._guards.Checkpointable\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._guards.ModuleContext.copy_graphstate": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.ModuleContext.restore_graphstate": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"state\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.SLoc": {"isTypeKnown": true},
+                "torch._guards.SLoc.__str__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.Source.guard_source": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GuardSource\""
+                        ]
+                    }
+                },
+                "torch._guards.Source.is_dict_key": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.Source.is_ephemeral": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.Source.make_guard": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"fn\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.Source.reconstruct": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"codegen\" is partially unknown\n\u00a0\u00a0Parameter type is \"PyCodegen\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"codegen\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.Source.subguards_allowed": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fake_mode\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeTensorMode | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"fake_mode\" is missing"
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.aot_graph_name": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.clear": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.extract_stack": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.frame_summary_stack": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"list\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[Unknown]\""
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.fw_metadata": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.get_traced_code": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.guards_context": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._guards.TracingContext.loc_in_frame": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.module_context": {
+                    "isTypeAmbiguous": true
+                },
+                "torch._guards.TracingContext.params_flat": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.params_flat_unwrap_subclasses": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.params_unwrapped_to_flat_index": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"None\""
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.previously_cleaned_instructions": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"dict\" has unknown type",
+                            "Type argument 2 for class \"dict\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Unknown, Unknown]\""
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.previously_inlined_functions": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"dict\" has unknown type",
+                            "Type argument 2 for class \"dict\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Unknown, Unknown]\""
+                        ]
+                    }
+                },
+                "torch._guards.TracingContext.set_current_loc": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"filename\" is missing",
+                            "Type annotation for parameter \"frame_name\" is missing",
+                            "Type annotation for parameter \"lineno\" is missing"
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensor.__new__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"fake_mode\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeTensorMode\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensor.fake_mode": {
+                    "isTypeKnown": true
+                },
+                "torch._subclasses.fake_tensor.FakeTensor.from_tensor": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"fake_mode\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeTensorMode\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.add_constant_storage_mapping": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fake_tensor\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeTensor\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.from_meta_and_device": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"FakeTensor\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.from_real_tensor": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"FakeTensor\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source | None\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.set_tensor_memo": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"v\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeTensor\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.from_tensor": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"FakeTensor\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source | None\""
+                        ]
+                    }
+                },
+                "torch._subclasses.meta_utils.MetaConverter.__call__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source | None\""
+                        ]
+                    }
+                },
+                "torch._subclasses.meta_utils.MetaConverter.meta_tensor": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source | None\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.sym_node.SymNode.with_shape_env": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"shape_env\" is partially unknown\n\u00a0\u00a0Parameter type is \"ShapeEnv\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.DimConstraints": {
+                    "isTypeKnown": true
+                },
+                "torch.fx.experimental.symbolic_shapes.DimConstraints.add_equality": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.EqualityConstraint": {
+                    "isTypeKnown": true
+                },
+                "torch.fx.experimental.symbolic_shapes.EqualityConstraint.is_derived": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"src\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\"",
+                            "Type of parameter \"symbol_src\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.EqualityConstraint.is_equal": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source1\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\"",
+                            "Type of parameter \"source2\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.RelaxedUnspecConstraint": {
+                    "isTypeKnown": true
+                },
+                "torch.fx.experimental.symbolic_shapes.RelaxedUnspecConstraint.render": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.create_symbol": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"constraint_dim\" is partially unknown\n\u00a0\u00a0Parameter type is \"StrictMinMaxConstraint | RelaxedUnspecConstraint | None\"",
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.create_symbolic_sizes_strides_storage_offset": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.create_symfloatnode": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source | None\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.create_symintnode": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source | None\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.create_unbacked_symint": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source | None\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.create_unspecified_symbol": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"constraint_dim\" is partially unknown\n\u00a0\u00a0Parameter type is \"StrictMinMaxConstraint | RelaxedUnspecConstraint | None\"",
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.create_unspecified_symint_and_symbol": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"source\" is partially unknown\n\u00a0\u00a0Parameter type is \"Source\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.dim_constraints": {
+                    "isTypeKnown": true
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.evaluate_sym_node": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"sym_node\" is partially unknown\n\u00a0\u00a0Parameter type is \"SymNode\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.produce_guards_verbose": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"equalities_inputs\" is partially unknown\n\u00a0\u00a0Parameter type is \"EqualityConstraint | None\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ValueRangesSLoc": {
+                    "isTypeKnown": true
+                },
+                "torch.fx.experimental.symbolic_shapes.ValueRangesSLoc.lower": {
+                    "isTypeKnown": true
+                },
+                "torch.fx.experimental.symbolic_shapes.ValueRangesSLoc.upper": {
+                    "isTypeKnown": true
+                }
+            }
+        }
+    }
+}

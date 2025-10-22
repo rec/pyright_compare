@@ -1,0 +1,35 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-27 21:53:37",
+            "id": "3f8090809fa",
+            "message": "[dynamo, nested graph breaks] support nested graph breaks x context managers (#159678)"
+        },
+        "after": {
+            "committer_date": "2025-08-27 21:53:37",
+            "id": "d0a242e5472",
+            "message": "[dynamo, nested graph breaks] support nested closures (#159817)"
+        }
+    },
+    "completenessScore": [0.37733, 0.37733],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~597"}, {"name": "11e97bc7bd4~596"}],
+        "absolute": {"otherSymbolCounts": {"withUnknownType": 1}},
+        "percent": {"otherSymbolCounts": {"withUnknownType": 0.046598322460391424}},
+        "symbols": {
+            "added": [
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.post_prune_cell_and_freevars"
+            ],
+            "common": {
+                "torch._dynamo.codegen.PyCodegen.make_function_with_closure": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"tx\" is partially unknown\n\u00a0\u00a0Parameter type is \"InstructionTranslatorBase\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "filename": "pyright_compare.087238.3f8090809fa-d0a242e5472.json"
+}

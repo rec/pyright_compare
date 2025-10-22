@@ -1,0 +1,26 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-21 01:34:19",
+            "id": "f9875166a95",
+            "message": "Revert \"[FSDP][Collectives] skipping reduce_scatter when world size is 1 (#160136)\""
+        },
+        "after": {
+            "committer_date": "2025-08-21 02:22:52",
+            "id": "9a415701991",
+            "message": "[rfc] add hint_override kwarg to mark_dynamic (#161007)"
+        }
+    },
+    "completenessScore": [0.377261, 0.377261],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~870"}, {"name": "11e97bc7bd4~869"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.03365870077415012}},
+        "symbols": {
+            "added": [
+                "torch._subclasses.meta_utils.MetaTensorDesc.dynamo_hint_overrides"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086965.f9875166a95-9a415701991.json"
+}

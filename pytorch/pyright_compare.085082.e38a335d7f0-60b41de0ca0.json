@@ -1,0 +1,54 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-08 00:11:52",
+            "id": "e38a335d7f0",
+            "message": "remove allow-untyped-defs from torch/backends/cusparselt/__init__.py (#157232)"
+        },
+        "after": {
+            "committer_date": "2025-07-08 00:11:52",
+            "id": "60b41de0ca0",
+            "message": "remove allow-untyped-defs from torch/ao/nn/quantized/modules/rnn.py (#157234)"
+        }
+    },
+    "completenessScore": [0.373642, 0.373704],
+    "filename": "pyright_compare.085082.e38a335d7f0-60b41de0ca0.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 6.172839506174421e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016520733520568313,
+                "withUnknownType": -0.010738831615120275
+            },
+            "completenessScore": 0.016520733520572546
+        },
+        "symbols": {
+            "common": {
+                "torch.ao.nn.quantized.modules.rnn.LSTM.from_float": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.quantized.modules.rnn.LSTM.from_observed": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"other\" is partially unknown\n\u00a0\u00a0Parameter type is \"LSTM\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

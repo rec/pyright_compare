@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-31 20:12:03",
+            "id": "dfcd98e6841",
+            "message": "cd: Fix naming for windows arm64 libtorch builds (#150310)"
+        },
+        "after": {
+            "committer_date": "2025-03-31 21:32:20",
+            "id": "925fd4aa2e4",
+            "message": "[export] min/max ranges for dim hints (#149590)"
+        }
+    },
+    "completenessScore": [0.36333, 0.36333],
+    "filename": "full-run/pyright_compare.081050.dfcd98e6841-925fd4aa2e4.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 1}},
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.10454783063251437,
+                "withUnknownType": 0.05889281507656066
+            }
+        },
+        "symbols": {
+            "added": [
+                "torch.export.dynamic_shapes._DimHint.__call__",
+                "torch.export.dynamic_shapes._DimHint.max",
+                "torch.export.dynamic_shapes._DimHint.min"
+            ]
+        }
+    }
+}

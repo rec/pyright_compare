@@ -1,0 +1,24 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-10 22:36:06",
+            "id": "8892b782a85",
+            "message": "[nativert] move execution planner to torch (#155374)"
+        },
+        "after": {
+            "committer_date": "2025-06-10 22:40:58",
+            "id": "c4b93e6579c",
+            "message": "Replace frame_traced_fn hook with get_traced_code() util (#155249)"
+        }
+    },
+    "completenessScore": [0.37126, 0.37126],
+    "filename": "full-run/pyright_compare.083865.8892b782a85-c4b93e6579c.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": 1},
+        "percent": {"missingFunctionDocStringCount": 0.025342118601115054},
+        "symbols": {
+            "added": ["torch._guards.TracingContext.get_traced_code"],
+            "removed": ["torch._dynamo.output_graph.OutputGraph.f_code"]
+        }
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-09 22:01:29",
+            "id": "53ab73090eb",
+            "message": "[inductor] support unbacked symint in sdpfa (#157739)"
+        },
+        "after": {
+            "committer_date": "2025-07-09 22:07:50",
+            "id": "a1dad2f2d2c",
+            "message": "[BE][Ez]: Autotype torch/profiler with ruff ANN (#157923)"
+        }
+    },
+    "completenessScore": [0.374391, 0.374884],
+    "filename": "pyright_compare.085184.53ab73090eb-a1dad2f2d2c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 8, "withUnknownType": -8},
+            "otherSymbolCounts": {"withKnownType": 9, "withUnknownType": -9},
+            "completenessScore": 0.0004936747917309026
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.1318608867644635,
+                "withUnknownType": -0.08599376545200473
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.38643194504079004,
+                "withUnknownType": -0.3937007874015748
+            },
+            "completenessScore": 0.13186088676445154
+        },
+        "symbols": {
+            "common": {
+                "torch.profiler.profiler.ExecutionTraceObserver.__del__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler.ExecutionTraceObserver.cleanup": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler.ExecutionTraceObserver.start": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler.ExecutionTraceObserver.stop": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler.ExecutionTraceObserver.unregister_callback": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler._KinetoProfile.add_metadata": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler._KinetoProfile.add_metadata_json": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler._KinetoProfile.prepare_trace": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler._KinetoProfile.preset_metadata_json": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler._KinetoProfile.start": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler._KinetoProfile.start_trace": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler._KinetoProfile.stop": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler._KinetoProfile.stop_trace": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler._KinetoProfile.toggle_collection_dynamic": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler.profile.set_custom_trace_id_callback": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler.profile.start": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler.profile.step": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.profiler.profiler.profile.stop": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-25 23:09:09",
+            "id": "b2e06e0194c",
+            "message": "[Inductor] Prune configs that require more shared memory than the hardware limit (#161040)"
+        },
+        "after": {
+            "committer_date": "2025-08-25 23:16:21",
+            "id": "447d34b5f80",
+            "message": "[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)"
+        }
+    },
+    "completenessScore": [0.377315, 0.377315],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~722"}, {"name": "11e97bc7bd4~721"}],
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.03359086328518643}},
+        "symbols": {"added": ["torch._dynamo.output_graph.OutputGraph.import_sources"]}
+    },
+    "filename": "pyright_compare.087113.b2e06e0194c-447d34b5f80.json"
+}

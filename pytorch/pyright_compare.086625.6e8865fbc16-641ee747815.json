@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-13 08:13:23",
+            "id": "6e8865fbc16",
+            "message": "port 3 distributed test to Intel GPU and unified some common functions (#158533)"
+        },
+        "after": {
+            "committer_date": "2025-08-13 09:01:52",
+            "id": "641ee747815",
+            "message": "Revert \"Add `label_smoothing` param in `nn.BCELoss` and `nn.BCEWithLogitsLoss` (#150282)\""
+        }
+    },
+    "completenessScore": [0.377333, 0.377257],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~1210"}, {"name": "11e97bc7bd4~1209"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -2},
+            "completenessScore": -7.646653495096967e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.03254149040026033},
+            "completenessScore": -0.02026500034626414
+        },
+        "symbols": {
+            "removed": [
+                "torch.nn.modules.loss.BCELoss.label_smoothing",
+                "torch.nn.modules.loss.BCEWithLogitsLoss.label_smoothing"
+            ]
+        }
+    },
+    "filename": "pyright_compare.086625.6e8865fbc16-641ee747815.json"
+}

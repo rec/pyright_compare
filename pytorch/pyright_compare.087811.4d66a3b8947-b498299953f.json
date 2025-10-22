@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-09 22:10:37",
+            "id": "4d66a3b8947",
+            "message": "fix Dtensor doc link (#162494)"
+        },
+        "after": {
+            "committer_date": "2025-09-09 22:23:06",
+            "id": "b498299953f",
+            "message": "154849 Add support to handle IGUSR1 and SIGUSR2 in multiprocessing (#160690)"
+        }
+    },
+    "completenessScore": [0.376073, 0.376111],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~24"}, {"name": "11e97bc7bd4~23"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.825660108158768e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.016305233980107615},
+            "completenessScore": 0.010172650422933832
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.launcher.api.LaunchConfig.signals_to_handle"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087811.4d66a3b8947-b498299953f.json"
+}

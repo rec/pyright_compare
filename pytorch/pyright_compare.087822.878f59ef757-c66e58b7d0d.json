@@ -1,0 +1,30 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-09-10 01:18:28",
+            "id": "878f59ef757",
+            "message": "DeviceMesh: support _rank for use with non-global PGs (#162439)"
+        },
+        "after": {
+            "committer_date": "2025-09-10 01:40:24",
+            "id": "c66e58b7d0d",
+            "message": "[ONNX] Expose the testing module (#162495)"
+        }
+    },
+    "completenessScore": [0.376111, 0.376088],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~13"}, {"name": "11e97bc7bd4~12"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.306016858133475e-05,
+            "filesAnalyzed": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010718113612004287},
+            "completenessScore": -0.006131207847945687,
+            "filesAnalyzed": 0.11389521640091116
+        },
+        "symbols": {"added": ["torch.onnx.testing.assert_onnx_program"]}
+    },
+    "filename": "pyright_compare.087822.878f59ef757-c66e58b7d0d.json"
+}

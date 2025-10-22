@@ -1,0 +1,97 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-16 07:31:16",
+            "id": "d965fa2c4b0",
+            "message": "[CUDA][cuBLAS] Remove `IS_ARM64` skip in `test_matmul_cuda.py` (#153660)"
+        },
+        "after": {
+            "committer_date": "2025-05-16 07:51:50",
+            "id": "3fe42d4d5d1",
+            "message": "[export] Dynamo symint support (#152677)"
+        }
+    },
+    "completenessScore": [0.36658, 0.366787],
+    "filename": "full-run/pyright_compare.082861.d965fa2c4b0-3fe42d4d5d1.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 7, "withUnknownType": 3},
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.00020706765189709708
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.11866418036955416,
+                "withUnknownType": 0.03201365916124213
+            },
+            "missingClassDocStringCount": 0.09699321047526673,
+            "completenessScore": 0.05648639861549561
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.symbolic_shapes.TrackedFake",
+                "torch.fx.experimental.symbolic_shapes.TrackedFake.__dataclass_fields__",
+                "torch.fx.experimental.symbolic_shapes.TrackedFake.__eq__",
+                "torch.fx.experimental.symbolic_shapes.TrackedFake.__hash__",
+                "torch.fx.experimental.symbolic_shapes.TrackedFake.__init__",
+                "torch.fx.experimental.symbolic_shapes.TrackedFake.__match_args__",
+                "torch.fx.experimental.symbolic_shapes.TrackedFake.__new__",
+                "torch.fx.experimental.symbolic_shapes.TrackedFake.fake",
+                "torch.fx.experimental.symbolic_shapes.TrackedFake.source",
+                "torch.fx.experimental.symbolic_shapes.TrackedFake.symbolic_context"
+            ],
+            "common": {
+                "torch._subclasses.fake_tensor.FakeTensor.__new__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fake_mode\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeTensorMode\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensor.from_tensor": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fake_mode\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeTensorMode\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.add_constant_storage_mapping": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"fake_tensor\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeTensor\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.from_meta_and_device": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"FakeTensor\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.from_real_tensor": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"FakeTensor\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.set_tensor_memo": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"v\" is partially unknown\n\u00a0\u00a0Parameter type is \"FakeTensor\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.from_tensor": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"FakeTensor\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

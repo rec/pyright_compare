@@ -1,0 +1,67 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-16 05:03:30",
+            "id": "61a7b09ef39",
+            "message": "[BE][Easy] split build system `requirements.txt` to a separate file (#158111)"
+        },
+        "after": {
+            "committer_date": "2025-07-16 06:06:29",
+            "id": "54848905398",
+            "message": "Add better typing to avaialbe kernel options for flex attention (#158383)"
+        }
+    },
+    "completenessScore": [0.375995, 0.375847],
+    "filename": "pyright_compare.085440.61a7b09ef39-54848905398.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 7, "withUnknownType": 18},
+            "completenessScore": -0.00014786670248317924
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.11488593467914,
+                "withUnknownType": 0.19402824188854156
+            },
+            "completenessScore": -0.03932676700705596
+        },
+        "symbols": {
+            "added": [
+                "torch.nn.attention.flex_attention.FlexKernelOptions",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.BLOCKS_ARE_CONTIGUOUS",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.BLOCK_M",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.BLOCK_M1",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.BLOCK_M2",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.BLOCK_N",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.BLOCK_N1",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.BLOCK_N2",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.FORCE_USE_FLEX_ATTENTION",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.PRESCALE_QK",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.ROWS_GUARANTEED_SAFE",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.USE_TMA",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.WRITE_DQ",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.__delitem__",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.__init__",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.__new__",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.get",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.kpack",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.matrix_instr_nonkdim",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.num_stages",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.num_warps",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.pop",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.setdefault",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.update",
+                "torch.nn.attention.flex_attention.FlexKernelOptions.waves_per_eu"
+            ],
+            "common": {
+                "torch.nn.attention.flex_attention.flex_attention": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"kernel_options\" is partially unknown\n\u00a0\u00a0Parameter type is \"FlexKernelOptions | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

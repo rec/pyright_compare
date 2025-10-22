@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-28 07:39:26",
+            "id": "fa762566030",
+            "message": "Revert \"[dynamic shapes] use prims_common contiguity in create_example_tensors (#160933)\""
+        },
+        "after": {
+            "committer_date": "2025-08-28 07:59:29",
+            "id": "196232bb935",
+            "message": "kill allow_complex_guards_as_runtime_asserts (#160198)"
+        }
+    },
+    "completenessScore": [0.377291, 0.377215],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~560"}, {"name": "11e97bc7bd4~559"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -2},
+            "completenessScore": -7.636379932030035e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.032499187520311994},
+            "completenessScore": -0.02024000537395871
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.allow_complex_guards_as_runtime_asserts",
+                "torch.fx.experimental.symbolic_shapes.ShapeEnvSettings.allow_complex_guards_as_runtime_asserts"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087275.fa762566030-196232bb935.json"
+}

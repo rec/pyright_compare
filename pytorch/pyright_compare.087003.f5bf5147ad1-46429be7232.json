@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-08-21 15:54:34 -0700",
+            "id": "f5bf5147ad1",
+            "message": "Bump uv from 0.8.4 to 0.8.6 in /.ci/lumen_cli (#161212)"
+        },
+        "after": {
+            "committer_date": "2025-08-21 23:58:02",
+            "id": "46429be7232",
+            "message": "[DCP][HF] Add option to parallelize reads in HF Storage Reader (#160205)"
+        }
+    },
+    "completenessScore": [0.377299, 0.377338],
+    "diff": {
+        "commits": [{"name": "11e97bc7bd4~832"}, {"name": "11e97bc7bd4~831"}],
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.818140383127222e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.01625223468226881},
+            "completenessScore": 0.010119654374782827
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageReader.thread_count"
+            ]
+        }
+    },
+    "filename": "pyright_compare.087003.f5bf5147ad1-46429be7232.json"
+}
