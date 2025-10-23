@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-28 22:43:59",
-            "id": "fffa62fa12d",
+            "commit_id": "fffa62fa12d",
             "message": "Ensure large tensor int32 -> int64 indexing is enabled (#157767)"
         },
         "after": {
             "committer_date": "2025-08-28 22:50:37",
-            "id": "47742081c99",
+            "commit_id": "47742081c99",
             "message": "Revert \"kill allow_complex_guards_as_runtime_asserts (#160198)\""
         }
     },

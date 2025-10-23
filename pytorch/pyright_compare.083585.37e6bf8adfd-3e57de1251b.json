@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-04 02:19:52",
-            "id": "37e6bf8adfd",
+            "commit_id": "37e6bf8adfd",
             "message": "Switch to _apply_to_tensors for dataclass input (#154897)"
         },
         "after": {
             "committer_date": "2025-06-04 03:07:43",
-            "id": "3e57de1251b",
+            "commit_id": "3e57de1251b",
             "message": "[ONNX] Create support for rotary embeddings (#154745)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-28 07:39:26",
-            "id": "fa762566030",
+            "commit_id": "fa762566030",
             "message": "Revert \"[dynamic shapes] use prims_common contiguity in create_example_tensors (#160933)\""
         },
         "after": {
             "committer_date": "2025-08-28 07:59:29",
-            "id": "196232bb935",
+            "commit_id": "196232bb935",
             "message": "kill allow_complex_guards_as_runtime_asserts (#160198)"
         }
     },

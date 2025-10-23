@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-05 22:06:32",
-            "id": "8034b2a7323",
+            "commit_id": "8034b2a7323",
             "message": "[inductor] Add TLParse artifact for logging runtime of collective and compute ops (#159730)"
         },
         "after": {
             "committer_date": "2025-08-05 22:26:48",
-            "id": "fb35a9ea4ac",
+            "commit_id": "fb35a9ea4ac",
             "message": "[export] Improve error messages (#159881)"
         }
     },

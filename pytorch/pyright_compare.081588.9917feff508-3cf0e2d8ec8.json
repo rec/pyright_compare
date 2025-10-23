@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-15 23:21:04",
-            "id": "9917feff508",
+            "commit_id": "9917feff508",
             "message": "[ONNX] Produce correct dtypes for bf16/f8 in IR TorchTensor (#151259)"
         },
         "after": {
             "committer_date": "2025-04-15 23:38:15",
-            "id": "3cf0e2d8ec8",
+            "commit_id": "3cf0e2d8ec8",
             "message": "Add inductor standalone_compile API (#150670)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-08 17:41:10",
-            "id": "d7114f05b10",
+            "commit_id": "d7114f05b10",
             "message": "Add DeviceAllocator as the base device allocator (#138222)"
         },
         "after": {
             "committer_date": "2025-08-08 17:41:22",
-            "id": "84f7e88aef0",
+            "commit_id": "84f7e88aef0",
             "message": "Add unified memory APIs for torch.accelerator (#152932)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-16 20:42:15",
-            "id": "f1bc843a5d8",
+            "commit_id": "f1bc843a5d8",
             "message": "Wrap class definitions in `set_fullgraph(False)` in `test_collections` (#159902)"
         },
         "after": {
             "committer_date": "2025-08-16 20:44:40",
-            "id": "f019da2979a",
+            "commit_id": "f019da2979a",
             "message": "Implement `list(UserDefinedObject)` via `force_unpack_var_sequence` (#159864)"
         }
     },

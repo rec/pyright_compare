@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-07 21:04:57",
-            "id": "f1f49e56b07",
+            "commit_id": "f1f49e56b07",
             "message": "[CI] remove xfail sm89 job (#155244)"
         },
         "after": {
             "committer_date": "2025-06-07 23:58:50",
-            "id": "abf4da0d242",
+            "commit_id": "abf4da0d242",
             "message": "[Profiler] Induce Inductor Import before Profiling (#155243)"
         }
     },

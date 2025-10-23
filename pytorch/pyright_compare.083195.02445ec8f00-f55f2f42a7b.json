@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-26 15:56:42",
-            "id": "02445ec8f00",
+            "commit_id": "02445ec8f00",
             "message": "Almalinux image, install glibc-langpack-en (#154364)"
         },
         "after": {
             "committer_date": "2025-05-26 15:59:21",
-            "id": "f55f2f42a7b",
+            "commit_id": "f55f2f42a7b",
             "message": "Add missing docstring for `sym_ite` (#154201)"
         }
     },

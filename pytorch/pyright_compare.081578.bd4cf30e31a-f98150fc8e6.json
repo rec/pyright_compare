@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-15 20:13:26",
-            "id": "bd4cf30e31a",
+            "commit_id": "bd4cf30e31a",
             "message": "Fix setUpClass() / tearDownClass() for device-specific tests (#151129)"
         },
         "after": {
             "committer_date": "2025-04-15 20:25:29",
-            "id": "f98150fc8e6",
+            "commit_id": "f98150fc8e6",
             "message": "Warn user of existing lock file to avoid infinite waiting (#149382)"
         }
     },

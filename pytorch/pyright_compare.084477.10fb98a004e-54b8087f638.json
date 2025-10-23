@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-22 15:05:08",
-            "id": "10fb98a004e",
+            "commit_id": "10fb98a004e",
             "message": "[Precompile] Hook up backend=\"inductor\"  (#155387)"
         },
         "after": {
             "committer_date": "2025-06-22 15:52:27",
-            "id": "54b8087f638",
+            "commit_id": "54b8087f638",
             "message": "Improve torch.ops typing (#154555)"
         }
     },

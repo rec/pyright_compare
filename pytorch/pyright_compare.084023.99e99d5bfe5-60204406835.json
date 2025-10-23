@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-13 06:05:38",
-            "id": "99e99d5bfe5",
+            "commit_id": "99e99d5bfe5",
             "message": "[a2av] Test must allocate tensors symmetrically (#155835)"
         },
         "after": {
             "committer_date": "2025-06-13 06:14:22",
-            "id": "60204406835",
+            "commit_id": "60204406835",
             "message": "remove allow-untyped-defs from adaround_fake_quantize.py (#155621)"
         }
     },

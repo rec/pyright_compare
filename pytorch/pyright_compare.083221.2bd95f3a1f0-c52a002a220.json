@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-27 11:53:47",
-            "id": "2bd95f3a1f0",
+            "commit_id": "2bd95f3a1f0",
             "message": "Move inductor workflows focal (ubuntu 20.04) -> jammy (ubuntu 22.04) (#154153)"
         },
         "after": {
             "committer_date": "2025-05-27 11:55:58",
-            "id": "c52a002a220",
+            "commit_id": "c52a002a220",
             "message": "Add getDeviceProperties api to torch mtia device (#153577)"
         }
     },

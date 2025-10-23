@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-17 12:42:40",
-            "id": "11bb1ece50a",
+            "commit_id": "11bb1ece50a",
             "message": "[CI] Fix triton version split issue (#155670)"
         },
         "after": {
             "committer_date": "2025-06-17 12:54:58",
-            "id": "0a0023d9840",
+            "commit_id": "0a0023d9840",
             "message": "Enable NCCL zero-copy (user buffer registration) for FSDP2 (#150564)"
         }
     },

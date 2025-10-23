@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-09-07 01:25:52",
-            "id": "e3068cdb446",
+            "commit_id": "e3068cdb446",
             "message": "[dynamo] Use relaxed CLOSURE_MATCH guard then ID_MATCH (#162247)"
         },
         "after": {
             "committer_date": "2025-09-07 01:29:54",
-            "id": "b919560c4a7",
+            "commit_id": "b919560c4a7",
             "message": "[nativert] AOTI lowering and packaging as NativeRT delegate (#162285)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-21 05:20:45",
-            "id": "a636a92ee9f",
+            "commit_id": "a636a92ee9f",
             "message": "[MTIA ATen Backend] Migrate \"_unsafe_view\" and \"view\" ops from out-of-tree to pytorch in-tree (#153670)"
         },
         "after": {
             "committer_date": "2025-05-21 07:15:00",
-            "id": "ffd49d538e8",
+            "commit_id": "ffd49d538e8",
             "message": "[BE][Ez]: Improve typing in torch/modules/container.py (#153728)"
         }
     },

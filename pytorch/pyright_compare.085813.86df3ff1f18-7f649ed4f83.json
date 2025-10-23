@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-23 22:06:27",
-            "id": "86df3ff1f18",
+            "commit_id": "86df3ff1f18",
             "message": "fix xnnpack build on mac (#158881)"
         },
         "after": {
             "committer_date": "2025-07-23 22:28:03",
-            "id": "7f649ed4f83",
+            "commit_id": "7f649ed4f83",
             "message": "Add basic torch.hash_tensor op (#154149)"
         }
     },

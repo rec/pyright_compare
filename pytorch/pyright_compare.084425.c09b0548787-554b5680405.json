@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-21 03:34:07",
-            "id": "c09b0548787",
+            "commit_id": "c09b0548787",
             "message": "Add runtime profiler info for AOTDispatcher prologue (#155785)"
         },
         "after": {
             "committer_date": "2025-06-21 03:55:28",
-            "id": "554b5680405",
+            "commit_id": "554b5680405",
             "message": "Add internal use only utility to allow externally visible side effects within HOPs (#155715)"
         }
     },

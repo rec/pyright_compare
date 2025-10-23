@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-11 01:21:16",
-            "id": "3040ca6d0f8",
+            "commit_id": "3040ca6d0f8",
             "message": "[Cutlass] Include fp8 headers in aoti cpp wrapper (#155173)"
         },
         "after": {
             "committer_date": "2025-06-11 01:22:06",
-            "id": "5264f8cd8d0",
+            "commit_id": "5264f8cd8d0",
             "message": "Add Intel GPU info collection to the collect env script (#137846)"
         }
     },

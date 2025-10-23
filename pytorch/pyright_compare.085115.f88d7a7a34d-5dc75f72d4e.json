@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-08 15:38:24",
-            "id": "f88d7a7a34d",
+            "commit_id": "f88d7a7a34d",
             "message": "[BE] Do not add `.` after troubleshooting_url (#157753)"
         },
         "after": {
             "committer_date": "2025-07-08 15:39:56",
-            "id": "5dc75f72d4e",
+            "commit_id": "5dc75f72d4e",
             "message": "Simplify the base classes of `_PyFutureMeta` (#157757)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-20 05:53:57",
-            "id": "a9fabeb012a",
+            "commit_id": "a9fabeb012a",
             "message": "[BE] Fix old TMA API in persistent matmul template (#161030)"
         },
         "after": {
             "committer_date": "2025-08-20 07:51:09",
-            "id": "0533ff2ccba",
+            "commit_id": "0533ff2ccba",
             "message": "[rfc] add hint_override kwarg to mark_dynamic (#161007)"
         }
     },

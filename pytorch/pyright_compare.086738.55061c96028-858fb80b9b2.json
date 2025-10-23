@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-15 03:42:39",
-            "id": "55061c96028",
+            "commit_id": "55061c96028",
             "message": "[PT2]: Add Static Dispatch Kernel for scale_gradient (#160454)"
         },
         "after": {
             "committer_date": "2025-08-15 04:06:17",
-            "id": "858fb80b9b2",
+            "commit_id": "858fb80b9b2",
             "message": "[PT2]: Add Static Dispatch Kernel for wrapped_fbgemm_linear_fp16_weight (#160451)"
         }
     },

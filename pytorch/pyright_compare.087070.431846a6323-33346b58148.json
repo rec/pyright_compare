@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-23 07:23:09",
-            "id": "431846a6323",
+            "commit_id": "431846a6323",
             "message": "[AMD] Fix AMD User Defined Kernel Autotune (#160671)"
         },
         "after": {
             "committer_date": "2025-08-23 07:23:22",
-            "id": "33346b58148",
+            "commit_id": "33346b58148",
             "message": "Support NUMA Binding for Callable Entrypoints, Take 2 (#161183)"
         }
     },

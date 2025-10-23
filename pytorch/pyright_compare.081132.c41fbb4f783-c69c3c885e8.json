@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-02 13:17:52",
-            "id": "c41fbb4f783",
+            "commit_id": "c41fbb4f783",
             "message": "Change arg_kwarg_vals propagation strategy (#148046)"
         },
         "after": {
             "committer_date": "2025-04-02 13:17:58",
-            "id": "c69c3c885e8",
+            "commit_id": "c69c3c885e8",
             "message": "Add needs_exact_strides operator tag for Inductor to force exact strides (#148063)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-26 16:12:07",
-            "id": "ca9fe0107e1",
+            "commit_id": "ca9fe0107e1",
             "message": "[Inductor] Update Outer Reduction Heuristic (#159093)"
         },
         "after": {
             "committer_date": "2025-08-26 17:06:54",
-            "id": "ba6ce66698f",
+            "commit_id": "ba6ce66698f",
             "message": "[dynamo] lift backed symint output of item() (#161198)"
         }
     },

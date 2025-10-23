@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-05 11:42:25",
-            "id": "625108ede28",
+            "commit_id": "625108ede28",
             "message": "[inductor] consolidate common GEMM triton param retrieval (#159383)"
         },
         "after": {
             "committer_date": "2025-08-05 12:44:14",
-            "id": "aeb5321b636",
+            "commit_id": "aeb5321b636",
             "message": "Allow controlling PG backend and options via init_device_mesh (#159371)"
         }
     },

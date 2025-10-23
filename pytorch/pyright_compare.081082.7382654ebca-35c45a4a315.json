@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-01 16:30:09",
-            "id": "7382654ebca",
+            "commit_id": "7382654ebca",
             "message": "Update ExecuTorch pin to latest viable/strict 3/28/2025 (#150308)"
         },
         "after": {
             "committer_date": "2025-04-01 16:46:07",
-            "id": "35c45a4a315",
+            "commit_id": "35c45a4a315",
             "message": "[Reland] Launch kernel on current stream & remove `record_stream` entirely (#150398)"
         }
     },

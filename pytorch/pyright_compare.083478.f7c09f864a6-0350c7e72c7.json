@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-01 20:56:14",
-            "id": "f7c09f864a6",
+            "commit_id": "f7c09f864a6",
             "message": "[Docs] Reformat sparse example (#154785)"
         },
         "after": {
             "committer_date": "2025-06-01 21:02:43",
-            "id": "0350c7e72c7",
+            "commit_id": "0350c7e72c7",
             "message": "[BE] Introduce torch.AcceleratorError (#152023)"
         }
     },

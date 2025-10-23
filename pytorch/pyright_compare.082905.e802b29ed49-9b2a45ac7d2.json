@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-17 02:07:35",
-            "id": "e802b29ed49",
+            "commit_id": "e802b29ed49",
             "message": "[SDPA][EZ] Abate narrowing conversion warning spam in `flash_api.cpp` (#153643)"
         },
         "after": {
             "committer_date": "2025-05-17 06:21:41",
-            "id": "9b2a45ac7d2",
+            "commit_id": "9b2a45ac7d2",
             "message": "Refactor `torch/utils/data/datapipes/gen_pyi.py` with `torchgen` (#150626)"
         }
     },

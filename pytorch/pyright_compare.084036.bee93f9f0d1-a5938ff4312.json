@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-13 14:38:51",
-            "id": "bee93f9f0d1",
+            "commit_id": "bee93f9f0d1",
             "message": "Move glslc to cas to enable remote execution (#155832)"
         },
         "after": {
             "committer_date": "2025-06-13 15:39:27",
-            "id": "a5938ff4312",
+            "commit_id": "a5938ff4312",
             "message": "[BE][c10d/Store]add check in pyi (#155855) (#155865)"
         }
     },

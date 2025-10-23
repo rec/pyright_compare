@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-14 21:09:22",
-            "id": "4a47dd9b3f5",
+            "commit_id": "4a47dd9b3f5",
             "message": "Revert \"[map] always turn on dynamo for map (#150962)\""
         },
         "after": {
             "committer_date": "2025-04-14 22:00:09",
-            "id": "c9aef508984",
+            "commit_id": "c9aef508984",
             "message": "Add inductor standalone_compile API (#150670)"
         }
     },

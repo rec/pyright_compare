@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-09-07 05:57:43",
-            "id": "eac3d6f04cf",
+            "commit_id": "eac3d6f04cf",
             "message": "Revert \"[inductor] fuse for scalar shared data (#162311)\""
         },
         "after": {
             "committer_date": "2025-09-07 06:00:55",
-            "id": "104f2680e03",
+            "commit_id": "104f2680e03",
             "message": "Revert \"Add return-max-scores to flex-attention (#161667)\""
         }
     },

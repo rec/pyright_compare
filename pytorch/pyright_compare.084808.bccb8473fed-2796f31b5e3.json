@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-29 01:53:02",
-            "id": "bccb8473fed",
+            "commit_id": "bccb8473fed",
             "message": "[ROCm] Allow use of rocSOLVER for Cholesky inversion. (#157154)"
         },
         "after": {
             "committer_date": "2025-06-29 03:19:48",
-            "id": "2796f31b5e3",
+            "commit_id": "2796f31b5e3",
             "message": "[DCP] OSS Zero Overhead Checkpointing Implementation (#156207)"
         }
     },

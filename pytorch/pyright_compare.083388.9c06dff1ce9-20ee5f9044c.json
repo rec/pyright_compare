@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-30 03:19:49",
-            "id": "9c06dff1ce9",
+            "commit_id": "9c06dff1ce9",
             "message": "[multigraph] use specializations in compile_and_call_fx_graph (#153449)"
         },
         "after": {
             "committer_date": "2025-05-30 03:29:45",
-            "id": "20ee5f9044c",
+            "commit_id": "20ee5f9044c",
             "message": "remove allow-untyped-defs from elastic_distributed_sampler.py (#154620)"
         }
     },

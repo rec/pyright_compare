@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-21 23:34:50",
-            "id": "08540b13c6a",
+            "commit_id": "08540b13c6a",
             "message": "Use cuda error code instead of error text in get_cuda_error_help (#158688)"
         },
         "after": {
             "committer_date": "2025-07-21 23:42:44",
-            "id": "2c37acfd891",
+            "commit_id": "2c37acfd891",
             "message": "[AOTI][CPU] Consider bias=None case for fbgemm_linear_fp16_weight (#158535)"
         }
     },

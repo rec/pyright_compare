@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-13 06:37:07",
-            "id": "b59f3d3ae06",
+            "commit_id": "b59f3d3ae06",
             "message": "[Intel GPU] skip a cuda api call in amp to save some host overhead on xpu (#151111)"
         },
         "after": {
             "committer_date": "2025-04-13 09:18:50",
-            "id": "304633152c2",
+            "commit_id": "304633152c2",
             "message": "Clean up duplicated code in lr_scheduler (#150984)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-06 21:31:52",
-            "id": "a5725965ea2",
+            "commit_id": "a5725965ea2",
             "message": "Remove unnecessary \"# noqa: set_linter\" comments (#159467)"
         },
         "after": {
             "committer_date": "2025-08-06 21:52:14",
-            "id": "40c4d61f9ab",
+            "commit_id": "40c4d61f9ab",
             "message": "[Dynamo][Better Engineering] Typing `torch/_dynamo/guards.py` (#159315)"
         }
     },

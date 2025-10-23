@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-16 05:03:30",
-            "id": "61a7b09ef39",
+            "commit_id": "61a7b09ef39",
             "message": "[BE][Easy] split build system `requirements.txt` to a separate file (#158111)"
         },
         "after": {
             "committer_date": "2025-07-16 06:06:29",
-            "id": "54848905398",
+            "commit_id": "54848905398",
             "message": "Add better typing to avaialbe kernel options for flex attention (#158383)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-03-31 16:15:57",
-            "id": "47cdad29952",
+            "commit_id": "47cdad29952",
             "message": "[ROCm] Enable several fsdp related UTs (#149369)"
         },
         "after": {
             "committer_date": "2025-03-31 17:04:25",
-            "id": "284b7668980",
+            "commit_id": "284b7668980",
             "message": "[dynamic shapes] C++ bindings for guard_or_false/true (#150148)"
         }
     },

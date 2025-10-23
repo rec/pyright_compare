@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-24 03:43:35",
-            "id": "76ed9db4682",
+            "commit_id": "76ed9db4682",
             "message": "[cuBLAS][cuBLASLt] Use cuBLAS default workspace size in Lt (#153556)"
         },
         "after": {
             "committer_date": "2025-05-24 04:30:57",
-            "id": "6503b4a96ed",
+            "commit_id": "6503b4a96ed",
             "message": "Update to using mypy 1.15 (#154054)"
         }
     },

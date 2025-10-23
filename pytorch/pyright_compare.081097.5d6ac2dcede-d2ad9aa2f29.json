@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-01 19:15:25",
-            "id": "5d6ac2dcede",
+            "commit_id": "5d6ac2dcede",
             "message": "[dtensor] add op support for select_backward and slice_backward (#150357)"
         },
         "after": {
             "committer_date": "2025-04-01 19:15:43",
-            "id": "d2ad9aa2f29",
+            "commit_id": "d2ad9aa2f29",
             "message": "[dtensor][tp] add a ParallelStyle PrepareModuleInputOutput (#150372)"
         }
     },

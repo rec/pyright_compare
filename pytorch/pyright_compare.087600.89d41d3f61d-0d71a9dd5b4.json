@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-09-04 21:26:05",
-            "id": "89d41d3f61d",
+            "commit_id": "89d41d3f61d",
             "message": "[SymmMem] Feed tensor.data_ptr instead of handle.buffer_ptr into kernels (#162193)"
         },
         "after": {
             "committer_date": "2025-09-04 21:57:27",
-            "id": "0d71a9dd5b4",
+            "commit_id": "0d71a9dd5b4",
             "message": "fix incorrect interaction between DDPOptimizer and donated buffers (#160745)"
         }
     },

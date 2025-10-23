@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-22 00:23:10",
-            "id": "350d6af52c7",
+            "commit_id": "350d6af52c7",
             "message": "[AOTI] add windows support for get_cpp_compile_command (#158732)"
         },
         "after": {
             "committer_date": "2025-07-22 01:01:41",
-            "id": "63413113332",
+            "commit_id": "63413113332",
             "message": "Revert \"Add unified memory APIs for torch.accelerator (#152932)\""
         }
     },

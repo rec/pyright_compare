@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-22 14:22:07",
-            "id": "ee3d9969cc2",
+            "commit_id": "ee3d9969cc2",
             "message": "Revert \"[dynamo] handle fullgraph toggle using nested torch.compile (#155166)\""
         },
         "after": {
             "committer_date": "2025-06-22 14:22:07",
-            "id": "c10eeb5bad7",
+            "commit_id": "c10eeb5bad7",
             "message": "Revert \"[dynamo] fix set_fullgraph for nested calls (#154782)\""
         }
     },

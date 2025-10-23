@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-28 17:01:05",
-            "id": "399c89e15c1",
+            "commit_id": "399c89e15c1",
             "message": "fix torch/distributed contributing doc (#158934)"
         },
         "after": {
             "committer_date": "2025-07-28 17:36:29",
-            "id": "2d1e92307d3",
+            "commit_id": "2d1e92307d3",
             "message": "Partitioner: Fix to align partition node order with original graph (#157892)"
         }
     },

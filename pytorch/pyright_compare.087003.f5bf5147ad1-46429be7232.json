@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-21 15:54:34 -0700",
-            "id": "f5bf5147ad1",
+            "commit_id": "f5bf5147ad1",
             "message": "Bump uv from 0.8.4 to 0.8.6 in /.ci/lumen_cli (#161212)"
         },
         "after": {
             "committer_date": "2025-08-21 23:58:02",
-            "id": "46429be7232",
+            "commit_id": "46429be7232",
             "message": "[DCP][HF] Add option to parallelize reads in HF Storage Reader (#160205)"
         }
     },

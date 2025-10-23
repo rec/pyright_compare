@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-11 05:54:16",
-            "id": "cec59b76ca6",
+            "commit_id": "cec59b76ca6",
             "message": "[2/N] cost coverage improvment  (#157738)"
         },
         "after": {
             "committer_date": "2025-07-11 06:16:38",
-            "id": "b4fc42ca807",
+            "commit_id": "b4fc42ca807",
             "message": "Add `torch.segment_reduce` docs (#154352)"
         }
     },

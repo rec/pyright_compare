@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-21 08:36:21",
-            "id": "a941d7ffe54",
+            "commit_id": "a941d7ffe54",
             "message": "[Quant][CPU] Avoid NaN in fp8 output of qlinear and qconv (#160957)"
         },
         "after": {
             "committer_date": "2025-08-21 10:47:03",
-            "id": "18271148d32",
+            "commit_id": "18271148d32",
             "message": "[dist] expose unsafe_get_ptr for dist.ProcessGroupNCCL.NCCLConfig (#161136)"
         }
     },

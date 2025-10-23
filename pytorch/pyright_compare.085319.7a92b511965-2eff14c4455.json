@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-12 01:47:22",
-            "id": "7a92b511965",
+            "commit_id": "7a92b511965",
             "message": "[BE][2/16] fix typos in torch/ (torch/_*/) (#156312)"
         },
         "after": {
             "committer_date": "2025-07-12 02:30:47",
-            "id": "2eff14c4455",
+            "commit_id": "2eff14c4455",
             "message": "[ONNX] Delete torch.onnx.dynamo_export (#158130)"
         }
     },

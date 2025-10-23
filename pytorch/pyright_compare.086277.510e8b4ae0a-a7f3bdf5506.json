@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-04 21:51:02",
-            "id": "510e8b4ae0a",
+            "commit_id": "510e8b4ae0a",
             "message": "[inductor] use writable temp file on windows (#159738)"
         },
         "after": {
             "committer_date": "2025-08-04 21:51:53",
-            "id": "a7f3bdf5506",
+            "commit_id": "a7f3bdf5506",
             "message": "[Dynamo][Better Engineering] Type coverage for `torch/_dynamo/utils.py` (#159580)"
         }
     },

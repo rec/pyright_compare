@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-15 13:08:26",
-            "id": "f1f18c75c9f",
+            "commit_id": "f1f18c75c9f",
             "message": "Gracefully handle optree less than minimum version, part 2 (#151257)"
         },
         "after": {
             "committer_date": "2025-04-15 14:45:20",
-            "id": "c5de6ff079e",
+            "commit_id": "c5de6ff079e",
             "message": "Remove ls from filesystem base (#151117)"
         }
     },

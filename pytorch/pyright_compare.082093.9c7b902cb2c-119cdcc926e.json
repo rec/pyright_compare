@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-29 02:49:22",
-            "id": "9c7b902cb2c",
+            "commit_id": "9c7b902cb2c",
             "message": "[MPSInductor][BE] Make all reductions cacheable (#152363)"
         },
         "after": {
             "committer_date": "2025-04-29 03:51:32",
-            "id": "119cdcc926e",
+            "commit_id": "119cdcc926e",
             "message": "Add rich support to torch.distributed.tensor.debug.visualize_sharding (#152027)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-06 02:22:18",
-            "id": "4604f0482c2",
+            "commit_id": "4604f0482c2",
             "message": "Add UT for torch.accelerator memory-related API (#155200)"
         },
         "after": {
             "committer_date": "2025-08-06 02:26:10",
-            "id": "8ce81bcee1d",
+            "commit_id": "8ce81bcee1d",
             "message": "[Torch Package] Make get names of OrderedImporters support fallback to importers (#155743)"
         }
     },

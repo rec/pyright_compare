@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-11 15:20:48",
-            "id": "dc5e8f7999c",
+            "commit_id": "dc5e8f7999c",
             "message": "[cuBLASLt][cuBLAS] Support 2D bias and `beta != 1.0` in cuBLASLt (#154170)"
         },
         "after": {
             "committer_date": "2025-06-11 16:01:03",
-            "id": "18bf6addc47",
+            "commit_id": "18bf6addc47",
             "message": "set_grad_enabled add str and repr for prints (#155681)"
         }
     },

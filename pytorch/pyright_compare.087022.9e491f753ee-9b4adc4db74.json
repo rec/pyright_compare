@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-22 08:56:06",
-            "id": "9e491f753ee",
+            "commit_id": "9e491f753ee",
             "message": "[dynamo] Remove extra if statement in builder _wrap (#161215)"
         },
         "after": {
             "committer_date": "2025-08-22 09:03:35",
-            "id": "9b4adc4db74",
+            "commit_id": "9b4adc4db74",
             "message": "[fr] [xpu] Add FlightRecorder support for ProcessGroupXCCL (#158568)"
         }
     },

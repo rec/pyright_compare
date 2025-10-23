@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 14:06:29",
-            "id": "ee4f4339631",
+            "commit_id": "ee4f4339631",
             "message": "[ez] add docblock for _guard_or (#154384)"
         },
         "after": {
             "committer_date": "2025-05-28 14:10:07",
-            "id": "35a473e3644",
+            "commit_id": "35a473e3644",
             "message": "[ez] add docblock for guard_scalar (#154385)"
         }
     },

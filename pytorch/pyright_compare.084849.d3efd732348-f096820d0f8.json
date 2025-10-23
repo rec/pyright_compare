@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-30 21:16:04",
-            "id": "d3efd732348",
+            "commit_id": "d3efd732348",
             "message": "Revert \"[cutlass backend][BE][ez] Make matmul layouts be row x column (#156656)\""
         },
         "after": {
             "committer_date": "2025-06-30 21:16:15",
-            "id": "f096820d0f8",
+            "commit_id": "f096820d0f8",
             "message": "[precompile] Detect source code changes for save/load. (#156432)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-20 15:16:45",
-            "id": "6ea4be1e2ec",
+            "commit_id": "6ea4be1e2ec",
             "message": "Revert \"[dynamic shapes] unbacked-safe slicing (#157944)\""
         },
         "after": {
             "committer_date": "2025-08-20 15:31:33",
-            "id": "90ea9ccefe3",
+            "commit_id": "90ea9ccefe3",
             "message": "Revert \"[rfc] add hint_override kwarg to mark_dynamic (#161007)\""
         }
     },

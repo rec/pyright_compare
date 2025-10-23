@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-19 16:16:29",
-            "id": "6eb6f198e1a",
+            "commit_id": "6eb6f198e1a",
             "message": "update codebase structure documentation to include mps (#156297)"
         },
         "after": {
             "committer_date": "2025-06-19 16:27:42",
-            "id": "6e185c53124",
+            "commit_id": "6e185c53124",
             "message": "Upgrade to DLPack 1.0. (#145000)"
         }
     },

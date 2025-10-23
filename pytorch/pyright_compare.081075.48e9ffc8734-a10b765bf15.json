@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-01 08:55:51",
-            "id": "48e9ffc8734",
+            "commit_id": "48e9ffc8734",
             "message": "Unify on dynamo_compile as the overall wait counter (#150293)"
         },
         "after": {
             "committer_date": "2025-04-01 10:40:43",
-            "id": "a10b765bf15",
+            "commit_id": "a10b765bf15",
             "message": "[pytree] add APIs to determine a class is a namedtuple or PyStructSequence (#113257)"
         }
     },

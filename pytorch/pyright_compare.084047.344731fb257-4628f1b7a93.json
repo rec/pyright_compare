@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-13 18:52:41",
-            "id": "344731fb257",
+            "commit_id": "344731fb257",
             "message": "Add CUDA 12.9.1 sbsa nightly binaries (#155819)"
         },
         "after": {
             "committer_date": "2025-06-13 18:59:31",
-            "id": "4628f1b7a93",
+            "commit_id": "4628f1b7a93",
             "message": "[Hierarchical-Compile] Track mutations for setitem (#155880)"
         }
     },

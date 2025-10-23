@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-24 02:32:36",
-            "id": "d703f062fe7",
+            "commit_id": "d703f062fe7",
             "message": "[MPS] Adjust test_sum_dtypes so it can run on MPS. (#152064)"
         },
         "after": {
             "committer_date": "2025-04-24 02:53:59",
-            "id": "2ee8de54b17",
+            "commit_id": "2ee8de54b17",
             "message": "[dynamic shapes] user-code friendly statically_known_true, has_static_value (#151601)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-29 17:34:49",
-            "id": "5d89634ca8a",
+            "commit_id": "5d89634ca8a",
             "message": "Graph break with error message (#158800)"
         },
         "after": {
             "committer_date": "2025-07-29 17:40:49",
-            "id": "6162e650b0e",
+            "commit_id": "6162e650b0e",
             "message": "[BE] remove torch deploy - conditionals (#158288)"
         }
     },

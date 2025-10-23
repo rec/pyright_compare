@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-25 20:12:18",
-            "id": "995397d47a0",
+            "commit_id": "995397d47a0",
             "message": "[inductor] structured-log graph execution order + test (#160448)"
         },
         "after": {
             "committer_date": "2025-08-25 20:57:37",
-            "id": "cf94cadbeee",
+            "commit_id": "cf94cadbeee",
             "message": "[CUDAGraph] Add getter for cuda graph exec (#161294)"
         }
     },

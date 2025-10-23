@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 05:41:19",
-            "id": "08c29deb5fe",
+            "commit_id": "08c29deb5fe",
             "message": "[ez] add docblock to is_symbol_binding_fx_node (#154380)"
         },
         "after": {
             "committer_date": "2025-05-28 05:44:26",
-            "id": "8e25ba6963d",
+            "commit_id": "8e25ba6963d",
             "message": "[ez] add docblock for find_symbol_binding_fx_nodes (#154381)"
         }
     },

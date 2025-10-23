@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-11 21:56:53",
-            "id": "2a909cab169",
+            "commit_id": "2a909cab169",
             "message": "Update ninja missing error message (#147698)"
         },
         "after": {
             "committer_date": "2025-04-11 22:03:24",
-            "id": "85549fe6de3",
+            "commit_id": "85549fe6de3",
             "message": "Add `__all__` for `torch.utils.dlpack` (#149026)"
         }
     },

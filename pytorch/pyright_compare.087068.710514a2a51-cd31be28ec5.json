@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-23 07:17:30",
-            "id": "710514a2a51",
+            "commit_id": "710514a2a51",
             "message": "Revert \"Enable output padding when only outermost dim is dynamic (#159404)\""
         },
         "after": {
             "committer_date": "2025-08-23 07:20:58",
-            "id": "cd31be28ec5",
+            "commit_id": "cd31be28ec5",
             "message": "Reland D80238201: [Torch.Export] Add flat arg paths in error message (#160919)"
         }
     },

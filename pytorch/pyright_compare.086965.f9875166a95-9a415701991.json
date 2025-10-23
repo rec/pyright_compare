@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-21 01:34:19",
-            "id": "f9875166a95",
+            "commit_id": "f9875166a95",
             "message": "Revert \"[FSDP][Collectives] skipping reduce_scatter when world size is 1 (#160136)\""
         },
         "after": {
             "committer_date": "2025-08-21 02:22:52",
-            "id": "9a415701991",
+            "commit_id": "9a415701991",
             "message": "[rfc] add hint_override kwarg to mark_dynamic (#161007)"
         }
     },

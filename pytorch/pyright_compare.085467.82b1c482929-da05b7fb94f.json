@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-16 17:26:20",
-            "id": "82b1c482929",
+            "commit_id": "82b1c482929",
             "message": "[hop] add supports_higher_order_operators flag to TorchDispatchMode (#158077)"
         },
         "after": {
             "committer_date": "2025-07-16 17:26:20",
-            "id": "da05b7fb94f",
+            "commit_id": "da05b7fb94f",
             "message": "[cond] add _FlopCounterMode support for cond  (#158067)"
         }
     },

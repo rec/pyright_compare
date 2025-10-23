@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-16 19:32:17",
-            "id": "62d8e3cb40d",
+            "commit_id": "62d8e3cb40d",
             "message": "[BE][MPS] Cleanup log ops migration (#153727)"
         },
         "after": {
             "committer_date": "2025-05-16 19:42:20",
-            "id": "1748fa529a9",
+            "commit_id": "1748fa529a9",
             "message": "Revert \"cleanup, refactor and add missing  self._dde_suppressed checks (#152657)\""
         }
     },

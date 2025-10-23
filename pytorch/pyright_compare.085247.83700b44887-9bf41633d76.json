@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-10 22:30:19",
-            "id": "83700b44887",
+            "commit_id": "83700b44887",
             "message": "dist2: add group context manager (#157988)"
         },
         "after": {
             "committer_date": "2025-07-10 22:44:34",
-            "id": "9bf41633d76",
+            "commit_id": "9bf41633d76",
             "message": "Allow Custom Time Unit When Printing Profiler Table (#157913)"
         }
     },

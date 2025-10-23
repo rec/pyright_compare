@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-09 20:14:34",
-            "id": "f742b32a2ff",
+            "commit_id": "f742b32a2ff",
             "message": "[dynamo] Avoid recompiling over unused objects (#156891)"
         },
         "after": {
             "committer_date": "2025-07-09 21:12:25",
-            "id": "163f0d8f2ab",
+            "commit_id": "163f0d8f2ab",
             "message": "[BE][Ez]: Auto add return type annotations for methods in torch/nn/module (#157925)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-09 03:01:41",
-            "id": "c515385b0ac",
+            "commit_id": "c515385b0ac",
             "message": "Add Intel GPU info collection to the collect env script (#157351)"
         },
         "after": {
             "committer_date": "2025-07-09 03:11:37",
-            "id": "8d070187e34",
+            "commit_id": "8d070187e34",
             "message": "fix type hints for interpolation functions (#157202)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-26 19:04:13",
-            "id": "a03cc53e6f6",
+            "commit_id": "a03cc53e6f6",
             "message": "Back out \"Refactor CUDAAllocatorConfig to reuse AcceleratorAllocatorConfig (#150312)\" (#161002)"
         },
         "after": {
             "committer_date": "2025-08-26 19:16:05",
-            "id": "74124d1b467",
+            "commit_id": "74124d1b467",
             "message": "[reland] [dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#161514)"
         }
     },

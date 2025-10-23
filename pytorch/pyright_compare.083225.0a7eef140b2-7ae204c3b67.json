@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-27 14:10:00",
-            "id": "0a7eef140b2",
+            "commit_id": "0a7eef140b2",
             "message": "Add `torch.Tensor._make_wrapper_subclass` to `torch/_C/__init__.pyi` (#154022)"
         },
         "after": {
             "committer_date": "2025-05-27 14:58:02",
-            "id": "7ae204c3b67",
+            "commit_id": "7ae204c3b67",
             "message": "[BE][CI][Easy] Run `lintrunner` on generated `.pyi` stub files (#150732)"
         }
     },

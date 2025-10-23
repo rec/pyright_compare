@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-01 08:54:52",
-            "id": "210632fae1a",
+            "commit_id": "210632fae1a",
             "message": "[ROCm] support experimental CU carveout (#149466)"
         },
         "after": {
             "committer_date": "2025-07-01 10:36:48",
-            "id": "a767e50adca",
+            "commit_id": "a767e50adca",
             "message": "remove allow-untyped-defs from torch/fx/experimental/migrate_gradual_types/util.py (#157236)"
         }
     },

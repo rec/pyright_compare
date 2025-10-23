@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-17 17:08:42",
-            "id": "960c03daf65",
+            "commit_id": "960c03daf65",
             "message": "Remove unused CONDA_CMAKE option (#160832)"
         },
         "after": {
             "committer_date": "2025-08-17 17:54:55",
-            "id": "63e1b58a134",
+            "commit_id": "63e1b58a134",
             "message": "[easy] [Precompile] Refactor guards, improve typing (#160530)"
         }
     },

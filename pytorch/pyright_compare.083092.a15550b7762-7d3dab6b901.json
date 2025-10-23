@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-22 16:36:57",
-            "id": "a15550b7762",
+            "commit_id": "a15550b7762",
             "message": "[Cutlass] Use env var for EVT flag (#154099)"
         },
         "after": {
             "committer_date": "2025-05-22 16:49:08",
-            "id": "7d3dab6b901",
+            "commit_id": "7d3dab6b901",
             "message": "Revert \"[BE]: Type previously untyped decorators (#153726)\""
         }
     },

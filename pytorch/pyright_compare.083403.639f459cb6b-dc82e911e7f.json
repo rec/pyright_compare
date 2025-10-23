@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-30 08:11:22",
-            "id": "639f459cb6b",
+            "commit_id": "639f459cb6b",
             "message": "Revert \"[Inductor] Add NaN assert to returned values from generated code (#154455)\""
         },
         "after": {
             "committer_date": "2025-05-30 08:38:05",
-            "id": "dc82e911e7f",
+            "commit_id": "dc82e911e7f",
             "message": "remove allow-untyped-defs from torch/utils/data/datapipes/iter/filelister.py (#154624)"
         }
     },

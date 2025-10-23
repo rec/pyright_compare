@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-27 15:55:42",
-            "id": "c4b08547506",
+            "commit_id": "c4b08547506",
             "message": "Update OpenBLAS commit  (#151547)"
         },
         "after": {
             "committer_date": "2025-04-27 15:56:44",
-            "id": "861945100ec",
+            "commit_id": "861945100ec",
             "message": "[Kineto] Enable OOM observer (#152160)"
         }
     },

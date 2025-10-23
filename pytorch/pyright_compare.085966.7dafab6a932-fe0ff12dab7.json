@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-26 17:41:42",
-            "id": "7dafab6a932",
+            "commit_id": "7dafab6a932",
             "message": "Fix SDPA sharding when `return_debug_mask` is False (#159205)"
         },
         "after": {
             "committer_date": "2025-07-26 17:58:00",
-            "id": "fe0ff12dab7",
+            "commit_id": "fe0ff12dab7",
             "message": "Revert \"[Inductor] Support native Inductor as backend for MTIA (#158526)\""
         }
     },

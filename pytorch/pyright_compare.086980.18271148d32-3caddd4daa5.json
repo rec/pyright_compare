@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-21 10:47:03",
-            "id": "18271148d32",
+            "commit_id": "18271148d32",
             "message": "[dist] expose unsafe_get_ptr for dist.ProcessGroupNCCL.NCCLConfig (#161136)"
         },
         "after": {
             "committer_date": "2025-08-21 14:23:13",
-            "id": "3caddd4daa5",
+            "commit_id": "3caddd4daa5",
             "message": "[ROCm] SDPA fix mem fault when dropout is enabled (#154864)"
         }
     },

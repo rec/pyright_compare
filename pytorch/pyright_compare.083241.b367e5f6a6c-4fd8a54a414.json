@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-27 19:40:28",
-            "id": "b367e5f6a6c",
+            "commit_id": "b367e5f6a6c",
             "message": "[ROCm][Windows] Fix building torch 2.8 wheel with ROCm (added hipblasLt and rocblas directories) (#153144)"
         },
         "after": {
             "committer_date": "2025-05-27 19:47:32",
-            "id": "4fd8a54a414",
+            "commit_id": "4fd8a54a414",
             "message": "[ez] add docblock for is_accessor_node (#154375)"
         }
     },

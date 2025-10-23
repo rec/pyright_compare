@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-05 03:44:01",
-            "id": "4fd5fabee9b",
+            "commit_id": "4fd5fabee9b",
             "message": "skip XPU for dataloader CPU only unit test (#159811)"
         },
         "after": {
             "committer_date": "2025-08-05 03:50:54",
-            "id": "b6c53383fe2",
+            "commit_id": "b6c53383fe2",
             "message": "[Dynamo][Better Engineering] Type annotation for `torch/_dynamo/output_graph.py` (#159602)"
         }
     },

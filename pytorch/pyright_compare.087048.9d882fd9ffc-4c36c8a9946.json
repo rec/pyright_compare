@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-22 21:38:28",
-            "id": "9d882fd9ffc",
+            "commit_id": "9d882fd9ffc",
             "message": "[benchmark] Add torchscript jit.trace to benchmark option (#161223)"
         },
         "after": {
             "committer_date": "2025-08-22 21:40:03",
-            "id": "4c36c8a9946",
+            "commit_id": "4c36c8a9946",
             "message": "[dynamo] Support method calls on complex ConstantVariables (#161122)"
         }
     },

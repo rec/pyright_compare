@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 05:37:25",
-            "id": "07405a6cffc",
+            "commit_id": "07405a6cffc",
             "message": "[ez] add docblock for free_unbacked_symbols (#154379)"
         },
         "after": {
             "committer_date": "2025-05-28 05:41:19",
-            "id": "08c29deb5fe",
+            "commit_id": "08c29deb5fe",
             "message": "[ez] add docblock to is_symbol_binding_fx_node (#154380)"
         }
     },

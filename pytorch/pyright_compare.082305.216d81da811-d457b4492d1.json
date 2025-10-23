@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-02 19:11:11",
-            "id": "216d81da811",
+            "commit_id": "216d81da811",
             "message": "[CUDA][complex] skip `test_reference_numerics_large_jiterator_unary_cuda_complex64` on CUDA (#148024)"
         },
         "after": {
             "committer_date": "2025-05-02 19:18:58",
-            "id": "d457b4492d1",
+            "commit_id": "d457b4492d1",
             "message": "Optimize `Sequential` methods description (#147304)"
         }
     },

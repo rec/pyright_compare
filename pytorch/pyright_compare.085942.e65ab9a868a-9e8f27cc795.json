@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-25 21:59:14",
-            "id": "e65ab9a868a",
+            "commit_id": "e65ab9a868a",
             "message": "Enable generating generic c_shim that doesn't bypass dispatcher (#158974)"
         },
         "after": {
             "committer_date": "2025-07-25 22:03:55",
-            "id": "9e8f27cc795",
+            "commit_id": "9e8f27cc795",
             "message": "[BE] Make torch.nn.modules.* satisfy the docs coverage test (#158491)"
         }
     },

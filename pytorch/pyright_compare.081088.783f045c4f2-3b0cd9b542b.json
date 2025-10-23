@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-01 17:14:32",
-            "id": "783f045c4f2",
+            "commit_id": "783f045c4f2",
             "message": "[ez] Remove dead lite interpreter CI code (#150424)"
         },
         "after": {
             "committer_date": "2025-04-01 17:32:41",
-            "id": "3b0cd9b542b",
+            "commit_id": "3b0cd9b542b",
             "message": "[Quant][PT2E] add a lowering pass for x86 backend (#149708)"
         }
     },

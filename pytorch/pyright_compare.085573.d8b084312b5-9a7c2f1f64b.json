@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-18 04:09:32",
-            "id": "d8b084312b5",
+            "commit_id": "d8b084312b5",
             "message": "[DTensor] Fix default_strategy and rename for clarity (#158490)"
         },
         "after": {
             "committer_date": "2025-07-18 04:58:24",
-            "id": "9a7c2f1f64b",
+            "commit_id": "9a7c2f1f64b",
             "message": "Revert \"Add torch compile force disable caches alias (#158072)\""
         }
     },

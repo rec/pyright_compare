@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-09-08 22:44:09",
-            "id": "711c8c821e8",
+            "commit_id": "711c8c821e8",
             "message": "shape guards (#161178)"
         },
         "after": {
             "committer_date": "2025-09-08 22:44:48",
-            "id": "ac9ccd0dc2d",
+            "commit_id": "ac9ccd0dc2d",
             "message": "Add return-max-scores to flex-attention (#161667)"
         }
     },

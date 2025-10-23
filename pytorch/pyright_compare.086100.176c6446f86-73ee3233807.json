@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-30 18:54:25",
-            "id": "176c6446f86",
+            "commit_id": "176c6446f86",
             "message": "Update CODEOWNERS for ONNX (#159390)"
         },
         "after": {
             "committer_date": "2025-07-30 18:55:47",
-            "id": "73ee3233807",
+            "commit_id": "73ee3233807",
             "message": "[ONNX] RMS Norm (#159377)"
         }
     },

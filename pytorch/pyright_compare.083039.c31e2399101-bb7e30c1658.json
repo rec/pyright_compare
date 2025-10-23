@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-21 18:08:42",
-            "id": "c31e2399101",
+            "commit_id": "c31e2399101",
             "message": "[precompile] Add BundledAOTAutogradCacheEntry (#152840)"
         },
         "after": {
             "committer_date": "2025-05-21 18:18:47",
-            "id": "bb7e30c1658",
+            "commit_id": "bb7e30c1658",
             "message": "[MegaCache] Make MegaCache generic to allow external plugins registration (#152977)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-30 23:03:11",
-            "id": "fd2c64e286b",
+            "commit_id": "fd2c64e286b",
             "message": "Fix duplicated sources in inductor provenance tracking (#159484)"
         },
         "after": {
             "committer_date": "2025-07-30 23:14:31",
-            "id": "de7376537f2",
+            "commit_id": "de7376537f2",
             "message": "Fix ep deepcopy when there is python builitin name (#159478)"
         }
     },

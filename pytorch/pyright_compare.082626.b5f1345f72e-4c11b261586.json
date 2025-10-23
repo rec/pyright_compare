@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-10 08:27:56",
-            "id": "b5f1345f72e",
+            "commit_id": "b5f1345f72e",
             "message": "[Dynamo] Optimize dedupe region ancestor tracking (#152589)"
         },
         "after": {
             "committer_date": "2025-05-10 11:13:04",
-            "id": "4c11b261586",
+            "commit_id": "4c11b261586",
             "message": "refine fp32 precision api (#125888)"
         }
     },

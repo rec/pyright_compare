@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-01 00:21:22",
-            "id": "4ebd2690654",
+            "commit_id": "4ebd2690654",
             "message": "[Testing] Remove duplicate MPSInductor tests (#157328)"
         },
         "after": {
             "committer_date": "2025-07-01 00:30:48",
-            "id": "b60569ed946",
+            "commit_id": "b60569ed946",
             "message": "HF - consolidate shards of safetensors files to full tensors in finish step (#156705)"
         }
     },

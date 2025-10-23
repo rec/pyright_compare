@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-13 23:42:24",
-            "id": "50a8c118754",
+            "commit_id": "50a8c118754",
             "message": "Add getCurrentDeviceIndex to torch::stable::accelerator (#160453)"
         },
         "after": {
             "committer_date": "2025-08-14 00:05:17",
-            "id": "a06ec54d400",
+            "commit_id": "a06ec54d400",
             "message": "[MPS] Add API to query GPU core count (#160414)"
         }
     },

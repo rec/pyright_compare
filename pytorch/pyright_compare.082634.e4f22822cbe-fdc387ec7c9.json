@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-10 19:33:26",
-            "id": "e4f22822cbe",
+            "commit_id": "e4f22822cbe",
             "message": "Revert \"Cleanup VS 2019 refs in pytorch (#145863)\" (#152613)"
         },
         "after": {
             "committer_date": "2025-05-11 00:35:46",
-            "id": "fdc387ec7c9",
+            "commit_id": "fdc387ec7c9",
             "message": "Revert \"refine fp32 precision api (#125888)\""
         }
     },

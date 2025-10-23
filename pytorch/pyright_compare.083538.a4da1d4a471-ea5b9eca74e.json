@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-03 07:40:42",
-            "id": "a4da1d4a471",
+            "commit_id": "a4da1d4a471",
             "message": "[Graph Partition] support standalone_compile (#154698)"
         },
         "after": {
             "committer_date": "2025-06-03 07:58:38",
-            "id": "ea5b9eca74e",
+            "commit_id": "ea5b9eca74e",
             "message": "Combine sticky pgo key with job id (#154863)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-02 01:49:01",
-            "id": "f8c0a4bd280",
+            "commit_id": "f8c0a4bd280",
             "message": "[inductor] enable bf32 test for mkldnn conv (#127293)"
         },
         "after": {
             "committer_date": "2025-07-02 06:58:45",
-            "id": "0364db7cd14",
+            "commit_id": "0364db7cd14",
             "message": "[PT] support custom all_gather and reduce_scatter comms (#155189)"
         }
     },

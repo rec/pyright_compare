@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-12 20:08:49",
-            "id": "7e913949557",
+            "commit_id": "7e913949557",
             "message": "Support NUMA Binding for Callable Entrypoints (#160163)"
         },
         "after": {
             "committer_date": "2025-08-12 20:14:18",
-            "id": "8e6a3138581",
+            "commit_id": "8e6a3138581",
             "message": "Add ownership token when needed on GradientEdge (#160098)"
         }
     },

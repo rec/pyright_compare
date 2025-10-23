@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-28 02:36:08",
-            "id": "199c3633bfb",
+            "commit_id": "199c3633bfb",
             "message": "Fix Inductor Periodic (#161617)"
         },
         "after": {
             "committer_date": "2025-08-28 02:41:33",
-            "id": "5edc3d814f4",
+            "commit_id": "5edc3d814f4",
             "message": "Add option for TorchDispatchMode to ignore torch.compile internals (#161648)"
         }
     },

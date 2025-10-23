@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-19 06:51:57",
-            "id": "a9f84021fb5",
+            "commit_id": "a9f84021fb5",
             "message": "[CI] Fixes CI for CUDA Version > 12.9 (#157385)"
         },
         "after": {
             "committer_date": "2025-07-19 07:27:15",
-            "id": "f73594164a3",
+            "commit_id": "f73594164a3",
             "message": "[BE] document Adadelta and Adagrad APIs properly (#158483)"
         }
     },

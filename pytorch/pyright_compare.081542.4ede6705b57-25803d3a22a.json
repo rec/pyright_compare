@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-15 00:44:19",
-            "id": "4ede6705b57",
+            "commit_id": "4ede6705b57",
             "message": "test_store: fix timeout for test_queues (#151252)"
         },
         "after": {
             "committer_date": "2025-04-15 01:00:13",
-            "id": "25803d3a22a",
+            "commit_id": "25803d3a22a",
             "message": "Optimize typing in `lr_scheduler.py` (#151219)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-25 23:09:09",
-            "id": "b2e06e0194c",
+            "commit_id": "b2e06e0194c",
             "message": "[Inductor] Prune configs that require more shared memory than the hardware limit (#161040)"
         },
         "after": {
             "committer_date": "2025-08-25 23:16:21",
-            "id": "447d34b5f80",
+            "commit_id": "447d34b5f80",
             "message": "[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)"
         }
     },

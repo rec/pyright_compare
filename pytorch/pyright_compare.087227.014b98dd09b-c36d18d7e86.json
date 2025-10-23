@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-27 21:21:19",
-            "id": "014b98dd09b",
+            "commit_id": "014b98dd09b",
             "message": "Revert \"Add inductor backend to device interface; make minifier_tests more device agnostic (#151314)\""
         },
         "after": {
             "committer_date": "2025-08-27 21:26:25",
-            "id": "c36d18d7e86",
+            "commit_id": "c36d18d7e86",
             "message": "[rfc] aot precompile with custom backend api (#161383)"
         }
     },

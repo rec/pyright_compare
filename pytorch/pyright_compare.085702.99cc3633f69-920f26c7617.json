@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-21 23:17:38",
-            "id": "99cc3633f69",
+            "commit_id": "99cc3633f69",
             "message": "Revert \"[BE] Modify PyObjectSlot the assume only a single interpreter is in use (#158407)\""
         },
         "after": {
             "committer_date": "2025-07-21 23:17:38",
-            "id": "920f26c7617",
+            "commit_id": "920f26c7617",
             "message": "Revert \"[BE] Remove __reduce_deploy__ (#158291)\""
         }
     },

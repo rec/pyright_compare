@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-01 20:54:18",
-            "id": "0d44a8aea1e",
+            "commit_id": "0d44a8aea1e",
             "message": "[Hierarchical Compile] Apply deduplication after output node creation (#150306)"
         },
         "after": {
             "committer_date": "2025-04-01 21:13:39",
-            "id": "b70d105c779",
+            "commit_id": "b70d105c779",
             "message": "infer dynamic shapes through additional inputs (#150144)"
         }
     },

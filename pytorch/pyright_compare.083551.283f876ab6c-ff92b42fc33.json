@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-03 15:55:29",
-            "id": "283f876ab6c",
+            "commit_id": "283f876ab6c",
             "message": "[PP] Fix disabled flaky tests (#154856)"
         },
         "after": {
             "committer_date": "2025-06-03 16:12:54",
-            "id": "ff92b42fc33",
+            "commit_id": "ff92b42fc33",
             "message": "[c10d][gloo] Integrate vendor generic FR into gloo (#152614)"
         }
     },

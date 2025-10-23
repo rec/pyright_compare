@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-05 23:40:31",
-            "id": "28796f71d04",
+            "commit_id": "28796f71d04",
             "message": "Redo D75092426: [internal] Expose additional metadata to compilation callbacks (#155063)"
         },
         "after": {
             "committer_date": "2025-06-06 03:08:48",
-            "id": "0db3e0cf296",
+            "commit_id": "0db3e0cf296",
             "message": "Revert \"Add Intel GPU info collection to the collect env script (#137846)\""
         }
     },

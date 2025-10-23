@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-01 15:43:20",
-            "id": "b146e1a2649",
+            "commit_id": "b146e1a2649",
             "message": "[BE] remove duplicates in generated `torch._VF.__all__` (#157365)"
         },
         "after": {
             "committer_date": "2025-07-01 15:46:34",
-            "id": "0f9c1b374fb",
+            "commit_id": "0f9c1b374fb",
             "message": "[dynamo] Ensure global state guard is preserved across serialization. (#157285)"
         }
     },

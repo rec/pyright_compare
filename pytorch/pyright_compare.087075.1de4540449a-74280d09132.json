@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-24 03:28:29",
-            "id": "1de4540449a",
+            "commit_id": "1de4540449a",
             "message": "Use -compress-mode=size for CUDA 13 build for binary size reduction (#161316)"
         },
         "after": {
             "committer_date": "2025-08-24 08:03:04",
-            "id": "74280d09132",
+            "commit_id": "74280d09132",
             "message": "[muon] Introduce Muon optimizer to PyTorch (#160213)"
         }
     },

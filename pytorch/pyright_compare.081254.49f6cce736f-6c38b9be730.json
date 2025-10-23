@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-06 17:06:55",
-            "id": "49f6cce736f",
+            "commit_id": "49f6cce736f",
             "message": "[MPS] grad scaler (#150255)"
         },
         "after": {
             "committer_date": "2025-04-06 17:50:35",
-            "id": "6c38b9be730",
+            "commit_id": "6c38b9be730",
             "message": "[typing] Add type hints to `__init__` methods in `torch.distributions`. (#144197)"
         }
     },

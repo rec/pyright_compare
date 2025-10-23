@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-08 00:11:52",
-            "id": "e38a335d7f0",
+            "commit_id": "e38a335d7f0",
             "message": "remove allow-untyped-defs from torch/backends/cusparselt/__init__.py (#157232)"
         },
         "after": {
             "committer_date": "2025-07-08 00:11:52",
-            "id": "60b41de0ca0",
+            "commit_id": "60b41de0ca0",
             "message": "remove allow-untyped-defs from torch/ao/nn/quantized/modules/rnn.py (#157234)"
         }
     },

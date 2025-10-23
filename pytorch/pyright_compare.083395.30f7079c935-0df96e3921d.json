@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-30 07:00:54",
-            "id": "30f7079c935",
+            "commit_id": "30f7079c935",
             "message": "[FSDP2] allow different dtypes for no grad model params (#154103)"
         },
         "after": {
             "committer_date": "2025-05-30 07:26:09",
-            "id": "0df96e3921d",
+            "commit_id": "0df96e3921d",
             "message": "remove allow-untyped-defs from torch/ao/quantization/stubs.py (#154622)"
         }
     },

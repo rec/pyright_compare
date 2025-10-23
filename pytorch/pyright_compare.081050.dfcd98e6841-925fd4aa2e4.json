@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-03-31 20:12:03",
-            "id": "dfcd98e6841",
+            "commit_id": "dfcd98e6841",
             "message": "cd: Fix naming for windows arm64 libtorch builds (#150310)"
         },
         "after": {
             "committer_date": "2025-03-31 21:32:20",
-            "id": "925fd4aa2e4",
+            "commit_id": "925fd4aa2e4",
             "message": "[export] min/max ranges for dim hints (#149590)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-14 19:02:51",
-            "id": "534b66fe303",
+            "commit_id": "534b66fe303",
             "message": "torch.compile: Remove reference to the unused dynamo_config.dynamic_shapes from (#153297)"
         },
         "after": {
             "committer_date": "2025-05-14 19:24:36",
-            "id": "a54bf43baad",
+            "commit_id": "a54bf43baad",
             "message": "Fix support of MixtureSameFamily [bugfix]. (#151317)"
         }
     },

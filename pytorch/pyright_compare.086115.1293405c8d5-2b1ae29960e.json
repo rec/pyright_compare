@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-30 21:57:25",
-            "id": "1293405c8d5",
+            "commit_id": "1293405c8d5",
             "message": "[MPS] Add `simd_[arg][max|min]` (#158990)"
         },
         "after": {
             "committer_date": "2025-07-30 22:57:50",
-            "id": "2b1ae29960e",
+            "commit_id": "2b1ae29960e",
             "message": "[Dynamo][Better Engineering] Add typing annotations to guard and source (#158397) (#159491)"
         }
     },

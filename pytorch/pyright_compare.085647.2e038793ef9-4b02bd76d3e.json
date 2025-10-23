@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-20 22:07:32",
-            "id": "2e038793ef9",
+            "commit_id": "2e038793ef9",
             "message": "[inductor][templates] Finalize all registered hooks (#157270)"
         },
         "after": {
             "committer_date": "2025-07-20 22:52:54",
-            "id": "4b02bd76d3e",
+            "commit_id": "4b02bd76d3e",
             "message": "DCP safetensors test fix (#158685)"
         }
     },

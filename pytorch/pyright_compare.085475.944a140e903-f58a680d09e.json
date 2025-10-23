@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-16 19:15:33",
-            "id": "944a140e903",
+            "commit_id": "944a140e903",
             "message": "Revert \"[cuda][cupy] Improve cupy device placement when device is provided (#158320)\""
         },
         "after": {
             "committer_date": "2025-07-16 19:33:57",
-            "id": "f58a680d09e",
+            "commit_id": "f58a680d09e",
             "message": "[c10d]Prototype of remote_group_merge (#158287)"
         }
     },

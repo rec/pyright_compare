@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 14:10:07",
-            "id": "35a473e3644",
+            "commit_id": "35a473e3644",
             "message": "[ez] add docblock for guard_scalar (#154385)"
         },
         "after": {
             "committer_date": "2025-05-28 14:13:22",
-            "id": "473a93eb589",
+            "commit_id": "473a93eb589",
             "message": "[ez] add docblock for _ShapeGuardPrinter (#154402)"
         }
     },

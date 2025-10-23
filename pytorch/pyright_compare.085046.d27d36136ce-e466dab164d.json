@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-07 09:16:38",
-            "id": "d27d36136ce",
+            "commit_id": "d27d36136ce",
             "message": "Don't try installing missing cuda dependencies on s390x (#157540)"
         },
         "after": {
             "committer_date": "2025-07-07 11:56:30",
-            "id": "e466dab164d",
+            "commit_id": "e466dab164d",
             "message": "[WIP] Automatically load and save dynamo entries via caching_precompile (#155913)"
         }
     },

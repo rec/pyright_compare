@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-31 23:01:19",
-            "id": "dbad6d71c72",
+            "commit_id": "dbad6d71c72",
             "message": "[BE][Ez]: Unskip conv1d MPS test (#154795)"
         },
         "after": {
             "committer_date": "2025-05-31 23:06:45",
-            "id": "9ce2732b685",
+            "commit_id": "9ce2732b685",
             "message": "[BE][Ez]: Fully type nn.utils.clip_grad (#154801)"
         }
     },

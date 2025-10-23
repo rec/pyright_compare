@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-25 18:35:21",
-            "id": "660b5656a43",
+            "commit_id": "660b5656a43",
             "message": "Inline is_read_only_alias_match in _correct_storage_aliasing (#161285)"
         },
         "after": {
             "committer_date": "2025-08-25 18:56:18",
-            "id": "3e210f90c2c",
+            "commit_id": "3e210f90c2c",
             "message": "Revert \"[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)\""
         }
     },

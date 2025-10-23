@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-11 15:11:38",
-            "id": "359e8f5d691",
+            "commit_id": "359e8f5d691",
             "message": "[CI] Use `setup-python` from test-infra to do MacOS builds (#155515)"
         },
         "after": {
             "committer_date": "2025-06-11 15:18:47",
-            "id": "45c5a232373",
+            "commit_id": "45c5a232373",
             "message": "Revert \"Add Intel GPU info collection to the collect env script (#137846)\""
         }
     },

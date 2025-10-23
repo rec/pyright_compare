@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-09-06 16:47:13",
-            "id": "ae0edc133e6",
+            "commit_id": "ae0edc133e6",
             "message": "[3/N] Enable 6 fsdp test on Intel GPU (#161601)"
         },
         "after": {
             "committer_date": "2025-09-06 20:03:52",
-            "id": "047603d35bd",
+            "commit_id": "047603d35bd",
             "message": "New export implementation with flat inp/out (#162167)"
         }
     },

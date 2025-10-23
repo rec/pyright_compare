@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-08 04:44:15",
-            "id": "2d25e4d478b",
+            "commit_id": "2d25e4d478b",
             "message": "[1/n][Optimus][Auto-AC] Support activation quantization without scaling (#148380)"
         },
         "after": {
             "committer_date": "2025-05-08 04:49:59",
-            "id": "94ca3a4666d",
+            "commit_id": "94ca3a4666d",
             "message": "Add torch._C.Tag.needs_contiguous_strides (#152859)"
         }
     },

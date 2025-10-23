@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-18 18:46:04",
-            "id": "9944cd0949e",
+            "commit_id": "9944cd0949e",
             "message": "Convert to markdown: quantization-accuracy-debugging.rst, quantization-backend-configuration.rst, quantization-support.rst, random.rst (#155520)"
         },
         "after": {
             "committer_date": "2025-06-18 18:57:47",
-            "id": "cbafba57941",
+            "commit_id": "cbafba57941",
             "message": "Allow forcing FSDP2 to always use SUM reductions (#155915)"
         }
     },

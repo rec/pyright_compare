@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-24 09:51:33",
-            "id": "2dfc0e33273",
+            "commit_id": "2dfc0e33273",
             "message": "[Inductor UT] Reuse test_fused_attention.py for Intel GPU. (#154110)"
         },
         "after": {
             "committer_date": "2025-05-24 14:23:55",
-            "id": "53ecb8159aa",
+            "commit_id": "53ecb8159aa",
             "message": "Introduce statically_known_false (#154291)"
         }
     },

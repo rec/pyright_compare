@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-07 04:27:31",
-            "id": "bb9fbb294af",
+            "commit_id": "bb9fbb294af",
             "message": "[Testing] Add logic for running MPS tests (#153012)"
         },
         "after": {
             "committer_date": "2025-05-07 06:04:22",
-            "id": "93a0a7a0bf3",
+            "commit_id": "93a0a7a0bf3",
             "message": "Fix bug visualizing 1D Tensor using rich (#152871)"
         }
     },

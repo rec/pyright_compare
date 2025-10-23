@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-17 15:06:43",
-            "id": "813c76b98d5",
+            "commit_id": "813c76b98d5",
             "message": "Revert \"Unify torch.tensor and torch.ops.aten.scalar_tensor behavior (#158537)\""
         },
         "after": {
             "committer_date": "2025-07-17 15:40:36",
-            "id": "2ecf083b724",
+            "commit_id": "2ecf083b724",
             "message": "Add torch compile force disable caches alias (#158072)"
         }
     },

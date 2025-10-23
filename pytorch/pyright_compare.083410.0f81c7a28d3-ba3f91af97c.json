@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-30 15:04:26",
-            "id": "0f81c7a28d3",
+            "commit_id": "0f81c7a28d3",
             "message": "[CI] Pin the torchao version used when testing torchbench (#154723)"
         },
         "after": {
             "committer_date": "2025-05-30 15:50:31",
-            "id": "ba3f91af97c",
+            "commit_id": "ba3f91af97c",
             "message": "Type hints for distributions/utils (#154712)"
         }
     },

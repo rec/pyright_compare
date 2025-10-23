@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-12 05:47:06",
-            "id": "7f14b42adf7",
+            "commit_id": "7f14b42adf7",
             "message": "[BE][2/16] fix typos in torch/ (torch/_*/) (#156312)"
         },
         "after": {
             "committer_date": "2025-07-12 06:25:46",
-            "id": "6b84cb29f97",
+            "commit_id": "6b84cb29f97",
             "message": "[dynamo] trace through torch.get_device_module (#157980)"
         }
     },

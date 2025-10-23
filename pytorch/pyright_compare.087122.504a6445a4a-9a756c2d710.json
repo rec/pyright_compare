@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-26 00:57:48",
-            "id": "504a6445a4a",
+            "commit_id": "504a6445a4a",
             "message": "[dynamo, nested graph breaks] use CALL_FUNCTION_EX when calling resume function (#159281)"
         },
         "after": {
             "committer_date": "2025-08-26 00:57:58",
-            "id": "9a756c2d710",
+            "commit_id": "9a756c2d710",
             "message": "[dynamo, nested graph breaks] add nested graph break tests (#144516)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-11 01:51:34",
-            "id": "b7c0fda1635",
+            "commit_id": "b7c0fda1635",
             "message": "[MPS] Fix `determine_backend_memory_format` logic (#151042)"
         },
         "after": {
             "committer_date": "2025-04-11 01:58:35",
-            "id": "df4e5294a66",
+            "commit_id": "df4e5294a66",
             "message": "Reapply \"ProcessGroupGloo: support lazy_init (#150801)\" (#151031)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-24 21:05:17",
-            "id": "cae4746952a",
+            "commit_id": "cae4746952a",
             "message": "Graph break with error message (#158800)"
         },
         "after": {
             "committer_date": "2025-07-24 21:37:11",
-            "id": "e20736bf1d4",
+            "commit_id": "e20736bf1d4",
             "message": "Dont't GC as often when collecting cudagraphs (#158193)"
         }
     },

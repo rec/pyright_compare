@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-15 17:28:36",
-            "id": "c0a07618712",
+            "commit_id": "c0a07618712",
             "message": "[Inductor] Refactor wrapper codegen to use Wrapper IR. (#150458)"
         },
         "after": {
             "committer_date": "2025-04-15 17:35:59",
-            "id": "74f6bc28a72",
+            "commit_id": "74f6bc28a72",
             "message": "Revert \"Add inductor standalone_compile API (#150670)\""
         }
     },

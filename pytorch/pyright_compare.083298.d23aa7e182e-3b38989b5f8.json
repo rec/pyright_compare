@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 16:25:30",
-            "id": "d23aa7e182e",
+            "commit_id": "d23aa7e182e",
             "message": "Add deprecation warning for `torch.ao.quantization` (#153892)"
         },
         "after": {
             "committer_date": "2025-05-28 16:35:48",
-            "id": "3b38989b5f8",
+            "commit_id": "3b38989b5f8",
             "message": "Remove MemPoolContext  (#154042)"
         }
     },

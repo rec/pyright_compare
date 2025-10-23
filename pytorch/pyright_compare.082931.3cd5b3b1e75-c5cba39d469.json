@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-19 14:13:19",
-            "id": "3cd5b3b1e75",
+            "commit_id": "3cd5b3b1e75",
             "message": "[AOTI] Skip a rocm test (#153828)"
         },
         "after": {
             "committer_date": "2025-05-19 14:52:32",
-            "id": "c5cba39d469",
+            "commit_id": "c5cba39d469",
             "message": "Improve torch.ops typing (#153558)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-27 23:45:12",
-            "id": "c55bdb26e19",
+            "commit_id": "c55bdb26e19",
             "message": "Revert \"[Inductor] Add DeviceAssert op to enable device-side assertion in torch.compile (#160677)\""
         },
         "after": {
             "committer_date": "2025-08-28 00:12:13",
-            "id": "97a548b640f",
+            "commit_id": "97a548b640f",
             "message": "[PGO] skip allowlist logging for empty graphs (#161530)"
         }
     },

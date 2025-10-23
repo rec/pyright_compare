@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-30 01:36:03",
-            "id": "dd7c996d5c3",
+            "commit_id": "dd7c996d5c3",
             "message": "[BE] Remove torch deploy | remove torch deploy specific files (#158290)"
         },
         "after": {
             "committer_date": "2025-07-30 01:36:03",
-            "id": "b57d1ef110b",
+            "commit_id": "b57d1ef110b",
             "message": "[BE] Remove __reduce_deploy__ (#158291)"
         }
     },

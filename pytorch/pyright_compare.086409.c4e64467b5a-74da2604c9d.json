@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-07 16:34:36",
-            "id": "c4e64467b5a",
+            "commit_id": "c4e64467b5a",
             "message": "Revert \"Add UT for torch.accelerator memory-related API (#155200)\""
         },
         "after": {
             "committer_date": "2025-08-07 16:34:36",
-            "id": "74da2604c9d",
+            "commit_id": "74da2604c9d",
             "message": "Revert \"Add unified memory APIs for torch.accelerator (#152932)\""
         }
     },

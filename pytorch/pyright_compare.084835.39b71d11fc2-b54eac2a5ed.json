@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-30 16:29:08",
-            "id": "39b71d11fc2",
+            "commit_id": "39b71d11fc2",
             "message": "[Inductor] add pedantic to limit inductor code follow standard. (#156914)"
         },
         "after": {
             "committer_date": "2025-06-30 16:58:06",
-            "id": "b54eac2a5ed",
+            "commit_id": "b54eac2a5ed",
             "message": "Upgrade to DLPack 1.0. (#145000)"
         }
     },

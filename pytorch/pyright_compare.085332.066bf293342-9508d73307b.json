@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-12 15:42:12",
-            "id": "066bf293342",
+            "commit_id": "066bf293342",
             "message": "remove allow-untyped-defs from torch/_higher_order_ops/run_const_graph.py (#157847)"
         },
         "after": {
             "committer_date": "2025-07-12 15:42:12",
-            "id": "9508d73307b",
+            "commit_id": "9508d73307b",
             "message": "remove allow-untyped-defs from torch/ao/nn/intrinsic/quantized/dynamic/modules/linear_relu.py (#157848)"
         }
     },

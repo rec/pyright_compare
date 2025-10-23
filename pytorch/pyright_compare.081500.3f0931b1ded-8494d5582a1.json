@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-13 15:44:42",
-            "id": "3f0931b1ded",
+            "commit_id": "3f0931b1ded",
             "message": "[ez][dynamo] some code movement (#150753)"
         },
         "after": {
             "committer_date": "2025-04-13 20:38:11",
-            "id": "8494d5582a1",
+            "commit_id": "8494d5582a1",
             "message": "Propagate callable parameter types using ParamSpec (#142306) (#151014)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-20 20:12:22",
-            "id": "de1930a4290",
+            "commit_id": "de1930a4290",
             "message": "Add ONNX dynamo metadata documentation (#155816)"
         },
         "after": {
             "committer_date": "2025-06-20 20:18:24",
-            "id": "754c04aa062",
+            "commit_id": "754c04aa062",
             "message": "Revert \"[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)\""
         }
     },

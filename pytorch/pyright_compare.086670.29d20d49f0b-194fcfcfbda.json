@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-14 03:23:46",
-            "id": "29d20d49f0b",
+            "commit_id": "29d20d49f0b",
             "message": "[cutlass] fix dictionary iteration error (#160552)"
         },
         "after": {
             "committer_date": "2025-08-14 03:34:04",
-            "id": "194fcfcfbda",
+            "commit_id": "194fcfcfbda",
             "message": "Add support for param mutation under inference mode (#159661)"
         }
     },

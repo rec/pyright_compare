@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-13 20:52:24",
-            "id": "e9eb2096a59",
+            "commit_id": "e9eb2096a59",
             "message": "[cutlass backend] Allow bmm use cases when batch stride is 0 (#160356)"
         },
         "after": {
             "committer_date": "2025-08-13 21:00:59",
-            "id": "1196bb1c2e4",
+            "commit_id": "1196bb1c2e4",
             "message": "Add utility to get computed kernel in torch.library (#158393)"
         }
     },

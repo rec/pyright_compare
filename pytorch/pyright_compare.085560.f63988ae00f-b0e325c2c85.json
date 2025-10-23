@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-17 23:24:50",
-            "id": "f63988ae00f",
+            "commit_id": "f63988ae00f",
             "message": "[BE]Clean up old APIs in AOTI c shim (#158400)"
         },
         "after": {
             "committer_date": "2025-07-17 23:31:26",
-            "id": "b0e325c2c85",
+            "commit_id": "b0e325c2c85",
             "message": "[Dynamo][Better Engineering] Add type coverage to decorators (#158509)"
         }
     },

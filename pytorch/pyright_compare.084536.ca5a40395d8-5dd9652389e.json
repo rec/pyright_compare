@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-24 00:06:23",
-            "id": "ca5a40395d8",
+            "commit_id": "ca5a40395d8",
             "message": "[partitioner] Fix _broadcast_on_rank0 to use deterministic hash function (#153734)"
         },
         "after": {
             "committer_date": "2025-06-24 00:07:37",
-            "id": "5dd9652389e",
+            "commit_id": "5dd9652389e",
             "message": "Clean up HF components (#155707)"
         }
     },

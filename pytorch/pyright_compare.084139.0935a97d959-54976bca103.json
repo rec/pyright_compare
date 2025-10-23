@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-15 17:09:57",
-            "id": "0935a97d959",
+            "commit_id": "0935a97d959",
             "message": "[Dynamo] Add torch.accelerator API to trace_rules (#155884)"
         },
         "after": {
             "committer_date": "2025-06-15 17:49:36",
-            "id": "54976bca103",
+            "commit_id": "54976bca103",
             "message": "[dynamo] Provide helper functions for guard filter hook (#155083)"
         }
     },

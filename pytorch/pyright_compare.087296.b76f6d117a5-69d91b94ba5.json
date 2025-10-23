@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-28 19:32:09",
-            "id": "b76f6d117a5",
+            "commit_id": "b76f6d117a5",
             "message": "[ROCm] fix numpy version detection and adjust fudge_factors for MI355 (#161429)"
         },
         "after": {
             "committer_date": "2025-08-28 19:36:19",
-            "id": "69d91b94ba5",
+            "commit_id": "69d91b94ba5",
             "message": "kill allow_complex_guards_as_runtime_asserts (#160198)"
         }
     },

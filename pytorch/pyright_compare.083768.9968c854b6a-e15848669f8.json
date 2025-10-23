@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-09 06:27:50",
-            "id": "9968c854b6a",
+            "commit_id": "9968c854b6a",
             "message": "[Dynamo] Replace `unimplemented` with `unimplemented_v2` in `torch/_dynamo/variables/tensor.py` (#153146)"
         },
         "after": {
             "committer_date": "2025-06-09 10:43:52",
-            "id": "e15848669f8",
+            "commit_id": "e15848669f8",
             "message": "[1/n]adding torch.distributed.run option to provide destination for event logging (#154644) (#155268)"
         }
     },

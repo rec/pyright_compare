@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-20 23:06:33",
-            "id": "0ad88a2224e",
+            "commit_id": "0ad88a2224e",
             "message": "Support environement var for autotune log (#156254)"
         },
         "after": {
             "committer_date": "2025-06-20 23:54:57",
-            "id": "fbbab794ef6",
+            "commit_id": "fbbab794ef6",
             "message": "[ONNX] Implement Attention-23 (#156431)"
         }
     },

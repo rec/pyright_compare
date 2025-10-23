@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-15 18:43:59",
-            "id": "b22f01fcb9d",
+            "commit_id": "b22f01fcb9d",
             "message": "Delete TorchScript based Android demo app and point to ExecuTorch (#153633)"
         },
         "after": {
             "committer_date": "2025-05-15 19:01:57",
-            "id": "a4c828199e0",
+            "commit_id": "a4c828199e0",
             "message": "[BE] Add `__all__` to `torch/nn/functional.pyi` and `torch/return_types.pyi` (#150729)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-29 00:35:37",
-            "id": "ba0a91b3ea5",
+            "commit_id": "ba0a91b3ea5",
             "message": "[4/n][Optimus][Auto-AC] Expose the config to skip the dynamo gaurds to avoid recompile (#154152)"
         },
         "after": {
             "committer_date": "2025-05-29 00:36:34",
-            "id": "946a4c2bdca",
+            "commit_id": "946a4c2bdca",
             "message": "BE: Type previously untyped decorators (#154515)"
         }
     },

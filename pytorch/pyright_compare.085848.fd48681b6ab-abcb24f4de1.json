@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-24 15:40:13",
-            "id": "fd48681b6ab",
+            "commit_id": "fd48681b6ab",
             "message": "[DeviceMesh][ez] Make the logic within flatten simpler (#158999)"
         },
         "after": {
             "committer_date": "2025-07-24 15:55:18",
-            "id": "abcb24f4de1",
+            "commit_id": "abcb24f4de1",
             "message": "[Dynamo][Better Engineering] Add typing annotations to guard and source (#158397)"
         }
     },

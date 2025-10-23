@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-20 07:03:07",
-            "id": "2c372a05025",
+            "commit_id": "2c372a05025",
             "message": "[dynamo] add set_fullgraph decorator/context manager (#154289)"
         },
         "after": {
             "committer_date": "2025-06-20 07:03:16",
-            "id": "537b0877a87",
+            "commit_id": "537b0877a87",
             "message": "[dynamo] fix set_fullgraph for nested calls (#154782)"
         }
     },

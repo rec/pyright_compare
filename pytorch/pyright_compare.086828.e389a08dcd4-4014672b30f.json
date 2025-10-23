@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-18 16:43:09",
-            "id": "e389a08dcd4",
+            "commit_id": "e389a08dcd4",
             "message": "AMD/ROCm OCP Micro-scaling Format (mx-fp8/mx-fp4) Support (#151360)"
         },
         "after": {
             "committer_date": "2025-08-18 17:04:17",
-            "id": "4014672b30f",
+            "commit_id": "4014672b30f",
             "message": "Replace guard_serialization_mode with save_guards, remove load cases (#160531)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-13 08:13:23",
-            "id": "6e8865fbc16",
+            "commit_id": "6e8865fbc16",
             "message": "port 3 distributed test to Intel GPU and unified some common functions (#158533)"
         },
         "after": {
             "committer_date": "2025-08-13 09:01:52",
-            "id": "641ee747815",
+            "commit_id": "641ee747815",
             "message": "Revert \"Add `label_smoothing` param in `nn.BCELoss` and `nn.BCEWithLogitsLoss` (#150282)\""
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-26 10:24:18",
-            "id": "de45c5f673c",
+            "commit_id": "de45c5f673c",
             "message": "[aarch64] Add back NCCL lib to cuda arm wheel (#156888)"
         },
         "after": {
             "committer_date": "2025-06-26 10:32:20",
-            "id": "53e0b9c3936",
+            "commit_id": "53e0b9c3936",
             "message": "refine fp32 precision api (#125888)"
         }
     },

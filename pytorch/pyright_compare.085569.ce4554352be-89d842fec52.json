@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-18 02:18:43",
-            "id": "ce4554352be",
+            "commit_id": "ce4554352be",
             "message": "Shunt fx_interpreter graphmodule print on error into tlparse (#158469)"
         },
         "after": {
             "committer_date": "2025-07-18 02:18:43",
-            "id": "89d842fec52",
+            "commit_id": "89d842fec52",
             "message": "Make torch.distributed.breakpoint() set a long timeout (#158481)"
         }
     },

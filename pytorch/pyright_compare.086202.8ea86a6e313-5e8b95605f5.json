@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-01 19:53:41",
-            "id": "8ea86a6e313",
+            "commit_id": "8ea86a6e313",
             "message": "Actually test STD_TORCH_CHECK, add testfile to CMake (#159603)"
         },
         "after": {
             "committer_date": "2025-08-01 20:22:30",
-            "id": "5e8b95605f5",
+            "commit_id": "5e8b95605f5",
             "message": "[PP] Support OVERLAP_F_B computation type (#158978)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-21 19:14:47",
-            "id": "ad2dec19970",
+            "commit_id": "ad2dec19970",
             "message": "[SymmMem] Add NVSHMEM alltoall support into Triton (#158513)"
         },
         "after": {
             "committer_date": "2025-07-21 19:17:01",
-            "id": "22920c9138f",
+            "commit_id": "22920c9138f",
             "message": "Grab bag of (mostly) typing improvements (#158075)"
         }
     },

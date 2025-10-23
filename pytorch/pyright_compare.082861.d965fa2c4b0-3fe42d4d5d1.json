@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-16 07:31:16",
-            "id": "d965fa2c4b0",
+            "commit_id": "d965fa2c4b0",
             "message": "[CUDA][cuBLAS] Remove `IS_ARM64` skip in `test_matmul_cuda.py` (#153660)"
         },
         "after": {
             "committer_date": "2025-05-16 07:51:50",
-            "id": "3fe42d4d5d1",
+            "commit_id": "3fe42d4d5d1",
             "message": "[export] Dynamo symint support (#152677)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-23 18:01:00",
-            "id": "ec368a19036",
+            "commit_id": "ec368a19036",
             "message": "Add sitemap (#154158)"
         },
         "after": {
             "committer_date": "2025-05-23 18:29:08",
-            "id": "4ff19ecf665",
+            "commit_id": "4ff19ecf665",
             "message": "Revert \"[export] Move PT2ArchiveWriter/Reader to torch/export (#153795)\""
         }
     },

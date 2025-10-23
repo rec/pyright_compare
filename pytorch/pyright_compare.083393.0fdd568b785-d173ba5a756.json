@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-30 06:53:25",
-            "id": "0fdd568b785",
+            "commit_id": "0fdd568b785",
             "message": "[forward fix] add support for MemoryFormat after type tightening (#154658)"
         },
         "after": {
             "committer_date": "2025-05-30 06:53:37",
-            "id": "d173ba5a756",
+            "commit_id": "d173ba5a756",
             "message": "Revert \"Remove MemPoolContext  (#154042)\""
         }
     },

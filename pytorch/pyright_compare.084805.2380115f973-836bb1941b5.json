@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-28 23:31:15",
-            "id": "2380115f973",
+            "commit_id": "2380115f973",
             "message": "[BE] use `pathlib.Path` instead of `os.path.*` in `setup.py` (#156742)"
         },
         "after": {
             "committer_date": "2025-06-28 23:47:46",
-            "id": "836bb1941b5",
+            "commit_id": "836bb1941b5",
             "message": "[hop] support torch.func.functional_call in hop subgraph (#155886)"
         }
     },

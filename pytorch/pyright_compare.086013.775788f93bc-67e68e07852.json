@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-29 03:26:09",
-            "id": "775788f93bc",
+            "commit_id": "775788f93bc",
             "message": "[BE][PYFMT] migrate PYFMT for `test/[i-z]*/` to `ruff format` (#144556)"
         },
         "after": {
             "committer_date": "2025-07-29 03:27:11",
-            "id": "67e68e07852",
+            "commit_id": "67e68e07852",
             "message": "[c10d] Cleanup split_group logic using the newly built splitGroup (#158488)"
         }
     },

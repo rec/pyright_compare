@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-13 11:12:13",
-            "id": "670dab6c630",
+            "commit_id": "670dab6c630",
             "message": "[AOTI] Enable OP `test__weight_int4pack_mm_with_scales_and_zeros` in AOTI. (#155780)"
         },
         "after": {
             "committer_date": "2025-06-13 13:54:10",
-            "id": "b2fc9cfea16",
+            "commit_id": "b2fc9cfea16",
             "message": "[precompile] Add CompilePackage to serialize dynamo states. (#155118)"
         }
     },

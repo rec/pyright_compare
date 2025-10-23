@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-02 17:35:44",
-            "id": "72337bdcf2f",
+            "commit_id": "72337bdcf2f",
             "message": "[ATen][CUDA] Optimize 128 bit vectorization (#148320)"
         },
         "after": {
             "committer_date": "2025-05-02 18:08:11",
-            "id": "376529c78b7",
+            "commit_id": "376529c78b7",
             "message": "consolidate guard_or_x and definitely_x (#152463)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-24 07:27:53",
-            "id": "ce1a07570d9",
+            "commit_id": "ce1a07570d9",
             "message": "Fix TORCH_CUDA_ARCH_LIST (#156667)"
         },
         "after": {
             "committer_date": "2025-06-24 07:57:48",
-            "id": "35e44067c4d",
+            "commit_id": "35e44067c4d",
             "message": "Add unified memory APIs for torch.accelerator (#152932)"
         }
     },

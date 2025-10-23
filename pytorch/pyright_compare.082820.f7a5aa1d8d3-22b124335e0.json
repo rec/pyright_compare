@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-15 09:36:42",
-            "id": "f7a5aa1d8d3",
+            "commit_id": "f7a5aa1d8d3",
             "message": "[torchgen] Refactor and simplify `gen_pyi.py` to use Generic TypeAlias (PEP 585) and Union Type (PEP 604) (#150727)"
         },
         "after": {
             "committer_date": "2025-05-15 09:36:42",
-            "id": "22b124335e0",
+            "commit_id": "22b124335e0",
             "message": "[BE] Update `.pyi` stub template to use Generic TypeAlias (PEP 585) and Union Type (PEP 604) (#150728)"
         }
     },

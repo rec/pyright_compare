@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-27 02:45:20",
-            "id": "b36a20d3687",
+            "commit_id": "b36a20d3687",
             "message": "Ensure large tensor int32 -> int64 indexing is enabled (#157767)"
         },
         "after": {
             "committer_date": "2025-08-27 03:00:56",
-            "id": "8b78ba07b14",
+            "commit_id": "8b78ba07b14",
             "message": "[dynamo, nested graph breaks] add nested graph break tests (#144516)"
         }
     },

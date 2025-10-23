@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-07 20:57:30",
-            "id": "5c79a55e7e5",
+            "commit_id": "5c79a55e7e5",
             "message": "[oss] Add version to metadata (#155343)"
         },
         "after": {
             "committer_date": "2025-07-07 21:43:35",
-            "id": "ed6df0e3242",
+            "commit_id": "ed6df0e3242",
             "message": "correctly import torch.version (#157584)"
         }
     },

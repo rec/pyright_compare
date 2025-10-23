@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-28 03:48:41",
-            "id": "899eec665cc",
+            "commit_id": "899eec665cc",
             "message": "[MPS] col2im kernel implementation (#152282)"
         },
         "after": {
             "committer_date": "2025-04-28 03:52:47",
-            "id": "13966d0bf55",
+            "commit_id": "13966d0bf55",
             "message": "[BE] Migrate dtype_abbrs into one location (#152229)"
         }
     },

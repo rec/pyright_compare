@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-06 01:20:45",
-            "id": "e16c48ae97e",
+            "commit_id": "e16c48ae97e",
             "message": "[BE] Fix type hint in AOTIRunnerUtil (#159577)"
         },
         "after": {
             "committer_date": "2025-08-06 02:22:18",
-            "id": "15f1173e5d7",
+            "commit_id": "15f1173e5d7",
             "message": "Add unified memory APIs for torch.accelerator (#152932)"
         }
     },

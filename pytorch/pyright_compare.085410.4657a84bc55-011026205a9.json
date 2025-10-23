@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-15 19:22:26",
-            "id": "4657a84bc55",
+            "commit_id": "4657a84bc55",
             "message": "[Optimus][fp8_activation_quantization] Only log when there's some node to be quantized (#158129)"
         },
         "after": {
             "committer_date": "2025-07-15 19:31:00",
-            "id": "011026205a9",
+            "commit_id": "011026205a9",
             "message": "make node source hashable (#158322)"
         }
     },

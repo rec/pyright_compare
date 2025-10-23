@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-07 14:51:32",
-            "id": "eda0a9cc90b",
+            "commit_id": "eda0a9cc90b",
             "message": "[list] Add list.__delitem__ (#156339)"
         },
         "after": {
             "committer_date": "2025-07-07 16:53:35",
-            "id": "ae1094b72b7",
+            "commit_id": "ae1094b72b7",
             "message": "Revert \"[WIP] Automatically load and save dynamo entries via caching_precompile (#155913)\""
         }
     },

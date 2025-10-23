@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-16 21:50:55",
-            "id": "ada44e5ba78",
+            "commit_id": "ada44e5ba78",
             "message": "[Dynamo][Better Engineering] Add typing to bytecode analysis and transform (#158293)"
         },
         "after": {
             "committer_date": "2025-07-16 22:09:01",
-            "id": "5951fcd50ac",
+            "commit_id": "5951fcd50ac",
             "message": "[Dynamo][Better Engineering] Support typing in codegen.py (#158386)"
         }
     },

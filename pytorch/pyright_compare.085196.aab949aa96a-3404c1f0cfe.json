@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-10 01:51:26",
-            "id": "aab949aa96a",
+            "commit_id": "aab949aa96a",
             "message": "Deprecated pkg_resources and use distributions instead (#151915)"
         },
         "after": {
             "committer_date": "2025-07-10 02:40:25",
-            "id": "3404c1f0cfe",
+            "commit_id": "3404c1f0cfe",
             "message": "[HF][DCP] Upload local consolidated files to remote storage if needed (#157371)"
         }
     },

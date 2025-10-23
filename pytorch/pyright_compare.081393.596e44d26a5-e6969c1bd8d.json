@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-10 14:32:26",
-            "id": "596e44d26a5",
+            "commit_id": "596e44d26a5",
             "message": "[inductor] Enable docstring_linter on _inductor (#144622)"
         },
         "after": {
             "committer_date": "2025-04-10 15:06:23",
-            "id": "e6969c1bd8d",
+            "commit_id": "e6969c1bd8d",
             "message": "[export] Symint support (nonstrict, Dim.DYNAMIC) (#150198)"
         }
     },

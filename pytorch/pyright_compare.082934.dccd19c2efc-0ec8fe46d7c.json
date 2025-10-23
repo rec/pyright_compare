@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-19 15:58:40",
-            "id": "dccd19c2efc",
+            "commit_id": "dccd19c2efc",
             "message": "[Inductor] Construct subgraph with benchmarking args not example_inputs (#153753)"
         },
         "after": {
             "committer_date": "2025-05-19 16:15:14",
-            "id": "0ec8fe46d7c",
+            "commit_id": "0ec8fe46d7c",
             "message": "cleanup, refactor and add missing  self._dde_suppressed checks (#152657)"
         }
     },

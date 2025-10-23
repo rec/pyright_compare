@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-03 17:00:02",
-            "id": "40142978d71",
+            "commit_id": "40142978d71",
             "message": "Add type annotation to orthogonal_ (#154927)"
         },
         "after": {
             "committer_date": "2025-06-03 17:33:32",
-            "id": "31405a69fb9",
+            "commit_id": "31405a69fb9",
             "message": "[typing] Add missing type annotations to torch.nn.init module (#154504)"
         }
     },

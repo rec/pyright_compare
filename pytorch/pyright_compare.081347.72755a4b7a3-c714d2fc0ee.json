@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-09 16:32:11",
-            "id": "72755a4b7a3",
+            "commit_id": "72755a4b7a3",
             "message": "Avoid circular imports in tracing_state_functions (#150325)"
         },
         "after": {
             "committer_date": "2025-04-09 16:42:55",
-            "id": "c714d2fc0ee",
+            "commit_id": "c714d2fc0ee",
             "message": "[hop] support base_hop._gen_schema (#149688)"
         }
     },

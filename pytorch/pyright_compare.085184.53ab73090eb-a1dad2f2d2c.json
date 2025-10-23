@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-09 22:01:29",
-            "id": "53ab73090eb",
+            "commit_id": "53ab73090eb",
             "message": "[inductor] support unbacked symint in sdpfa (#157739)"
         },
         "after": {
             "committer_date": "2025-07-09 22:07:50",
-            "id": "a1dad2f2d2c",
+            "commit_id": "a1dad2f2d2c",
             "message": "[BE][Ez]: Autotype torch/profiler with ruff ANN (#157923)"
         }
     },

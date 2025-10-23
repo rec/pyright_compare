@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-12 00:46:19",
-            "id": "f4406689b88",
+            "commit_id": "f4406689b88",
             "message": "fix MPCT destroy_pg call (#157952)"
         },
         "after": {
             "committer_date": "2025-07-12 01:02:17",
-            "id": "627ba411366",
+            "commit_id": "627ba411366",
             "message": "[DCP][HF] [ez]Change where sharded tensors are saved (#158069)"
         }
     },

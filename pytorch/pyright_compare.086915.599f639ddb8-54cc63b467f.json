@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-20 01:16:35",
-            "id": "599f639ddb8",
+            "commit_id": "599f639ddb8",
             "message": "[dynamo] Refactor transform() so that instruction translator can be used as a tracing function. [2/n] (#160815)"
         },
         "after": {
             "committer_date": "2025-08-20 01:24:31",
-            "id": "54cc63b467f",
+            "commit_id": "54cc63b467f",
             "message": "[BE][Dynamo] Type coverage for symbolic_convert (#160922)"
         }
     },

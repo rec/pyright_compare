@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-09-03 19:21:27",
-            "id": "92576a594b8",
+            "commit_id": "92576a594b8",
             "message": "Prototype for building non-strict leak detector (#160456)"
         },
         "after": {
             "committer_date": "2025-09-03 19:29:00",
-            "id": "f4c33cd44ac",
+            "commit_id": "f4c33cd44ac",
             "message": "[pt2e] Avoid getting model device once per node (#159901)"
         }
     },

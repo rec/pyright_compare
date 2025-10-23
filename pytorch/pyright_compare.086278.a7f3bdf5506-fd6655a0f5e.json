@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-04 21:51:53",
-            "id": "a7f3bdf5506",
+            "commit_id": "a7f3bdf5506",
             "message": "[Dynamo][Better Engineering] Type coverage for `torch/_dynamo/utils.py` (#159580)"
         },
         "after": {
             "committer_date": "2025-08-04 22:40:33",
-            "id": "fd6655a0f5e",
+            "commit_id": "fd6655a0f5e",
             "message": "Feature: Implement support for `cudnn_batch_norm_out` kernel to replace the autogen approach. (#123020)"
         }
     },

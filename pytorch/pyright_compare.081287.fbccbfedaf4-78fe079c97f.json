@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-07 22:05:00",
-            "id": "fbccbfedaf4",
+            "commit_id": "fbccbfedaf4",
             "message": "[BE] Fix Amp.metal compilation warning (#150783)"
         },
         "after": {
             "committer_date": "2025-04-07 22:10:39",
-            "id": "78fe079c97f",
+            "commit_id": "78fe079c97f",
             "message": "Support having no metadata file for HuggingFaceStorageReader (#150701)"
         }
     },

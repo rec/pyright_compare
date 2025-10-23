@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-07 20:52:45",
-            "id": "5653fb35250",
+            "commit_id": "5653fb35250",
             "message": "[AO] Add Moving Average Affine Observer (#150643)"
         },
         "after": {
             "committer_date": "2025-04-07 20:52:45",
-            "id": "eba05e2d3ef",
+            "commit_id": "eba05e2d3ef",
             "message": "[AO] Refactor convert and add QuantAffinePlaceholderObserver (#150644)"
         }
     },

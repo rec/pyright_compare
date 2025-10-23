@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-12 22:35:59",
-            "id": "b0f2891e431",
+            "commit_id": "b0f2891e431",
             "message": "[AOTInductor] Fix clang-tidy warnings in wrapper (#153197)"
         },
         "after": {
             "committer_date": "2025-05-12 22:55:25",
-            "id": "f05b38aa267",
+            "commit_id": "f05b38aa267",
             "message": "[BE]: Improve decorator typing for Optimizer subclasses (#153374)"
         }
     },

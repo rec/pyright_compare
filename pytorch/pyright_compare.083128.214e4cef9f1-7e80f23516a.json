@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-23 15:39:29",
-            "id": "214e4cef9f1",
+            "commit_id": "214e4cef9f1",
             "message": "Fix RMSNorm doc rendering (#154205)"
         },
         "after": {
             "committer_date": "2025-05-23 15:40:25",
-            "id": "7e80f23516a",
+            "commit_id": "7e80f23516a",
             "message": "[export] Move PT2ArchiveWriter/Reader to torch/export (#153795)"
         }
     },

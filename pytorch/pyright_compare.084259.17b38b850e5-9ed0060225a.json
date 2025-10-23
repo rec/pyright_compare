@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-18 03:01:15",
-            "id": "17b38b850e5",
+            "commit_id": "17b38b850e5",
             "message": "[ca] Allow using compiled autograd context managers during backward runtime (#156120)"
         },
         "after": {
             "committer_date": "2025-06-18 03:39:28",
-            "id": "9ed0060225a",
+            "commit_id": "9ed0060225a",
             "message": "Provide access to the cudaGraph_t underlying a CUDAGraph. (#155164)"
         }
     },

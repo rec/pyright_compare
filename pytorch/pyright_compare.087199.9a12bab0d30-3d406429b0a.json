@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-27 04:56:11",
-            "id": "9a12bab0d30",
+            "commit_id": "9a12bab0d30",
             "message": "Add debug handle to inductor provenance tracking (#161110)"
         },
         "after": {
             "committer_date": "2025-08-27 09:55:31",
-            "id": "3d406429b0a",
+            "commit_id": "3d406429b0a",
             "message": "[dynamo][vllm] Support typing.get_type_hints (#161362)"
         }
     },

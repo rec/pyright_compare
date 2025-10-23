@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-14 02:10:30",
-            "id": "b15b8709037",
+            "commit_id": "b15b8709037",
             "message": "[BE] remove outdated torch/README.md (#153500)"
         },
         "after": {
             "committer_date": "2025-05-14 02:18:36",
-            "id": "d51bc273781",
+            "commit_id": "d51bc273781",
             "message": "[export] Make draft_export public (#153219)"
         }
     },

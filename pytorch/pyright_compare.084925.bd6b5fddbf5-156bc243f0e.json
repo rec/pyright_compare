@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-02 16:34:37",
-            "id": "bd6b5fddbf5",
+            "commit_id": "bd6b5fddbf5",
             "message": "[Precompile] [easy] Serialize requires_grad for tensors when serializing guards (#157372)"
         },
         "after": {
             "committer_date": "2025-07-02 16:51:07",
-            "id": "156bc243f0e",
+            "commit_id": "156bc243f0e",
             "message": "Back out \"Include c++ stack traces when we hit constraint violation (#155603)\" (#157406)"
         }
     },

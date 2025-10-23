@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-10 11:13:04",
-            "id": "4c11b261586",
+            "commit_id": "4c11b261586",
             "message": "refine fp32 precision api (#125888)"
         },
         "after": {
             "committer_date": "2025-05-10 13:36:47",
-            "id": "70c8047c2d5",
+            "commit_id": "70c8047c2d5",
             "message": "include user stacks with constraint violation error message (#152924)"
         }
     },

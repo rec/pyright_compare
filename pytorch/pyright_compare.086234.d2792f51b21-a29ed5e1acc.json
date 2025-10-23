@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-02 22:42:22",
-            "id": "d2792f51b21",
+            "commit_id": "d2792f51b21",
             "message": "[bucketing] Use max of input/output size for bucketing (#159717)"
         },
         "after": {
             "committer_date": "2025-08-02 23:23:17",
-            "id": "a29ed5e1acc",
+            "commit_id": "a29ed5e1acc",
             "message": "Add torch compile force disable caches alias (#158072)"
         }
     },

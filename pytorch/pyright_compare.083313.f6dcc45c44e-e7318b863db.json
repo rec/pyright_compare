@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 20:36:19",
-            "id": "f6dcc45c44e",
+            "commit_id": "f6dcc45c44e",
             "message": "[Kineto x Insight] Add device to activity type map in pytorch (#154253)"
         },
         "after": {
             "committer_date": "2025-05-28 21:11:53",
-            "id": "e7318b863db",
+            "commit_id": "e7318b863db",
             "message": "[ez] add docblock to cast_symbool_to_symint_guardless (#154400)"
         }
     },

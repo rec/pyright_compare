@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-31 22:31:39",
-            "id": "d9d6dde0f42",
+            "commit_id": "d9d6dde0f42",
             "message": "Leak Python filenames so that we can give good dispatcher errors. (#160418)"
         },
         "after": {
             "committer_date": "2025-08-31 22:39:05",
-            "id": "9a665ca3c47",
+            "commit_id": "9a665ca3c47",
             "message": "Add __init__.pyi to torch/linalg (#160750)"
         }
     },

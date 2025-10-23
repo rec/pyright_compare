@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-10 13:33:27",
-            "id": "7b7b9d707e7",
+            "commit_id": "7b7b9d707e7",
             "message": "[CI] Add XPU compiled check in CICD (#150771)"
         },
         "after": {
             "committer_date": "2025-04-10 13:44:31",
-            "id": "73f3d6d9aaa",
+            "commit_id": "73f3d6d9aaa",
             "message": "Revert \"ProcessGroupGloo: support lazy_init (#150801)\""
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-20 07:03:29",
-            "id": "24dc33b37b5",
+            "commit_id": "24dc33b37b5",
             "message": "[dynamo] handle fullgraph toggle using nested torch.compile (#155166)"
         },
         "after": {
             "committer_date": "2025-06-20 07:03:29",
-            "id": "0aed855b2bd",
+            "commit_id": "0aed855b2bd",
             "message": "[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-10 15:06:23",
-            "id": "e6969c1bd8d",
+            "commit_id": "e6969c1bd8d",
             "message": "[export] Symint support (nonstrict, Dim.DYNAMIC) (#150198)"
         },
         "after": {
             "committer_date": "2025-04-10 16:19:00",
-            "id": "5471e80fb4c",
+            "commit_id": "5471e80fb4c",
             "message": "Remove guard_size_oblivious from vector_norm decomposition. (#148809)"
         }
     },

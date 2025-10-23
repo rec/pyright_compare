@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-14 07:03:23",
-            "id": "189bc9283ec",
+            "commit_id": "189bc9283ec",
             "message": "[ez] move GuardsContext code comment to the right place (#150755)"
         },
         "after": {
             "committer_date": "2025-04-14 07:07:10",
-            "id": "bbc5fe85045",
+            "commit_id": "bbc5fe85045",
             "message": "Add inductor standalone_compile API (#150670)"
         }
     },

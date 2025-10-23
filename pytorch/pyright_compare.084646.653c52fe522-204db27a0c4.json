@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-25 23:05:49",
-            "id": "653c52fe522",
+            "commit_id": "653c52fe522",
             "message": "[MPS] Fix batch norm incorrect gradient (#156867)"
         },
         "after": {
             "committer_date": "2025-06-25 23:07:10",
-            "id": "204db27a0c4",
+            "commit_id": "204db27a0c4",
             "message": "Consolidate stack trace in Tracer (#156257)"
         }
     },

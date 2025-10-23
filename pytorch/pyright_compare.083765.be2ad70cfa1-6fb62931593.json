@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-09 02:06:16",
-            "id": "be2ad70cfa1",
+            "commit_id": "be2ad70cfa1",
             "message": "Fix dynamo tracing into AOTAutogradCache results in cpu tensors (#155251)"
         },
         "after": {
             "committer_date": "2025-06-09 03:13:27",
-            "id": "6fb62931593",
+            "commit_id": "6fb62931593",
             "message": "Revert \"Add Intel GPU info collection to the collect env script (#137846)\""
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-21 19:23:47",
-            "id": "25fbf09d5fc",
+            "commit_id": "25fbf09d5fc",
             "message": "Use more fine-grained locks in sym mem kernels (#158523)"
         },
         "after": {
             "committer_date": "2025-07-21 19:34:14",
-            "id": "ea5b06ed5bc",
+            "commit_id": "ea5b06ed5bc",
             "message": "[Dynamo][BetterEngineering] Type side_effects.py (#158605)"
         }
     },

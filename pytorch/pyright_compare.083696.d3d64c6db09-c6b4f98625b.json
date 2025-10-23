@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-06 03:14:47",
-            "id": "d3d64c6db09",
+            "commit_id": "d3d64c6db09",
             "message": "Revert \"Add pinned numpy and fix build (#155129)\""
         },
         "after": {
             "committer_date": "2025-06-06 05:53:24",
-            "id": "c6b4f98625b",
+            "commit_id": "c6b4f98625b",
             "message": "Add Intel GPU info collection to the collect env script (#137846)"
         }
     },

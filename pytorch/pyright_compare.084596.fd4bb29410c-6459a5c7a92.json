@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-24 23:45:13",
-            "id": "fd4bb29410c",
+            "commit_id": "fd4bb29410c",
             "message": "Revert \"[logging] dynamo_timed for CachingAutotuner.coordinate_descent_tuning (#156517)\""
         },
         "after": {
             "committer_date": "2025-06-25 00:11:35",
-            "id": "6459a5c7a92",
+            "commit_id": "6459a5c7a92",
             "message": "Revert \"Add unified memory APIs for torch.accelerator (#152932)\""
         }
     },

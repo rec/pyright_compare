@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-19 05:46:51",
-            "id": "5506baa4ede",
+            "commit_id": "5506baa4ede",
             "message": "Refactoring FSDP2 (_composable/fsdp) test cases to be device agnostic (#149848)"
         },
         "after": {
             "committer_date": "2025-05-19 08:25:20",
-            "id": "f3daedb263d",
+            "commit_id": "f3daedb263d",
             "message": "[BE]: Remove redundant copy (#153629)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-13 16:12:02",
-            "id": "db32b60662b",
+            "commit_id": "db32b60662b",
             "message": "[ci] Add riscv opt-int build (#143979)"
         },
         "after": {
             "committer_date": "2025-08-13 16:20:28",
-            "id": "6ee175195ac",
+            "commit_id": "6ee175195ac",
             "message": "[DCP][OSS] Rank local checkpointing in DCP without collectives (#147758)"
         }
     },

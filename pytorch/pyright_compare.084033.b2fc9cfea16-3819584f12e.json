@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-13 13:54:10",
-            "id": "b2fc9cfea16",
+            "commit_id": "b2fc9cfea16",
             "message": "[precompile] Add CompilePackage to serialize dynamo states. (#155118)"
         },
         "after": {
             "committer_date": "2025-06-13 14:11:24",
-            "id": "3819584f12e",
+            "commit_id": "3819584f12e",
             "message": "[precompile] Implement PrecompileContext for recording precompile artifacts, integrate with CompilePackage (#154415)"
         }
     },

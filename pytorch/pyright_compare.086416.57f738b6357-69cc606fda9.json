@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-07 17:07:26",
-            "id": "57f738b6357",
+            "commit_id": "57f738b6357",
             "message": "[inductor] move all cpu scalars using pinned memory for graph partition (#155360) (#158983)"
         },
         "after": {
             "committer_date": "2025-08-07 17:22:54",
-            "id": "69cc606fda9",
+            "commit_id": "69cc606fda9",
             "message": "HF component update to not use fsspec components (#159405)"
         }
     },

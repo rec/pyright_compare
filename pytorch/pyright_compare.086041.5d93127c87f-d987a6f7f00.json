@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-29 19:46:42",
-            "id": "5d93127c87f",
+            "commit_id": "5d93127c87f",
             "message": "Revert \"[HOP, map] Rework of map autograd to the new interface (#153343)\""
         },
         "after": {
             "committer_date": "2025-07-29 19:49:40",
-            "id": "d987a6f7f00",
+            "commit_id": "d987a6f7f00",
             "message": "Revert \"[Dynamo][Better Engineering] Add typing annotations to guard and source (#158397)\""
         }
     },

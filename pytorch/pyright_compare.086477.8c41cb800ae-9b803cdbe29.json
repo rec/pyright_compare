@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-09 00:00:46",
-            "id": "8c41cb800ae",
+            "commit_id": "8c41cb800ae",
             "message": "[MPS][BE] Combine all pre-MacOS14 xfail lists (#160228)"
         },
         "after": {
             "committer_date": "2025-08-09 00:09:45",
-            "id": "9b803cdbe29",
+            "commit_id": "9b803cdbe29",
             "message": "[BE] Remove more optim entries from docs coverage ignore list (#160194)"
         }
     },

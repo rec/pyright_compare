@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-20 15:30:04",
-            "id": "edd45f3a020",
+            "commit_id": "edd45f3a020",
             "message": "Revert \"[Precompile] Hook up backend=\"inductor\"  (#155387)\""
         },
         "after": {
             "committer_date": "2025-06-20 15:32:47",
-            "id": "b4442f42a93",
+            "commit_id": "b4442f42a93",
             "message": "Revert \"Upgrade to DLPack 1.0. (#145000)\""
         }
     },

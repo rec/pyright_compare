@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-30 07:32:57",
-            "id": "382b38ed1b6",
+            "commit_id": "382b38ed1b6",
             "message": "remove allow-untyped-defs from torch/nn/utils/_expanded_weights/conv_expanded_weights.py (#154623)"
         },
         "after": {
             "committer_date": "2025-05-30 07:37:56",
-            "id": "d66a55def0c",
+            "commit_id": "d66a55def0c",
             "message": "remove allow-untyped-defs from torch/distributed/elastic/utils/logging.py (#154625)"
         }
     },

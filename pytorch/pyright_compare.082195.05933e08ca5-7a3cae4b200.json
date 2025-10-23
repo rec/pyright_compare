@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-30 18:04:50",
-            "id": "05933e08ca5",
+            "commit_id": "05933e08ca5",
             "message": "[ATen][CUDA][SDPA] Enable SDPA on sm_121 (#152314)"
         },
         "after": {
             "committer_date": "2025-04-30 18:30:28",
-            "id": "7a3cae4b200",
+            "commit_id": "7a3cae4b200",
             "message": "Configurable logging for cpp_extensions.py (#152260)"
         }
     },

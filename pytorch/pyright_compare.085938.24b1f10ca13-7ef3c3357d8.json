@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-25 21:17:06",
-            "id": "24b1f10ca13",
+            "commit_id": "24b1f10ca13",
             "message": "[HOP, map] Rework of map autograd to the new interface (#153343)"
         },
         "after": {
             "committer_date": "2025-07-25 21:19:49",
-            "id": "7ef3c3357d8",
+            "commit_id": "7ef3c3357d8",
             "message": "NUMA binding integration with elastic agent and torchrun (#149334)"
         }
     },

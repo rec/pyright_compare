@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 22:52:40",
-            "id": "ef4d57329b2",
+            "commit_id": "ef4d57329b2",
             "message": "[CAG] Support for call_module at copy paste aot bwd graph (#153827)"
         },
         "after": {
             "committer_date": "2025-05-28 23:01:22",
-            "id": "d865b784e4a",
+            "commit_id": "d865b784e4a",
             "message": "Support unbacked whitelist (#154295)"
         }
     },

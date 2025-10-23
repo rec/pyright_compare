@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-12 08:53:33",
-            "id": "b9003ed3d87",
+            "commit_id": "b9003ed3d87",
             "message": "Dynamo Deep Dive Documentation Fix (#158860)"
         },
         "after": {
             "committer_date": "2025-08-12 09:37:03",
-            "id": "f990490a238",
+            "commit_id": "f990490a238",
             "message": "Add `label_smoothing` param in `nn.BCELoss` and `nn.BCEWithLogitsLoss` (#150282)"
         }
     },

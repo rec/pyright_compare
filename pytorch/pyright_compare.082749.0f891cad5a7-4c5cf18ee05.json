@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-14 06:21:47",
-            "id": "0f891cad5a7",
+            "commit_id": "0f891cad5a7",
             "message": "Enable ruff check for `torch/utils/data/*.ipynb` (#148654)"
         },
         "after": {
             "committer_date": "2025-05-14 06:29:16",
-            "id": "4c5cf18ee05",
+            "commit_id": "4c5cf18ee05",
             "message": "[device_mesh] improve device selection logic (#150897)"
         }
     },

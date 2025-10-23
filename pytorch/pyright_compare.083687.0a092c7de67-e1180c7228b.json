@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-05 22:32:28",
-            "id": "0a092c7de67",
+            "commit_id": "0a092c7de67",
             "message": "Enable CPP Extension Open Registration tests on Arm (#144774)"
         },
         "after": {
             "committer_date": "2025-06-05 22:35:04",
-            "id": "e1180c7228b",
+            "commit_id": "e1180c7228b",
             "message": "Add Intel GPU info collection to the collect env script (#137846)"
         }
     },

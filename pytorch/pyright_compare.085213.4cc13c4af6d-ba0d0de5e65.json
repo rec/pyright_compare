@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-10 06:34:46",
-            "id": "4cc13c4af6d",
+            "commit_id": "4cc13c4af6d",
             "message": "[dynamic shapes] avoid unnecessary slices (#157528)"
         },
         "after": {
             "committer_date": "2025-07-10 06:52:22",
-            "id": "ba0d0de5e65",
+            "commit_id": "ba0d0de5e65",
             "message": "Enable set SDPA backend by torch.nn.attention.sdpa_kernel on XPU (#156669)"
         }
     },

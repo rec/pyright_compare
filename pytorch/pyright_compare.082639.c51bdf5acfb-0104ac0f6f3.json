@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-11 14:20:09",
-            "id": "c51bdf5acfb",
+            "commit_id": "c51bdf5acfb",
             "message": "[export] Exporter API prototype. (#153205)"
         },
         "after": {
             "committer_date": "2025-05-11 19:16:01",
-            "id": "0104ac0f6f3",
+            "commit_id": "0104ac0f6f3",
             "message": "[Ez][BE]: Fix click ImportError in torch/csrc/jit (#153323)"
         }
     },

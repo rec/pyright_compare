@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-11 23:35:26",
-            "id": "f44a9eee477",
+            "commit_id": "f44a9eee477",
             "message": "[AOTI] Add missing ops to set of C-shim ops which can have nullptr returns (#158073)"
         },
         "after": {
             "committer_date": "2025-07-12 00:06:37",
-            "id": "0d77364ee3f",
+            "commit_id": "0d77364ee3f",
             "message": "dist2: cleanup non-option methods on PG (missing, timeouts) (#158123)"
         }
     },

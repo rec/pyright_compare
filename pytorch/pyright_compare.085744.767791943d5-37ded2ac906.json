@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-22 19:55:05",
-            "id": "767791943d5",
+            "commit_id": "767791943d5",
             "message": "[ONNX] Set default opset to 20 (#158802)"
         },
         "after": {
             "committer_date": "2025-07-22 19:58:48",
-            "id": "37ded2ac906",
+            "commit_id": "37ded2ac906",
             "message": "Using torch.accelerator in comm_mode_features_example.py and visualize_sharding_example.py (#157317)"
         }
     },

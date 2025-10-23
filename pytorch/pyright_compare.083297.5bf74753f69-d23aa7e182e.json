@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 16:03:02",
-            "id": "5bf74753f69",
+            "commit_id": "5bf74753f69",
             "message": "[precompile] Prune local scope variables for guard serialization. (#154431)"
         },
         "after": {
             "committer_date": "2025-05-28 16:25:30",
-            "id": "d23aa7e182e",
+            "commit_id": "d23aa7e182e",
             "message": "Add deprecation warning for `torch.ao.quantization` (#153892)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 05:28:58",
-            "id": "abc3fdc7acc",
+            "commit_id": "abc3fdc7acc",
             "message": "[ez] add docblock for _iterate_exprs (#154377)"
         },
         "after": {
             "committer_date": "2025-05-28 05:34:25",
-            "id": "dcdaef5206d",
+            "commit_id": "dcdaef5206d",
             "message": "[ez] add docblock for free_symbols (#154378)"
         }
     },

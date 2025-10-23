@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-16 18:49:57",
-            "id": "c2dda47bc59",
+            "commit_id": "c2dda47bc59",
             "message": "Revert \"[dynamo] Make `OptimizedModule` more robust in attribute reads and writes (#153637)\""
         },
         "after": {
             "committer_date": "2025-05-16 19:10:04",
-            "id": "f7fb2f66e3b",
+            "commit_id": "f7fb2f66e3b",
             "message": "cleanup, refactor and add missing  self._dde_suppressed checks (#152657)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-23 20:03:52",
-            "id": "da94023b020",
+            "commit_id": "da94023b020",
             "message": "[Profiler] Fix lost C call events problem in Python 3.12.0-3.12.4 (#155446)"
         },
         "after": {
             "committer_date": "2025-07-23 20:27:28",
-            "id": "ab26d4fbeb5",
+            "commit_id": "ab26d4fbeb5",
             "message": "[BE] remove torch deploy - conditionals (#158288)"
         }
     },

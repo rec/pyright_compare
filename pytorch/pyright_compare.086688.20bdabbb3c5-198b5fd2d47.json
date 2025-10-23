@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-14 14:54:49",
-            "id": "20bdabbb3c5",
+            "commit_id": "20bdabbb3c5",
             "message": "[Dynamo] Fix MTIA dynamo backend by avoiding has_trition() at import time (#160604)"
         },
         "after": {
             "committer_date": "2025-08-14 14:58:35",
-            "id": "198b5fd2d47",
+            "commit_id": "198b5fd2d47",
             "message": "[PP] Add DualPipeV schedule (#159591)"
         }
     },

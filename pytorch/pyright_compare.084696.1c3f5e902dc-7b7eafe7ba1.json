@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-26 21:40:38",
-            "id": "1c3f5e902dc",
+            "commit_id": "1c3f5e902dc",
             "message": "[dynamo] control one_graph behavior additionally through config (#154283)"
         },
         "after": {
             "committer_date": "2025-06-26 21:40:38",
-            "id": "7b7eafe7ba1",
+            "commit_id": "7b7eafe7ba1",
             "message": "[dynamo] add set_fullgraph decorator/context manager (#154289)"
         }
     },

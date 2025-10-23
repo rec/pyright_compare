@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-25 22:03:55",
-            "id": "9e8f27cc795",
+            "commit_id": "9e8f27cc795",
             "message": "[BE] Make torch.nn.modules.* satisfy the docs coverage test (#158491)"
         },
         "after": {
             "committer_date": "2025-07-25 22:03:55",
-            "id": "1e79872f2e8",
+            "commit_id": "1e79872f2e8",
             "message": "[BE] More torch.nn docs coverage test (except for torch.nn.parallel) (#158654)"
         }
     },

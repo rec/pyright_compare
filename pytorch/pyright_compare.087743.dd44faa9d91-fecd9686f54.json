@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-09-08 20:53:05",
-            "id": "dd44faa9d91",
+            "commit_id": "dd44faa9d91",
             "message": "Revert \"Modify ROCm MI2xx-based workflows to run on cron schedule (#162103)\""
         },
         "after": {
             "committer_date": "2025-09-08 21:30:17",
-            "id": "fecd9686f54",
+            "commit_id": "fecd9686f54",
             "message": "Graph split event tracker (#159795)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-02 20:20:59",
-            "id": "172853547ac",
+            "commit_id": "172853547ac",
             "message": "[inductor] more size_hint_or_throw usage (#157394)"
         },
         "after": {
             "committer_date": "2025-07-02 20:24:24",
-            "id": "e20784f228a",
+            "commit_id": "e20784f228a",
             "message": "[dynamo] Support BUILTIN_MATCH serialization. (#157016)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-30 23:25:30",
-            "id": "fee2377f9ea",
+            "commit_id": "fee2377f9ea",
             "message": "Reapply D77381084 / #156964: Rename torch::standalone to headeronly (#157251)"
         },
         "after": {
             "committer_date": "2025-06-30 23:54:40",
-            "id": "7709ff55123",
+            "commit_id": "7709ff55123",
             "message": "[remove untyped defs] batch 1 (#157011)"
         }
     },

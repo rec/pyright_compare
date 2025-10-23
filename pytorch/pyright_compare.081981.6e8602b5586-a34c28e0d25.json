@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-25 14:03:37",
-            "id": "6e8602b5586",
+            "commit_id": "6e8602b5586",
             "message": "Relax tolerance on test_aot_autograd_exhaustive_matmul_cpu_float32 without MKL (#152106)"
         },
         "after": {
             "committer_date": "2025-04-25 14:16:23",
-            "id": "a34c28e0d25",
+            "commit_id": "a34c28e0d25",
             "message": "[dynamo] Add guard serialization for tensor matches. (#151318)"
         }
     },

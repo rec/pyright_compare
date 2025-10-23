@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-26 04:44:38",
-            "id": "62a49d929bb",
+            "commit_id": "62a49d929bb",
             "message": "[vllm hash update] update the pinned vllm hash (#159198)"
         },
         "after": {
             "committer_date": "2025-07-26 08:16:34",
-            "id": "cd68559d045",
+            "commit_id": "cd68559d045",
             "message": "[Inductor] Support native Inductor as backend for MTIA (#158526)"
         }
     },

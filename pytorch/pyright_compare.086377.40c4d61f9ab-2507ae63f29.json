@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-06 21:52:14",
-            "id": "40c4d61f9ab",
+            "commit_id": "40c4d61f9ab",
             "message": "[Dynamo][Better Engineering] Typing `torch/_dynamo/guards.py` (#159315)"
         },
         "after": {
             "committer_date": "2025-08-06 22:12:47",
-            "id": "2507ae63f29",
+            "commit_id": "2507ae63f29",
             "message": "Partitioner: Fix to align partition node order with original graph (#157892)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-21 23:17:39",
-            "id": "4c18e85300e",
+            "commit_id": "4c18e85300e",
             "message": "Revert \"[BE] Remove torch deploy | remove torch deploy specific files (#158290)\""
         },
         "after": {
             "committer_date": "2025-07-21 23:17:39",
-            "id": "ee5a434f8ce",
+            "commit_id": "ee5a434f8ce",
             "message": "Revert \"[BE] remove torch deploy - conditionals (#158288)\""
         }
     },

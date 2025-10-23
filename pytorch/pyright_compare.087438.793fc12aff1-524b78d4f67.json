@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-09-02 16:03:44",
-            "id": "793fc12aff1",
+            "commit_id": "793fc12aff1",
             "message": "[CD] Fix setup-xpu action issue (#161934)"
         },
         "after": {
             "committer_date": "2025-09-02 16:10:30",
-            "id": "524b78d4f67",
+            "commit_id": "524b78d4f67",
             "message": "[ONNX] Refactor torchscript based exporter (#161323)"
         }
     },

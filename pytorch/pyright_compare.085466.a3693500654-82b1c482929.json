@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-16 17:22:37",
-            "id": "a3693500654",
+            "commit_id": "a3693500654",
             "message": "enable compiled autograd on CPU windows (#158432)"
         },
         "after": {
             "committer_date": "2025-07-16 17:26:20",
-            "id": "82b1c482929",
+            "commit_id": "82b1c482929",
             "message": "[hop] add supports_higher_order_operators flag to TorchDispatchMode (#158077)"
         }
     },

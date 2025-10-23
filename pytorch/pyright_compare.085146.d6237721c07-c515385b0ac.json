@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-09 02:59:08",
-            "id": "d6237721c07",
+            "commit_id": "d6237721c07",
             "message": "[Build] Make PyTorch compilable with gcc-14 on ARM (#157867)"
         },
         "after": {
             "committer_date": "2025-07-09 03:01:41",
-            "id": "c515385b0ac",
+            "commit_id": "c515385b0ac",
             "message": "Add Intel GPU info collection to the collect env script (#157351)"
         }
     },

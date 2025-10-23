@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-28 05:34:25",
-            "id": "dcdaef5206d",
+            "commit_id": "dcdaef5206d",
             "message": "[ez] add docblock for free_symbols (#154378)"
         },
         "after": {
             "committer_date": "2025-05-28 05:37:25",
-            "id": "07405a6cffc",
+            "commit_id": "07405a6cffc",
             "message": "[ez] add docblock for free_unbacked_symbols (#154379)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-24 18:52:10",
-            "id": "b11c9e18084",
+            "commit_id": "b11c9e18084",
             "message": "[CI][docker] Use install_cusparselt when possible in docker image  (#150600)"
         },
         "after": {
             "committer_date": "2025-04-24 19:22:45",
-            "id": "b1d055fd6a0",
+            "commit_id": "b1d055fd6a0",
             "message": "Revert \"[dynamo] Add guard serialization for tensor matches. (#151318)\""
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-25 03:54:30",
-            "id": "1fced0c7d51",
+            "commit_id": "1fced0c7d51",
             "message": "[ROCm] enable hipblaslt on gfx908 for ROCm >= 6.3 (#159092)"
         },
         "after": {
             "committer_date": "2025-07-25 04:01:51",
-            "id": "9b29166f57c",
+            "commit_id": "9b29166f57c",
             "message": "[ROCm] add flag torch.backends.miopen.immediate (#158951)"
         }
     },

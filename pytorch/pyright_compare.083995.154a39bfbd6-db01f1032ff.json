@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-12 21:24:51",
-            "id": "154a39bfbd6",
+            "commit_id": "154a39bfbd6",
             "message": "basic compile support for grouped_mm (#153384)"
         },
         "after": {
             "committer_date": "2025-06-12 21:33:52",
-            "id": "db01f1032ff",
+            "commit_id": "db01f1032ff",
             "message": "Support XPU in memory tracker (#150703)"
         }
     },

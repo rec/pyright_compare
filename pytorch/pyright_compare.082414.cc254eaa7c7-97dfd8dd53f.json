@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-06 02:55:34",
-            "id": "cc254eaa7c7",
+            "commit_id": "cc254eaa7c7",
             "message": "[inductor][refactor] Refactor the fetching of subgraph names (#152770)"
         },
         "after": {
             "committer_date": "2025-05-06 02:55:34",
-            "id": "97dfd8dd53f",
+            "commit_id": "97dfd8dd53f",
             "message": "[invoke_subgraph] Run missing graph passes recursively (#152675)"
         }
     },

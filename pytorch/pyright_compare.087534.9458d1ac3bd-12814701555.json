@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-09-04 00:35:23",
-            "id": "9458d1ac3bd",
+            "commit_id": "9458d1ac3bd",
             "message": "[inductor] pdl inductor option (disabled by default) (#160928)"
         },
         "after": {
             "committer_date": "2025-09-04 01:09:53",
-            "id": "12814701555",
+            "commit_id": "12814701555",
             "message": "[DCP][HuggingFace] Add Support for dequantization of SafeTensors checkpoints (#160682)"
         }
     },

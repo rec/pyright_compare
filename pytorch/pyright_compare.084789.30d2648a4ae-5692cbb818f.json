@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-28 04:26:36",
-            "id": "30d2648a4ae",
+            "commit_id": "30d2648a4ae",
             "message": "Install nvperf_host together with cupti (#156668)"
         },
         "after": {
             "committer_date": "2025-06-28 05:22:02",
-            "id": "5692cbb818f",
+            "commit_id": "5692cbb818f",
             "message": "[ONNX] Delete symbolic caffe2 (#157102)"
         }
     },

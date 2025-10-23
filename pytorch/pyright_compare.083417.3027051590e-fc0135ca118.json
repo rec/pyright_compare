@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-30 17:18:21",
-            "id": "3027051590e",
+            "commit_id": "3027051590e",
             "message": "[export] avoid float/bool specialization for scalar tensor construction (#154661)"
         },
         "after": {
             "committer_date": "2025-05-30 17:23:36",
-            "id": "fc0135ca118",
+            "commit_id": "fc0135ca118",
             "message": "Re-enable FakeTensor caching for SymInts (#152662)"
         }
     },

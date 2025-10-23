@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-06 07:33:38",
-            "id": "8904ba63872",
+            "commit_id": "8904ba63872",
             "message": "Forward fix D74196435 (#152926)"
         },
         "after": {
             "committer_date": "2025-05-06 10:03:17",
-            "id": "e32a16a9dad",
+            "commit_id": "e32a16a9dad",
             "message": "Correct torch.xpu.is_bf16_supported return False if no XPU detected (#152317)"
         }
     },

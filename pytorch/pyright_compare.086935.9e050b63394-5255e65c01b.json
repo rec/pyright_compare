@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-20 17:37:26",
-            "id": "9e050b63394",
+            "commit_id": "9e050b63394",
             "message": "[dynamo] Refactor convert_frame._compile_inner to return compiled bytecode + output graph. [3/n] (#160855)"
         },
         "after": {
             "committer_date": "2025-08-20 17:37:26",
-            "id": "5255e65c01b",
+            "commit_id": "5255e65c01b",
             "message": "[dynamo] Refactor convert_frame to remove usage of nonlocal tracer output return. [4/n] (#160899)"
         }
     },

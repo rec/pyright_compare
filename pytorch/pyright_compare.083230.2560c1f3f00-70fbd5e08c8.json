@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-27 16:40:18",
-            "id": "2560c1f3f00",
+            "commit_id": "2560c1f3f00",
             "message": "add sticky cache pgo (#154418)"
         },
         "after": {
             "committer_date": "2025-05-27 17:05:49",
-            "id": "70fbd5e08c8",
+            "commit_id": "70fbd5e08c8",
             "message": "[ez] Add docblock for resolve_unbacked_bindings (#154374)"
         }
     },

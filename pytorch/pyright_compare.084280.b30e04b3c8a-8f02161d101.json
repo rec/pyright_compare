@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-18 13:36:27",
-            "id": "b30e04b3c8a",
+            "commit_id": "b30e04b3c8a",
             "message": "Make the NCCL PG Options and Config copyable and safe to init standalone (#155700)"
         },
         "after": {
             "committer_date": "2025-06-18 14:19:39",
-            "id": "8f02161d101",
+            "commit_id": "8f02161d101",
             "message": "Revert \"[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)\""
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-09 14:03:07",
-            "id": "ed6ae20cf0e",
+            "commit_id": "ed6ae20cf0e",
             "message": "[BE][Ez]: Update mimalloc submodule to 2.2.4 (#157794)"
         },
         "after": {
             "committer_date": "2025-07-09 14:27:51",
-            "id": "fcc682be4bd",
+            "commit_id": "fcc682be4bd",
             "message": "[BE][Ez]: Fully type nn.utils.clip_grad (#154801)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-30 15:54:14",
-            "id": "31f95b5d2e8",
+            "commit_id": "31f95b5d2e8",
             "message": "Revert \"inductor codecache: include private inductor configs in cache key (#153672)\""
         },
         "after": {
             "committer_date": "2025-05-30 16:14:37",
-            "id": "8002d22ce35",
+            "commit_id": "8002d22ce35",
             "message": "[dynamo] Trace into descriptor with `__set__` (#154176)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-21 22:32:57",
-            "id": "9e132b770e0",
+            "commit_id": "9e132b770e0",
             "message": "[CUDA] Skip test on low vram machines (#156548)"
         },
         "after": {
             "committer_date": "2025-06-21 23:24:04",
-            "id": "f70c80105eb",
+            "commit_id": "f70c80105eb",
             "message": "Enables NCCL symmetric memory kernels through mempool registration (#155134)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-26 00:49:49",
-            "id": "4e19c1906a8",
+            "commit_id": "4e19c1906a8",
             "message": "Get Inductor periodic CI green (#161297)"
         },
         "after": {
             "committer_date": "2025-08-26 00:57:39",
-            "id": "2df9b437e37",
+            "commit_id": "2df9b437e37",
             "message": "[dynamo, nested graph breaks] implement new resume frame stack/locals/cell layout convention (#157971)"
         }
     },

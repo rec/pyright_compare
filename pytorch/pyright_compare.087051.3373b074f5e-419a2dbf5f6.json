@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-22 22:11:25",
-            "id": "3373b074f5e",
+            "commit_id": "3373b074f5e",
             "message": "[Profiler] Add GC Events to Python Stack Tracer (#161209)"
         },
         "after": {
             "committer_date": "2025-08-22 22:15:27",
-            "id": "419a2dbf5f6",
+            "commit_id": "419a2dbf5f6",
             "message": "[ONNX] Remove enable_fake_mode and exporter_legacy (#161222)"
         }
     },

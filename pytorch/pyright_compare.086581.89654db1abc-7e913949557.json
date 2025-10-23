@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-12 19:59:32",
-            "id": "89654db1abc",
+            "commit_id": "89654db1abc",
             "message": "[inductor] fix triton bucketize mask propagation (#159961)"
         },
         "after": {
             "committer_date": "2025-08-12 20:08:49",
-            "id": "7e913949557",
+            "commit_id": "7e913949557",
             "message": "Support NUMA Binding for Callable Entrypoints (#160163)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-29 20:07:17",
-            "id": "4fac43b21f0",
+            "commit_id": "4fac43b21f0",
             "message": "[BE] Move _freeze.py to torch/fb/utils (#159307)"
         },
         "after": {
             "committer_date": "2025-07-29 20:41:45",
-            "id": "c0c24b61ff4",
+            "commit_id": "c0c24b61ff4",
             "message": "Revert \"Partitioner: Fix to align partition node order with original graph (#157892)\""
         }
     },

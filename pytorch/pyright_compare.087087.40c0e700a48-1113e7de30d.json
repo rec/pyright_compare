@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-08-25 14:07:48",
-            "id": "40c0e700a48",
+            "commit_id": "40c0e700a48",
             "message": "Revert \"[AMD] Fix AMD User Defined Kernel Autotune (#160671)\""
         },
         "after": {
             "committer_date": "2025-08-25 14:53:54",
-            "id": "1113e7de30d",
+            "commit_id": "1113e7de30d",
             "message": "[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)"
         }
     },

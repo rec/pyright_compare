@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-13 19:16:48",
-            "id": "77f884c2ec6",
+            "commit_id": "77f884c2ec6",
             "message": "Optimize Tensor.backward type hints (#155656)"
         },
         "after": {
             "committer_date": "2025-06-13 20:19:51",
-            "id": "bf798a2f016",
+            "commit_id": "bf798a2f016",
             "message": "Change _hfstorage to hfstorage (#155837)"
         }
     },

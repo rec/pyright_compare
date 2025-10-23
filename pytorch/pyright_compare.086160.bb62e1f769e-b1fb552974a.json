@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-31 19:58:07",
-            "id": "bb62e1f769e",
+            "commit_id": "bb62e1f769e",
             "message": "[inductor] Add logging for distributed collective ops for multi\u2011rank diagnostics (#159190)"
         },
         "after": {
             "committer_date": "2025-07-31 20:20:53",
-            "id": "b1fb552974a",
+            "commit_id": "b1fb552974a",
             "message": "Revert \"Fix ep deepcopy when there is python builitin name (#159478)\""
         }
     },

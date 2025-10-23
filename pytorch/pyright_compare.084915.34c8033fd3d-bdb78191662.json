@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-07-02 12:22:57",
-            "id": "34c8033fd3d",
+            "commit_id": "34c8033fd3d",
             "message": "Fix a div_mod bug in generic_math.h (#157383)"
         },
         "after": {
             "committer_date": "2025-07-02 13:36:14",
-            "id": "bdb78191662",
+            "commit_id": "bdb78191662",
             "message": "[dynamo, nested graph breaks] remove recursive cell/freevar in instruction tx (#154078)"
         }
     },

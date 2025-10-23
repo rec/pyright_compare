@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-06-17 23:30:27",
-            "id": "5435e753993",
+            "commit_id": "5435e753993",
             "message": "[ez] rename choice_timings -> choice_timings_fn (#156099)"
         },
         "after": {
             "committer_date": "2025-06-17 23:39:17",
-            "id": "38e1e5d54ce",
+            "commit_id": "38e1e5d54ce",
             "message": "Add get_pipeline_order() for Gpipe and 1F1B (#155935)"
         }
     },

@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-05-27 18:08:58",
-            "id": "f472ea63bb2",
+            "commit_id": "f472ea63bb2",
             "message": "[BE] Fix typos in SyntaxError description (#154436)"
         },
         "after": {
             "committer_date": "2025-05-27 18:13:38",
-            "id": "5075df6feec",
+            "commit_id": "5075df6feec",
             "message": "Make torch importable if compiled without TensorPipe (#154382)"
         }
     },

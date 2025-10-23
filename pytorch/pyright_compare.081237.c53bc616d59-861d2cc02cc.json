@@ -2,12 +2,12 @@
     "commits": {
         "before": {
             "committer_date": "2025-04-04 17:14:43",
-            "id": "c53bc616d59",
+            "commit_id": "c53bc616d59",
             "message": "caffe2: Fix lint errors in native/xnnpack/Linear.cpp (#150508)"
         },
         "after": {
             "committer_date": "2025-04-04 17:52:53",
-            "id": "861d2cc02cc",
+            "commit_id": "861d2cc02cc",
             "message": "Add a param for save format in Storage Writer (#150025)"
         }
     },
