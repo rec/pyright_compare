@@ -1,0 +1,71 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-12 18:16:49",
+            "commit_id": "5f2714d5e7c",
+            "message": "[cutlass backend] Do not change dtype of GEMM template (#146877)"
+        },
+        "after": {
+            "committer_date": "2025-02-12 18:28:37",
+            "commit_id": "7f62616a585",
+            "message": "[ONNX][reland2] Create deprecation warning on dynamo_export (#146923)"
+        }
+    },
+    "filename": "pyright_compare.079345.5f2714d5e7c-7f62616a585.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
+            "missingFunctionDocStringCount": -4,
+            "completenessScore": -6.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.0173,
+                "withUnknownType": 0.0107
+            },
+            "missingFunctionDocStringCount": -0.1137,
+            "completenessScore": -0.0173
+        },
+        "symbols": {
+            "common": {
+                "torch.onnx.utils.disable_apex_o2_state_dict_hook": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.onnx.utils.disable_apex_o2_state_dict_hook\""
+                        ]
+                    }
+                },
+                "torch.onnx.utils.exporter_context": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.onnx.utils.exporter_context\""
+                        ]
+                    }
+                },
+                "torch.onnx.utils.setup_onnx_logging": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.onnx.utils.setup_onnx_logging\""
+                        ]
+                    }
+                },
+                "torch.onnx.utils.unconvertible_ops": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"model\" is missing"
+                        ]
+                    }
+                },
+                "torch.onnx.verification.verify_aten_graph": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.onnx.verification.verify_aten_graph\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.36240809401118584, 0.36234525230943254]
+}

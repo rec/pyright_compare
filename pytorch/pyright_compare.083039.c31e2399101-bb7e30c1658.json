@@ -11,7 +11,7 @@
             "message": "[MegaCache] Make MegaCache generic to allow external plugins registration (#152977)"
         }
     },
-    "completenessScore": [0.370318, 0.370318],
+    "completeness": [0.370318, 0.370318],
     "filename": "full-run/pyright_compare.083039.c31e2399101-bb7e30c1658.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "[DLPack] Add support for missing keyword-arguments. (#150218)"
         }
     },
-    "completenessScore": [0.375746, 0.375746],
+    "completeness": [0.375746, 0.375746],
     "filename": "pyright_compare.085641.1d526fe78fc-a10f15718d9.json",
     "diff": {
         "symbols": {

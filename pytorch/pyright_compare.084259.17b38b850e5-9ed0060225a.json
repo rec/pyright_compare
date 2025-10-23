@@ -11,7 +11,7 @@
             "message": "Provide access to the cudaGraph_t underlying a CUDAGraph. (#155164)"
         }
     },
-    "completenessScore": [0.37201, 0.371964],
+    "completeness": [0.37201, 0.371964],
     "filename": "full-run/pyright_compare.084259.17b38b850e5-9ed0060225a.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Revert \"[export] Move PT2ArchiveWriter/Reader to torch/export (#153795)\""
         }
     },
-    "completenessScore": [0.367977, 0.367984],
+    "completeness": [0.367977, 0.367984],
     "filename": "full-run/pyright_compare.083136.ec368a19036-4ff19ecf665.json",
     "diff": {
         "absolute": {

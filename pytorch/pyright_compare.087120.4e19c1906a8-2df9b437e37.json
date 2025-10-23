@@ -11,7 +11,7 @@
             "message": "[dynamo, nested graph breaks] implement new resume frame stack/locals/cell layout convention (#157971)"
         }
     },
-    "completenessScore": [0.377315, 0.377315],
+    "completeness": [0.377315, 0.377315],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~715"}, {"name": "11e97bc7bd4~714"}],
         "absolute": {

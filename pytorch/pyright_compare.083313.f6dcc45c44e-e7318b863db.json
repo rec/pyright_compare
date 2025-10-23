@@ -11,7 +11,7 @@
             "message": "[ez] add docblock to cast_symbool_to_symint_guardless (#154400)"
         }
     },
-    "completenessScore": [0.368016, 0.368016],
+    "completeness": [0.368016, 0.368016],
     "filename": "full-run/pyright_compare.083313.f6dcc45c44e-e7318b863db.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

@@ -11,7 +11,7 @@
             "message": "HF component update to not use fsspec components (#159405)"
         }
     },
-    "completenessScore": [0.377367, 0.377367],
+    "completeness": [0.377367, 0.377367],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1419"}, {"name": "11e97bc7bd4~1418"}],
         "absolute": {

@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-20 12:38:21",
+            "commit_id": "574371d828e",
+            "message": "Add current cuda device index to FXGraphCache key (#147464)"
+        },
+        "after": {
+            "committer_date": "2025-02-20 13:55:42",
+            "commit_id": "382fbcc1e43",
+            "message": "add the `torch.float8_e8m0fnu` dtype to PyTorch (#147466)"
+        }
+    },
+    "filename": "pyright_compare.079610.574371d828e-382fbcc1e43.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0173},
+            "completenessScore": 0.011
+        },
+        "symbols": {"added": ["torch.float8_e8m0fnu"]}
+    },
+    "completeness": [0.36255180208464144, 0.36259182520248634]
+}

@@ -11,7 +11,7 @@
             "message": "[dynamo] lift backed symint output of item() (#161198)"
         }
     },
-    "completenessScore": [0.377391, 0.377391],
+    "completeness": [0.377391, 0.377391],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~682"}, {"name": "11e97bc7bd4~681"}],
         "symbols": {

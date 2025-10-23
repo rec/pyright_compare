@@ -11,7 +11,7 @@
             "message": "remove allow-untyped-defs from torch/ao/nn/quantized/modules/rnn.py (#157234)"
         }
     },
-    "completenessScore": [0.373642, 0.373704],
+    "completeness": [0.373642, 0.373704],
     "filename": "pyright_compare.085082.e38a335d7f0-60b41de0ca0.json",
     "diff": {
         "absolute": {

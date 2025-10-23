@@ -11,7 +11,7 @@
             "message": "Revert \"Re-enable FakeTensor caching for SymInts (#152662)\""
         }
     },
-    "completenessScore": [0.368016, 0.368078],
+    "completeness": [0.368016, 0.368078],
     "filename": "full-run/pyright_compare.083197.187d38185eb-3f64502c984.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Fix support of MixtureSameFamily [bugfix]. (#151317)"
         }
     },
-    "completenessScore": [0.36527, 0.365235],
+    "completeness": [0.36527, 0.365235],
     "filename": "full-run/pyright_compare.082779.534b66fe303-a54bf43baad.json",
     "diff": {
         "absolute": {

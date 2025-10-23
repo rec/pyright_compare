@@ -11,7 +11,7 @@
             "message": "[Inductor] Support native Inductor as backend for MTIA (#158526)"
         }
     },
-    "completenessScore": [0.377298, 0.377229],
+    "completeness": [0.377298, 0.377229],
     "filename": "full-run/pyright_compare.085960.62a49d929bb-cd68559d045.json",
     "diff": {
         "absolute": {

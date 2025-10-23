@@ -1,0 +1,36 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-22 14:58:35",
+            "commit_id": "4b77ff97840",
+            "message": "Fix PythonMod printing for C++ (#143385)"
+        },
+        "after": {
+            "committer_date": "2025-01-22 14:58:35",
+            "commit_id": "fbaef0ac038",
+            "message": "Add a language option for symbolic shape guards (#143164)"
+        }
+    },
+    "filename": "pyright_compare.078445.4b77ff97840-fbaef0ac038.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1},
+            "missingFunctionDocStringCount": 2,
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0174},
+            "otherSymbolCounts": {"withKnownType": 0.0533},
+            "missingFunctionDocStringCount": 0.0571,
+            "completenessScore": 0.0111
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.symbolic_shapes.ShapeGuardPythonPrinter.doprint",
+                "torch.fx.experimental.symbolic_shapes._ShapeGuardPrinter.doprint"
+            ]
+        }
+    },
+    "completeness": [0.3616565961732125, 0.3616967713512493]
+}

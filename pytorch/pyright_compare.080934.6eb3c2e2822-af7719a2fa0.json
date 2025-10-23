@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-27 13:53:25",
+            "commit_id": "6eb3c2e2822",
+            "message": "Update xla pin (#149381)"
+        },
+        "after": {
+            "committer_date": "2025-03-27 16:02:27",
+            "commit_id": "af7719a2fa0",
+            "message": "Revert \"Use source hashing to generate consistent symbolic ids (#149665)\""
+        }
+    },
+    "filename": "pyright_compare.080934.6eb3c2e2822-af7719a2fa0.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.0172},
+            "completenessScore": -0.011
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.unique_ids"
+            ]
+        }
+    },
+    "completeness": [0.363375, 0.36333520845052814]
+}

@@ -11,7 +11,7 @@
             "message": "[BE][Ez]: Auto add return type annotations for methods in torch/nn/module (#157925)"
         }
     },
-    "completenessScore": [0.37402, 0.374391],
+    "completeness": [0.37402, 0.374391],
     "filename": "pyright_compare.085181.f742b32a2ff-163f0d8f2ab.json",
     "diff": {
         "absolute": {

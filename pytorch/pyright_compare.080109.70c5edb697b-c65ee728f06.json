@@ -1,0 +1,38 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-05 16:11:03",
+            "commit_id": "70c5edb697b",
+            "message": "[ROCm] fix CK compile for gfx1200 (#148496)"
+        },
+        "after": {
+            "committer_date": "2025-03-05 16:13:19",
+            "commit_id": "c65ee728f06",
+            "message": "Initial implementation of host memory stats (#147660)"
+        }
+    },
+    "filename": "pyright_compare.080109.70c5edb697b-c65ee728f06.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 8},
+            "completenessScore": 0.000319
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.1382},
+            "completenessScore": 0.088
+        },
+        "symbols": {
+            "added": [
+                "torch.cuda.host_memory_stats",
+                "torch.cuda.host_memory_stats_as_nested_dict",
+                "torch.cuda.memory.host_memory_stats",
+                "torch.cuda.memory.host_memory_stats_as_nested_dict",
+                "torch.cuda.memory.reset_accumulated_host_memory_stats",
+                "torch.cuda.memory.reset_peak_host_memory_stats",
+                "torch.cuda.reset_accumulated_host_memory_stats",
+                "torch.cuda.reset_peak_host_memory_stats"
+            ]
+        }
+    },
+    "completeness": [0.36265113073983585, 0.362970383820675]
+}

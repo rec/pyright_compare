@@ -1,0 +1,51 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-28 04:28:18",
+            "commit_id": "67fcc7cf02b",
+            "message": "[3/N] Remove unnecessary once flag usage (#145672)"
+        },
+        "after": {
+            "committer_date": "2025-01-28 04:43:49",
+            "commit_id": "8e46d0f5951",
+            "message": "[BE]: Update typing of OrderedSet ancestor (#145783)"
+        }
+    },
+    "filename": "pyright_compare.078698.67fcc7cf02b-8e46d0f5951.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1}},
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.053,
+                "withUnknownType": -0.0587
+            }
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.free_symbols": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"OrderedSet[Any]\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.free_unbacked_symbols": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"OrderedSet[Any]\""
+                        ]
+                    }
+                },
+                "torch.utils._ordered_set.OrderedSet": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"typing.MutableSet\" is partially unknown\n\u00a0\u00a0Type argument 1 for class \"MutableSet\" has unknown type"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3621546787489774, 0.3621546787489774]
+}

@@ -1,0 +1,29 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-27 00:45:09",
+            "commit_id": "128b32f3637",
+            "message": "cache loaded python modules (#149910)"
+        },
+        "after": {
+            "committer_date": "2025-03-27 02:01:51",
+            "commit_id": "8d1cfb63b5f",
+            "message": "[export] Save unflattened gm (#150030)"
+        }
+    },
+    "filename": "pyright_compare.080914.128b32f3637-8d1cfb63b5f.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0107},
+            "missingFunctionDocStringCount": 0.0283,
+            "completenessScore": -0.0063
+        },
+        "symbols": {"added": ["torch.export.unflatten.UnflattenedModule.finalize"]}
+    },
+    "completeness": [0.3634033508377094, 0.3633806338688504]
+}

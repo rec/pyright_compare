@@ -11,7 +11,7 @@
             "message": "[BE]: Remove redundant copy (#153629)"
         }
     },
-    "completenessScore": [0.367651, 0.367899],
+    "completeness": [0.367651, 0.367899],
     "filename": "full-run/pyright_compare.082926.5506baa4ede-f3daedb263d.json",
     "diff": {
         "absolute": {

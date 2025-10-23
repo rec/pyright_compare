@@ -1,0 +1,44 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-06 12:04:39",
+            "commit_id": "209977e6e5b",
+            "message": "Add information about checkpoint offset to untyped storages when torch.load under FakeTensorMode (#147787)"
+        },
+        "after": {
+            "committer_date": "2025-03-06 12:04:46",
+            "commit_id": "be0ceee1c37",
+            "message": "Make record/storage alignment in torch.save configurable (#147788)"
+        }
+    },
+    "filename": "pyright_compare.080157.209977e6e5b-be0ceee1c37.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0173},
+            "otherSymbolCounts": {
+                "withKnownType": 0.0526,
+                "withUnknownType": -0.0588
+            },
+            "completenessScore": 0.011
+        },
+        "symbols": {
+            "added": ["torch.utils.serialization.config.save.storage_alignment"],
+            "common": {
+                "torch._C.PyTorchFileWriter.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"compute_crc32\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.362970383820675, 0.36301026796894564]
+}

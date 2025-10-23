@@ -11,7 +11,7 @@
             "message": "[ONNX] Implement Attention-23 (#156431)"
         }
     },
-    "completenessScore": [0.371964, 0.371941],
+    "completeness": [0.371964, 0.371941],
     "filename": "full-run/pyright_compare.084412.0ad88a2224e-fbbab794ef6.json",
     "diff": {
         "absolute": {

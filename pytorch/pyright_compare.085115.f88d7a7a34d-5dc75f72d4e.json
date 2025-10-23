@@ -11,7 +11,7 @@
             "message": "Simplify the base classes of `_PyFutureMeta` (#157757)"
         }
     },
-    "completenessScore": [0.373704, 0.373704],
+    "completeness": [0.373704, 0.373704],
     "filename": "pyright_compare.085115.f88d7a7a34d-5dc75f72d4e.json",
     "diff": {
         "absolute": {

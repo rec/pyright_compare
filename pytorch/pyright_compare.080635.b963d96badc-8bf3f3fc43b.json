@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-19 07:53:02",
+            "commit_id": "b963d96badc",
+            "message": "[Torchscript] Add a flag to use mangled names instead of demangled (#148906)"
+        },
+        "after": {
+            "committer_date": "2025-03-19 07:54:02",
+            "commit_id": "8bf3f3fc43b",
+            "message": "[c10d] Add a collective time estimator for NCCL comms (#149343)"
+        }
+    },
+    "filename": "pyright_compare.080635.b963d96badc-8bf3f3fc43b.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0519}},
+        "symbols": {"added": ["torch._C._distributed_c10d.Backend.supports_time_estimate"]}
+    },
+    "completeness": [0.3629193790686029, 0.3629193790686029]
+}

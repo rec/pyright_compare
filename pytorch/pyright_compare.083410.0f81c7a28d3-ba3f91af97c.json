@@ -11,7 +11,7 @@
             "message": "Type hints for distributions/utils (#154712)"
         }
     },
-    "completenessScore": [0.371283, 0.371345],
+    "completeness": [0.371283, 0.371345],
     "filename": "full-run/pyright_compare.083410.0f81c7a28d3-ba3f91af97c.json",
     "diff": {
         "absolute": {

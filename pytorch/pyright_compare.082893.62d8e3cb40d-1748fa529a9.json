@@ -11,7 +11,7 @@
             "message": "Revert \"cleanup, refactor and add missing  self._dde_suppressed checks (#152657)\""
         }
     },
-    "completenessScore": [0.366849, 0.366787],
+    "completeness": [0.366849, 0.366787],
     "filename": "full-run/pyright_compare.082893.62d8e3cb40d-1748fa529a9.json",
     "diff": {
         "absolute": {

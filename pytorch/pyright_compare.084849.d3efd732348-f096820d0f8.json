@@ -11,7 +11,7 @@
             "message": "[precompile] Detect source code changes for save/load. (#156432)"
         }
     },
-    "completenessScore": [0.372298, 0.372298],
+    "completeness": [0.372298, 0.372298],
     "filename": "full-run/pyright_compare.084849.d3efd732348-f096820d0f8.json",
     "diff": {
         "absolute": {

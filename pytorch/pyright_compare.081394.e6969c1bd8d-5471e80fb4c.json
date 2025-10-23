@@ -11,7 +11,7 @@
             "message": "Remove guard_size_oblivious from vector_norm decomposition. (#148809)"
         }
     },
-    "completenessScore": [0.36341, 0.363387],
+    "completeness": [0.36341, 0.363387],
     "filename": "full-run/pyright_compare.081394.e6969c1bd8d-5471e80fb4c.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Revert \"Add `label_smoothing` param in `nn.BCELoss` and `nn.BCEWithLogitsLoss` (#150282)\""
         }
     },
-    "completenessScore": [0.377333, 0.377257],
+    "completeness": [0.377333, 0.377257],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1210"}, {"name": "11e97bc7bd4~1209"}],
         "absolute": {

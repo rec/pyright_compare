@@ -11,7 +11,7 @@
             "message": "Automatically load and save dynamo entries via caching_precompile (#155913)"
         }
     },
-    "completenessScore": [0.373642, 0.373642],
+    "completeness": [0.373642, 0.373642],
     "filename": "pyright_compare.085079.3effe0c2932-be56a8d7ac0.json",
     "diff": {
         "absolute": {

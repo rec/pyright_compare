@@ -1,0 +1,29 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-24 17:36:13",
+            "commit_id": "6608d4e3e9b",
+            "message": "[dynamo] keep chained exceptions in user-facing tracebacks (#149676)"
+        },
+        "after": {
+            "committer_date": "2025-03-24 17:41:01",
+            "commit_id": "42e7bda53eb",
+            "message": "Revert \"[export] Save unflattened gm (#149717)\""
+        }
+    },
+    "filename": "pyright_compare.080799.6608d4e3e9b-42e7bda53eb.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "missingFunctionDocStringCount": -1,
+            "completenessScore": 2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.0107},
+            "missingFunctionDocStringCount": -0.0283,
+            "completenessScore": 0.0063
+        },
+        "symbols": {"removed": ["torch.export.unflatten.UnflattenedModule.finalize"]}
+    },
+    "completeness": [0.36342042755344417, 0.36344314558979807]
+}

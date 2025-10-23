@@ -1,0 +1,71 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-14 19:08:19",
+            "commit_id": "58f654b5ad8",
+            "message": "[ONNX] Consolidate constants to a single location (#147166)"
+        },
+        "after": {
+            "committer_date": "2025-02-14 19:25:32",
+            "commit_id": "272ead7b5e9",
+            "message": "Make fx.node.map_arg() and .map_aggregate() generic (#146248)"
+        }
+    },
+    "filename": "pyright_compare.079463.58f654b5ad8-272ead7b5e9.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": -3},
+            "completenessScore": 0.000228
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0693,
+                "withUnknownType": -0.0322
+            },
+            "completenessScore": 0.063
+        },
+        "symbols": {
+            "added": ["torch.fx.node.ArgumentT"],
+            "common": {
+                "torch._tensor.Tensor.__pow__": {
+                    "diagnostics": {
+                        "added": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"(self: Self@TensorBase, other: Number | Tensor | complex) -> Tensor\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ],
+                        "removed": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"_Wrapped[..., Unknown, ..., Any | Unknown | _NotImplementedType]\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ]
+                    }
+                },
+                "torch.fx.map_arg": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"a\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.map_aggregate": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"a\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.map_arg": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"a\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3625290387392478, 0.36275740833751885]
+}

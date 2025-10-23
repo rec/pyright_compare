@@ -11,7 +11,7 @@
             "message": "[export] Symint support (nonstrict, Dim.DYNAMIC) (#150198)"
         }
     },
-    "completenessScore": [0.363217, 0.36341],
+    "completeness": [0.363217, 0.36341],
     "filename": "full-run/pyright_compare.081393.596e44d26a5-e6969c1bd8d.json",
     "diff": {
         "absolute": {

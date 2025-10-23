@@ -11,7 +11,7 @@
             "message": "Add needs_exact_strides operator tag for Inductor to force exact strides (#148063)"
         }
     },
-    "completenessScore": [0.363086, 0.363086],
+    "completeness": [0.363086, 0.363086],
     "filename": "full-run/pyright_compare.081132.c41fbb4f783-c69c3c885e8.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

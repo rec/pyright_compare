@@ -11,7 +11,7 @@
             "message": "[DCP][OSS] Rank local checkpointing in DCP without collectives (#147758)"
         }
     },
-    "completenessScore": [0.377257, 0.377187],
+    "completeness": [0.377257, 0.377187],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1197"}, {"name": "11e97bc7bd4~1196"}],
         "absolute": {

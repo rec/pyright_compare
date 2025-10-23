@@ -11,7 +11,7 @@
             "message": "[ez] add docblock for guard_scalar (#154385)"
         }
     },
-    "completenessScore": [0.368134, 0.368134],
+    "completeness": [0.368134, 0.368134],
     "filename": "full-run/pyright_compare.083292.ee4f4339631-35a473e3644.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

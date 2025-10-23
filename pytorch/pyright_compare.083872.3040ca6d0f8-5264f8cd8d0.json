@@ -11,7 +11,7 @@
             "message": "Add Intel GPU info collection to the collect env script (#137846)"
         }
     },
-    "completenessScore": [0.37126, 0.371207],
+    "completeness": [0.37126, 0.371207],
     "filename": "full-run/pyright_compare.083872.3040ca6d0f8-5264f8cd8d0.json",
     "diff": {
         "absolute": {

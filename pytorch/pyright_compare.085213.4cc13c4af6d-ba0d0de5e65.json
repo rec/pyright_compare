@@ -11,7 +11,7 @@
             "message": "Enable set SDPA backend by torch.nn.attention.sdpa_kernel on XPU (#156669)"
         }
     },
-    "completenessScore": [0.374923, 0.374923],
+    "completeness": [0.374923, 0.374923],
     "filename": "pyright_compare.085213.4cc13c4af6d-ba0d0de5e65.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

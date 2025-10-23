@@ -11,7 +11,7 @@
             "message": "[Torch Package] Make get names of OrderedImporters support fallback to importers (#155743)"
         }
     },
-    "completenessScore": [0.37708, 0.377095],
+    "completeness": [0.37708, 0.377095],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1499"}, {"name": "11e97bc7bd4~1498"}],
         "absolute": {

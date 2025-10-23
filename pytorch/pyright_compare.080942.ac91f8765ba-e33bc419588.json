@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-27 17:14:44",
+            "commit_id": "ac91f8765ba",
+            "message": "Store statically launchable CachingAutotuners inside CompiledFXGraph.triton_bundle (#149054)"
+        },
+        "after": {
+            "committer_date": "2025-03-27 17:32:20",
+            "commit_id": "e33bc419588",
+            "message": "add `torch.float4_e2m1fn_x2` to PyTorch (#148791)"
+        }
+    },
+    "filename": "pyright_compare.080942.ac91f8765ba-e33bc419588.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0172},
+            "completenessScore": 0.011
+        },
+        "symbols": {"added": ["torch.float4_e2m1fn_x2"]}
+    },
+    "completeness": [0.36333520845052814, 0.363375]
+}

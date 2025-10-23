@@ -11,7 +11,7 @@
             "message": "New export implementation with flat inp/out (#162167)"
         }
     },
-    "completenessScore": [0.375945, 0.375945],
+    "completeness": [0.375945, 0.375945],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~152"}, {"name": "11e97bc7bd4~151"}],
         "absolute": {

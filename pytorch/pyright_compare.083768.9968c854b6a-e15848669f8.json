@@ -11,7 +11,7 @@
             "message": "[1/n]adding torch.distributed.run option to provide destination for event logging (#154644) (#155268)"
         }
     },
-    "completenessScore": [0.371183, 0.37126],
+    "completeness": [0.371183, 0.37126],
     "filename": "full-run/pyright_compare.083768.9968c854b6a-e15848669f8.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "[DDP] add one option to allow skipping all reduce unused parameters (#151503)"
         }
     },
-    "completenessScore": [0.36453, 0.364507],
+    "completeness": [0.36453, 0.364507],
     "filename": "full-run/pyright_compare.081685.6d46b530fcb-d8bafd23ab2.json",
     "diff": {
         "absolute": {

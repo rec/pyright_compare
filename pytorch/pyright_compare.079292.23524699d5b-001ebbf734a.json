@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-11 03:46:16",
+            "commit_id": "23524699d5b",
+            "message": "Only call triton in worker process, kick off worker processes earlier, during inductor codegen (#146417)"
+        },
+        "after": {
+            "committer_date": "2025-02-11 03:51:48",
+            "commit_id": "001ebbf734a",
+            "message": "[MTIA] (4/n) Implement PyTorch APIs to query/reset device peak memory usage (#146751)"
+        }
+    },
+    "filename": "pyright_compare.079292.23524699d5b-001ebbf734a.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 2},
+            "completenessScore": -4.6e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0215},
+            "completenessScore": -0.0126
+        },
+        "symbols": {
+            "added": [
+                "torch.mtia.memory.reset_peak_memory_stats",
+                "torch.mtia.reset_peak_memory_stats"
+            ]
+        }
+    },
+    "completeness": [0.3623215745456832, 0.36227601383212826]
+}

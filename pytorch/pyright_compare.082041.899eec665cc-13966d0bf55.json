@@ -11,7 +11,7 @@
             "message": "[BE] Migrate dtype_abbrs into one location (#152229)"
         }
     },
-    "completenessScore": [0.364715, 0.364738],
+    "completeness": [0.364715, 0.364738],
     "filename": "full-run/pyright_compare.082041.899eec665cc-13966d0bf55.json",
     "diff": {
         "absolute": {

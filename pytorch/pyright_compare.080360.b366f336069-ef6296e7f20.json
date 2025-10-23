@@ -1,0 +1,60 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-11 18:35:23",
+            "commit_id": "b366f336069",
+            "message": "[MPSInductor] Prep for mutlistage reductions (#148969)"
+        },
+        "after": {
+            "committer_date": "2025-03-11 18:36:12",
+            "commit_id": "ef6296e7f20",
+            "message": "[PGNCCL] Launch kernel on current stream & remove `record_stream` entirely (#148590)"
+        }
+    },
+    "filename": "pyright_compare.080360.b366f336069-ef6296e7f20.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -4, "withUnknownType": 4},
+            "otherSymbolCounts": {"withKnownType": 3, "withUnknownType": 3},
+            "completenessScore": -0.000251
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.069,
+                "withUnknownType": 0.0429
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.1571,
+                "withUnknownType": 0.1764
+            },
+            "completenessScore": -0.069
+        },
+        "symbols": {
+            "added": [
+                "torch._C._distributed_c10d.AllToAllOptions.asyncOp",
+                "torch._C._distributed_c10d.AllreduceOptions.asyncOp",
+                "torch._C._distributed_c10d.AllreduceOptions.sparseIndices",
+                "torch._C._distributed_c10d.BarrierOptions.asyncOp",
+                "torch._C._distributed_c10d.GatherOptions.asyncOp",
+                "torch._C._distributed_c10d.ReduceOptions.asyncOp"
+            ],
+            "common": {
+                "torch._C._distributed_c10d.AllreduceCoalescedOptions": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of base class \"torch._C._distributed_c10d.AllreduceOptions\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._C._distributed_c10d.ProcessGroup.allreduce": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"opts\" is partially unknown\n\u00a0\u00a0Parameter type is \"AllreduceOptions\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3628507014028056, 0.3626002004008016]
+}

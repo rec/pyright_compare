@@ -11,7 +11,7 @@
             "message": "Add get_pipeline_order() for Gpipe and 1F1B (#155935)"
         }
     },
-    "completenessScore": [0.371971, 0.37201],
+    "completeness": [0.371971, 0.37201],
     "filename": "full-run/pyright_compare.084250.5435e753993-38e1e5d54ce.json",
     "diff": {
         "absolute": {

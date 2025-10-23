@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-24 10:04:24",
+            "commit_id": "d3989ca636b",
+            "message": "Add multi env variable support to configs (#145288)"
+        },
+        "after": {
+            "committer_date": "2025-01-24 10:06:07",
+            "commit_id": "f08b9bc7e4e",
+            "message": "[WIP] Move XNNPACKQuantizer from PyTorch to ExecuTorch (#144940)"
+        }
+    },
+    "filename": "pyright_compare.078572.d3989ca636b-f08b9bc7e4e.json",
+    "diff": {
+        "absolute": {"missingClassDocStringCount": -1},
+        "percent": {"missingClassDocStringCount": -0.0973},
+        "symbols": {
+            "common": {
+                "torch.ao.quantization.quantizer.xnnpack_quantizer.XNNPACKQuantizer": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for class \"torch.ao.quantization.quantizer.xnnpack_quantizer.XNNPACKQuantizer\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.36182264459689095, 0.36182264459689095]
+}

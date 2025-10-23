@@ -11,7 +11,7 @@
             "message": "[BE] Introduce torch.AcceleratorError (#152023)"
         }
     },
-    "completenessScore": [0.371499, 0.371577],
+    "completeness": [0.371499, 0.371577],
     "filename": "full-run/pyright_compare.083478.f7c09f864a6-0350c7e72c7.json",
     "diff": {
         "absolute": {

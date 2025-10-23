@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-29 18:27:44",
+            "commit_id": "e0525dbca9c",
+            "message": "Revert \"inductor.config.descriptive_names = False is not actually supported (#145523)\""
+        },
+        "after": {
+            "committer_date": "2025-01-29 18:30:30",
+            "commit_id": "6371c25b91f",
+            "message": "Revert \"[c10d] Add NCCL memory allocator (#145675)\""
+        }
+    },
+    "filename": "pyright_compare.078788.e0525dbca9c-6371c25b91f.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": -1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": -0.0529}},
+        "symbols": {"removed": ["torch._C._distributed_c10d.Backend.mem_allocator"]}
+    },
+    "completeness": [0.3622349462027308, 0.3622349462027308]
+}

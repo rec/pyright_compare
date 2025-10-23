@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-25 02:29:13",
+            "commit_id": "27657a00d9f",
+            "message": "Demote logger of runtime_asserts_frozen to be fired only on debug mode (#149832)"
+        },
+        "after": {
+            "committer_date": "2025-03-25 03:16:23",
+            "commit_id": "280e48739a4",
+            "message": "[ONNX] Set is_in_onnx_export for dynamo=True (#149678)"
+        }
+    },
+    "filename": "pyright_compare.080830.27657a00d9f-280e48739a4.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.0172},
+            "completenessScore": -0.0109
+        },
+        "symbols": {"removed": ["torch.onnx.utils.is_in_onnx_export"]}
+    },
+    "completeness": [0.36344314558979807, 0.3634033508377094]
+}

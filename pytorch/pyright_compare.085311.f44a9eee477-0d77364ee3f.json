@@ -11,7 +11,7 @@
             "message": "dist2: cleanup non-option methods on PG (missing, timeouts) (#158123)"
         }
     },
-    "completenessScore": [0.374923, 0.374923],
+    "completeness": [0.374923, 0.374923],
     "filename": "pyright_compare.085311.f44a9eee477-0d77364ee3f.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1, "missingDefaultParamCount": -1},

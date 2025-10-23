@@ -1,0 +1,64 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-27 22:00:06",
+            "commit_id": "006397fac3d",
+            "message": "Remove FBGEMM sccache hack (#145664)"
+        },
+        "after": {
+            "committer_date": "2025-01-27 22:39:30",
+            "commit_id": "2de53b3b659",
+            "message": "Revert \"pickler for GraphModule (#141659)\""
+        }
+    },
+    "filename": "pyright_compare.078677.006397fac3d-2de53b3b659.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 7, "withUnknownType": 2},
+            "missingClassDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.3721,
+                "withUnknownType": 0.1175
+            },
+            "missingClassDocStringCount": 0.0974
+        },
+        "symbols": {
+            "added": [
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.__delitem__",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.__init__",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.__new__",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.device",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.get",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.pop",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.setdefault",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.update"
+            ],
+            "common": {
+                "torch._subclasses.meta_utils.MetaConverter.meta_tensor": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"callback\" is partially unknown\n\u00a0\u00a0Parameter type is \"_MetaTensorCallback[_TensorT@MetaConverter]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"callback_\" is partially unknown\n\u00a0\u00a0Parameter type is \"_MetaTensorCallback[_TensorT@MetaConverter]\""
+                        ]
+                    }
+                },
+                "torch._subclasses.meta_utils._MetaTensorCallback.__call__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"kwargs\" is partially unknown\n\u00a0\u00a0Parameter type is \"*_MetaTensorCallbackKwargs\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"device\" is partially unknown\n\u00a0\u00a0Parameter type is \"device | str\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3621546787489774, 0.3621546787489774]
+}

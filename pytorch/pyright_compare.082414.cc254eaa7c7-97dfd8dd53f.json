@@ -11,7 +11,7 @@
             "message": "[invoke_subgraph] Run missing graph passes recursively (#152675)"
         }
     },
-    "completenessScore": [0.364535, 0.364575],
+    "completeness": [0.364535, 0.364575],
     "filename": "full-run/pyright_compare.082414.cc254eaa7c7-97dfd8dd53f.json",
     "diff": {
         "absolute": {

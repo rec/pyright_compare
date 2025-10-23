@@ -11,7 +11,7 @@
             "message": "Implemented `Size.__radd__` (#152554)"
         }
     },
-    "completenessScore": [0.372142, 0.372142],
+    "completeness": [0.372142, 0.372142],
     "filename": "full-run/pyright_compare.084505.3cbae6dde8f-2e9bd03f607.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

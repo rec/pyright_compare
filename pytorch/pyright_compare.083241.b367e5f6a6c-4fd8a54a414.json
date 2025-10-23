@@ -11,7 +11,7 @@
             "message": "[ez] add docblock for is_accessor_node (#154375)"
         }
     },
-    "completenessScore": [0.368134, 0.368134],
+    "completeness": [0.368134, 0.368134],
     "filename": "full-run/pyright_compare.083241.b367e5f6a6c-4fd8a54a414.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

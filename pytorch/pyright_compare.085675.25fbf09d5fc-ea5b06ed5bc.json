@@ -11,7 +11,7 @@
             "message": "[Dynamo][BetterEngineering] Type side_effects.py (#158605)"
         }
     },
-    "completenessScore": [0.3757, 0.3757],
+    "completeness": [0.3757, 0.3757],
     "filename": "pyright_compare.085675.25fbf09d5fc-ea5b06ed5bc.json",
     "diff": {
         "absolute": {

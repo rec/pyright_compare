@@ -11,7 +11,7 @@
             "message": "[BE] Make torch.nn.modules.* satisfy the docs coverage test (#158491)"
         }
     },
-    "completenessScore": [0.377298, 0.377298],
+    "completeness": [0.377298, 0.377298],
     "filename": "full-run/pyright_compare.085942.e65ab9a868a-9e8f27cc795.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -134},

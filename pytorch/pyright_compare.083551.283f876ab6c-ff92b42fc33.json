@@ -11,7 +11,7 @@
             "message": "[c10d][gloo] Integrate vendor generic FR into gloo (#152614)"
         }
     },
-    "completenessScore": [0.371538, 0.371538],
+    "completeness": [0.371538, 0.371538],
     "filename": "full-run/pyright_compare.083551.283f876ab6c-ff92b42fc33.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 3}},

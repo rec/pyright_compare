@@ -11,7 +11,7 @@
             "message": "Add torch._C.Tag.needs_contiguous_strides (#152859)"
         }
     },
-    "completenessScore": [0.364677, 0.364677],
+    "completeness": [0.364677, 0.364677],
     "filename": "full-run/pyright_compare.082513.2d25e4d478b-94ca3a4666d.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

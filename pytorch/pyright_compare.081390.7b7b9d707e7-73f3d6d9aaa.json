@@ -11,7 +11,7 @@
             "message": "Revert \"ProcessGroupGloo: support lazy_init (#150801)\""
         }
     },
-    "completenessScore": [0.363217, 0.363217],
+    "completeness": [0.363217, 0.363217],
     "filename": "full-run/pyright_compare.081390.7b7b9d707e7-73f3d6d9aaa.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1}},

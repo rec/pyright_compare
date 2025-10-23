@@ -11,7 +11,7 @@
             "message": "154849 Add support to handle IGUSR1 and SIGUSR2 in multiprocessing (#160690)"
         }
     },
-    "completenessScore": [0.376073, 0.376111],
+    "completeness": [0.376073, 0.376111],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~24"}, {"name": "11e97bc7bd4~23"}],
         "absolute": {

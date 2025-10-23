@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-06 18:06:40",
+            "commit_id": "49082f9dba3",
+            "message": "parallelize sort (#142391)"
+        },
+        "after": {
+            "committer_date": "2025-02-06 18:48:09",
+            "commit_id": "15b1ac3e86d",
+            "message": "Add torch.func.debug_unwrap (#146528)"
+        }
+    },
+    "filename": "pyright_compare.079149.49082f9dba3-15b1ac3e86d.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0107},
+            "completenessScore": -0.0063
+        },
+        "symbols": {"added": ["torch.func.debug_unwrap"]}
+    },
+    "completeness": [0.36226961061835566, 0.3622468234998113]
+}

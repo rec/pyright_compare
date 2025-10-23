@@ -11,7 +11,7 @@
             "message": "Add docblock for TrackedFake (#154396)"
         }
     },
-    "completenessScore": [0.368016, 0.368016],
+    "completeness": [0.368016, 0.368016],
     "filename": "full-run/pyright_compare.083315.d311b79c12b-ed348e70269.json",
     "diff": {
         "absolute": {"missingClassDocStringCount": -1},

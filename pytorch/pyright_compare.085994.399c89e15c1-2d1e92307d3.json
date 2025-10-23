@@ -11,7 +11,7 @@
             "message": "Partitioner: Fix to align partition node order with original graph (#157892)"
         }
     },
-    "completenessScore": [0.377298, 0.377298],
+    "completeness": [0.377298, 0.377298],
     "filename": "pyright_compare.085994.399c89e15c1-2d1e92307d3.json",
     "diff": {
         "symbols": {

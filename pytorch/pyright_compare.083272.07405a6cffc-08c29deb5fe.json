@@ -11,7 +11,7 @@
             "message": "[ez] add docblock to is_symbol_binding_fx_node (#154380)"
         }
     },
-    "completenessScore": [0.368134, 0.368134],
+    "completeness": [0.368134, 0.368134],
     "filename": "full-run/pyright_compare.083272.07405a6cffc-08c29deb5fe.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

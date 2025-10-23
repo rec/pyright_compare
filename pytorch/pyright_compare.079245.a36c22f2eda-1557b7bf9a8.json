@@ -1,0 +1,72 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-10 15:50:19",
+            "commit_id": "a36c22f2eda",
+            "message": "futher scheduler changes for invoke_quant: prologue low prec, (slightly) more aggressive fusion (#145104)"
+        },
+        "after": {
+            "committer_date": "2025-02-10 15:51:52",
+            "commit_id": "1557b7bf9a8",
+            "message": "Revert \"[ONNX] Adjust and add deprecation messages (#146639)\""
+        }
+    },
+    "filename": "pyright_compare.079245.a36c22f2eda-1557b7bf9a8.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "missingFunctionDocStringCount": 4,
+            "completenessScore": 6.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0174,
+                "withUnknownType": -0.0107
+            },
+            "missingFunctionDocStringCount": 0.114,
+            "completenessScore": 0.0174
+        },
+        "symbols": {
+            "common": {
+                "torch.onnx.utils.disable_apex_o2_state_dict_hook": {
+                    "diagnostics": {
+                        "added": [
+                            "No docstring found for function \"torch.onnx.utils.disable_apex_o2_state_dict_hook\""
+                        ]
+                    }
+                },
+                "torch.onnx.utils.exporter_context": {
+                    "diagnostics": {
+                        "added": [
+                            "No docstring found for function \"torch.onnx.utils.exporter_context\""
+                        ]
+                    }
+                },
+                "torch.onnx.utils.setup_onnx_logging": {
+                    "diagnostics": {
+                        "added": [
+                            "No docstring found for function \"torch.onnx.utils.setup_onnx_logging\""
+                        ]
+                    }
+                },
+                "torch.onnx.utils.unconvertible_ops": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"model\" is missing"
+                        ]
+                    }
+                },
+                "torch.onnx.verification.verify_aten_graph": {
+                    "diagnostics": {
+                        "added": [
+                            "No docstring found for function \"torch.onnx.verification.verify_aten_graph\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.36225869332830285, 0.3623215745456832]
+}

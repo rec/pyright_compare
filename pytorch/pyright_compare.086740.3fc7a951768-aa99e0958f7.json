@@ -11,7 +11,7 @@
             "message": "Separate provenance tracking to different levels (#160383)"
         }
     },
-    "completenessScore": [0.377208, 0.377185],
+    "completeness": [0.377208, 0.377185],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1095"}, {"name": "11e97bc7bd4~1094"}],
         "absolute": {

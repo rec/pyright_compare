@@ -1,0 +1,52 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-18 02:05:35",
+            "commit_id": "c36ac16da18",
+            "message": "[Inductor] optimize welford reduction (#145061)"
+        },
+        "after": {
+            "committer_date": "2025-03-18 02:10:34",
+            "commit_id": "ebabd0efddd",
+            "message": "[ONNX] Expose verification utilities (#148603)"
+        }
+    },
+    "filename": "pyright_compare.080571.c36ac16da18-ebabd0efddd.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 2},
+            "otherSymbolCounts": {"withKnownType": 13, "withUnknownType": 2},
+            "completenessScore": -4.5e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0214},
+            "otherSymbolCounts": {
+                "withKnownType": 0.6792,
+                "withUnknownType": 0.1177
+            },
+            "completenessScore": -0.0125
+        },
+        "symbols": {
+            "added": [
+                "torch.onnx._internal.exporter._verification.VerificationInfo",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.__dataclass_fields__",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.__eq__",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.__hash__",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.__init__",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.__match_args__",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.__new__",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.abs_diff_hist",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.actual_dtype",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.expected_dtype",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.from_tensors",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.max_abs_diff",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.max_rel_diff",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.name",
+                "torch.onnx._internal.exporter._verification.VerificationInfo.rel_diff_hist",
+                "torch.onnx.verification.VerificationInfo",
+                "torch.onnx.verification.verify_onnx_program"
+            ]
+        }
+    },
+    "completeness": [0.362867877269881, 0.36282243926872026]
+}

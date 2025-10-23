@@ -11,7 +11,7 @@
             "message": "Revert \"Add inductor standalone_compile API (#150670)\""
         }
     },
-    "completenessScore": [0.363161, 0.363099],
+    "completeness": [0.363161, 0.363099],
     "filename": "full-run/pyright_compare.081515.d99236b68c3-24b3ab92550.json",
     "diff": {
         "absolute": {

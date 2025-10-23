@@ -11,7 +11,7 @@
             "message": "Add ownership token when needed on GradientEdge (#160098)"
         }
     },
-    "completenessScore": [0.377356, 0.377333],
+    "completeness": [0.377356, 0.377333],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1253"}, {"name": "11e97bc7bd4~1252"}],
         "absolute": {

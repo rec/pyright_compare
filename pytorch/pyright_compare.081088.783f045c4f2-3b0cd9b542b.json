@@ -11,7 +11,7 @@
             "message": "[Quant][PT2E] add a lowering pass for x86 backend (#149708)"
         }
     },
-    "completenessScore": [0.363194, 0.363171],
+    "completeness": [0.363194, 0.363171],
     "filename": "full-run/pyright_compare.081088.783f045c4f2-3b0cd9b542b.json",
     "diff": {
         "absolute": {

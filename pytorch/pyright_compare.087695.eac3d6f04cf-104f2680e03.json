@@ -11,7 +11,7 @@
             "message": "Revert \"Add return-max-scores to flex-attention (#161667)\""
         }
     },
-    "completenessScore": [0.375898, 0.375546],
+    "completeness": [0.375898, 0.375546],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~140"}, {"name": "11e97bc7bd4~139"}],
         "absolute": {

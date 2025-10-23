@@ -11,7 +11,7 @@
             "message": "[APS IR] Minfor fix - use GetAttrKey in get_keystr to match with flat args path in unflatten (#161453)"
         }
     },
-    "completenessScore": [0.377353, 0.377353],
+    "completeness": [0.377353, 0.377353],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~653"}, {"name": "11e97bc7bd4~652"}],
         "absolute": {"missingFunctionDocStringCount": -1},

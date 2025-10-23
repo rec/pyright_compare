@@ -11,7 +11,7 @@
             "message": "[ez] Add docblock for resolve_unbacked_bindings (#154374)"
         }
     },
-    "completenessScore": [0.368134, 0.368134],
+    "completeness": [0.368134, 0.368134],
     "filename": "full-run/pyright_compare.083230.2560c1f3f00-70fbd5e08c8.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

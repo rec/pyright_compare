@@ -11,7 +11,7 @@
             "message": "[dynamic shapes] user-code friendly statically_known_true, has_static_value (#151601)"
         }
     },
-    "completenessScore": [0.364546, 0.364524],
+    "completeness": [0.364546, 0.364524],
     "filename": "full-run/pyright_compare.081923.d703f062fe7-2ee8de54b17.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Consolidate stack trace in Tracer (#156257)"
         }
     },
-    "completenessScore": [0.371692, 0.371653],
+    "completeness": [0.371692, 0.371653],
     "filename": "full-run/pyright_compare.084646.653c52fe522-204db27a0c4.json",
     "diff": {
         "absolute": {

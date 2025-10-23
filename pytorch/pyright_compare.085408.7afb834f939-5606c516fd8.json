@@ -11,7 +11,7 @@
             "message": "[ONNX] Remove legacy Dort (#158258)"
         }
     },
-    "completenessScore": [0.374946, 0.374907],
+    "completeness": [0.374946, 0.374907],
     "filename": "pyright_compare.085408.7afb834f939-5606c516fd8.json",
     "diff": {
         "absolute": {

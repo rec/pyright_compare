@@ -11,7 +11,7 @@
             "message": "remove allow-untyped-defs from elastic_distributed_sampler.py (#154620)"
         }
     },
-    "completenessScore": [0.370694, 0.370919],
+    "completeness": [0.370694, 0.370919],
     "filename": "full-run/pyright_compare.083388.9c06dff1ce9-20ee5f9044c.json",
     "diff": {
         "absolute": {

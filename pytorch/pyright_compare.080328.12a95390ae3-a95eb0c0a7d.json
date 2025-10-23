@@ -1,0 +1,74 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-10 22:22:16",
+            "commit_id": "12a95390ae3",
+            "message": "[Minimizer] allow overriding of ShapeProp logic by subclasses of _MinimizerBase (#148784)"
+        },
+        "after": {
+            "committer_date": "2025-03-10 22:38:40",
+            "commit_id": "a95eb0c0a7d",
+            "message": "Revert \"[PGNCCL] Launch kernel on current stream & remove `record_stream` entirely (#148590)\""
+        }
+    },
+    "filename": "pyright_compare.080328.12a95390ae3-a95eb0c0a7d.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": -4},
+            "otherSymbolCounts": {"withKnownType": -3, "withUnknownType": -3},
+            "completenessScore": 0.000251
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0691,
+                "withUnknownType": -0.0429
+            },
+            "otherSymbolCounts": {
+                "withKnownType": -0.1568,
+                "withUnknownType": -0.1761
+            },
+            "completenessScore": 0.0691
+        },
+        "symbols": {
+            "common": {
+                "torch._C._distributed_c10d.AllreduceCoalescedOptions": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch._C._distributed_c10d.AllreduceOptions\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._C._distributed_c10d.AllreduceOptions": {
+                    "isTypeKnown": true
+                },
+                "torch._C._distributed_c10d.ProcessGroup.allreduce": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"opts\" is partially unknown\n\u00a0\u00a0Parameter type is \"AllreduceOptions\""
+                        ]
+                    }
+                },
+                "torch.distributed.AllreduceCoalescedOptions": {
+                    "isTypeKnown": true
+                },
+                "torch.distributed.AllreduceOptions": {"isTypeKnown": true},
+                "torch.distributed.distributed_c10d.AllreduceCoalescedOptions": {
+                    "isTypeKnown": true
+                },
+                "torch.distributed.distributed_c10d.AllreduceOptions": {
+                    "isTypeKnown": true
+                }
+            },
+            "removed": [
+                "torch._C._distributed_c10d.AllToAllOptions.asyncOp",
+                "torch._C._distributed_c10d.AllreduceOptions.asyncOp",
+                "torch._C._distributed_c10d.AllreduceOptions.sparseIndices",
+                "torch._C._distributed_c10d.BarrierOptions.asyncOp",
+                "torch._C._distributed_c10d.GatherOptions.asyncOp",
+                "torch._C._distributed_c10d.ReduceOptions.asyncOp"
+            ]
+        }
+    },
+    "completeness": [0.3626002004008016, 0.3628507014028056]
+}

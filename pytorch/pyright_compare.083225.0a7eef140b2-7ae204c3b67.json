@@ -11,7 +11,7 @@
             "message": "[BE][CI][Easy] Run `lintrunner` on generated `.pyi` stub files (#150732)"
         }
     },
-    "completenessScore": [0.368056, 0.368095],
+    "completeness": [0.368056, 0.368095],
     "filename": "full-run/pyright_compare.083225.0a7eef140b2-7ae204c3b67.json",
     "diff": {
         "absolute": {

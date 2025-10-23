@@ -11,7 +11,7 @@
             "message": "Expose is_available API for torch.backends.mkldnn (#147432)"
         }
     },
-    "completenessScore": [0.36324, 0.363217],
+    "completeness": [0.36324, 0.363217],
     "filename": "full-run/pyright_compare.081388.1a1a32ce5af-4273e5d15cf.json",
     "diff": {
         "absolute": {

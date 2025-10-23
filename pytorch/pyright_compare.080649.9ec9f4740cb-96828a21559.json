@@ -1,0 +1,74 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-19 18:40:35",
+            "commit_id": "9ec9f4740cb",
+            "message": "[export] fix stft decomp and making it consistent with cpp impl. (#149232)"
+        },
+        "after": {
+            "committer_date": "2025-03-19 18:51:07",
+            "commit_id": "96828a21559",
+            "message": "[export] refactor DimHints for type errors (#149424)"
+        }
+    },
+    "filename": "pyright_compare.080649.9ec9f4740cb-96828a21559.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 4},
+            "otherSymbolCounts": {"withKnownType": 11, "withUnknownType": 4},
+            "missingFunctionDocStringCount": 3,
+            "missingClassDocStringCount": 1,
+            "completenessScore": -9.1e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0429},
+            "otherSymbolCounts": {
+                "withKnownType": 0.5702,
+                "withUnknownType": 0.2354
+            },
+            "missingFunctionDocStringCount": 0.0851,
+            "missingClassDocStringCount": 0.0973,
+            "completenessScore": -0.025
+        },
+        "symbols": {
+            "added": [
+                "torch.export.dynamic_shapes.Dim.AUTO",
+                "torch.export.dynamic_shapes.Dim.DYNAMIC",
+                "torch.export.dynamic_shapes.Dim.STATIC",
+                "torch.export.dynamic_shapes.Dim.__new__",
+                "torch.export.dynamic_shapes._DimHint",
+                "torch.export.dynamic_shapes._DimHint.AUTO",
+                "torch.export.dynamic_shapes._DimHint.DYNAMIC",
+                "torch.export.dynamic_shapes._DimHint.STATIC",
+                "torch.export.dynamic_shapes._DimHint.__dataclass_fields__",
+                "torch.export.dynamic_shapes._DimHint.__eq__",
+                "torch.export.dynamic_shapes._DimHint.__hash__",
+                "torch.export.dynamic_shapes._DimHint.__init__",
+                "torch.export.dynamic_shapes._DimHint.__match_args__",
+                "torch.export.dynamic_shapes._DimHint.__new__",
+                "torch.export.dynamic_shapes._DimHint.type",
+                "torch.export.dynamic_shapes._DimHintType",
+                "torch.export.dynamic_shapes._DimHintType.AUTO",
+                "torch.export.dynamic_shapes._DimHintType.DYNAMIC",
+                "torch.export.dynamic_shapes._DimHintType.STATIC"
+            ],
+            "common": {
+                "torch.export.Dim": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.export.dynamic_shapes.Dim": {
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3629193790686029, 0.362828535669587]
+}

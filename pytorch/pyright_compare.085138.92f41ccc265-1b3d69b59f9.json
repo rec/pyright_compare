@@ -11,7 +11,7 @@
             "message": "Work: block_current_stream API (#156883)"
         }
     },
-    "completenessScore": [0.373704, 0.373704],
+    "completeness": [0.373704, 0.373704],
     "filename": "pyright_compare.085138.92f41ccc265-1b3d69b59f9.json",
     "diff": {
         "absolute": {

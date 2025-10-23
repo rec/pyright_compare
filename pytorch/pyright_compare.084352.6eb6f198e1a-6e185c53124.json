@@ -11,7 +11,7 @@
             "message": "Upgrade to DLPack 1.0. (#145000)"
         }
     },
-    "completenessScore": [0.371964, 0.372181],
+    "completeness": [0.371964, 0.372181],
     "filename": "full-run/pyright_compare.084352.6eb6f198e1a-6e185c53124.json",
     "diff": {
         "absolute": {

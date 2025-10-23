@@ -11,11 +11,11 @@
             "message": "[ROCm] change preferred blas lib defaults (#150212)"
         }
     },
-    "completenessScore": [0.363375, 0.363375],
-    "filename": "full-run/pyright_compare.081000.29b3fdab017-7a470c93206.json",
+    "filename": "pyright_compare.081000.29b3fdab017-7a470c93206.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
-        "percent": {"otherSymbolCounts": {"withKnownType": 0.05230125523012552}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0523}},
         "symbols": {"added": ["torch._C._BlasBackend.Default"]}
-    }
+    },
+    "completeness": [0.3633751795640497, 0.3633751795640497]
 }

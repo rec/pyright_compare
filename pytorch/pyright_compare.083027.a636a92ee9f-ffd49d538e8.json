@@ -11,7 +11,7 @@
             "message": "[BE][Ez]: Improve typing in torch/modules/container.py (#153728)"
         }
     },
-    "completenessScore": [0.367961, 0.368023],
+    "completeness": [0.367961, 0.368023],
     "filename": "full-run/pyright_compare.083027.a636a92ee9f-ffd49d538e8.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Support unbacked whitelist (#154295)"
         }
     },
-    "completenessScore": [0.368016, 0.368056],
+    "completeness": [0.368016, 0.368056],
     "filename": "full-run/pyright_compare.083323.ef4d57329b2-d865b784e4a.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Remove MemPoolContext  (#154042)"
         }
     },
-    "completenessScore": [0.368173, 0.368016],
+    "completeness": [0.368173, 0.368016],
     "filename": "full-run/pyright_compare.083298.d23aa7e182e-3b38989b5f8.json",
     "diff": {
         "absolute": {

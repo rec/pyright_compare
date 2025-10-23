@@ -11,7 +11,7 @@
             "message": "Fix evaluate_expr to include suppress_guards_tls in cache key (#152661)"
         }
     },
-    "completenessScore": [0.364677, 0.364614],
+    "completeness": [0.364677, 0.364614],
     "filename": "full-run/pyright_compare.082545.30a3c5d9704-7cdf5048ea4.json",
     "diff": {
         "absolute": {

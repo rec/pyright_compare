@@ -11,7 +11,7 @@
             "message": "[dynamo, nested graph breaks] support nested closures (#159817)"
         }
     },
-    "completenessScore": [0.37733, 0.37733],
+    "completeness": [0.37733, 0.37733],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~597"}, {"name": "11e97bc7bd4~596"}],
         "absolute": {"otherSymbolCounts": {"withUnknownType": 1}},

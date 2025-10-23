@@ -11,7 +11,7 @@
             "message": "[c10d]Prototype of remote_group_merge (#158287)"
         }
     },
-    "completenessScore": [0.375847, 0.375847],
+    "completeness": [0.375847, 0.375847],
     "filename": "pyright_compare.085475.944a140e903-f58a680d09e.json",
     "diff": {
         "absolute": {

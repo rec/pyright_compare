@@ -11,7 +11,7 @@
             "message": "remove allow-untyped-defs from torch/ao/quantization/stubs.py (#154622)"
         }
     },
-    "completenessScore": [0.371075, 0.37116],
+    "completeness": [0.371075, 0.37116],
     "filename": "full-run/pyright_compare.083395.30f7079c935-0df96e3921d.json",
     "diff": {
         "absolute": {

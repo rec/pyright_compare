@@ -11,7 +11,7 @@
             "message": "[remove untyped defs] batch 1 (#157011)"
         }
     },
-    "completenessScore": [0.372298, 0.373039],
+    "completeness": [0.372298, 0.373039],
     "filename": "full-run/pyright_compare.084854.fee2377f9ea-7709ff55123.json",
     "diff": {
         "absolute": {

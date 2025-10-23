@@ -11,7 +11,7 @@
             "message": "Add __init__.pyi to torch/linalg (#160750)"
         }
     },
-    "completenessScore": [0.377291, 0.377391],
+    "completeness": [0.377291, 0.377391],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~435"}, {"name": "11e97bc7bd4~434"}],
         "absolute": {

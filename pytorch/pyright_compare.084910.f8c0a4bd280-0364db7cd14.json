@@ -11,7 +11,7 @@
             "message": "[PT] support custom all_gather and reduce_scatter comms (#155189)"
         }
     },
-    "completenessScore": [0.373542, 0.373542],
+    "completeness": [0.373542, 0.373542],
     "filename": "full-run/pyright_compare.084910.f8c0a4bd280-0364db7cd14.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withUnknownType": 8}},

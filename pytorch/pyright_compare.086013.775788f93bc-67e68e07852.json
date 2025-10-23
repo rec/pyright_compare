@@ -11,7 +11,7 @@
             "message": "[c10d] Cleanup split_group logic using the newly built splitGroup (#158488)"
         }
     },
-    "completenessScore": [0.377298, 0.377298],
+    "completeness": [0.377298, 0.377298],
     "filename": "full-run/pyright_compare.086013.775788f93bc-67e68e07852.json",
     "diff": {
         "absolute": {

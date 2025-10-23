@@ -11,7 +11,7 @@
             "message": "[BE] Remove more optim entries from docs coverage ignore list (#160194)"
         }
     },
-    "completenessScore": [0.377157, 0.37718],
+    "completeness": [0.377157, 0.37718],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1358"}, {"name": "11e97bc7bd4~1357"}],
         "absolute": {

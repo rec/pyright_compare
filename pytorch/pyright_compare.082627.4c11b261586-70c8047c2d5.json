@@ -11,7 +11,7 @@
             "message": "include user stacks with constraint violation error message (#152924)"
         }
     },
-    "completenessScore": [0.364405, 0.364444],
+    "completeness": [0.364405, 0.364444],
     "filename": "full-run/pyright_compare.082627.4c11b261586-70c8047c2d5.json",
     "diff": {
         "absolute": {

@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-27 09:26:23",
+            "commit_id": "a9ee797e411",
+            "message": "added fake tensor support for foreach_copy (#149127)"
+        },
+        "after": {
+            "committer_date": "2025-03-27 09:34:05",
+            "commit_id": "6cbcdee9445",
+            "message": "Introduce guard_or_true, guard_or_false (#148430)"
+        }
+    },
+    "filename": "pyright_compare.080929.a9ee797e411-6cbcdee9445.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 2},
+            "completenessScore": -4.5e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0214},
+            "completenessScore": -0.0125
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.symbolic_shapes.guard_or_false",
+                "torch.fx.experimental.symbolic_shapes.guard_or_true"
+            ]
+        }
+    },
+    "completeness": [0.36342042755344417, 0.363375]
+}

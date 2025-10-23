@@ -11,7 +11,7 @@
             "message": "[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)"
         }
     },
-    "completenessScore": [0.372181, 0.372181],
+    "completeness": [0.372181, 0.372181],
     "filename": "full-run/pyright_compare.084382.24dc33b37b5-0aed855b2bd.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withAmbiguousType": 1}},

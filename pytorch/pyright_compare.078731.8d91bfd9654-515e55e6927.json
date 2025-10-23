@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-28 19:47:05",
+            "commit_id": "8d91bfd9654",
+            "message": "[BE] Include CheckFunctionExists in `FindBLAS.cmake` (#145849)"
+        },
+        "after": {
+            "committer_date": "2025-01-28 20:11:05",
+            "commit_id": "515e55e6927",
+            "message": "Set -DPy_LIMITED_API flag for py_limited_api=True extensions (#145764)"
+        }
+    },
+    "filename": "pyright_compare.078731.8d91bfd9654-515e55e6927.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0174},
+            "completenessScore": 0.0111
+        },
+        "symbols": {"added": ["torch.utils.cpp_extension.min_supported_cpython"]}
+    },
+    "completeness": [0.3621318902592499, 0.3621720254199962]
+}

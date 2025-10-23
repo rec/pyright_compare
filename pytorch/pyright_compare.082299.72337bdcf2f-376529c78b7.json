@@ -11,7 +11,7 @@
             "message": "consolidate guard_or_x and definitely_x (#152463)"
         }
     },
-    "completenessScore": [0.36449, 0.364535],
+    "completeness": [0.36449, 0.364535],
     "filename": "full-run/pyright_compare.082299.72337bdcf2f-376529c78b7.json",
     "diff": {
         "absolute": {

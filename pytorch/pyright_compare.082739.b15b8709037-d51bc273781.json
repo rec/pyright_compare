@@ -11,7 +11,7 @@
             "message": "[export] Make draft_export public (#153219)"
         }
     },
-    "completenessScore": [0.365253, 0.36523],
+    "completeness": [0.365253, 0.36523],
     "filename": "full-run/pyright_compare.082739.b15b8709037-d51bc273781.json",
     "diff": {
         "absolute": {

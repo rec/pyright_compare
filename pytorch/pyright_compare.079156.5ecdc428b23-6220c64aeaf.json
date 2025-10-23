@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-06 19:39:55",
+            "commit_id": "5ecdc428b23",
+            "message": "[while_loop][inductor] support sym expression as cond_fn output (#146222)"
+        },
+        "after": {
+            "committer_date": "2025-02-06 19:50:02",
+            "commit_id": "6220c64aeaf",
+            "message": "[1/N][cp][example] flex attention in context parallel (forward pass) (#145896)"
+        }
+    },
+    "filename": "pyright_compare.079156.5ecdc428b23-6220c64aeaf.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 3, "withAmbiguousType": 2},
+            "missingFunctionDocStringCount": 2,
+            "completenessScore": 7.5e-05,
+            "filesAnalyzed": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0521,
+                "withAmbiguousType": 0.2439
+            },
+            "missingFunctionDocStringCount": 0.057,
+            "completenessScore": 0.0206,
+            "filesAnalyzed": 0.1155
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.tensor.examples.flex_attention_cp.create_block_mask_cached",
+                "torch.distributed.tensor.examples.flex_attention_cp.flex_attn_example",
+                "torch.distributed.tensor.examples.flex_attention_cp.get_device_type",
+                "torch.distributed.tensor.examples.flex_attention_cp.rank",
+                "torch.distributed.tensor.examples.flex_attention_cp.world_size"
+            ]
+        }
+    },
+    "completeness": [0.3622468234998113, 0.3623215745456832]
+}

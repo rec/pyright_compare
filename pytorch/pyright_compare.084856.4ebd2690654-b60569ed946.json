@@ -11,7 +11,7 @@
             "message": "HF - consolidate shards of safetensors files to full tensors in finish step (#156705)"
         }
     },
-    "completenessScore": [0.373039, 0.373233],
+    "completeness": [0.373039, 0.373233],
     "filename": "full-run/pyright_compare.084856.4ebd2690654-b60569ed946.json",
     "diff": {
         "absolute": {

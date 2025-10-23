@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-27 03:15:30",
+            "commit_id": "ae29f054f57",
+            "message": "[Async TP] More robust support for rowwise scales when fusing matmul reduce-scatter (#149247)"
+        },
+        "after": {
+            "committer_date": "2025-03-27 03:39:27",
+            "commit_id": "1f92348dc6c",
+            "message": "Use source hashing to generate consistent symbolic ids (#149665)"
+        }
+    },
+    "filename": "pyright_compare.080921.ae29f054f57-1f92348dc6c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0172},
+            "completenessScore": 0.011
+        },
+        "symbols": {"added": ["torch.fx.experimental.symbolic_shapes.ShapeEnv.unique_ids"]}
+    },
+    "completeness": [0.36333520845052814, 0.363375]
+}

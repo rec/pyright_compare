@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-11 21:52:34",
+            "commit_id": "a6459afb0e9",
+            "message": "[dynamic shapes] add backed_size_oblivious option (#148696)"
+        },
+        "after": {
+            "committer_date": "2025-03-11 21:58:38",
+            "commit_id": "2dcdb4ba782",
+            "message": "[ez] include config as part of __all__ in torch.compiler (#148978)"
+        }
+    },
+    "filename": "pyright_compare.080389.a6459afb0e9-2dcdb4ba782.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0173},
+            "completenessScore": 0.011
+        },
+        "symbols": {"added": ["torch.compiler.config"]}
+    },
+    "completeness": [0.36257749389442046, 0.3626174076393237]
+}

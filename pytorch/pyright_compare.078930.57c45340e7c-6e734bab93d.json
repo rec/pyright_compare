@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-01 01:09:27",
+            "commit_id": "57c45340e7c",
+            "message": "include entire GraphModule instead of current node when erroring inside of fx interpreter (#146197)"
+        },
+        "after": {
+            "committer_date": "2025-02-01 01:25:25",
+            "commit_id": "6e734bab93d",
+            "message": "execution trace export supports gzip format (#146179)"
+        }
+    },
+    "filename": "pyright_compare.078930.57c45340e7c-6e734bab93d.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0174},
+            "completenessScore": 0.0111
+        },
+        "symbols": {
+            "added": [
+                "torch.profiler.profiler.ExecutionTraceObserver.output_file_path_observer"
+            ]
+        }
+    },
+    "completeness": [0.3622750723543475, 0.362315193457062]
+}

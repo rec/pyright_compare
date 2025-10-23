@@ -11,7 +11,7 @@
             "message": "Support XPU in memory tracker (#150703)"
         }
     },
-    "completenessScore": [0.371416, 0.371455],
+    "completeness": [0.371416, 0.371455],
     "filename": "full-run/pyright_compare.083995.154a39bfbd6-db01f1032ff.json",
     "diff": {
         "absolute": {

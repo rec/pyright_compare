@@ -11,7 +11,7 @@
             "message": "[ONNX] Create support for rotary embeddings (#154745)"
         }
     },
-    "completenessScore": [0.371229, 0.371183],
+    "completeness": [0.371229, 0.371183],
     "filename": "full-run/pyright_compare.083585.37e6bf8adfd-3e57de1251b.json",
     "diff": {
         "absolute": {

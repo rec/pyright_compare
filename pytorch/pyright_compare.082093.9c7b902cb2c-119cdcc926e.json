@@ -11,7 +11,7 @@
             "message": "Add rich support to torch.distributed.tensor.debug.visualize_sharding (#152027)"
         }
     },
-    "completenessScore": [0.364738, 0.364761],
+    "completeness": [0.364738, 0.364761],
     "filename": "full-run/pyright_compare.082093.9c7b902cb2c-119cdcc926e.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "[export] Dynamo symint support (#152677)"
         }
     },
-    "completenessScore": [0.36658, 0.366787],
+    "completeness": [0.36658, 0.366787],
     "filename": "full-run/pyright_compare.082861.d965fa2c4b0-3fe42d4d5d1.json",
     "diff": {
         "absolute": {

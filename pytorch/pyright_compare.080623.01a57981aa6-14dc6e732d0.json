@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-19 03:11:08",
+            "commit_id": "01a57981aa6",
+            "message": "[export] Add TracingContext (#149294)"
+        },
+        "after": {
+            "committer_date": "2025-03-19 03:20:38",
+            "commit_id": "14dc6e732d0",
+            "message": "Cache the get_device_module result (#149207)"
+        }
+    },
+    "filename": "pyright_compare.080623.01a57981aa6-14dc6e732d0.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 6.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0173,
+                "withUnknownType": -0.0107
+            },
+            "completenessScore": 0.0173
+        },
+        "symbols": {
+            "common": {
+                "torch.get_device_module": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type of parameter \"device\" is partially unknown\n\u00a0\u00a0Parameter type is \"device | str | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.36285678517776665, 0.3629193790686029]
+}

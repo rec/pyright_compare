@@ -11,7 +11,7 @@
             "message": "[nccl symm mem] don't use arg for mempool, correctly use symmetric registration in hooks (#161238)"
         }
     },
-    "completenessScore": [0.377315, 0.377276],
+    "completeness": [0.377315, 0.377276],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~759"}, {"name": "11e97bc7bd4~758"}],
         "absolute": {

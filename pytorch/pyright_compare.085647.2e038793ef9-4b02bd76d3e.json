@@ -11,7 +11,7 @@
             "message": "DCP safetensors test fix (#158685)"
         }
     },
-    "completenessScore": [0.375746, 0.375723],
+    "completeness": [0.375746, 0.375723],
     "filename": "pyright_compare.085647.2e038793ef9-4b02bd76d3e.json",
     "diff": {
         "absolute": {

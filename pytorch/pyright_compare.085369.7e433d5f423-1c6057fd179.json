@@ -11,7 +11,7 @@
             "message": "add eq function to NodeSource (#158170)"
         }
     },
-    "completenessScore": [0.374931, 0.374907],
+    "completeness": [0.374931, 0.374907],
     "filename": "pyright_compare.085369.7e433d5f423-1c6057fd179.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Expose opt_einsum in torch.backends (#157740)"
         }
     },
-    "completenessScore": [0.374907, 0.374946],
+    "completeness": [0.374907, 0.374946],
     "filename": "pyright_compare.085396.26807dcf277-b7b1109f49f.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "[BE] Update `.pyi` stub template to use Generic TypeAlias (PEP 585) and Union Type (PEP 604) (#150728)"
         }
     },
-    "completenessScore": [0.366478, 0.36654],
+    "completeness": [0.366478, 0.36654],
     "filename": "full-run/pyright_compare.082820.f7a5aa1d8d3-22b124335e0.json",
     "diff": {
         "absolute": {

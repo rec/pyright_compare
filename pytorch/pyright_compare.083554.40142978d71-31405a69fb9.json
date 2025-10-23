@@ -11,7 +11,7 @@
             "message": "[typing] Add missing type annotations to torch.nn.init module (#154504)"
         }
     },
-    "completenessScore": [0.371538, 0.3716],
+    "completeness": [0.371538, 0.3716],
     "filename": "full-run/pyright_compare.083554.40142978d71-31405a69fb9.json",
     "diff": {
         "absolute": {

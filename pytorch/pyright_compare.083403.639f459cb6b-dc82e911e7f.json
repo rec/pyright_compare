@@ -11,7 +11,7 @@
             "message": "remove allow-untyped-defs from torch/utils/data/datapipes/iter/filelister.py (#154624)"
         }
     },
-    "completenessScore": [0.371222, 0.371283],
+    "completeness": [0.371222, 0.371283],
     "filename": "full-run/pyright_compare.083403.639f459cb6b-dc82e911e7f.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "[BE] Add `__all__` to `torch/nn/functional.pyi` and `torch/return_types.pyi` (#150729)"
         }
     },
-    "completenessScore": [0.36654, 0.36658],
+    "completeness": [0.36654, 0.36658],
     "filename": "full-run/pyright_compare.082833.b22f01fcb9d-a4c828199e0.json",
     "diff": {
         "absolute": {

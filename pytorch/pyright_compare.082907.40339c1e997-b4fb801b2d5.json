@@ -11,7 +11,7 @@
             "message": "[export] Move PT2 constants to torch::_export (#153206)"
         }
     },
-    "completenessScore": [0.366865, 0.367651],
+    "completeness": [0.366865, 0.367651],
     "filename": "full-run/pyright_compare.082907.40339c1e997-b4fb801b2d5.json",
     "diff": {
         "absolute": {

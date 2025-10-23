@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-20 17:51:58",
+            "commit_id": "863ac20659a",
+            "message": "[CI] Do not overwrite return code of test file when fails for rerun disabled tests (#147484)"
+        },
+        "after": {
+            "committer_date": "2025-02-20 18:50:55",
+            "commit_id": "6971b775104",
+            "message": "[CPU Stream] Add noop for CPU stream record_event() and wait_event() (#145935)"
+        }
+    },
+    "filename": "pyright_compare.079613.863ac20659a-6971b775104.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 1},
+            "missingFunctionDocStringCount": 2,
+            "completenessScore": 1.7e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0173,
+                "withUnknownType": 0.0107
+            },
+            "missingFunctionDocStringCount": 0.057,
+            "completenessScore": 0.0048
+        },
+        "symbols": {
+            "added": [
+                "torch.cpu.Stream.record_event",
+                "torch.cpu.Stream.wait_event"
+            ]
+        }
+    },
+    "completeness": [0.36259182520248634, 0.36260907778266055]
+}

@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-19 22:09:16",
+            "commit_id": "fb55bac3de7",
+            "message": "[fr][fix] Split MatchState and dynamic info for fr analysis downstream (#147439)"
+        },
+        "after": {
+            "committer_date": "2025-02-19 23:03:29",
+            "commit_id": "f63db6255fd",
+            "message": "Re-land exclude upsample_bilinear2d.vec and nearest2d.vec from default export decomposition table (#147153)"
+        }
+    },
+    "filename": "pyright_compare.079582.fb55bac3de7-f63db6255fd.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0107},
+            "completenessScore": -0.0063
+        },
+        "symbols": {"added": ["torch.export.decomp_utils.PRESERVED_ATEN_CIA_OPS"]}
+    },
+    "completeness": [0.362574568288854, 0.36255180208464144]
+}

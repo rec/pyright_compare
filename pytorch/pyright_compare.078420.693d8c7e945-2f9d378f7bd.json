@@ -1,0 +1,251 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-21 20:50:09",
+            "commit_id": "693d8c7e945",
+            "message": "Output of nonzero is transposed, fix fake tensor (#144695)"
+        },
+        "after": {
+            "committer_date": "2025-01-21 21:04:10",
+            "commit_id": "2f9d378f7bd",
+            "message": "PEP585 update - torch/utils (#145201)"
+        }
+    },
+    "filename": "pyright_compare.078420.693d8c7e945-2f9d378f7bd.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.0174},
+            "completenessScore": -0.0111
+        },
+        "symbols": {
+            "common": {
+                "torch.utils.benchmark.utils.compare.Table.column_keys": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[Any]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"List[Any]\""
+                        ]
+                    }
+                },
+                "torch.utils.benchmark.utils.compare.Table.columns": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"tuple[_Column, ...]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tuple[_Column, ...]\""
+                        ]
+                    }
+                },
+                "torch.utils.benchmark.utils.compare.Table.row_keys": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[Any]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"List[Any]\""
+                        ]
+                    }
+                },
+                "torch.utils.benchmark.utils.compare.Table.rows": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"tuple[_Row, ...]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Tuple[_Row, ...]\""
+                        ]
+                    }
+                },
+                "torch.utils.benchmark.utils.fuzzer.Fuzzer.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"constraints\" is partially unknown\n\u00a0\u00a0Parameter type is \"list[(...) -> Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"constraints\" is partially unknown\n\u00a0\u00a0Parameter type is \"List[(...) -> Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.bundled_inputs.augment_many_model_functions_with_bundled_inputs": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"info\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[(...) -> Unknown, list[str]] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type",
+                            "Type of parameter \"inputs\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[(...) -> Unknown, Sequence[tuple[Any, ...]] | None]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"info\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[(...) -> Unknown, List[str]] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type",
+                            "Type of parameter \"inputs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[(...) -> Unknown, Sequence[Tuple[Any, ...]] | None]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.bundled_inputs.bundle_inputs": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"info\" is partially unknown\n\u00a0\u00a0Parameter type is \"list[str] | dict[(...) -> Unknown, list[str]] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type",
+                            "Type of parameter \"inputs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Sequence[tuple[Any, ...]] | dict[(...) -> Unknown, Sequence[tuple[Any, ...]] | None] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"info\" is partially unknown\n\u00a0\u00a0Parameter type is \"List[str] | Dict[(...) -> Unknown, List[str]] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type",
+                            "Type of parameter \"inputs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Sequence[Tuple[Any, ...]] | Dict[(...) -> Unknown, Sequence[Tuple[Any, ...]] | None] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.dataloader.DataLoader.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"batch_sampler\" is partially unknown\n\u00a0\u00a0Parameter type is \"Sampler[list[Unknown]] | Iterable[list[Unknown]] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"Sampler\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"Iterable\" has partially unknown type",
+                            "Type of parameter \"collate_fn\" is partially unknown\n\u00a0\u00a0Parameter type is \"((list[Unknown]) -> Any) | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for type alias \"_collate_fn_t\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"batch_sampler\" is partially unknown\n\u00a0\u00a0Parameter type is \"Sampler[List[Unknown]] | Iterable[List[Unknown]] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"Sampler\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"Iterable\" has partially unknown type",
+                            "Type of parameter \"collate_fn\" is partially unknown\n\u00a0\u00a0Parameter type is \"((List[Unknown]) -> Any) | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for type alias \"_collate_fn_t\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.datapipe.IterDataPipe.collate": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"conversion\" is partially unknown\n\u00a0\u00a0Parameter type is \"((...) -> Any) | dict[str | Any, ((...) -> Unknown) | Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"conversion\" is partially unknown\n\u00a0\u00a0Parameter type is \"((...) -> Any) | Dict[str | Any, ((...) -> Unknown) | Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.datapipe.MapDataPipe.shuffle": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"indices\" is partially unknown\n\u00a0\u00a0Parameter type is \"list[Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"indices\" is partially unknown\n\u00a0\u00a0Parameter type is \"List[Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.iter.callable.CollatorIterDataPipe.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"conversion\" is partially unknown\n\u00a0\u00a0Parameter type is \"((...) -> Any) | dict[str | Any, ((...) -> Unknown) | Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"conversion\" is partially unknown\n\u00a0\u00a0Parameter type is \"((...) -> Any) | Dict[str | Any, ((...) -> Unknown) | Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.iter.combinatorics.SamplerIterDataPipe.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"sampler_args\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Unknown, ...] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"tuple\" has unknown type",
+                            "Type of parameter \"sampler_kwargs\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[Unknown, Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"sampler_args\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Unknown, ...] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"tuple\" has unknown type",
+                            "Type of parameter \"sampler_kwargs\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[Unknown, Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.iter.combinatorics.SamplerIterDataPipe.sampler_args": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"tuple[()] | tuple[Unknown, ...]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"tuple[()] | Tuple[Unknown, ...]\""
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.iter.combinatorics.SamplerIterDataPipe.sampler_kwargs": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Unknown, Unknown]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Dict[Unknown, Unknown]\""
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.map.combinatorics.ShufflerIterDataPipe.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"indices\" is partially unknown\n\u00a0\u00a0Parameter type is \"list[Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"indices\" is partially unknown\n\u00a0\u00a0Parameter type is \"List[Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.graph.traverse": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[int, tuple[IterDataPipe[Unknown] | MapDataPipe[Unknown], DataPipeGraph]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[int, tuple[IterDataPipe[Unknown] | MapDataPipe[Unknown], DataPipeGraph]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.graph.traverse_dps": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[int, tuple[IterDataPipe[Unknown] | MapDataPipe[Unknown], DataPipeGraph]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[int, tuple[IterDataPipe[Unknown] | MapDataPipe[Unknown], DataPipeGraph]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.graph_settings.get_all_graph_pipes": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"list[IterDataPipe[Unknown] | MapDataPipe[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type",
+                            "Type of parameter \"graph\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[int, tuple[IterDataPipe[Unknown] | MapDataPipe[Unknown], DataPipeGraph]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"List[IterDataPipe[Unknown] | MapDataPipe[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type",
+                            "Type of parameter \"graph\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[int, tuple[IterDataPipe[Unknown] | MapDataPipe[Unknown], DataPipeGraph]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.flop_counter.FlopCounterMode.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"mods\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | list[Module] | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"mods\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | List[Module] | None\""
+                        ]
+                    }
+                },
+                "torch.utils.hipify.hipify_python.preprocess_file_and_save_result": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"stats\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[str, list[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"stats\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[str, List[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.hipify.hipify_python.preprocessor": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"stats\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[str, list[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"stats\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[str, List[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                }
+            },
+            "removed": ["torch.utils.benchmark.Tuple"]
+        }
+    },
+    "completeness": [0.3616967713512493, 0.3616565961732125]
+}

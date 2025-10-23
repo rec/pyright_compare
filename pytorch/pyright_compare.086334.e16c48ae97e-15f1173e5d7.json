@@ -11,7 +11,7 @@
             "message": "Add unified memory APIs for torch.accelerator (#152932)"
         }
     },
-    "completenessScore": [0.37729, 0.37708],
+    "completeness": [0.37729, 0.37708],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1501"}, {"name": "11e97bc7bd4~1500"}],
         "absolute": {

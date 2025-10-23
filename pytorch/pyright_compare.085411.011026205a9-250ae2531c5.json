@@ -11,7 +11,7 @@
             "message": "Fix types in graphs.py (#158192)"
         }
     },
-    "completenessScore": [0.374884, 0.375995],
+    "completeness": [0.374884, 0.375995],
     "filename": "pyright_compare.085411.011026205a9-250ae2531c5.json",
     "diff": {
         "absolute": {

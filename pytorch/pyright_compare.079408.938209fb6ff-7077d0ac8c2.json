@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-13 17:09:37",
+            "commit_id": "938209fb6ff",
+            "message": "Revert \"Use 2022 as default VC_YEAR for windows builds (#147053)\""
+        },
+        "after": {
+            "committer_date": "2025-02-13 17:44:30",
+            "commit_id": "7077d0ac8c2",
+            "message": "[DCP] Introduce modules metadata in the storage_meta (#146654)"
+        }
+    },
+    "filename": "pyright_compare.079408.938209fb6ff-7077d0ac8c2.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0173},
+            "completenessScore": 0.0111
+        },
+        "symbols": {"added": ["torch.distributed.checkpoint.metadata.StorageMeta.modules"]}
+    },
+    "completeness": [0.36234525230943254, 0.3623853211009174]
+}

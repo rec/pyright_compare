@@ -1,0 +1,376 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-20 16:46:46",
+            "commit_id": "6374332d339",
+            "message": "Revert \"PEP585 update - torch/distributed (#145164)\""
+        },
+        "after": {
+            "committer_date": "2025-01-20 18:11:54",
+            "commit_id": "0b2a3687b9f",
+            "message": "PEP585 update - torch/fx (#145166)"
+        }
+    },
+    "filename": "pyright_compare.078395.6374332d339-0b2a3687b9f.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 7,
+                "withAmbiguousType": 1,
+                "withUnknownType": -8
+            },
+            "completenessScore": 0.000441
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.1219,
+                "withAmbiguousType": 0.1225,
+                "withUnknownType": -0.0857
+            },
+            "completenessScore": 0.1219
+        },
+        "symbols": {
+            "common": {
+                "torch.fx._symbolic_trace.Tracer.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"autowrap_functions\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[(...) -> Unknown, ...]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"tuple\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"autowrap_functions\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[(...) -> Unknown, ...]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"tuple\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.fx._symbolic_trace.Tracer.create_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx._symbolic_trace.Tracer.module_stack": {
+                    "diagnostics": {
+                        "added": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"OrderedDict[str, tuple[str, Any]]\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ],
+                        "removed": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"OrderedDict[str, Tuple[str, Any]]\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.optimization.matches_module_pattern": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"pattern\" is partially unknown\n\u00a0\u00a0Parameter type is \"Iterable[Type[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"Iterable\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.extract_val": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"SymInt | SymFloat | SymBool | ScriptObject | FakeScriptObject | BackwardState | list[_ExtractValType] | tuple[_ExtractValType, ...] | dict[str, _ExtractValType] | Tensor | int | float | bool | None\"",
+                            "Type of parameter \"val\" is partially unknown\n\u00a0\u00a0Parameter type is \"SymInt | SymFloat | SymBool | ScriptObject | FakeScriptObject | BackwardState | list[_ExtractValType] | tuple[_ExtractValType, ...] | dict[str, _ExtractValType] | Tensor | int | float | bool | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"SymInt | SymFloat | SymBool | ScriptObject | FakeScriptObject | BackwardState | List[_ExtractValType] | Tuple[_ExtractValType, ...] | Dict[str, _ExtractValType] | Tensor | int | float | bool | None\"",
+                            "Type of parameter \"val\" is partially unknown\n\u00a0\u00a0Parameter type is \"SymInt | SymFloat | SymBool | ScriptObject | FakeScriptObject | BackwardState | List[_ExtractValType] | Tuple[_ExtractValType, ...] | Dict[str, _ExtractValType] | Tensor | int | float | bool | None\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.set_meta": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"val\" is partially unknown\n\u00a0\u00a0Parameter type is \"SymInt | SymFloat | SymBool | ScriptObject | FakeScriptObject | BackwardState | list[_ExtractValType] | tuple[_ExtractValType, ...] | dict[str, _ExtractValType] | Tensor | int | float | bool | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"val\" is partially unknown\n\u00a0\u00a0Parameter type is \"SymInt | SymFloat | SymBool | ScriptObject | FakeScriptObject | BackwardState | List[_ExtractValType] | Tuple[_ExtractValType, ...] | Dict[str, _ExtractValType] | Tensor | int | float | bool | None\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.PropagateUnbackedSymInts.run_node": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor | tuple[Tensor, ...]\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor | Tuple[Tensor, ...]\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.co_fields": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[str, str]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Dict[str, str]\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.validator": {
+                    "isTypeAmbiguous": true
+                },
+                "torch.fx.experimental.symbolic_shapes.rebind_unbacked": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"result\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | tuple[Tensor, ...]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"result\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | Tuple[Tensor, ...]\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.validator.PopulateValidator.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"validator\" is partially unknown\n\u00a0\u00a0Parameter type is \"TranslationValidator\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.validator.PopulateValidator.validator": {
+                    "isTypeKnown": true
+                },
+                "torch.fx.experimental.validator.SympyToZ3": {
+                    "isTypeKnown": true
+                },
+                "torch.fx.experimental.validator.SympyToZ3.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"validator\" is partially unknown\n\u00a0\u00a0Parameter type is \"TranslationValidator\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.validator.TranslationValidator": {
+                    "isTypeKnown": true
+                },
+                "torch.fx.experimental.validator.TranslationValidator.add_var": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"type\" is partially unknown\n\u00a0\u00a0Parameter type is \"Type[Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"type\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.validator.z3op": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"validator\" is partially unknown\n\u00a0\u00a0Parameter type is \"TranslationValidator\""
+                        ]
+                    }
+                },
+                "torch.fx.graph.CodeGen.generate_output": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"output_args\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"output_args\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.graph.Graph.graph_copy": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[... | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None, ...] | Sequence[tuple[Argument, ...] | ... | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None] | Mapping[str, tuple[Argument, ...] | Sequence[Argument] | ... | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tuple[... | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None, ...] | Sequence[Tuple[Argument, ...] | ... | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None] | Mapping[str, Tuple[Argument, ...] | Sequence[Argument] | ... | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.graph.Graph.output": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"result\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"result\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.graph_module.GraphModule.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | dict[str, Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | Dict[str, Any]\""
+                        ]
+                    }
+                },
+                "torch.fx.interpreter.Interpreter.fetch_args_kwargs_from_env": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[tuple[Unknown, ...], dict[Unknown, Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"tuple\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tuple[Tuple[Unknown, ...], Dict[Unknown, Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"tuple\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.interpreter.Interpreter.map_nodes_to_values": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"args\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"args\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.map_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"a\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"a\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.Node.insert_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.Node.update_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.Node.update_kwarg": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.map_aggregate": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"a\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"a\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.map_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"a\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"a\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.passes.graph_drawer.FxGraphDrawer.get_all_dot_graphs": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[str, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[str, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.passes.param_fetch.module_fetch_book": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0Type is [object Object]"
+                        ]
+                    }
+                },
+                "torch.fx.passes.split_utils.split_by_tags": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GraphModule | tuple[GraphModule, dict[str, str]]\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"GraphModule | Tuple[GraphModule, Dict[str, str]]\""
+                        ]
+                    }
+                },
+                "torch.fx.proxy.GraphAppendingTracer.module_stack": {
+                    "diagnostics": {
+                        "added": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"OrderedDict[str, tuple[str, Any]]\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ],
+                        "removed": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"OrderedDict[str, Tuple[str, Any]]\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ]
+                    }
+                },
+                "torch.fx.proxy.GraphAppendingTracer.node_name_to_scope": {
+                    "diagnostics": {
+                        "added": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"dict[str, tuple[str, type]]\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ],
+                        "removed": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"Dict[str, Tuple[str, type]]\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ]
+                    }
+                },
+                "torch.fx.proxy.Proxy.__deepcopy__": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[Unknown, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[Unknown, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.proxy.Proxy.__getstate__": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[Unknown, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[Unknown, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.proxy.TracerBase.create_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3612964128382631, 0.3617369414726243]
+}

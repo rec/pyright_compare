@@ -11,7 +11,7 @@
             "message": "Don't specialize min/max (#151347)"
         }
     },
-    "completenessScore": [0.364524, 0.364546],
+    "completeness": [0.364524, 0.364546],
     "filename": "full-run/pyright_compare.081745.359e1d517cc-adf5f38eae0.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Refactor `torch/utils/data/datapipes/gen_pyi.py` with `torchgen` (#150626)"
         }
     },
-    "completenessScore": [0.366787, 0.366865],
+    "completeness": [0.366787, 0.366865],
     "filename": "full-run/pyright_compare.082905.e802b29ed49-9b2a45ac7d2.json",
     "diff": {
         "absolute": {

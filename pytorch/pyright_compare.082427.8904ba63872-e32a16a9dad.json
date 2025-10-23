@@ -11,7 +11,7 @@
             "message": "Correct torch.xpu.is_bf16_supported return False if no XPU detected (#152317)"
         }
     },
-    "completenessScore": [0.364575, 0.364637],
+    "completeness": [0.364575, 0.364637],
     "filename": "full-run/pyright_compare.082427.8904ba63872-e32a16a9dad.json",
     "diff": {
         "absolute": {

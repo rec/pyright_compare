@@ -1,0 +1,55 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-05 00:46:01",
+            "commit_id": "cf5e3f3cea7",
+            "message": "Add cutlass kernel for rowwise scaled mm on sm100 (#148421)"
+        },
+        "after": {
+            "committer_date": "2025-03-05 01:00:29",
+            "commit_id": "b5873292c65",
+            "message": "Add overload names to profiler trace (#143114)"
+        }
+    },
+    "filename": "pyright_compare.080088.cf5e3f3cea7-b5873292c65.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "completenessScore": 8e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0346},
+            "completenessScore": 0.022
+        },
+        "symbols": {
+            "added": [
+                "torch.autograd.profiler_util.FunctionEvent.overload_name",
+                "torch.autograd.profiler_util.FunctionEventAvg.overload_name"
+            ],
+            "common": {
+                "torch.autograd.profiler.profile.key_averages": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"group_by_overload_name\" is missing"
+                        ]
+                    }
+                },
+                "torch.autograd.profiler_util.EventList.key_averages": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"group_by_overload_name\" is missing"
+                        ]
+                    }
+                },
+                "torch.autograd.profiler_util.FunctionEvent.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"overload_name\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3624859040220524, 0.36256577298922577]
+}

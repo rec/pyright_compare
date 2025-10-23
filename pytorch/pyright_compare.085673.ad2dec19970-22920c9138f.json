@@ -11,7 +11,7 @@
             "message": "Grab bag of (mostly) typing improvements (#158075)"
         }
     },
-    "completenessScore": [0.375723, 0.3757],
+    "completeness": [0.375723, 0.3757],
     "filename": "pyright_compare.085673.ad2dec19970-22920c9138f.json",
     "diff": {
         "absolute": {

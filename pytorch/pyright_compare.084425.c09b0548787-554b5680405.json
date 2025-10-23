@@ -11,7 +11,7 @@
             "message": "Add internal use only utility to allow externally visible side effects within HOPs (#155715)"
         }
     },
-    "completenessScore": [0.371941, 0.371941],
+    "completeness": [0.371941, 0.371941],
     "filename": "full-run/pyright_compare.084425.c09b0548787-554b5680405.json",
     "diff": {
         "absolute": {

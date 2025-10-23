@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-16 23:17:13",
+            "commit_id": "198ffbdf11b",
+            "message": "[MPS] Implement and test round.decimals (#147266)"
+        },
+        "after": {
+            "committer_date": "2025-02-17 01:46:43",
+            "commit_id": "ae351d4d0ee",
+            "message": "[Intel GPU] allow_tf32 for oneDNN backend - XPU part (#137570)"
+        }
+    },
+    "filename": "pyright_compare.079503.198ffbdf11b-ae351d4d0ee.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 2},
+            "completenessScore": -4.6e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0214},
+            "completenessScore": -0.0126
+        },
+        "symbols": {
+            "added": [
+                "torch.backends.mkldnn.MkldnnModule.allow_tf32",
+                "torch.backends.mkldnn.allow_tf32"
+            ],
+            "common": {
+                "torch.backends.mkldnn.set_flags": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"_allow_tf32\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.36258007787966334, 0.36253453906053756]
+}

@@ -11,7 +11,7 @@
             "message": "Track descriptors for all inputs/outputs of AOTAutograd traced graph (#158624)"
         }
     },
-    "completenessScore": [0.376663, 0.376663],
+    "completeness": [0.376663, 0.376663],
     "filename": "full-run/pyright_compare.085900.92e93bb580f-bf311141d6b.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

@@ -11,7 +11,7 @@
             "message": "[BE][c10d/Store]add check in pyi (#155855) (#155865)"
         }
     },
-    "completenessScore": [0.371579, 0.371579],
+    "completeness": [0.371579, 0.371579],
     "filename": "full-run/pyright_compare.084036.bee93f9f0d1-a5938ff4312.json",
     "diff": {
         "absolute": {

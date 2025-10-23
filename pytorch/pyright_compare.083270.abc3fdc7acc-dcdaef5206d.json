@@ -11,7 +11,7 @@
             "message": "[ez] add docblock for free_symbols (#154378)"
         }
     },
-    "completenessScore": [0.368134, 0.368134],
+    "completeness": [0.368134, 0.368134],
     "filename": "full-run/pyright_compare.083270.abc3fdc7acc-dcdaef5206d.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

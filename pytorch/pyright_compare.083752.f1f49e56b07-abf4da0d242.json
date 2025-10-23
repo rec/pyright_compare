@@ -11,7 +11,7 @@
             "message": "[Profiler] Induce Inductor Import before Profiling (#155243)"
         }
     },
-    "completenessScore": [0.37113, 0.37113],
+    "completeness": [0.37113, 0.37113],
     "filename": "full-run/pyright_compare.083752.f1f49e56b07-abf4da0d242.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withAmbiguousType": 1}},

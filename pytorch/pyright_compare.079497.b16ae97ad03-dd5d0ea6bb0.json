@@ -1,0 +1,54 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-16 11:59:40",
+            "commit_id": "b16ae97ad03",
+            "message": "Generalize mixed precision in DDP (#146808)"
+        },
+        "after": {
+            "committer_date": "2025-02-16 16:03:42",
+            "commit_id": "dd5d0ea6bb0",
+            "message": "Revert \"xpu: support sycl with torch.utils.cpp_extension APIs (#132945)\""
+        }
+    },
+    "filename": "pyright_compare.079497.b16ae97ad03-dd5d0ea6bb0.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "completenessScore": 2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.0107},
+            "completenessScore": 0.0063
+        },
+        "symbols": {
+            "common": {
+                "torch.utils._cpp_extension_versioner.ExtensionVersioner.bump_version_if_changed": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"with_sycl\" is missing"
+                        ]
+                    }
+                },
+                "torch.utils.cpp_extension.load": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"extra_sycl_cflags\" is missing"
+                        ]
+                    }
+                },
+                "torch.utils.cpp_extension.load_inline": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"extra_sycl_cflags\" is missing",
+                            "Type annotation for parameter \"sycl_sources\" is missing",
+                            "Type annotation for parameter \"with_sycl\" is missing"
+                        ]
+                    }
+                }
+            },
+            "removed": ["torch.utils.cpp_extension.SyclExtension"]
+        }
+    },
+    "completeness": [0.36258007787966334, 0.36260285157967465]
+}

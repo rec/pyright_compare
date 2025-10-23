@@ -11,7 +11,7 @@
             "message": "[dynamo] Ensure global state guard is preserved across serialization. (#157285)"
         }
     },
-    "completenessScore": [0.373542, 0.373542],
+    "completeness": [0.373542, 0.373542],
     "filename": "full-run/pyright_compare.084880.b146e1a2649-0f9c1b374fb.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

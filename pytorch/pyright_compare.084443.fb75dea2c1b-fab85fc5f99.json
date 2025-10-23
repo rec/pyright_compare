@@ -11,7 +11,7 @@
             "message": "[compile][hierarchical compilation] Release nested_compile_region API (#156449)"
         }
     },
-    "completenessScore": [0.371941, 0.371918],
+    "completeness": [0.371941, 0.371918],
     "filename": "full-run/pyright_compare.084443.fb75dea2c1b-fab85fc5f99.json",
     "diff": {
         "absolute": {

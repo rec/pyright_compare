@@ -11,7 +11,7 @@
             "message": "Revert \"[dynamo] add set_fullgraph decorator/context manager (#154289)\""
         }
     },
-    "completenessScore": [0.371956, 0.371956],
+    "completeness": [0.371956, 0.371956],
     "filename": "full-run/pyright_compare.084474.c10eeb5bad7-5e56db59d46.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withAmbiguousType": -1}},

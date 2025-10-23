@@ -1,0 +1,38 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-01 17:11:50",
+            "commit_id": "d23051f29ba",
+            "message": "[Inductor] Support parallel reduction for GroupNorm (#144020)"
+        },
+        "after": {
+            "committer_date": "2025-03-01 18:05:45",
+            "commit_id": "a983b2b11ad",
+            "message": "Revert \"Initial implementation of host memory stats (#147660)\""
+        }
+    },
+    "filename": "pyright_compare.079975.d23051f29ba-a983b2b11ad.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -8},
+            "completenessScore": -0.000319
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.1381},
+            "completenessScore": -0.0881
+        },
+        "symbols": {
+            "removed": [
+                "torch.cuda.host_memory_stats",
+                "torch.cuda.host_memory_stats_as_nested_dict",
+                "torch.cuda.memory.host_memory_stats",
+                "torch.cuda.memory.host_memory_stats_as_nested_dict",
+                "torch.cuda.memory.reset_accumulated_host_memory_stats",
+                "torch.cuda.memory.reset_peak_host_memory_stats",
+                "torch.cuda.reset_accumulated_host_memory_stats",
+                "torch.cuda.reset_peak_host_memory_stats"
+            ]
+        }
+    },
+    "completeness": [0.3627082550419642, 0.36238877052262186]
+}

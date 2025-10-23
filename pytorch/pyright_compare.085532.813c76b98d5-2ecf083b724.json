@@ -11,7 +11,7 @@
             "message": "Add torch compile force disable caches alias (#158072)"
         }
     },
-    "completenessScore": [0.375646, 0.375685],
+    "completeness": [0.375646, 0.375685],
     "filename": "pyright_compare.085532.813c76b98d5-2ecf083b724.json",
     "diff": {
         "absolute": {

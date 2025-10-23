@@ -11,7 +11,7 @@
             "message": "Dont't GC as often when collecting cudagraphs (#158193)"
         }
     },
-    "completenessScore": [0.376602, 0.37664],
+    "completeness": [0.376602, 0.37664],
     "filename": "full-run/pyright_compare.085867.cae4746952a-e20736bf1d4.json",
     "diff": {
         "absolute": {

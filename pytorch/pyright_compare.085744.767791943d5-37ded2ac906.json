@@ -11,7 +11,7 @@
             "message": "Using torch.accelerator in comm_mode_features_example.py and visualize_sharding_example.py (#157317)"
         }
     },
-    "completenessScore": [0.375901, 0.375878],
+    "completeness": [0.375901, 0.375878],
     "filename": "pyright_compare.085744.767791943d5-37ded2ac906.json",
     "diff": {
         "absolute": {

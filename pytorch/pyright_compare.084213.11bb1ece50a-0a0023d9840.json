@@ -11,7 +11,7 @@
             "message": "Enable NCCL zero-copy (user buffer registration) for FSDP2 (#150564)"
         }
     },
-    "completenessScore": [0.371971, 0.371971],
+    "completeness": [0.371971, 0.371971],
     "filename": "full-run/pyright_compare.084213.11bb1ece50a-0a0023d9840.json",
     "diff": {
         "absolute": {

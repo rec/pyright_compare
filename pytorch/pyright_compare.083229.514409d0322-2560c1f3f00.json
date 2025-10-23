@@ -11,7 +11,7 @@
             "message": "add sticky cache pgo (#154418)"
         }
     },
-    "completenessScore": [0.368095, 0.368134],
+    "completeness": [0.368095, 0.368134],
     "filename": "full-run/pyright_compare.083229.514409d0322-2560c1f3f00.json",
     "diff": {
         "absolute": {

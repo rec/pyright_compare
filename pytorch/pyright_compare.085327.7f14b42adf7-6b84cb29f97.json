@@ -11,7 +11,7 @@
             "message": "[dynamo] trace through torch.get_device_module (#157980)"
         }
     },
-    "completenessScore": [0.374807, 0.374807],
+    "completeness": [0.374807, 0.374807],
     "filename": "pyright_compare.085327.7f14b42adf7-6b84cb29f97.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Support NUMA Binding for Callable Entrypoints (#160163)"
         }
     },
-    "completenessScore": [0.377257, 0.377356],
+    "completeness": [0.377257, 0.377356],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1254"}, {"name": "11e97bc7bd4~1253"}],
         "absolute": {

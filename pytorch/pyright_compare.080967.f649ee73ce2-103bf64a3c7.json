@@ -1,0 +1,45 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-28 05:36:32",
+            "commit_id": "f649ee73ce2",
+            "message": "Use source hashing to generate consistent symbolic ids (#149665)"
+        },
+        "after": {
+            "committer_date": "2025-03-28 06:19:03",
+            "commit_id": "103bf64a3c7",
+            "message": "[export] refactor _Dim into Dim (#149891)"
+        }
+    },
+    "filename": "pyright_compare.080967.f649ee73ce2-103bf64a3c7.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 7},
+            "completenessScore": -4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0516,
+                "withUnknownType": 0.0749
+            },
+            "completenessScore": -0.0109
+        },
+        "symbols": {
+            "added": [
+                "torch.export.dynamic_shapes.Dim.__add__",
+                "torch.export.dynamic_shapes.Dim.__init__",
+                "torch.export.dynamic_shapes.Dim.__mul__",
+                "torch.export.dynamic_shapes.Dim.__name__",
+                "torch.export.dynamic_shapes.Dim.__radd__",
+                "torch.export.dynamic_shapes.Dim.__repr__",
+                "torch.export.dynamic_shapes.Dim.__rmul__",
+                "torch.export.dynamic_shapes.Dim.__rsub__",
+                "torch.export.dynamic_shapes.Dim.__sub__",
+                "torch.export.dynamic_shapes.Dim.max",
+                "torch.export.dynamic_shapes.Dim.min"
+            ],
+            "removed": ["torch.export.dynamic_shapes.Dim.__new__"]
+        }
+    },
+    "completeness": [0.36341478657583903, 0.3633751795640497]
+}

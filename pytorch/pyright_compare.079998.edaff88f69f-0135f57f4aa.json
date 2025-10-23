@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-02 22:42:31",
+            "commit_id": "edaff88f69f",
+            "message": "[fx] Move map_aggregate to C++ (#148243)"
+        },
+        "after": {
+            "committer_date": "2025-03-02 22:42:31",
+            "commit_id": "0135f57f4aa",
+            "message": "[fx] Move Node._update_args_kwargs to C++ (#148260)"
+        }
+    },
+    "filename": "pyright_compare.079998.edaff88f69f-0135f57f4aa.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0531}},
+        "symbols": {"added": ["torch._C._NodeBase.__init__"]}
+    },
+    "completeness": [0.36238877052262186, 0.36238877052262186]
+}

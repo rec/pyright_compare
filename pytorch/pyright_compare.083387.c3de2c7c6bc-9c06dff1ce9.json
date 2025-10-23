@@ -11,7 +11,7 @@
             "message": "[multigraph] use specializations in compile_and_call_fx_graph (#153449)"
         }
     },
-    "completenessScore": [0.37035, 0.370694],
+    "completeness": [0.37035, 0.370694],
     "filename": "full-run/pyright_compare.083387.c3de2c7c6bc-9c06dff1ce9.json",
     "diff": {
         "absolute": {

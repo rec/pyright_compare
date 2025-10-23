@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-08 18:00:49",
+            "commit_id": "9841f0ddcfa",
+            "message": "Add support for non functional collectives under FakeTensorMode and fake_pg for memory tracking (#147566)"
+        },
+        "after": {
+            "committer_date": "2025-03-08 18:33:18",
+            "commit_id": "7ffadff2868",
+            "message": "c10d/ProcessGroup: cleanup abort and shutdown (#148798)"
+        }
+    },
+    "filename": "pyright_compare.080267.9841f0ddcfa-7ffadff2868.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 4},
+            "missingFunctionDocStringCount": 4
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.2109},
+            "missingFunctionDocStringCount": 0.1135
+        },
+        "symbols": {
+            "added": [
+                "torch._C._distributed_c10d.Backend.abort",
+                "torch._C._distributed_c10d.Backend.shutdown",
+                "torch._C._distributed_c10d.ProcessGroup.abort",
+                "torch._C._distributed_c10d.ProcessGroup.shutdown"
+            ]
+        }
+    },
+    "completeness": [0.36312429590687195, 0.36312429590687195]
+}

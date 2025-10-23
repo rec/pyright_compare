@@ -11,7 +11,7 @@
             "message": "[BE] remove torch deploy - conditionals (#158288)"
         }
     },
-    "completenessScore": [0.375878, 0.375839],
+    "completeness": [0.375878, 0.375839],
     "filename": "pyright_compare.085800.da94023b020-ab26d4fbeb5.json",
     "diff": {
         "absolute": {

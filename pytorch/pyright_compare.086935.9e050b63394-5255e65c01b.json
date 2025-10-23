@@ -11,7 +11,7 @@
             "message": "[dynamo] Refactor convert_frame to remove usage of nonlocal tracer output return. [4/n] (#160899)"
         }
     },
-    "completenessScore": [0.377261, 0.377261],
+    "completeness": [0.377261, 0.377261],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~900"}, {"name": "11e97bc7bd4~899"}],
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

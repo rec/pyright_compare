@@ -11,7 +11,7 @@
             "message": "Allow Custom Time Unit When Printing Profiler Table (#157913)"
         }
     },
-    "completenessScore": [0.374923, 0.374923],
+    "completeness": [0.374923, 0.374923],
     "filename": "pyright_compare.085247.83700b44887-9bf41633d76.json",
     "diff": {
         "symbols": {

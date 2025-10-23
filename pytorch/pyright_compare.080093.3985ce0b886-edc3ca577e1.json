@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-05 01:16:53",
+            "commit_id": "3985ce0b886",
+            "message": "[dynamo] rename test_graph_break_messages -> test_error_messages (#148220)"
+        },
+        "after": {
+            "committer_date": "2025-03-05 01:37:48",
+            "commit_id": "edc3ca577e1",
+            "message": "[Profiler] Add profiler activity for HPU devices (#148182)"
+        }
+    },
+    "filename": "pyright_compare.080093.3985ce0b886-edc3ca577e1.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0527}},
+        "symbols": {"added": ["torch._C._profiler.ProfilerActivity.HPU"]}
+    },
+    "completeness": [0.36256577298922577, 0.36256577298922577]
+}

@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-11 02:52:52",
+            "commit_id": "30cbf13544b",
+            "message": "[PGNCCL] Associate tensor allocation support with NCCL version (#146842)"
+        },
+        "after": {
+            "committer_date": "2025-02-11 03:17:59",
+            "commit_id": "fe94ece375f",
+            "message": "Revert \"Exclude upsample_bilinear2d.vec from default core ATen decomposition table (#141791)\""
+        }
+    },
+    "filename": "pyright_compare.079290.30cbf13544b-fe94ece375f.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "completenessScore": 2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.0107},
+            "completenessScore": 0.0063
+        },
+        "symbols": {"removed": ["torch.export.decomp_utils.PRESERVED_ATEN_CIA_OPS"]}
+    },
+    "completeness": [0.36229879275653926, 0.3623215745456832]
+}

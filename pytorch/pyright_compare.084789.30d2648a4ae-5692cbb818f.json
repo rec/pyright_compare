@@ -11,7 +11,7 @@
             "message": "[ONNX] Delete symbolic caffe2 (#157102)"
         }
     },
-    "completenessScore": [0.371439, 0.371156],
+    "completeness": [0.371439, 0.371156],
     "filename": "full-run/pyright_compare.084789.30d2648a4ae-5692cbb818f.json",
     "diff": {
         "absolute": {

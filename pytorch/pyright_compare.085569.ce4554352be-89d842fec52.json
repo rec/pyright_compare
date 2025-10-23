@@ -11,7 +11,7 @@
             "message": "Make torch.distributed.breakpoint() set a long timeout (#158481)"
         }
     },
-    "completenessScore": [0.375762, 0.375762],
+    "completeness": [0.375762, 0.375762],
     "filename": "pyright_compare.085569.ce4554352be-89d842fec52.json",
     "diff": {
         "symbols": {

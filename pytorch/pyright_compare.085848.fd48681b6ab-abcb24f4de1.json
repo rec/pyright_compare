@@ -11,7 +11,7 @@
             "message": "[Dynamo][Better Engineering] Add typing annotations to guard and source (#158397)"
         }
     },
-    "completenessScore": [0.375862, 0.376602],
+    "completeness": [0.375862, 0.376602],
     "filename": "pyright_compare.085848.fd48681b6ab-abcb24f4de1.json",
     "diff": {
         "absolute": {

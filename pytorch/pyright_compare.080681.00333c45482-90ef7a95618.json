@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-20 06:21:31",
+            "commit_id": "00333c45482",
+            "message": "[Inductor] Set prop_kind to forward_inference when grad is not needed for mkldnn_linear_pointwise and mkldnn_convolution_pointwise (#147072)"
+        },
+        "after": {
+            "committer_date": "2025-03-20 06:52:02",
+            "commit_id": "90ef7a95618",
+            "message": "Revert \"Supporting non-tensor-data write_size in planner write items. (#149434)\""
+        }
+    },
+    "filename": "pyright_compare.080681.00333c45482-90ef7a95618.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -9},
+            "missingClassDocStringCount": -1,
+            "completenessScore": -0.000359
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.155},
+            "missingClassDocStringCount": -0.0971,
+            "completenessScore": -0.0987
+        },
+        "symbols": {
+            "removed": [
+                "torch.distributed.checkpoint.planner.BytesIOWriteData",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__dataclass_fields__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__eq__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__hash__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__init__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__match_args__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__new__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.nbytes",
+                "torch.distributed.checkpoint.planner.WriteItem.bytes_io_data"
+            ]
+        }
+    },
+    "completeness": [0.3632099074305729, 0.3628512422554603]
+}

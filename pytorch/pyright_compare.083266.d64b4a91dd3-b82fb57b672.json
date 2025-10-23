@@ -11,7 +11,7 @@
             "message": "[ez] add docblock for RuntimeAssert (#154401)"
         }
     },
-    "completenessScore": [0.368134, 0.368134],
+    "completeness": [0.368134, 0.368134],
     "filename": "full-run/pyright_compare.083266.d64b4a91dd3-b82fb57b672.json",
     "diff": {
         "absolute": {"missingClassDocStringCount": -1},

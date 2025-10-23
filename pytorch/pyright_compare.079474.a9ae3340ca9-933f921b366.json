@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-15 00:07:33",
+            "commit_id": "a9ae3340ca9",
+            "message": "Fix triton masked loading for non-block tl.loads (#144782)"
+        },
+        "after": {
+            "committer_date": "2025-02-15 00:38:00",
+            "commit_id": "933f921b366",
+            "message": "[PT][FSDP] support custom all reduce hook across FSDP units (#147114)"
+        }
+    },
+    "filename": "pyright_compare.079474.a9ae3340ca9-933f921b366.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withUnknownType": 1}},
+        "percent": {"otherSymbolCounts": {"withUnknownType": 0.0588}},
+        "symbols": {
+            "added": [
+                "torch.distributed.fsdp._fully_shard._fully_shard.FSDPModule.set_all_reduce_hook"
+            ]
+        }
+    },
+    "completeness": [0.36260285157967465, 0.36260285157967465]
+}

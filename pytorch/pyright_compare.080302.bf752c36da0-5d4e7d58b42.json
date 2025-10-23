@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-10 16:06:02",
+            "commit_id": "bf752c36da0",
+            "message": "[fx] Move Node._update_args_kwargs to C++ (#148260)"
+        },
+        "after": {
+            "committer_date": "2025-03-10 16:06:11",
+            "commit_id": "5d4e7d58b42",
+            "message": "[fx] Move Node._prepend/Node._remove_from_list to C++ (#148261)"
+        }
+    },
+    "filename": "pyright_compare.080302.bf752c36da0-5d4e7d58b42.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -4},
+            "otherSymbolCounts": {"withKnownType": 4},
+            "completenessScore": -0.00016
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.069},
+            "otherSymbolCounts": {"withKnownType": 0.21},
+            "completenessScore": -0.044
+        },
+        "symbols": {
+            "added": [
+                "torch._C._NodeBase.__ge__",
+                "torch._C._NodeBase.__gt__",
+                "torch._C._NodeBase.__le__",
+                "torch._C._NodeBase.__lt__"
+            ],
+            "removed": [
+                "torch.fx.node.Node.__ge__",
+                "torch.fx.node.Node.__gt__",
+                "torch.fx.node.Node.__le__",
+                "torch.fx.node.Node.__lt__"
+            ]
+        }
+    },
+    "completeness": [0.3628739516835649, 0.3627144109177413]
+}

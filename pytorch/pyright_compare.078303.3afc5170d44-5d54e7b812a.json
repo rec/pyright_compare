@@ -1,0 +1,49 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-17 00:53:42",
+            "commit_id": "3afc5170d44",
+            "message": "[Submodule] Upgrade to Cutlass 3.6 part deux (#144911)"
+        },
+        "after": {
+            "committer_date": "2025-01-17 01:07:12",
+            "commit_id": "5d54e7b812a",
+            "message": "[Pipelining] move scale_grads to base class, add docs (#144833)"
+        }
+    },
+    "filename": "pyright_compare.078303.3afc5170d44-5d54e7b812a.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -3, "withUnknownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1},
+            "completenessScore": -0.000143
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.0523,
+                "withUnknownType": 0.0107
+            },
+            "otherSymbolCounts": {"withKnownType": 0.0537},
+            "completenessScore": -0.0397
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.pipelining.schedules._PipelineSchedule.scale_grads"
+            ],
+            "common": {
+                "torch.distributed.pipelining.schedules.ScheduleLoopedBFS.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"loss_fn\" is partially unknown\n\u00a0\u00a0Parameter type is \"((...) -> Unknown) | _Loss | None\""
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch.distributed.pipelining.schedules.PipelineScheduleMulti.scale_grads",
+                "torch.distributed.pipelining.schedules.PipelineScheduleSingle.scale_grads"
+            ]
+        }
+    },
+    "completeness": [0.36091881686595345, 0.3607754279959718]
+}

@@ -11,7 +11,7 @@
             "message": "make node source hashable (#158322)"
         }
     },
-    "completenessScore": [0.374907, 0.374884],
+    "completeness": [0.374907, 0.374884],
     "filename": "pyright_compare.085410.4657a84bc55-011026205a9.json",
     "diff": {
         "absolute": {

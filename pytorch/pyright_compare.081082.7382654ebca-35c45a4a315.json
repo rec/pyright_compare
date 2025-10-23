@@ -11,7 +11,7 @@
             "message": "[Reland] Launch kernel on current stream & remove `record_stream` entirely (#150398)"
         }
     },
-    "completenessScore": [0.363443, 0.363194],
+    "completeness": [0.363443, 0.363194],
     "filename": "full-run/pyright_compare.081082.7382654ebca-35c45a4a315.json",
     "diff": {
         "absolute": {

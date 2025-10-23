@@ -11,7 +11,7 @@
             "message": "[DCP][HuggingFace] Add Support for dequantization of SafeTensors checkpoints (#160682)"
         }
     },
-    "completenessScore": [0.375385, 0.375592],
+    "completeness": [0.375385, 0.375592],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~301"}, {"name": "11e97bc7bd4~300"}],
         "absolute": {

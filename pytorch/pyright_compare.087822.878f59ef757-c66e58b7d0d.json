@@ -11,7 +11,7 @@
             "message": "[ONNX] Expose the testing module (#162495)"
         }
     },
-    "completenessScore": [0.376111, 0.376088],
+    "completeness": [0.376111, 0.376088],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~13"}, {"name": "11e97bc7bd4~12"}],
         "absolute": {

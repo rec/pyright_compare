@@ -11,7 +11,7 @@
             "message": "Clean up HF components (#155707)"
         }
     },
-    "completenessScore": [0.372142, 0.371715],
+    "completeness": [0.372142, 0.371715],
     "filename": "full-run/pyright_compare.084536.ca5a40395d8-5dd9652389e.json",
     "diff": {
         "absolute": {

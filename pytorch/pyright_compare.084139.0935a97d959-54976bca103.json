@@ -11,7 +11,7 @@
             "message": "[dynamo] Provide helper functions for guard filter hook (#155083)"
         }
     },
-    "completenessScore": [0.372063, 0.371971],
+    "completeness": [0.372063, 0.371971],
     "filename": "full-run/pyright_compare.084139.0935a97d959-54976bca103.json",
     "diff": {
         "absolute": {

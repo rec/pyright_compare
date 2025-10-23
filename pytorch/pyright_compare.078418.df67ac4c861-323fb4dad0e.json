@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-21 20:25:52",
+            "commit_id": "df67ac4c861",
+            "message": "[CI][CUDA][Distributed][FSDP] Remove hardcoded world size of 2  (#145195)"
+        },
+        "after": {
+            "committer_date": "2025-01-21 20:44:09",
+            "commit_id": "323fb4dad0e",
+            "message": "Unconditionally exclude upper bound in all size oblivious tests (#144867)"
+        }
+    },
+    "filename": "pyright_compare.078418.df67ac4c861-323fb4dad0e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.0174},
+            "completenessScore": -0.0111
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.oblivious_upper_bound_exclusive"
+            ]
+        }
+    },
+    "completeness": [0.3617369414726243, 0.3616967713512493]
+}

@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-29 01:59:06",
+            "commit_id": "29521256e10",
+            "message": "[Customized Optimus][Inductor] Add split cat pattern in aten level (#145721)"
+        },
+        "after": {
+            "committer_date": "2025-01-29 02:48:56",
+            "commit_id": "9fd6722fc90",
+            "message": "[c10d] Add NCCL memory allocator (#145675)"
+        }
+    },
+    "filename": "pyright_compare.078759.29521256e10-9fd6722fc90.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0529}},
+        "symbols": {"added": ["torch._C._distributed_c10d.Backend.mem_allocator"]}
+    },
+    "completeness": [0.3622121555303888, 0.3622121555303888]
+}

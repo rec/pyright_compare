@@ -11,7 +11,7 @@
             "message": "Revert \"Fix ep deepcopy when there is python builitin name (#159478)\""
         }
     },
-    "completenessScore": [0.377213, 0.377237],
+    "completeness": [0.377213, 0.377237],
     "filename": "full-run/pyright_compare.086160.bb62e1f769e-b1fb552974a.json",
     "diff": {
         "absolute": {

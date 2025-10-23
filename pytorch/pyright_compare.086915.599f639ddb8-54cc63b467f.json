@@ -11,7 +11,7 @@
             "message": "[BE][Dynamo] Type coverage for symbolic_convert (#160922)"
         }
     },
-    "completenessScore": [0.377261, 0.377261],
+    "completeness": [0.377261, 0.377261],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~920"}, {"name": "11e97bc7bd4~919"}],
         "absolute": {

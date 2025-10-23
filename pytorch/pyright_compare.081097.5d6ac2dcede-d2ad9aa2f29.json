@@ -11,7 +11,7 @@
             "message": "[dtensor][tp] add a ParallelStyle PrepareModuleInputOutput (#150372)"
         }
     },
-    "completenessScore": [0.363171, 0.36316],
+    "completeness": [0.363171, 0.36316],
     "filename": "full-run/pyright_compare.081097.5d6ac2dcede-d2ad9aa2f29.json",
     "diff": {
         "absolute": {

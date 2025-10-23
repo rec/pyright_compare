@@ -11,7 +11,7 @@
             "message": "NUMA binding integration with elastic agent and torchrun (#149334)"
         }
     },
-    "completenessScore": [0.376655, 0.377298],
+    "completeness": [0.376655, 0.377298],
     "filename": "full-run/pyright_compare.085938.24b1f10ca13-7ef3c3357d8.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Remove ls from filesystem base (#151117)"
         }
     },
-    "completenessScore": [0.364819, 0.364842],
+    "completeness": [0.364819, 0.364842],
     "filename": "full-run/pyright_compare.081560.f1f18c75c9f-c5de6ff079e.json",
     "diff": {
         "absolute": {

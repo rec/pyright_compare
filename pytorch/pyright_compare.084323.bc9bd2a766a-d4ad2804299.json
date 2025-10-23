@@ -11,7 +11,7 @@
             "message": "Enable querying the build and runtime NCCL versions (#156305)"
         }
     },
-    "completenessScore": [0.371964, 0.371964],
+    "completeness": [0.371964, 0.371964],
     "filename": "full-run/pyright_compare.084323.bc9bd2a766a-d4ad2804299.json",
     "diff": {
         "absolute": {

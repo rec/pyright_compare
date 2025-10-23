@@ -1,0 +1,49 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-20 08:18:09",
+            "commit_id": "6a72aaadae5",
+            "message": "Fix `torch.max` optional args `dim`, `keepdim` description (#147177)"
+        },
+        "after": {
+            "committer_date": "2025-02-20 08:43:16",
+            "commit_id": "9da250aadae",
+            "message": "type `fully_shard` so that the return value can be chained with typing enabled (#147489)"
+        }
+    },
+    "filename": "pyright_compare.079604.6a72aaadae5-9da250aadae.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": -1, "withUnknownType": -2},
+            "missingFunctionDocStringCount": -1,
+            "missingClassDocStringCount": -1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": -0.0531,
+                "withUnknownType": -0.1174
+            },
+            "missingFunctionDocStringCount": -0.0285,
+            "missingClassDocStringCount": -0.0974
+        },
+        "symbols": {
+            "common": {
+                "torch.distributed.fsdp.fully_shard": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"FSDPModule\"",
+                            "Type of parameter \"mesh\" is partially unknown\n\u00a0\u00a0Parameter type is \"DeviceMesh | None\"",
+                            "Type of parameter \"module\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module\""
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch.distributed._composable.contract._ContractFn",
+                "torch.distributed._composable.contract._ContractFn.__call__",
+                "torch.distributed._composable.contract._ContractFn.state"
+            ]
+        }
+    },
+    "completeness": [0.36255180208464144, 0.36255180208464144]
+}

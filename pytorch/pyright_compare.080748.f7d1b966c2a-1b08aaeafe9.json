@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-21 17:52:51",
+            "commit_id": "f7d1b966c2a",
+            "message": "[Inductor] Unify the data type propagation between Triton and CPP Backend (#146970)"
+        },
+        "after": {
+            "committer_date": "2025-03-21 18:09:14",
+            "commit_id": "1b08aaeafe9",
+            "message": "Supporting non-tensor-data write_size in planner write items. (#149699)"
+        }
+    },
+    "filename": "pyright_compare.080748.f7d1b966c2a-1b08aaeafe9.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 9},
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.000358
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.155},
+            "missingClassDocStringCount": 0.0972,
+            "completenessScore": 0.0987
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.planner.BytesIOWriteData",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__dataclass_fields__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__eq__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__hash__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__init__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__match_args__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__new__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.nbytes",
+                "torch.distributed.checkpoint.planner.WriteItem.bytes_io_data"
+            ]
+        }
+    },
+    "completeness": [0.3631302389590892, 0.36348859018443264]
+}

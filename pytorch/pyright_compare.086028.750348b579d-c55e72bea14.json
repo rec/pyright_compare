@@ -11,7 +11,7 @@
             "message": "[Re-land][Inductor] Support native Inductor as backend for MTIA (#159211)"
         }
     },
-    "completenessScore": [0.377298, 0.377229],
+    "completeness": [0.377298, 0.377229],
     "filename": "full-run/pyright_compare.086028.750348b579d-c55e72bea14.json",
     "diff": {
         "absolute": {

@@ -1,0 +1,140 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-05 05:22:48",
+            "commit_id": "df7e43e5d47",
+            "message": "[AOTI] Fix aot_inductor_package test errors (#148279)"
+        },
+        "after": {
+            "committer_date": "2025-03-05 05:30:19",
+            "commit_id": "fb1b7ec173a",
+            "message": "Remove deprecate method and attirbute in `LRScheduler` (#147301)"
+        }
+    },
+    "filename": "pyright_compare.080100.df7e43e5d47-fb1b7ec173a.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -3},
+            "completenessScore": 6.8e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.0321},
+            "completenessScore": 0.0188
+        },
+        "symbols": {
+            "common": {
+                "torch.optim.lr_scheduler.ConstantLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.CosineAnnealingLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.CosineAnnealingWarmRestarts.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.CyclicLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.ExponentialLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.LRScheduler.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.LambdaLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.LinearLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.MultiStepLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.MultiplicativeLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.OneCycleLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.PolynomialLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.ReduceLROnPlateau.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.SequentialLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.optim.lr_scheduler.StepLR.__init__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch.optim.lr_scheduler.LRScheduler.print_lr",
+                "torch.optim.lr_scheduler.LRScheduler.verbose",
+                "torch.optim.lr_scheduler.ReduceLROnPlateau.verbose"
+            ]
+        }
+    },
+    "completeness": [0.362582988851309, 0.36265113073983585]
+}

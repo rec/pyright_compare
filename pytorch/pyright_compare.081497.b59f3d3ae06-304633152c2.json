@@ -11,7 +11,7 @@
             "message": "Clean up duplicated code in lr_scheduler (#150984)"
         }
     },
-    "completenessScore": [0.363302, 0.363138],
+    "completeness": [0.363302, 0.363138],
     "filename": "full-run/pyright_compare.081497.b59f3d3ae06-304633152c2.json",
     "diff": {
         "absolute": {

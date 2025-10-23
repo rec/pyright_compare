@@ -11,7 +11,7 @@
             "message": "Revert \"[Dynamo][Better Engineering] Add typing annotations to guard and source (#158397)\""
         }
     },
-    "completenessScore": [0.37719, 0.376453],
+    "completeness": [0.37719, 0.376453],
     "filename": "full-run/pyright_compare.086041.5d93127c87f-d987a6f7f00.json",
     "diff": {
         "absolute": {

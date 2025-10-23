@@ -1,0 +1,29 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-11 18:43:55",
+            "commit_id": "d5d3bdb55a2",
+            "message": "Fix var CUDA_PATH_V128 in cuda128.bat file (#146906)"
+        },
+        "after": {
+            "committer_date": "2025-02-11 19:05:14",
+            "commit_id": "ebd992724f5",
+            "message": "Implement serializable getattr support for tensor subclasses (#145772)"
+        }
+    },
+    "filename": "pyright_compare.079305.d5d3bdb55a2-ebd992724f5.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3e-05,
+            "filesAnalyzed": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0107},
+            "completenessScore": -0.0063,
+            "filesAnalyzed": 0.1153
+        },
+        "symbols": {"added": ["torch.export.custom_ops.lib"]}
+    },
+    "completeness": [0.3623161071293851, 0.3622933299805117]
+}

@@ -11,7 +11,7 @@
             "message": "[Dynamo][Better Engineering] Type annotation for `torch/_dynamo/output_graph.py` (#159602)"
         }
     },
-    "completenessScore": [0.377252, 0.377252],
+    "completeness": [0.377252, 0.377252],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1535"}, {"name": "11e97bc7bd4~1534"}],
         "absolute": {

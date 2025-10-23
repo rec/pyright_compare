@@ -11,7 +11,7 @@
             "message": "Revert \"Improve torch.ops typing (#153558)\""
         }
     },
-    "completenessScore": [0.368147, 0.367961],
+    "completeness": [0.368147, 0.367961],
     "filename": "full-run/pyright_compare.082960.701e22112dd-d81217be2e4.json",
     "diff": {
         "absolute": {

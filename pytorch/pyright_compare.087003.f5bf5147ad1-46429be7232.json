@@ -11,7 +11,7 @@
             "message": "[DCP][HF] Add option to parallelize reads in HF Storage Reader (#160205)"
         }
     },
-    "completenessScore": [0.377299, 0.377338],
+    "completeness": [0.377299, 0.377338],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~832"}, {"name": "11e97bc7bd4~831"}],
         "absolute": {

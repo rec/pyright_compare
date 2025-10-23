@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-31 17:05:02",
+            "commit_id": "98f87edd233",
+            "message": "Tensor .cuda() very slow with specific array sizes (#138964)"
+        },
+        "after": {
+            "committer_date": "2025-01-31 17:09:20",
+            "commit_id": "001e355a56a",
+            "message": "Add option to serialization config to reduce random reads from get_record_offset when loading with mmap=True (#143880)"
+        }
+    },
+    "filename": "pyright_compare.078896.98f87edd233-001e355a56a.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0174},
+            "completenessScore": 0.0111
+        },
+        "symbols": {
+            "added": [
+                "torch.utils.serialization.config.load.calculate_storage_offsets"
+            ]
+        }
+    },
+    "completeness": [0.3622349462027308, 0.3622750723543475]
+}

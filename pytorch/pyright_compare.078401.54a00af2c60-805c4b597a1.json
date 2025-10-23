@@ -1,0 +1,74 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-20 22:32:59",
+            "commit_id": "54a00af2c60",
+            "message": "PEP585 update -  torch/nn torch/optim torch/package torch/profiler torch/serialization torch/sparse torch/xpu (#145175)"
+        },
+        "after": {
+            "committer_date": "2025-01-20 22:37:26",
+            "commit_id": "805c4b597a1",
+            "message": "PEP585 update - torch/_higher_order_ops torch/_subclasses torch/backends torch/compiler torch/cuda torch/masked torch/mtia torch/nested (#145202)"
+        }
+    },
+    "filename": "pyright_compare.078401.54a00af2c60-805c4b597a1.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1}},
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.0533,
+                "withUnknownType": -0.0587
+            }
+        },
+        "symbols": {
+            "common": {
+                "torch._subclasses.fake_tensor.FakeTensorMode.dispatch": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"types\" is partially unknown\n\u00a0\u00a0Parameter type is \"Sequence[Type[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"Sequence\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.lift_fns": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Unknown | Any | OpOverload | TorchBindOpOverload | str, Literal[True]]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Dict[Unknown | Any | OpOverload | TorchBindOpOverload | str, Literal[True]]\""
+                        ]
+                    }
+                },
+                "torch._subclasses.meta_utils.MetaTensorDesc.type": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"type\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.cond": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"operands\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Unknown, ...] | list[Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"tuple\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"operands\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tuple[Unknown, ...] | List[Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"tuple\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.nested.as_nested_tensor": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"ts\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | list[Tensor] | tuple[Tensor, ...]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"ts\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | List[Tensor] | Tuple[Tensor, ...]\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3617369414726243, 0.3617369414726243]
+}

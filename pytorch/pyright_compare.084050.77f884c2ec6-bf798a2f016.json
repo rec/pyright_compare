@@ -11,7 +11,7 @@
             "message": "Change _hfstorage to hfstorage (#155837)"
         }
     },
-    "completenessScore": [0.371579, 0.372063],
+    "completeness": [0.371579, 0.372063],
     "filename": "full-run/pyright_compare.084050.77f884c2ec6-bf798a2f016.json",
     "diff": {
         "absolute": {

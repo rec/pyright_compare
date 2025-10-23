@@ -11,7 +11,7 @@
             "message": "Add unified memory APIs for torch.accelerator (#152932)"
         }
     },
-    "completenessScore": [0.375847, 0.375639],
+    "completeness": [0.375847, 0.375639],
     "filename": "pyright_compare.085500.1179e333237-2ad5c25cfc6.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "[HF][DCP] Upload local consolidated files to remote storage if needed (#157371)"
         }
     },
-    "completenessScore": [0.374884, 0.374923],
+    "completeness": [0.374884, 0.374923],
     "filename": "pyright_compare.085196.aab949aa96a-3404c1f0cfe.json",
     "diff": {
         "absolute": {

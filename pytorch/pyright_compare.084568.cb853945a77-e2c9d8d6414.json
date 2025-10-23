@@ -11,7 +11,7 @@
             "message": "Fix non-bitwise type annotations for Tensor operators (see #145838) (#146845)"
         }
     },
-    "completenessScore": [0.371487, 0.371487],
+    "completeness": [0.371487, 0.371487],
     "filename": "full-run/pyright_compare.084568.cb853945a77-e2c9d8d6414.json",
     "diff": {
         "absolute": {

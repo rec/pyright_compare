@@ -11,7 +11,7 @@
             "message": "[pytree] add APIs to determine a class is a namedtuple or PyStructSequence (#113257)"
         }
     },
-    "completenessScore": [0.36333, 0.363443],
+    "completeness": [0.36333, 0.363443],
     "filename": "full-run/pyright_compare.081075.48e9ffc8734-a10b765bf15.json",
     "diff": {
         "absolute": {

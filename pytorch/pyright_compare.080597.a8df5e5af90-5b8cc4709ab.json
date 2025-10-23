@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-18 16:38:28",
+            "commit_id": "a8df5e5af90",
+            "message": "[dynamo] Add mem leak test (#149358)"
+        },
+        "after": {
+            "committer_date": "2025-03-18 17:21:54",
+            "commit_id": "5b8cc4709ab",
+            "message": "[FSDP2] Add set_reshard_after_forward (#149103)"
+        }
+    },
+    "filename": "pyright_compare.080597.a8df5e5af90-5b8cc4709ab.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0519}},
+        "symbols": {
+            "added": [
+                "torch.distributed.fsdp._fully_shard._fully_shard.FSDPModule.set_reshard_after_forward"
+            ]
+        }
+    },
+    "completeness": [0.36282243926872026, 0.36282243926872026]
+}

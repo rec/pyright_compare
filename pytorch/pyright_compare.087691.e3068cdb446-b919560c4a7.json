@@ -11,7 +11,7 @@
             "message": "[nativert] AOTI lowering and packaging as NativeRT delegate (#162285)"
         }
     },
-    "completenessScore": [0.375945, 0.375898],
+    "completeness": [0.375945, 0.375898],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~144"}, {"name": "11e97bc7bd4~143"}],
         "absolute": {

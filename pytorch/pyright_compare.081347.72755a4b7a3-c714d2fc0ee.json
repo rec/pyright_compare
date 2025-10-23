@@ -11,7 +11,7 @@
             "message": "[hop] support base_hop._gen_schema (#149688)"
         }
     },
-    "completenessScore": [0.36324, 0.36324],
+    "completeness": [0.36324, 0.36324],
     "filename": "full-run/pyright_compare.081347.72755a4b7a3-c714d2fc0ee.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 3}},

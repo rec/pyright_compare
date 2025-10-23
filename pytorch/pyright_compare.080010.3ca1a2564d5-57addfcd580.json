@@ -1,0 +1,47 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-03 16:03:54",
+            "commit_id": "3ca1a2564d5",
+            "message": "[BE][MPS] Use `copysign` for imaginary part of sqrt (#148286)"
+        },
+        "after": {
+            "committer_date": "2025-03-03 17:28:41",
+            "commit_id": "57addfcd580",
+            "message": "Significantly speed up save_cache_artifacts (#148227)"
+        }
+    },
+    "filename": "pyright_compare.080010.3ca1a2564d5-57addfcd580.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 15},
+            "missingFunctionDocStringCount": 11,
+            "missingClassDocStringCount": 2
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.7945},
+            "missingFunctionDocStringCount": 0.3133,
+            "missingClassDocStringCount": 0.1949
+        },
+        "symbols": {
+            "added": [
+                "torch.compiler._cache.CacheArtifact.deserialize",
+                "torch.compiler._cache.CacheArtifact.serialize",
+                "torch.compiler._cache.CacheInfo.clear",
+                "torch.utils._appending_byte_serializer.BytesReader",
+                "torch.utils._appending_byte_serializer.BytesReader.__init__",
+                "torch.utils._appending_byte_serializer.BytesReader.is_finished",
+                "torch.utils._appending_byte_serializer.BytesReader.read_bytes",
+                "torch.utils._appending_byte_serializer.BytesReader.read_str",
+                "torch.utils._appending_byte_serializer.BytesReader.read_uint64",
+                "torch.utils._appending_byte_serializer.BytesWriter",
+                "torch.utils._appending_byte_serializer.BytesWriter.__init__",
+                "torch.utils._appending_byte_serializer.BytesWriter.to_bytes",
+                "torch.utils._appending_byte_serializer.BytesWriter.write_bytes",
+                "torch.utils._appending_byte_serializer.BytesWriter.write_str",
+                "torch.utils._appending_byte_serializer.BytesWriter.write_uint64"
+            ]
+        }
+    },
+    "completeness": [0.3622289081108186, 0.3622289081108186]
+}

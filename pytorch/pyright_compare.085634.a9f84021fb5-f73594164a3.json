@@ -11,7 +11,7 @@
             "message": "[BE] document Adadelta and Adagrad APIs properly (#158483)"
         }
     },
-    "completenessScore": [0.375746, 0.375746],
+    "completeness": [0.375746, 0.375746],
     "filename": "pyright_compare.085634.a9f84021fb5-f73594164a3.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

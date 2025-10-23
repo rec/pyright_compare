@@ -11,7 +11,7 @@
             "message": "remove allow-untyped-defs from torch/distributed/elastic/utils/logging.py (#154625)"
         }
     },
-    "completenessScore": [0.37116, 0.371222],
+    "completeness": [0.37116, 0.371222],
     "filename": "full-run/pyright_compare.083398.382b38ed1b6-d66a55def0c.json",
     "diff": {
         "absolute": {

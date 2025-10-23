@@ -11,7 +11,7 @@
             "message": "[ONNX] Add asdict method to VerificationInfo class (#151024)"
         }
     },
-    "completenessScore": [0.363387, 0.363387],
+    "completeness": [0.363387, 0.363387],
     "filename": "full-run/pyright_compare.081413.8d81806211b-f304483e95b.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

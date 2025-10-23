@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-11 20:54:39",
+            "commit_id": "f69e58e8e88",
+            "message": "[CI] Update crossvit_9_240 as pass (#148989)"
+        },
+        "after": {
+            "committer_date": "2025-03-11 20:55:18",
+            "commit_id": "cf19efd3d9e",
+            "message": "Support basic TorchBind in aot_compile and aoti_compile_and_package (#148506)"
+        }
+    },
+    "filename": "pyright_compare.080381.f69e58e8e88-cf19efd3d9e.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 3},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.1568},
+            "missingFunctionDocStringCount": 0.0284
+        },
+        "symbols": {
+            "added": [
+                "torch._C.Argument.real_type",
+                "torch._C.ClassType.qualified_name",
+                "torch._C.ScriptMethod.schema"
+            ]
+        }
+    },
+    "completeness": [0.36257749389442046, 0.36257749389442046]
+}

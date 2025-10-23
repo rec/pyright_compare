@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-25 20:58:54",
+            "commit_id": "8d921eb97ff",
+            "message": "export method (#147573)"
+        },
+        "after": {
+            "committer_date": "2025-02-25 20:59:25",
+            "commit_id": "6eb3d1e7627",
+            "message": "[DCP] Cache save plans in default planner (#147343)"
+        }
+    },
+    "filename": "pyright_compare.079780.8d921eb97ff-6eb3d1e7627.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0173},
+            "completenessScore": 0.011
+        },
+        "symbols": {"added": ["torch.distributed.checkpoint.planner.SavePlan.usable"]}
+    },
+    "completeness": [0.3623370110330993, 0.36237698238575816]
+}

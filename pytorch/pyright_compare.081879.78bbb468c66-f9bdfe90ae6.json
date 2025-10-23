@@ -11,7 +11,7 @@
             "message": "[MegaCache] Return None on no compilation (#151921)"
         }
     },
-    "completenessScore": [0.364546, 0.364546],
+    "completeness": [0.364546, 0.364546],
     "filename": "full-run/pyright_compare.081879.78bbb468c66-f9bdfe90ae6.json",
     "diff": {
         "absolute": {

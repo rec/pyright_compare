@@ -11,7 +11,7 @@
             "message": "Revert \"Do not generate long log messaged for suppressed data dependent errors. (#151023)\""
         }
     },
-    "completenessScore": [0.364586, 0.364546],
+    "completeness": [0.364586, 0.364546],
     "filename": "full-run/pyright_compare.081853.459c62ee1db-bc6c0bc344e.json",
     "diff": {
         "absolute": {

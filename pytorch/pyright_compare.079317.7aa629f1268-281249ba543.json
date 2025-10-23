@@ -1,0 +1,43 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-11 23:50:24",
+            "commit_id": "7aa629f1268",
+            "message": "Update octokit/request-action to 2.4.0 (#146940)"
+        },
+        "after": {
+            "committer_date": "2025-02-12 00:01:02",
+            "commit_id": "281249ba543",
+            "message": "[torch][amdsmi] Avoid ODR violation when loading amdsmi (#146324)"
+        }
+    },
+    "filename": "pyright_compare.079317.7aa629f1268-281249ba543.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withAmbiguousType": 2},
+            "missingFunctionDocStringCount": 1,
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.000115
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0694,
+                "withAmbiguousType": 0.2433
+            },
+            "missingFunctionDocStringCount": 0.0284,
+            "missingClassDocStringCount": 0.0974,
+            "completenessScore": 0.0317
+        },
+        "symbols": {
+            "added": [
+                "torch.cuda.amdsmi_cdll_hook",
+                "torch.cuda.amdsmi_cdll_hook.__enter__",
+                "torch.cuda.amdsmi_cdll_hook.__exit__",
+                "torch.cuda.amdsmi_cdll_hook.__init__",
+                "torch.cuda.amdsmi_cdll_hook.hooked_CDLL",
+                "torch.cuda.amdsmi_cdll_hook.original_CDLL"
+            ]
+        }
+    },
+    "completeness": [0.3622933299805117, 0.36240809401118584]
+}

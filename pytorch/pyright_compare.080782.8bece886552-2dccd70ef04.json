@@ -1,0 +1,87 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-23 05:35:54",
+            "commit_id": "8bece886552",
+            "message": "[BE] Eliminate TODO for 2022 (#149557)"
+        },
+        "after": {
+            "committer_date": "2025-03-23 19:35:16",
+            "commit_id": "2dccd70ef04",
+            "message": "[ONNX] Clean up legacy dynamo export code (#149745)"
+        }
+    },
+    "filename": "pyright_compare.080782.8bece886552-2dccd70ef04.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "otherSymbolCounts": {"withKnownType": -30, "withUnknownType": -5},
+            "completenessScore": 2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.0107},
+            "otherSymbolCounts": {
+                "withKnownType": -1.5464,
+                "withUnknownType": -0.2936
+            },
+            "completenessScore": 0.0063
+        },
+        "symbols": {
+            "added": [
+                "torch.onnx.ExportOptions.__init__",
+                "torch.onnx.ExportOptions.dynamic_shapes"
+            ],
+            "common": {
+                "torch.onnx.ExportOptions": {"isTypeKnown": true},
+                "torch.onnx.dynamo_export": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"export_options\" is partially unknown\n\u00a0\u00a0Parameter type is \"ExportOptions | None\""
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch.onnx.DiagnosticOptions",
+                "torch.onnx.ONNXRuntimeOptions",
+                "torch.onnx.OnnxRegistry",
+                "torch.onnx._internal._exporter_legacy.ExportOptions",
+                "torch.onnx._internal._exporter_legacy.ExportOptions.__init__",
+                "torch.onnx._internal._exporter_legacy.ExportOptions.diagnostic_options",
+                "torch.onnx._internal._exporter_legacy.ExportOptions.dynamic_shapes",
+                "torch.onnx._internal._exporter_legacy.ExportOptions.fake_context",
+                "torch.onnx._internal._exporter_legacy.ExportOptions.onnx_registry",
+                "torch.onnx._internal._exporter_legacy.ONNXFakeContext",
+                "torch.onnx._internal._exporter_legacy.ONNXFakeContext.__dataclass_fields__",
+                "torch.onnx._internal._exporter_legacy.ONNXFakeContext.__eq__",
+                "torch.onnx._internal._exporter_legacy.ONNXFakeContext.__hash__",
+                "torch.onnx._internal._exporter_legacy.ONNXFakeContext.__init__",
+                "torch.onnx._internal._exporter_legacy.ONNXFakeContext.__match_args__",
+                "torch.onnx._internal._exporter_legacy.ONNXFakeContext.__new__",
+                "torch.onnx._internal._exporter_legacy.ONNXFakeContext.fake_mode",
+                "torch.onnx._internal._exporter_legacy.ONNXFakeContext.state_dict_paths",
+                "torch.onnx._internal._exporter_legacy.ONNXRuntimeOptions",
+                "torch.onnx._internal._exporter_legacy.ONNXRuntimeOptions.__init__",
+                "torch.onnx._internal._exporter_legacy.ONNXRuntimeOptions.execution_provider_options",
+                "torch.onnx._internal._exporter_legacy.ONNXRuntimeOptions.execution_providers",
+                "torch.onnx._internal._exporter_legacy.ONNXRuntimeOptions.session_options",
+                "torch.onnx._internal._exporter_legacy.OnnxRegistry",
+                "torch.onnx._internal._exporter_legacy.OnnxRegistry.__init__",
+                "torch.onnx._internal._exporter_legacy.OnnxRegistry.get_op_functions",
+                "torch.onnx._internal._exporter_legacy.OnnxRegistry.is_registered_op",
+                "torch.onnx._internal._exporter_legacy.OnnxRegistry.opset_version",
+                "torch.onnx._internal._exporter_legacy.OnnxRegistry.register_op",
+                "torch.onnx._internal.diagnostics.infra._infra.DiagnosticOptions",
+                "torch.onnx._internal.diagnostics.infra._infra.DiagnosticOptions.__dataclass_fields__",
+                "torch.onnx._internal.diagnostics.infra._infra.DiagnosticOptions.__eq__",
+                "torch.onnx._internal.diagnostics.infra._infra.DiagnosticOptions.__hash__",
+                "torch.onnx._internal.diagnostics.infra._infra.DiagnosticOptions.__init__",
+                "torch.onnx._internal.diagnostics.infra._infra.DiagnosticOptions.__match_args__",
+                "torch.onnx._internal.diagnostics.infra._infra.DiagnosticOptions.__new__",
+                "torch.onnx._internal.diagnostics.infra._infra.DiagnosticOptions.verbosity_level",
+                "torch.onnx._internal.diagnostics.infra._infra.DiagnosticOptions.warnings_as_errors"
+            ]
+        }
+    },
+    "completeness": [0.36342042755344417, 0.36344314558979807]
+}

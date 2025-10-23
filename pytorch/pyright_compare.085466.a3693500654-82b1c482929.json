@@ -11,7 +11,7 @@
             "message": "[hop] add supports_higher_order_operators flag to TorchDispatchMode (#158077)"
         }
     },
-    "completenessScore": [0.375847, 0.375847],
+    "completeness": [0.375847, 0.375847],
     "filename": "pyright_compare.085466.a3693500654-82b1c482929.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

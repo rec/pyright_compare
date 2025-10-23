@@ -11,7 +11,7 @@
             "message": "[easy] [precompile] Convert CompileArtifacts to callable (#162169)"
         }
     },
-    "completenessScore": [0.375546, 0.375607],
+    "completeness": [0.375546, 0.375607],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~128"}, {"name": "11e97bc7bd4~127"}],
         "absolute": {

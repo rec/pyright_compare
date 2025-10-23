@@ -11,7 +11,7 @@
             "message": "Revert \"[dynamo] fix set_fullgraph for nested calls (#154782)\""
         }
     },
-    "completenessScore": [0.371956, 0.371956],
+    "completeness": [0.371956, 0.371956],
     "filename": "full-run/pyright_compare.084473.ee3d9969cc2-c10eeb5bad7.json",
     "diff": {
         "absolute": {

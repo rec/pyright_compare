@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-23 18:49:19",
+            "commit_id": "34b8d8b0c0a",
+            "message": "update compile time benchmarks to dump compile times to stdout and csv (#145447)"
+        },
+        "after": {
+            "committer_date": "2025-01-23 18:50:59",
+            "commit_id": "41b38f755c4",
+            "message": "Revert \"Reverting the PR adding Kleidiai-based int4 kernels (#145392)\" (#145505)"
+        }
+    },
+    "filename": "pyright_compare.078513.34b8d8b0c0a-41b38f755c4.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 1},
+            "completenessScore": 1.7e-05,
+            "filesAnalyzed": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0174,
+                "withUnknownType": 0.0107
+            },
+            "completenessScore": 0.0048,
+            "filesAnalyzed": 0.1156
+        },
+        "symbols": {
+            "added": [
+                "torch.backends.kleidiai",
+                "torch.backends.kleidiai.is_available"
+            ]
+        }
+    },
+    "completeness": [0.3616793604834141, 0.3616967713512493]
+}

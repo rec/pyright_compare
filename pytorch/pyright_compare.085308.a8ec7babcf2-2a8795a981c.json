@@ -11,7 +11,7 @@
             "message": "[c10d] ProcessGroupGloo: support per operation timeouts (#158128)"
         }
     },
-    "completenessScore": [0.374923, 0.374923],
+    "completeness": [0.374923, 0.374923],
     "filename": "pyright_compare.085308.a8ec7babcf2-2a8795a981c.json",
     "diff": {
         "absolute": {

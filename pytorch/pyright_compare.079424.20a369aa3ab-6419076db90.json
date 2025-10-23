@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-14 00:48:07",
+            "commit_id": "20a369aa3ab",
+            "message": "[Intel GPU] Avoid copy when the input of Matmul is broadcasted (#143784)"
+        },
+        "after": {
+            "committer_date": "2025-02-14 01:11:59",
+            "commit_id": "6419076db90",
+            "message": "[torch][amdsmi] Look for amdsmi in ROCM_HOME/ROCM_PATH before using rpath (#147117)"
+        }
+    },
+    "filename": "pyright_compare.079424.20a369aa3ab-6419076db90.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0173},
+            "completenessScore": 0.0111
+        },
+        "symbols": {"added": ["torch.cuda.amdsmi_cdll_hook.paths"]}
+    },
+    "completeness": [0.36234525230943254, 0.3623853211009174]
+}

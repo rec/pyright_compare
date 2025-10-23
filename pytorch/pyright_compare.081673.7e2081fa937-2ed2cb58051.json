@@ -11,7 +11,7 @@
             "message": "add generalized pareto distribution (GPD) (#135968)"
         }
     },
-    "completenessScore": [0.364819, 0.36453],
+    "completeness": [0.364819, 0.36453],
     "filename": "full-run/pyright_compare.081673.7e2081fa937-2ed2cb58051.json",
     "diff": {
         "absolute": {

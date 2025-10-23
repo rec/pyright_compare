@@ -11,7 +11,7 @@
             "message": "Revert \"[WIP] Automatically load and save dynamo entries via caching_precompile (#155913)\""
         }
     },
-    "completenessScore": [0.373526, 0.373526],
+    "completeness": [0.373526, 0.373526],
     "filename": "pyright_compare.085057.eda0a9cc90b-ae1094b72b7.json",
     "diff": {
         "absolute": {

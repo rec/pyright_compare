@@ -11,7 +11,7 @@
             "message": "Revert \"[BE][Ez]: Fully type nn.utils.clip_grad (#154801)\""
         }
     },
-    "completenessScore": [0.3716, 0.371229],
+    "completeness": [0.3716, 0.371229],
     "filename": "full-run/pyright_compare.083580.40a8770154b-50de6ae2536.json",
     "diff": {
         "absolute": {

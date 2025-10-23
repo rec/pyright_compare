@@ -11,7 +11,7 @@
             "message": "Make torch importable if compiled without TensorPipe (#154382)"
         }
     },
-    "completenessScore": [0.368134, 0.368134],
+    "completeness": [0.368134, 0.368134],
     "filename": "full-run/pyright_compare.083234.f472ea63bb2-5075df6feec.json",
     "diff": {
         "absolute": {

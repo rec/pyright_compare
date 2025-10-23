@@ -11,7 +11,7 @@
             "message": "Revert \"[fx] Move Node._prepend/Node._remove_from_list to C++ (#148261)\" (#150542)"
         }
     },
-    "completenessScore": [0.363086, 0.363245],
+    "completeness": [0.363086, 0.363245],
     "filename": "full-run/pyright_compare.081202.277369ac169-d41c22b5781.json",
     "diff": {
         "absolute": {

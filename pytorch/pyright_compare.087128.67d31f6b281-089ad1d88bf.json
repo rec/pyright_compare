@@ -11,7 +11,7 @@
             "message": "[1/n][export] Refactor PT2 Archive weight saving and loading (#160394)"
         }
     },
-    "completenessScore": [0.377315, 0.377391],
+    "completeness": [0.377315, 0.377391],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~707"}, {"name": "11e97bc7bd4~706"}],
         "absolute": {

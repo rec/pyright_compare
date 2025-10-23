@@ -11,7 +11,7 @@
             "message": "correctly import torch.version (#157584)"
         }
     },
-    "completenessScore": [0.373603, 0.373642],
+    "completeness": [0.373603, 0.373642],
     "filename": "pyright_compare.085071.5c79a55e7e5-ed6df0e3242.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "[ROCm] SDPA fix mem fault when dropout is enabled (#154864)"
         }
     },
-    "completenessScore": [0.377261, 0.377299],
+    "completeness": [0.377261, 0.377299],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~855"}, {"name": "11e97bc7bd4~854"}],
         "absolute": {

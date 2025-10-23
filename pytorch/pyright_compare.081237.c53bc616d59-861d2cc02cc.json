@@ -11,7 +11,7 @@
             "message": "Add a param for save format in Storage Writer (#150025)"
         }
     },
-    "completenessScore": [0.363245, 0.363364],
+    "completeness": [0.363245, 0.363364],
     "filename": "full-run/pyright_compare.081237.c53bc616d59-861d2cc02cc.json",
     "diff": {
         "absolute": {

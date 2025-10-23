@@ -11,7 +11,7 @@
             "message": "Fix bug visualizing 1D Tensor using rich (#152871)"
         }
     },
-    "completenessScore": [0.364637, 0.364677],
+    "completeness": [0.364637, 0.364677],
     "filename": "full-run/pyright_compare.082473.bb9fbb294af-93a0a7a0bf3.json",
     "diff": {
         "absolute": {

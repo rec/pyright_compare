@@ -11,7 +11,7 @@
             "message": "[typing] Add type hints to `__init__` methods in `torch.distributions`. (#144197)"
         }
     },
-    "completenessScore": [0.363364, 0.363308],
+    "completeness": [0.363364, 0.363308],
     "filename": "full-run/pyright_compare.081254.49f6cce736f-6c38b9be730.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Reland D80238201: [Torch.Export] Add flat arg paths in error message (#160919)"
         }
     },
-    "completenessScore": [0.377299, 0.377338],
+    "completeness": [0.377299, 0.377338],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~767"}, {"name": "11e97bc7bd4~766"}],
         "absolute": {

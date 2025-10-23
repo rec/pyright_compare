@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-04 12:37:06",
+            "commit_id": "16d07988fc8",
+            "message": "add supports_coalescing property in c10d::Backend  to determine whether backend supports coalescing (#135338)"
+        },
+        "after": {
+            "committer_date": "2025-03-04 13:33:28",
+            "commit_id": "fdee60769ac",
+            "message": "[DCP] Introduce process based async checkpointing (#147039)"
+        }
+    },
+    "filename": "pyright_compare.080050.16d07988fc8-fdee60769ac.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 3, "withAmbiguousType": 1},
+            "completenessScore": 9.7e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0519,
+                "withAmbiguousType": 0.1185
+            },
+            "completenessScore": 0.0268
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.logger.logger",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncCheckpointerType",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncCheckpointerType.PROCESS",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncCheckpointerType.THREAD"
+            ]
+        }
+    },
+    "completeness": [0.3622289081108186, 0.3623261060283243]
+}

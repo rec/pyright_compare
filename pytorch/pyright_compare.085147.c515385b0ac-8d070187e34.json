@@ -11,7 +11,7 @@
             "message": "fix type hints for interpolation functions (#157202)"
         }
     },
-    "completenessScore": [0.37365, 0.37365],
+    "completeness": [0.37365, 0.37365],
     "filename": "pyright_compare.085147.c515385b0ac-8d070187e34.json",
     "diff": {
         "symbols": {

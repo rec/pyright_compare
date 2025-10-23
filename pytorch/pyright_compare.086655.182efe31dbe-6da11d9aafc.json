@@ -11,7 +11,7 @@
             "message": "[C10D] Add check_rng_sync util (#160283)"
         }
     },
-    "completenessScore": [0.377164, 0.377141],
+    "completeness": [0.377164, 0.377141],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1180"}, {"name": "11e97bc7bd4~1179"}],
         "absolute": {

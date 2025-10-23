@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-27 05:05:34",
+            "commit_id": "748252378d8",
+            "message": "[ca] introduce RuntimeState to support c++ hooks via graph breaks (#149987)"
+        },
+        "after": {
+            "committer_date": "2025-03-27 05:10:20",
+            "commit_id": "e080bac5336",
+            "message": "Revert \"Introduce guard_or_true, guard_or_false (#148430)\""
+        }
+    },
+    "filename": "pyright_compare.080925.748252378d8-e080bac5336.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -2},
+            "completenessScore": 4.5e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.0214},
+            "completenessScore": 0.0125
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.guard_or_false",
+                "torch.fx.experimental.symbolic_shapes.guard_or_true"
+            ]
+        }
+    },
+    "completeness": [0.363375, 0.36342042755344417]
+}

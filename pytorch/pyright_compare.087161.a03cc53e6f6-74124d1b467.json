@@ -11,7 +11,7 @@
             "message": "[reland] [dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#161514)"
         }
     },
-    "completenessScore": [0.377391, 0.377391],
+    "completeness": [0.377391, 0.377391],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~674"}, {"name": "11e97bc7bd4~673"}],
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

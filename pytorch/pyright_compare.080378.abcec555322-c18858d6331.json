@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-11 19:49:28",
+            "commit_id": "abcec555322",
+            "message": "gracefully handle `tokenize.TokenError` in funcname parser. Adds support for non-Python source (#148737)"
+        },
+        "after": {
+            "committer_date": "2025-03-11 20:20:58",
+            "commit_id": "c18858d6331",
+            "message": "[MPS] Make `torch.mps.compile_shader` public (#148972)"
+        }
+    },
+    "filename": "pyright_compare.080378.abcec555322-c18858d6331.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0107},
+            "completenessScore": -0.0063
+        },
+        "symbols": {"added": ["torch.mps.compile_shader"]}
+    },
+    "completeness": [0.3626002004008016, 0.36257749389442046]
+}

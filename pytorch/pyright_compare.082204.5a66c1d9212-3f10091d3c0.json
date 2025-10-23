@@ -11,7 +11,7 @@
             "message": "Clean up conda usage in benchmark scripts (#152552)"
         }
     },
-    "completenessScore": [0.364738, 0.36449],
+    "completeness": [0.364738, 0.36449],
     "filename": "full-run/pyright_compare.082204.5a66c1d9212-3f10091d3c0.json",
     "diff": {
         "absolute": {

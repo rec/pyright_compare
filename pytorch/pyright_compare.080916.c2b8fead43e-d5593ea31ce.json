@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-27 02:16:40",
+            "commit_id": "c2b8fead43e",
+            "message": "Allow TritonTemplate subclasses to override kernel type (#150018)"
+        },
+        "after": {
+            "committer_date": "2025-03-27 02:22:20",
+            "commit_id": "d5593ea31ce",
+            "message": "Introduce guard_or_true, guard_or_false (#148430)"
+        }
+    },
+    "filename": "pyright_compare.080916.c2b8fead43e-d5593ea31ce.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 2},
+            "completenessScore": -4.5e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0214},
+            "completenessScore": -0.0125
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.symbolic_shapes.guard_or_false",
+                "torch.fx.experimental.symbolic_shapes.guard_or_true"
+            ]
+        }
+    },
+    "completeness": [0.3633806338688504, 0.36333520845052814]
+}

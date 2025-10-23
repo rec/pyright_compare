@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-28 21:42:58",
+            "commit_id": "1ffed44b420",
+            "message": "[aotinductor] update unbacked symint runtime assertion msg (#145569)"
+        },
+        "after": {
+            "committer_date": "2025-01-28 22:01:08",
+            "commit_id": "5aa5a5763e5",
+            "message": "[inductor triton] Disable incorrect TF32 usage on CUDA capability < 8 (#145684)"
+        }
+    },
+    "filename": "pyright_compare.078742.1ffed44b420-5aa5a5763e5.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0174},
+            "completenessScore": 0.0111
+        },
+        "symbols": {"added": ["torch.cuda.is_tf32_supported"]}
+    },
+    "completeness": [0.3621720254199962, 0.3622121555303888]
+}

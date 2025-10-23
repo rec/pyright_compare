@@ -11,7 +11,7 @@
             "message": "Optimize typing in `lr_scheduler.py` (#151219)"
         }
     },
-    "completenessScore": [0.363138, 0.364819],
+    "completeness": [0.363138, 0.364819],
     "filename": "full-run/pyright_compare.081542.4ede6705b57-25803d3a22a.json",
     "diff": {
         "absolute": {

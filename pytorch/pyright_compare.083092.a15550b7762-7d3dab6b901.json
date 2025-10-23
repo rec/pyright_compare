@@ -11,7 +11,7 @@
             "message": "Revert \"[BE]: Type previously untyped decorators (#153726)\""
         }
     },
-    "completenessScore": [0.370318, 0.368023],
+    "completeness": [0.370318, 0.368023],
     "filename": "full-run/pyright_compare.083092.a15550b7762-7d3dab6b901.json",
     "diff": {
         "absolute": {

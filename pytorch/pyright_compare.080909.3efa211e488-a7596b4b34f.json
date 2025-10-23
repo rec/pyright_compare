@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-27 00:01:09",
+            "commit_id": "3efa211e488",
+            "message": "[ONNX] Annotate None inputs in symbolic ops (#150038)"
+        },
+        "after": {
+            "committer_date": "2025-03-27 00:01:39",
+            "commit_id": "a7596b4b34f",
+            "message": "[invoke_subgraph] Fake tensor prop caching (#149087)"
+        }
+    },
+    "filename": "pyright_compare.080909.3efa211e488-a7596b4b34f.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1}},
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.0524,
+                "withAmbiguousType": -1.4286
+            }
+        },
+        "symbols": {
+            "common": {
+                "torch._subclasses.fake_tensor.FakeTensorMode.cache_enabled": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"bool\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3634033508377094, 0.3634033508377094]
+}

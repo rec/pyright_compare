@@ -11,7 +11,7 @@
             "message": "[dynamo][vllm] Support typing.get_type_hints (#161362)"
         }
     },
-    "completenessScore": [0.377353, 0.377353],
+    "completeness": [0.377353, 0.377353],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~636"}, {"name": "11e97bc7bd4~635"}],
         "absolute": {

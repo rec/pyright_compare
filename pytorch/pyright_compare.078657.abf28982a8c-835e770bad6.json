@@ -1,0 +1,108 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-27 18:05:23",
+            "commit_id": "abf28982a8c",
+            "message": "[CUDA][cuBLAS] Add fp16 accumulate option to cuBLAS/cuBLASLt (#144441)"
+        },
+        "after": {
+            "committer_date": "2025-01-27 18:08:07",
+            "commit_id": "835e770bad6",
+            "message": "Use `typing.IO[bytes]` instead of `io.BytesIO` in annotations (#144994)"
+        }
+    },
+    "filename": "pyright_compare.078657.abf28982a8c-835e770bad6.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 6,
+                "withAmbiguousType": 1,
+                "withUnknownType": -6
+            },
+            "completenessScore": 0.000355
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.1044,
+                "withAmbiguousType": 0.1224,
+                "withUnknownType": -0.0644
+            },
+            "completenessScore": 0.0981
+        },
+        "symbols": {
+            "added": ["torch.serialization.T", "torch.types.FileLike"],
+            "common": {
+                "torch.export.load": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"f\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | PathLike[Unknown] | BytesIO\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"PathLike\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.export.save": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"f\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | PathLike[Unknown] | BytesIO\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"PathLike\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.load": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"f\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | PathLike[Unknown] | BinaryIO | IO[bytes]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"PathLike\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.package.package_importer.PackageImporter.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"file_or_buffer\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | PyTorchFileReader | PathLike[Unknown] | BinaryIO\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"PathLike\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.package.package_importer.PackageImporter.filename": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type unknown for variable \"torch.package.package_importer.PackageImporter.filename\""
+                        ]
+                    }
+                },
+                "torch.save": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"f\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | PathLike[Unknown] | BinaryIO | IO[bytes]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"PathLike\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.serialization.get_unsafe_globals_in_checkpoint": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"f\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | PathLike[Unknown] | BinaryIO | IO[bytes]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"PathLike\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.serialization.load": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"f\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | PathLike[Unknown] | BinaryIO | IO[bytes]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"PathLike\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.serialization.save": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"f\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | PathLike[Unknown] | BinaryIO | IO[bytes]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"PathLike\" has unknown type"
+                        ]
+                    }
+                }
+            },
+            "removed": ["torch.serialization.FILE_LIKE"]
+        }
+    },
+    "completeness": [0.36182264459689095, 0.36217747010698553]
+}

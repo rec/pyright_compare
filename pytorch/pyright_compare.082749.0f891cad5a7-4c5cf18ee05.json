@@ -11,7 +11,7 @@
             "message": "[device_mesh] improve device selection logic (#150897)"
         }
     },
-    "completenessScore": [0.36523, 0.36527],
+    "completeness": [0.36523, 0.36527],
     "filename": "full-run/pyright_compare.082749.0f891cad5a7-4c5cf18ee05.json",
     "diff": {
         "absolute": {

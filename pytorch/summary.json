@@ -1,10 +1,1562 @@
 [
     {
+        "committer_date": "2025-01-16 19:50:31",
+        "commit_id": "3908be676c7",
+        "index": 78278,
+        "message": "Fix loading older state_dict into AdamW after refactor (#144972)",
+        "completeness": 36.0919,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-17 01:07:12",
+        "commit_id": "5d54e7b812a",
+        "index": 78303,
+        "message": "[Pipelining] move scale_grads to base class, add docs (#144833)",
+        "completeness": 36.0775,
+        "diagnostics": {"added": 1, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -3, "withUnknownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1},
+            "completenessScore": -0.000143
+        },
+        "symbols": {"added": 1, "removed": 2}
+    },
+    {
+        "committer_date": "2025-01-17 01:49:28",
+        "commit_id": "176cde62404",
+        "index": 78308,
+        "message": "Use torch with statement in torch distributed module (#144951)",
+        "completeness": 36.0775,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 1}},
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-01-17 01:51:37",
+        "commit_id": "9c909bf3bb1",
+        "index": 78310,
+        "message": "[dcp] Integrate stream extensions into DCP impl (#143359)",
+        "completeness": 36.0753,
+        "diff": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "otherSymbolCounts": {
+                "withKnownType": 12,
+                "withAmbiguousType": 3,
+                "withUnknownType": 3
+            },
+            "missingFunctionDocStringCount": 3,
+            "missingClassDocStringCount": 1,
+            "completenessScore": -2.3e-05
+        },
+        "symbols": {"added": 19}
+    },
+    {
+        "committer_date": "2025-01-17 20:10:22",
+        "commit_id": "0eda02a94c7",
+        "index": 78333,
+        "message": "Prevent legacy_load when weights_only=True (correctly) (#145020)",
+        "completeness": 36.0793,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-19 10:20:00",
+        "commit_id": "9e0437a04a2",
+        "index": 78376,
+        "message": "PEP585 update - torch/ao/quantization (#145140)",
+        "completeness": 36.1296,
+        "diagnostics": {"added": 84, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 8, "withUnknownType": -8},
+            "completenessScore": 0.000503
+        },
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-01-20 18:11:54",
+        "commit_id": "0b2a3687b9f",
+        "index": 78395,
+        "message": "PEP585 update - torch/fx (#145166)",
+        "completeness": 36.1737,
+        "diagnostics": {"added": 32, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {
+                "withKnownType": 7,
+                "withAmbiguousType": 1,
+                "withUnknownType": -8
+            },
+            "completenessScore": 0.000441
+        },
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-01-20 22:37:26",
+        "commit_id": "805c4b597a1",
+        "index": 78401,
+        "message": "PEP585 update - torch/_higher_order_ops torch/_subclasses torch/backends torch/compiler torch/cuda torch/masked torch/mtia torch/nested (#145202)",
+        "completeness": 36.1737,
+        "diagnostics": {"added": 3, "removed": 0},
+        "diff": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1}},
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-01-21 20:44:09",
+        "commit_id": "323fb4dad0e",
+        "index": 78418,
+        "message": "Unconditionally exclude upper bound in all size oblivious tests (#144867)",
+        "completeness": 36.1697,
+        "diff": {"exportedSymbolCounts": {"withKnownType": -1}, "completenessScore": -4e-05},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-01-21 21:04:10",
+        "commit_id": "2f9d378f7bd",
+        "index": 78420,
+        "message": "PEP585 update - torch/utils (#145201)",
+        "completeness": 36.1657,
+        "diagnostics": {"added": 26, "removed": 0},
+        "diff": {"exportedSymbolCounts": {"withKnownType": -1}, "completenessScore": -4e-05},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-01-22 14:58:35",
+        "commit_id": "fbaef0ac038",
+        "index": 78445,
+        "message": "Add a language option for symbolic shape guards (#143164)",
+        "completeness": 36.1697,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1},
+            "missingFunctionDocStringCount": 2,
+            "completenessScore": 4e-05
+        },
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-01-22 20:11:49",
+        "commit_id": "0940eb6d44f",
+        "index": 78461,
+        "message": "Reverting the PR adding Kleidiai-based int4 kernels (#145392)",
+        "completeness": 36.1679,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": -1},
+            "completenessScore": -1.7e-05,
+            "filesAnalyzed": -1
+        },
+        "symbols": {"removed": 2}
+    },
+    {
+        "committer_date": "2025-01-23 18:50:59",
+        "commit_id": "41b38f755c4",
+        "index": 78513,
+        "message": "Revert \"Reverting the PR adding Kleidiai-based int4 kernels (#145392)\" (#145505)",
+        "completeness": 36.1697,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 1},
+            "completenessScore": 1.7e-05,
+            "filesAnalyzed": 1
+        },
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-01-23 23:56:45",
+        "commit_id": "6aaae9d78f0",
+        "index": 78543,
+        "message": "Make torchelastic etcd rendezvous publicly importable (#145396)",
+        "completeness": 36.1823,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 2, "withUnknownType": -2},
+            "otherSymbolCounts": {"withKnownType": 5},
+            "missingFunctionDocStringCount": 3,
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.000126
+        },
+        "symbols": {"added": 5}
+    },
+    {
+        "committer_date": "2025-01-24 10:06:07",
+        "commit_id": "f08b9bc7e4e",
+        "index": 78572,
+        "message": "[WIP] Move XNNPACKQuantizer from PyTorch to ExecuTorch (#144940)",
+        "completeness": 36.1823,
+        "diff": {"missingClassDocStringCount": -1},
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-01-24 16:47:32",
+        "commit_id": "c0861d092ce",
+        "index": 78581,
+        "message": "[PGNCCL] Add an API to get the status/error code at the PG level (#144498)",
+        "completeness": 36.1823,
+        "diff": {
+            "otherSymbolCounts": {"withKnownType": 6},
+            "missingFunctionDocStringCount": 1,
+            "missingClassDocStringCount": 1
+        },
+        "symbols": {"added": 6}
+    },
+    {
+        "committer_date": "2025-01-26 19:29:13",
+        "commit_id": "c6ad08357bf",
+        "index": 78641,
+        "message": "pickler for GraphModule (#141659)",
+        "completeness": 36.1823,
+        "diagnostics": {"added": 2, "removed": 0},
+        "diff": {
+            "otherSymbolCounts": {"withKnownType": -7, "withUnknownType": -2},
+            "missingClassDocStringCount": -1
+        },
+        "symbols": {"removed": 9}
+    },
+    {
+        "committer_date": "2025-01-27 18:08:07",
+        "commit_id": "835e770bad6",
+        "index": 78657,
+        "message": "Use `typing.IO[bytes]` instead of `io.BytesIO` in annotations (#144994)",
+        "completeness": 36.2177,
+        "diff": {
+            "exportedSymbolCounts": {
+                "withKnownType": 6,
+                "withAmbiguousType": 1,
+                "withUnknownType": -6
+            },
+            "completenessScore": 0.000355
+        },
+        "symbols": {"added": 2, "removed": 1}
+    },
+    {
+        "committer_date": "2025-01-27 19:22:43",
+        "commit_id": "ec91b7720fc",
+        "index": 78660,
+        "message": "[Custom Ops] Add a new API to allow users to register an autocast for the custom op (#145588)",
+        "completeness": 36.2155,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "otherSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3e-05
+        },
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-01-27 22:39:30",
+        "commit_id": "2de53b3b659",
+        "index": 78677,
+        "message": "Revert \"pickler for GraphModule (#141659)\"",
+        "completeness": 36.2155,
+        "diagnostics": {"added": 2, "removed": 0},
+        "diff": {
+            "otherSymbolCounts": {"withKnownType": 7, "withUnknownType": 2},
+            "missingClassDocStringCount": 1
+        },
+        "symbols": {"added": 9}
+    },
+    {
+        "committer_date": "2025-01-27 23:57:30",
+        "commit_id": "db3685a35cd",
+        "index": 78683,
+        "message": "Add option to serialization config to reduce random reads from get_record_offset when loading with mmap=True (#143880)",
+        "completeness": 36.2195,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-28 03:07:17",
+        "commit_id": "90106492928",
+        "index": 78694,
+        "message": "Revert \"Add option to serialization config to reduce random reads from get_record_offset when loading with mmap=True (#143880)\"",
+        "completeness": 36.2155,
+        "diff": {"exportedSymbolCounts": {"withKnownType": -1}, "completenessScore": -4e-05},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-01-28 04:43:49",
+        "commit_id": "8e46d0f5951",
+        "index": 78698,
+        "message": "[BE]: Update typing of OrderedSet ancestor (#145783)",
+        "completeness": 36.2155,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1}},
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-01-28 07:07:14",
+        "commit_id": "a699034eeca",
+        "index": 78701,
+        "message": "Record inputs at time of tracing, constrain to them for triton fn (#145448)",
+        "completeness": 36.2132,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.3e-05
+        },
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-28 20:11:05",
+        "commit_id": "515e55e6927",
+        "index": 78731,
+        "message": "Set -DPy_LIMITED_API flag for py_limited_api=True extensions (#145764)",
+        "completeness": 36.2172,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-28 22:01:08",
+        "commit_id": "5aa5a5763e5",
+        "index": 78742,
+        "message": "[inductor triton] Disable incorrect TF32 usage on CUDA capability < 8 (#145684)",
+        "completeness": 36.2212,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-29 02:48:56",
+        "commit_id": "9fd6722fc90",
+        "index": 78759,
+        "message": "[c10d] Add NCCL memory allocator (#145675)",
+        "completeness": 36.2212,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-29 18:07:12",
+        "commit_id": "0d6343347fb",
+        "index": 78785,
+        "message": "Revert \"Record inputs at time of tracing, constrain to them for triton fn (#145448)\"",
+        "completeness": 36.2235,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "missingFunctionDocStringCount": -1,
+            "completenessScore": 2.3e-05
+        },
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-01-29 18:30:30",
+        "commit_id": "6371c25b91f",
+        "index": 78788,
+        "message": "Revert \"[c10d] Add NCCL memory allocator (#145675)\"",
+        "completeness": 36.2235,
+        "diff": {"otherSymbolCounts": {"withKnownType": -1}},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-01-29 22:33:16",
+        "commit_id": "2e5886dcc45",
+        "index": 78810,
+        "message": "Add fake_impl for unique_consecutive (#145649)",
+        "completeness": 36.2235,
+        "diff": {"otherSymbolCounts": {"withUnknownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-29 23:20:22",
+        "commit_id": "18a7a04c4ad",
+        "index": 78814,
+        "message": "[c10d] Add NCCL memory allocator (#145675)",
+        "completeness": 36.2235,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-30 16:01:52",
+        "commit_id": "5fa28bbe407",
+        "index": 78831,
+        "message": "Revert \"[c10d] Add NCCL memory allocator (#145675)\"",
+        "completeness": 36.2235,
+        "diff": {"otherSymbolCounts": {"withKnownType": -1}},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-01-30 18:19:00",
+        "commit_id": "51ee9b154e1",
+        "index": 78836,
+        "message": "[c10d] Add NCCL memory allocator (#145675)",
+        "completeness": 36.2235,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-01-31 05:34:28",
+        "commit_id": "57d8278ab90",
+        "index": 78885,
+        "message": "pickler for GraphModule (#141659)",
+        "completeness": 36.2235,
+        "diagnostics": {"added": 2, "removed": 0},
+        "diff": {
+            "otherSymbolCounts": {"withKnownType": -7, "withUnknownType": -2},
+            "missingClassDocStringCount": -1
+        },
+        "symbols": {"removed": 9}
+    },
+    {
+        "committer_date": "2025-01-31 17:09:20",
+        "commit_id": "001e355a56a",
+        "index": 78896,
+        "message": "Add option to serialization config to reduce random reads from get_record_offset when loading with mmap=True (#143880)",
+        "completeness": 36.2275,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-01 01:25:25",
+        "commit_id": "6e734bab93d",
+        "index": 78930,
+        "message": "execution trace export supports gzip format (#146179)",
+        "completeness": 36.2315,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-04 04:42:30",
+        "commit_id": "0c37c332da5",
+        "index": 79023,
+        "message": "[export] Additionally save pytree namedtuple field names (#145956)",
+        "completeness": 36.2292,
+        "diff": {"exportedSymbolCounts": {"withAmbiguousType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-05 21:26:45",
+        "commit_id": "4ee7d0de86e",
+        "index": 79110,
+        "message": "Add generate_stage_to_rank_mapping utility (#146193)",
+        "completeness": 36.227,
+        "diagnostics": {"added": 1, "removed": 0},
+        "diff": {"exportedSymbolCounts": {"withAmbiguousType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-06 18:48:09",
+        "commit_id": "15b1ac3e86d",
+        "index": 79149,
+        "message": "Add torch.func.debug_unwrap (#146528)",
+        "completeness": 36.2247,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-06 19:50:02",
+        "commit_id": "6220c64aeaf",
+        "index": 79156,
+        "message": "[1/N][cp][example] flex attention in context parallel (forward pass) (#145896)",
+        "completeness": 36.2322,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 3, "withAmbiguousType": 2},
+            "missingFunctionDocStringCount": 2,
+            "completenessScore": 7.5e-05,
+            "filesAnalyzed": 1
+        },
+        "symbols": {"added": 5}
+    },
+    {
+        "committer_date": "2025-02-08 05:09:16",
+        "commit_id": "63c2909ae3e",
+        "index": 79207,
+        "message": "[ONNX] Adjust and add deprecation messages (#146639)",
+        "completeness": 36.2259,
+        "diagnostics": {"added": 2, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
+            "missingFunctionDocStringCount": -4,
+            "completenessScore": -6.3e-05
+        },
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-02-10 15:51:52",
+        "commit_id": "1557b7bf9a8",
+        "index": 79245,
+        "message": "Revert \"[ONNX] Adjust and add deprecation messages (#146639)\"",
+        "completeness": 36.2322,
+        "diagnostics": {"added": 4, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "missingFunctionDocStringCount": 4,
+            "completenessScore": 6.3e-05
+        },
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-02-10 19:30:19",
+        "commit_id": "3d604b17d91",
+        "index": 79267,
+        "message": "Exclude upsample_bilinear2d.vec from default core ATen decomposition table (#141791)",
+        "completeness": 36.2299,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-11 03:17:59",
+        "commit_id": "fe94ece375f",
+        "index": 79290,
+        "message": "Revert \"Exclude upsample_bilinear2d.vec from default core ATen decomposition table (#141791)\"",
+        "completeness": 36.2322,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": -1}, "completenessScore": 2.3e-05},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-02-11 03:51:48",
+        "commit_id": "001ebbf734a",
+        "index": 79292,
+        "message": "[MTIA] (4/n) Implement PyTorch APIs to query/reset device peak memory usage (#146751)",
+        "completeness": 36.2276,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 2}, "completenessScore": -4.6e-05},
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-02-11 18:16:15",
+        "commit_id": "c7515da7b00",
+        "index": 79303,
+        "message": "Implement cuda graphs implementation of torch.cond and torch.while_loop (#140979)",
+        "completeness": 36.2316,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 4},
+            "missingFunctionDocStringCount": 5,
+            "completenessScore": 4e-05
+        },
+        "symbols": {"added": 6}
+    },
+    {
+        "committer_date": "2025-02-11 19:05:14",
+        "commit_id": "ebd992724f5",
+        "index": 79305,
+        "message": "Implement serializable getattr support for tensor subclasses (#145772)",
+        "completeness": 36.2293,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3e-05,
+            "filesAnalyzed": 1
+        },
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-12 00:01:02",
+        "commit_id": "281249ba543",
+        "index": 79317,
+        "message": "[torch][amdsmi] Avoid ODR violation when loading amdsmi (#146324)",
+        "completeness": 36.2408,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withAmbiguousType": 2},
+            "missingFunctionDocStringCount": 1,
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.000115
+        },
+        "symbols": {"added": 6}
+    },
+    {
+        "committer_date": "2025-02-12 18:28:37",
+        "commit_id": "7f62616a585",
+        "index": 79345,
+        "message": "[ONNX][reland2] Create deprecation warning on dynamo_export (#146923)",
+        "completeness": 36.2345,
+        "diagnostics": {"added": 2, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
+            "missingFunctionDocStringCount": -4,
+            "completenessScore": -6.3e-05
+        },
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-02-13 15:11:48",
+        "commit_id": "8d94eb1e3bf",
+        "index": 79397,
+        "message": "[BE]: Make OrderedSet reversible (#146904)",
+        "completeness": 36.2345,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-13 17:44:30",
+        "commit_id": "7077d0ac8c2",
+        "index": 79408,
+        "message": "[DCP] Introduce modules metadata in the storage_meta (#146654)",
+        "completeness": 36.2385,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-13 18:04:26",
+        "commit_id": "9a883007a2f",
+        "index": 79412,
+        "message": "Revert \"Implement cuda graphs implementation of torch.cond and torch.while_loop (#140979)\"",
+        "completeness": 36.2345,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "otherSymbolCounts": {"withKnownType": -1, "withUnknownType": -4},
+            "missingFunctionDocStringCount": -5,
+            "completenessScore": -4e-05
+        },
+        "symbols": {"removed": 6}
+    },
+    {
+        "committer_date": "2025-02-14 01:11:59",
+        "commit_id": "6419076db90",
+        "index": 79424,
+        "message": "[torch][amdsmi] Look for amdsmi in ROCM_HOME/ROCM_PATH before using rpath (#147117)",
+        "completeness": 36.2385,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-14 17:06:50",
+        "commit_id": "e8fbc86de02",
+        "index": 79454,
+        "message": "Make torch.cuda.gds APIs public (#147120)",
+        "completeness": 36.2529,
+        "diff": {
+            "exportedSymbolCounts": {
+                "withKnownType": 7,
+                "withAmbiguousType": 1,
+                "withUnknownType": 5
+            },
+            "completenessScore": 0.000144
+        },
+        "symbols": {"added": 13}
+    },
+    {
+        "committer_date": "2025-02-14 19:25:32",
+        "commit_id": "272ead7b5e9",
+        "index": 79463,
+        "message": "Make fx.node.map_arg() and .map_aggregate() generic (#146248)",
+        "completeness": 36.2757,
+        "diagnostics": {"added": 1, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": -3},
+            "completenessScore": 0.000228
+        },
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-14 20:30:48",
+        "commit_id": "6f035d8462e",
+        "index": 79464,
+        "message": "[torch] Make amdsmi cdll hook private (#147207)",
+        "completeness": 36.2603,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -5, "withAmbiguousType": -2},
+            "missingFunctionDocStringCount": -1,
+            "missingClassDocStringCount": -1,
+            "completenessScore": -0.000155
+        },
+        "symbols": {"removed": 7}
+    },
+    {
+        "committer_date": "2025-02-15 00:38:00",
+        "commit_id": "933f921b366",
+        "index": 79474,
+        "message": "[PT][FSDP] support custom all reduce hook across FSDP units (#147114)",
+        "completeness": 36.2603,
+        "diff": {"otherSymbolCounts": {"withUnknownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-16 10:16:09",
+        "commit_id": "607379960bc",
+        "index": 79494,
+        "message": "xpu: support sycl with torch.utils.cpp_extension APIs (#132945)",
+        "completeness": 36.258,
+        "diagnostics": {"added": 5, "removed": 0},
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-16 16:03:42",
+        "commit_id": "dd5d0ea6bb0",
+        "index": 79497,
+        "message": "Revert \"xpu: support sycl with torch.utils.cpp_extension APIs (#132945)\"",
+        "completeness": 36.2603,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": -1}, "completenessScore": 2.3e-05},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-02-16 16:50:59",
+        "commit_id": "d27ecf85db3",
+        "index": 79498,
+        "message": "xpu: support sycl with torch.utils.cpp_extension APIs (#132945)",
+        "completeness": 36.258,
+        "diagnostics": {"added": 5, "removed": 0},
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-17 01:46:43",
+        "commit_id": "ae351d4d0ee",
+        "index": 79503,
+        "message": "[Intel GPU] allow_tf32 for oneDNN backend - XPU part (#137570)",
+        "completeness": 36.2535,
+        "diagnostics": {"added": 1, "removed": 0},
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 2}, "completenessScore": -4.6e-05},
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-02-17 22:42:16",
+        "commit_id": "59b7e52ad8f",
+        "index": 79516,
+        "message": "Fix non-bitwise type annotations for Tensor operators (see #145838) (#146845)",
+        "completeness": 36.2535,
+        "diagnostics": {"added": 1, "removed": 0},
+        "diff": {
+            "otherSymbolCounts": {
+                "withKnownType": 9,
+                "withAmbiguousType": 1,
+                "withUnknownType": -10
+            }
+        },
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-02-18 19:01:27",
+        "commit_id": "302f56a1f2d",
+        "index": 79535,
+        "message": "Revert \"Fix non-bitwise type annotations for Tensor operators (see #145838) (#146845)\"",
+        "completeness": 36.2535,
+        "diagnostics": {"added": 22, "removed": 0},
+        "diff": {
+            "otherSymbolCounts": {
+                "withKnownType": -9,
+                "withAmbiguousType": -1,
+                "withUnknownType": 10
+            }
+        },
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-02-18 22:54:41",
+        "commit_id": "a21a123fd57",
+        "index": 79545,
+        "message": "Add fqn_modifier at loading_state_dict and unit test (#146557)",
+        "completeness": 36.2575,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-19 23:03:29",
+        "commit_id": "f63db6255fd",
+        "index": 79582,
+        "message": "Re-land exclude upsample_bilinear2d.vec and nearest2d.vec from default export decomposition table (#147153)",
+        "completeness": 36.2552,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-20 08:43:16",
+        "commit_id": "9da250aadae",
+        "index": 79604,
+        "message": "type `fully_shard` so that the return value can be chained with typing enabled (#147489)",
+        "completeness": 36.2552,
+        "diagnostics": {"added": 3, "removed": 0},
+        "diff": {
+            "otherSymbolCounts": {"withKnownType": -1, "withUnknownType": -2},
+            "missingFunctionDocStringCount": -1,
+            "missingClassDocStringCount": -1
+        },
+        "symbols": {"removed": 3}
+    },
+    {
+        "committer_date": "2025-02-20 13:55:42",
+        "commit_id": "382fbcc1e43",
+        "index": 79610,
+        "message": "add the `torch.float8_e8m0fnu` dtype to PyTorch (#147466)",
+        "completeness": 36.2592,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-20 18:50:55",
+        "commit_id": "6971b775104",
+        "index": 79613,
+        "message": "[CPU Stream] Add noop for CPU stream record_event() and wait_event() (#145935)",
+        "completeness": 36.2609,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 1},
+            "missingFunctionDocStringCount": 2,
+            "completenessScore": 1.7e-05
+        },
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-02-21 01:32:34",
+        "commit_id": "ac88a6c00d1",
+        "index": 79622,
+        "message": "[fx] demote node prepend to self log from warning to debug (#147538)",
+        "completeness": 36.2586,
+        "diff": {"exportedSymbolCounts": {"withAmbiguousType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-22 00:10:31",
+        "commit_id": "5d26b7108f4",
+        "index": 79667,
+        "message": "[PP] Remove extra code and docs BE (#147636)",
+        "completeness": 36.2632,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": -2}, "completenessScore": 4.6e-05},
+        "symbols": {"removed": 2}
+    },
+    {
+        "committer_date": "2025-02-24 09:14:08",
+        "commit_id": "a50af71fb65",
+        "index": 79703,
+        "message": "[FX] Refactor immutable collections implementation (#144640)",
+        "completeness": 36.2337,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withAmbiguousType": 20},
+            "completenessScore": -0.000295
+        },
+        "symbols": {"added": 24}
+    },
+    {
+        "committer_date": "2025-02-25 20:59:25",
+        "commit_id": "6eb3d1e7627",
+        "index": 79780,
+        "message": "[DCP] Cache save plans in default planner (#147343)",
+        "completeness": 36.2377,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-26 05:05:06",
+        "commit_id": "c839fa4dd2c",
+        "index": 79803,
+        "message": "[Resubmit] Record input strides at time of tracing, constrain to them for triton fn (#147861)",
+        "completeness": 36.2354,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.3e-05
+        },
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-28 15:43:14",
+        "commit_id": "4708cfdbd93",
+        "index": 79926,
+        "message": "Support whitelist of dynamic sources (#147979)",
+        "completeness": 36.2394,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-02-28 18:36:44",
+        "commit_id": "945e359fc1a",
+        "index": 79934,
+        "message": "Initial implementation of host memory stats (#147660)",
+        "completeness": 36.2714,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 8}, "completenessScore": 0.00032},
+        "symbols": {"added": 8}
+    },
+    {
+        "committer_date": "2025-02-28 23:06:11",
+        "commit_id": "1ae7cc41ca3",
+        "index": 79950,
+        "message": "Define `__all__` for `torch.utils.tensorboard` (#147550)",
+        "completeness": 36.2708,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 2},
+            "completenessScore": -6e-06
+        },
+        "symbols": {"added": 3}
+    },
+    {
+        "committer_date": "2025-03-01 18:05:45",
+        "commit_id": "a983b2b11ad",
+        "index": 79975,
+        "message": "Revert \"Initial implementation of host memory stats (#147660)\"",
+        "completeness": 36.2389,
+        "diff": {"exportedSymbolCounts": {"withKnownType": -8}, "completenessScore": -0.000319},
+        "symbols": {"removed": 8}
+    },
+    {
+        "committer_date": "2025-03-02 22:42:31",
+        "commit_id": "0135f57f4aa",
+        "index": 79998,
+        "message": "[fx] Move Node._update_args_kwargs to C++ (#148260)",
+        "completeness": 36.2389,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-02 22:42:31",
+        "commit_id": "29c2de9ae16",
+        "index": 79999,
+        "message": "[fx] Move Node._prepend/Node._remove_from_list to C++ (#148261)",
+        "completeness": 36.2229,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -4},
+            "otherSymbolCounts": {"withKnownType": 4},
+            "completenessScore": -0.00016
+        },
+        "symbols": {"added": 4, "removed": 4}
+    },
+    {
+        "committer_date": "2025-03-03 17:28:41",
+        "commit_id": "57addfcd580",
+        "index": 80010,
+        "message": "Significantly speed up save_cache_artifacts (#148227)",
+        "completeness": 36.2229,
+        "diff": {
+            "otherSymbolCounts": {"withKnownType": 15},
+            "missingFunctionDocStringCount": 11,
+            "missingClassDocStringCount": 2
+        },
+        "symbols": {"added": 15}
+    },
+    {
+        "committer_date": "2025-03-04 12:37:06",
+        "commit_id": "16d07988fc8",
+        "index": 80049,
+        "message": "add supports_coalescing property in c10d::Backend  to determine whether backend supports coalescing (#135338)",
+        "completeness": 36.2229,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-04 13:33:28",
+        "commit_id": "fdee60769ac",
+        "index": 80050,
+        "message": "[DCP] Introduce process based async checkpointing (#147039)",
+        "completeness": 36.2326,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 3, "withAmbiguousType": 1},
+            "completenessScore": 9.7e-05
+        },
+        "symbols": {"added": 4}
+    },
+    {
+        "committer_date": "2025-03-04 19:40:21",
+        "commit_id": "97b9e68bc65",
+        "index": 80064,
+        "message": "Revert \"[fx] Move Node._prepend/Node._remove_from_list to C++ (#148261)\"",
+        "completeness": 36.2486,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 4},
+            "otherSymbolCounts": {"withKnownType": -4},
+            "completenessScore": 0.00016
+        },
+        "symbols": {"added": 4, "removed": 4}
+    },
+    {
+        "committer_date": "2025-03-04 19:40:21",
+        "commit_id": "17d003fe75c",
+        "index": 80065,
+        "message": "Revert \"[fx] Move Node._update_args_kwargs to C++ (#148260)\"",
+        "completeness": 36.2486,
+        "diff": {"otherSymbolCounts": {"withKnownType": -1}},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-03-05 01:00:29",
+        "commit_id": "b5873292c65",
+        "index": 80088,
+        "message": "Add overload names to profiler trace (#143114)",
+        "completeness": 36.2566,
+        "diagnostics": {"added": 3, "removed": 0},
+        "diff": {"exportedSymbolCounts": {"withKnownType": 2}, "completenessScore": 8e-05},
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-03-05 01:37:48",
+        "commit_id": "edc3ca577e1",
+        "index": 80093,
+        "message": "[Profiler] Add profiler activity for HPU devices (#148182)",
+        "completeness": 36.2566,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-05 04:11:41",
+        "commit_id": "913356fb414",
+        "index": 80097,
+        "message": "Fix recent regression in evaluate_expr that effect cache lookups (#147836)",
+        "completeness": 36.2583,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": 1.7e-05
+        },
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-03-05 05:30:19",
+        "commit_id": "fb1b7ec173a",
+        "index": 80100,
+        "message": "Remove deprecate method and attirbute in `LRScheduler` (#147301)",
+        "completeness": 36.2651,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": -3}, "completenessScore": 6.8e-05},
+        "symbols": {"removed": 3}
+    },
+    {
+        "committer_date": "2025-03-05 16:13:19",
+        "commit_id": "c65ee728f06",
+        "index": 80109,
+        "message": "Initial implementation of host memory stats (#147660)",
+        "completeness": 36.297,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 8}, "completenessScore": 0.000319},
+        "symbols": {"added": 8}
+    },
+    {
+        "committer_date": "2025-03-05 19:18:52",
+        "commit_id": "50e827b3dfb",
+        "index": 80117,
+        "message": "[ONNX] Create VerificationInterpreter (#148396)",
+        "completeness": 36.297,
+        "diff": {"otherSymbolCounts": {"withUnknownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-06 12:04:46",
+        "commit_id": "be0ceee1c37",
+        "index": 80157,
+        "message": "Make record/storage alignment in torch.save configurable (#147788)",
+        "completeness": 36.301,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 4e-05
+        },
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-06 18:59:02",
+        "commit_id": "f08146b67ba",
+        "index": 80171,
+        "message": "[pytree] add APIs to determine a class is a namedtuple or PyStructSequence (#113257)",
+        "completeness": 36.3124,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": 2},
+            "otherSymbolCounts": {"withKnownType": -4, "withUnknownType": -3},
+            "missingClassDocStringCount": -1,
+            "completenessScore": 0.000114
+        },
+        "symbols": {"added": 6, "removed": 7}
+    },
+    {
+        "committer_date": "2025-03-08 18:33:18",
+        "commit_id": "7ffadff2868",
+        "index": 80267,
+        "message": "c10d/ProcessGroup: cleanup abort and shutdown (#148798)",
+        "completeness": 36.3124,
+        "diff": {"otherSymbolCounts": {"withKnownType": 4}, "missingFunctionDocStringCount": 4},
+        "symbols": {"added": 4}
+    },
+    {
+        "committer_date": "2025-03-08 20:00:12",
+        "commit_id": "17dbeb11db7",
+        "index": 80270,
+        "message": "[PGNCCL] Launch kernel on current stream & remove `record_stream` entirely (#148590)",
+        "completeness": 36.2874,
+        "diagnostics": {"added": 2, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -4, "withUnknownType": 4},
+            "otherSymbolCounts": {"withKnownType": 3, "withUnknownType": 3},
+            "completenessScore": -0.00025
+        },
+        "symbols": {"added": 6}
+    },
+    {
+        "committer_date": "2025-03-09 03:01:55",
+        "commit_id": "9cb25f0ea28",
+        "index": 80271,
+        "message": "Revert \"[PGNCCL] Launch kernel on current stream & remove `record_stream` entirely (#148590)\"",
+        "completeness": 36.3124,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": -4},
+            "otherSymbolCounts": {"withKnownType": -3, "withUnknownType": -3},
+            "completenessScore": 0.00025
+        },
+        "symbols": {"removed": 6}
+    },
+    {
+        "committer_date": "2025-03-09 07:32:23",
+        "commit_id": "2149f6c6845",
+        "index": 80273,
+        "message": "[PGNCCL] Launch kernel on current stream & remove `record_stream` entirely (#148590)",
+        "completeness": 36.2874,
+        "diagnostics": {"added": 2, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -4, "withUnknownType": 4},
+            "otherSymbolCounts": {"withKnownType": 3, "withUnknownType": 3},
+            "completenessScore": -0.00025
+        },
+        "symbols": {"added": 6}
+    },
+    {
+        "committer_date": "2025-03-10 16:06:02",
+        "commit_id": "bf752c36da0",
+        "index": 80301,
+        "message": "[fx] Move Node._update_args_kwargs to C++ (#148260)",
+        "completeness": 36.2874,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-10 16:06:11",
+        "commit_id": "5d4e7d58b42",
+        "index": 80302,
+        "message": "[fx] Move Node._prepend/Node._remove_from_list to C++ (#148261)",
+        "completeness": 36.2714,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -4},
+            "otherSymbolCounts": {"withKnownType": 4},
+            "completenessScore": -0.00016
+        },
+        "symbols": {"added": 4, "removed": 4}
+    },
+    {
+        "committer_date": "2025-03-10 17:19:21",
+        "commit_id": "ebd087e4b59",
+        "index": 80307,
+        "message": "Revert \"[pytree] add APIs to determine a class is a namedtuple or PyStructSequence (#113257)\"",
+        "completeness": 36.26,
+        "diagnostics": {"added": 1, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -4, "withUnknownType": -2},
+            "otherSymbolCounts": {"withKnownType": 4, "withUnknownType": 3},
+            "missingClassDocStringCount": 1,
+            "completenessScore": -0.000114
+        },
+        "symbols": {"added": 7, "removed": 6}
+    },
+    {
+        "committer_date": "2025-03-10 22:38:40",
+        "commit_id": "a95eb0c0a7d",
+        "index": 80328,
+        "message": "Revert \"[PGNCCL] Launch kernel on current stream & remove `record_stream` entirely (#148590)\"",
+        "completeness": 36.2851,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": -4},
+            "otherSymbolCounts": {"withKnownType": -3, "withUnknownType": -3},
+            "completenessScore": 0.000251
+        },
+        "symbols": {"removed": 6}
+    },
+    {
+        "committer_date": "2025-03-11 18:36:12",
+        "commit_id": "ef6296e7f20",
+        "index": 80360,
+        "message": "[PGNCCL] Launch kernel on current stream & remove `record_stream` entirely (#148590)",
+        "completeness": 36.26,
+        "diagnostics": {"added": 2, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -4, "withUnknownType": 4},
+            "otherSymbolCounts": {"withKnownType": 3, "withUnknownType": 3},
+            "completenessScore": -0.000251
+        },
+        "symbols": {"added": 6}
+    },
+    {
+        "committer_date": "2025-03-11 20:20:58",
+        "commit_id": "c18858d6331",
+        "index": 80378,
+        "message": "[MPS] Make `torch.mps.compile_shader` public (#148972)",
+        "completeness": 36.2577,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-11 20:55:18",
+        "commit_id": "cf19efd3d9e",
+        "index": 80381,
+        "message": "Support basic TorchBind in aot_compile and aoti_compile_and_package (#148506)",
+        "completeness": 36.2577,
+        "diff": {"otherSymbolCounts": {"withKnownType": 3}, "missingFunctionDocStringCount": 1},
+        "symbols": {"added": 3}
+    },
+    {
+        "committer_date": "2025-03-11 21:58:38",
+        "commit_id": "2dcdb4ba782",
+        "index": 80389,
+        "message": "[ez] include config as part of __all__ in torch.compiler (#148978)",
+        "completeness": 36.2617,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-13 01:42:10",
+        "commit_id": "4a12777ffed",
+        "index": 80427,
+        "message": "[Partitioner] Remove unnecessary upstream nodes in dependency viewer (#146580)",
+        "completeness": 36.2617,
+        "diff": {"otherSymbolCounts": {"withUnknownType": -2}, "missingFunctionDocStringCount": -1},
+        "symbols": {"removed": 2}
+    },
+    {
+        "committer_date": "2025-03-14 08:50:30",
+        "commit_id": "c95a6b416b4",
+        "index": 80480,
+        "message": "[pytree] add APIs to determine a class is a namedtuple or PyStructSequence (#113257)",
+        "completeness": 36.2732,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": 2},
+            "otherSymbolCounts": {"withKnownType": -4, "withUnknownType": -3},
+            "missingClassDocStringCount": -1,
+            "completenessScore": 0.000114
+        },
+        "symbols": {"added": 6, "removed": 7}
+    },
+    {
+        "committer_date": "2025-03-14 23:13:34",
+        "commit_id": "f9b4856989c",
+        "index": 80505,
+        "message": "Revert \"[pytree] add APIs to determine a class is a namedtuple or PyStructSequence (#113257)\"",
+        "completeness": 36.2617,
+        "diagnostics": {"added": 1, "removed": 0},
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -4, "withUnknownType": -2},
+            "otherSymbolCounts": {"withKnownType": 4, "withUnknownType": 3},
+            "missingClassDocStringCount": 1,
+            "completenessScore": -0.000114
+        },
+        "symbols": {"added": 7, "removed": 6}
+    },
+    {
+        "committer_date": "2025-03-16 18:19:19",
+        "commit_id": "6b1b95ad2ac",
+        "index": 80528,
+        "message": "Support subclass constructor capturing in export (#147014)",
+        "completeness": 36.2617,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-17 22:43:15",
+        "commit_id": "afa1eda901b",
+        "index": 80553,
+        "message": "Revert \"[PGNCCL] Launch kernel on current stream & remove `record_stream` entirely (#148590)\"",
+        "completeness": 36.2868,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": -4},
+            "otherSymbolCounts": {"withKnownType": -3, "withUnknownType": -3},
+            "completenessScore": 0.00025
+        },
+        "symbols": {"removed": 6}
+    },
+    {
+        "committer_date": "2025-03-18 02:10:34",
+        "commit_id": "ebabd0efddd",
+        "index": 80571,
+        "message": "[ONNX] Expose verification utilities (#148603)",
+        "completeness": 36.2822,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": 2},
+            "otherSymbolCounts": {"withKnownType": 13, "withUnknownType": 2},
+            "completenessScore": -4.5e-05
+        },
+        "symbols": {"added": 17}
+    },
+    {
+        "committer_date": "2025-03-18 17:21:54",
+        "commit_id": "5b8cc4709ab",
+        "index": 80597,
+        "message": "[FSDP2] Add set_reshard_after_forward (#149103)",
+        "completeness": 36.2822,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-18 20:47:57",
+        "commit_id": "d80a70b58ad",
+        "index": 80607,
+        "message": "Avoid unnecessary clone in torch.cuda.set_rng_state (#149283)",
+        "completeness": 36.28,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 1}, "completenessScore": -2.3e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-18 21:32:06",
+        "commit_id": "010963032c2",
+        "index": 80608,
+        "message": "[ONNX] Create onnx_symbolic (#148905)",
+        "completeness": 36.2857,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 2, "withUnknownType": 1},
+            "completenessScore": 5.7e-05,
+            "filesAnalyzed": 1
+        },
+        "symbols": {"added": 3}
+    },
+    {
+        "committer_date": "2025-03-19 03:20:38",
+        "commit_id": "14dc6e732d0",
+        "index": 80623,
+        "message": "Cache the get_device_module result (#149207)",
+        "completeness": 36.2919,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 6.3e-05
+        },
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-03-19 03:43:30",
+        "commit_id": "20874a1f46c",
+        "index": 80624,
+        "message": "debug ival swap (#149206)",
+        "completeness": 36.2919,
+        "diagnostics": {"added": 2, "removed": 0},
+        "diff": {"otherSymbolCounts": {"withUnknownType": -2}},
+        "symbols": {"added": 1, "removed": 3}
+    },
+    {
+        "committer_date": "2025-03-19 07:54:02",
+        "commit_id": "8bf3f3fc43b",
+        "index": 80635,
+        "message": "[c10d] Add a collective time estimator for NCCL comms (#149343)",
+        "completeness": 36.2919,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-19 18:51:07",
+        "commit_id": "96828a21559",
+        "index": 80649,
+        "message": "[export] refactor DimHints for type errors (#149424)",
+        "completeness": 36.2829,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": 4},
+            "otherSymbolCounts": {"withKnownType": 11, "withUnknownType": 4},
+            "missingFunctionDocStringCount": 3,
+            "missingClassDocStringCount": 1,
+            "completenessScore": -9.1e-05
+        },
+        "symbols": {"added": 19}
+    },
+    {
+        "committer_date": "2025-03-19 19:57:18",
+        "commit_id": "fae79e91a0f",
+        "index": 80652,
+        "message": "Remove torch.export.export_for_inference (#149078)",
+        "completeness": 36.2851,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": -1}, "completenessScore": 2.3e-05},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-03-20 01:22:05",
+        "commit_id": "1442230a267",
+        "index": 80669,
+        "message": "Supporting non-tensor-data write_size in planner write items. (#149434)",
+        "completeness": 36.321,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 9},
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.000359
+        },
+        "symbols": {"added": 9}
+    },
+    {
+        "committer_date": "2025-03-20 06:52:02",
+        "commit_id": "90ef7a95618",
+        "index": 80681,
+        "message": "Revert \"Supporting non-tensor-data write_size in planner write items. (#149434)\"",
+        "completeness": 36.2851,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": -9},
+            "missingClassDocStringCount": -1,
+            "completenessScore": -0.000359
+        },
+        "symbols": {"removed": 9}
+    },
+    {
+        "committer_date": "2025-03-20 23:07:45",
+        "commit_id": "f47aa081308",
+        "index": 80715,
+        "message": "[export] Support python assertion with symints. (#149444)",
+        "completeness": 36.2931,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 2}, "completenessScore": 8e-05},
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-03-21 03:59:25",
+        "commit_id": "bf6621d08fe",
+        "index": 80729,
+        "message": "[Distributed] Add `repr` methods for `ParallelStyle`s (#149478)",
+        "completeness": 36.313,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 5}, "completenessScore": 0.000199},
+        "symbols": {"added": 5}
+    },
+    {
+        "committer_date": "2025-03-21 18:09:14",
+        "commit_id": "1b08aaeafe9",
+        "index": 80748,
+        "message": "Supporting non-tensor-data write_size in planner write items. (#149699)",
+        "completeness": 36.3489,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 9},
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.000358
+        },
+        "symbols": {"added": 9}
+    },
+    {
+        "committer_date": "2025-03-21 21:31:58",
+        "commit_id": "fb07fe6f366",
+        "index": 80758,
+        "message": "pretty print graph signature (#149710)",
+        "completeness": 36.342,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 3}, "completenessScore": -6.8e-05},
+        "symbols": {"added": 3}
+    },
+    {
+        "committer_date": "2025-03-23 19:35:16",
+        "commit_id": "2dccd70ef04",
+        "index": 80782,
+        "message": "[ONNX] Clean up legacy dynamo export code (#149745)",
+        "completeness": 36.3443,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "otherSymbolCounts": {"withKnownType": -30, "withUnknownType": -5},
+            "completenessScore": 2.3e-05
+        },
+        "symbols": {"added": 2, "removed": 38}
+    },
+    {
+        "committer_date": "2025-03-24 17:25:25",
+        "commit_id": "1e159db57c6",
+        "index": 80797,
+        "message": "[export] Save unflattened gm (#149717)",
+        "completeness": 36.342,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.3e-05
+        },
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-24 17:41:01",
+        "commit_id": "42e7bda53eb",
+        "index": 80799,
+        "message": "Revert \"[export] Save unflattened gm (#149717)\"",
+        "completeness": 36.3443,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "missingFunctionDocStringCount": -1,
+            "completenessScore": 2.3e-05
+        },
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-03-25 03:16:23",
+        "commit_id": "280e48739a4",
+        "index": 80830,
+        "message": "[ONNX] Set is_in_onnx_export for dynamo=True (#149678)",
+        "completeness": 36.3403,
+        "diff": {"exportedSymbolCounts": {"withKnownType": -1}, "completenessScore": -4e-05},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-03-27 00:01:39",
+        "commit_id": "a7596b4b34f",
+        "index": 80909,
+        "message": "[invoke_subgraph] Fake tensor prop caching (#149087)",
+        "completeness": 36.3403,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1}},
+        "symbols": {}
+    },
+    {
+        "committer_date": "2025-03-27 02:01:51",
+        "commit_id": "8d1cfb63b5f",
+        "index": 80914,
+        "message": "[export] Save unflattened gm (#150030)",
+        "completeness": 36.3381,
+        "diff": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.3e-05
+        },
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-27 02:22:20",
+        "commit_id": "d5593ea31ce",
+        "index": 80916,
+        "message": "Introduce guard_or_true, guard_or_false (#148430)",
+        "completeness": 36.3335,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 2}, "completenessScore": -4.5e-05},
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-03-27 03:39:27",
+        "commit_id": "1f92348dc6c",
+        "index": 80921,
+        "message": "Use source hashing to generate consistent symbolic ids (#149665)",
+        "completeness": 36.3375,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-27 05:10:20",
+        "commit_id": "e080bac5336",
+        "index": 80925,
+        "message": "Revert \"Introduce guard_or_true, guard_or_false (#148430)\"",
+        "completeness": 36.342,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": -2}, "completenessScore": 4.5e-05},
+        "symbols": {"removed": 2}
+    },
+    {
+        "committer_date": "2025-03-27 09:34:05",
+        "commit_id": "6cbcdee9445",
+        "index": 80929,
+        "message": "Introduce guard_or_true, guard_or_false (#148430)",
+        "completeness": 36.3375,
+        "diff": {"exportedSymbolCounts": {"withUnknownType": 2}, "completenessScore": -4.5e-05},
+        "symbols": {"added": 2}
+    },
+    {
+        "committer_date": "2025-03-27 16:02:27",
+        "commit_id": "af7719a2fa0",
+        "index": 80934,
+        "message": "Revert \"Use source hashing to generate consistent symbolic ids (#149665)\"",
+        "completeness": 36.3335,
+        "diff": {"exportedSymbolCounts": {"withKnownType": -1}, "completenessScore": -4e-05},
+        "symbols": {"removed": 1}
+    },
+    {
+        "committer_date": "2025-03-27 16:23:07",
+        "commit_id": "c830d750e6a",
+        "index": 80936,
+        "message": "[graph partition] support splitting on custom ops (#149782)",
+        "completeness": 36.3335,
+        "diff": {"otherSymbolCounts": {"withKnownType": 1}},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-27 17:32:20",
+        "commit_id": "e33bc419588",
+        "index": 80942,
+        "message": "add `torch.float4_e2m1fn_x2` to PyTorch (#148791)",
+        "completeness": 36.3375,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-28 05:36:32",
+        "commit_id": "f649ee73ce2",
+        "index": 80966,
+        "message": "Use source hashing to generate consistent symbolic ids (#149665)",
+        "completeness": 36.3415,
+        "diff": {"exportedSymbolCounts": {"withKnownType": 1}, "completenessScore": 4e-05},
+        "symbols": {"added": 1}
+    },
+    {
+        "committer_date": "2025-03-28 06:19:03",
+        "commit_id": "103bf64a3c7",
+        "index": 80967,
+        "message": "[export] refactor _Dim into Dim (#149891)",
+        "completeness": 36.3375,
+        "diff": {
+            "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 7},
+            "completenessScore": -4e-05
+        },
+        "symbols": {"added": 11, "removed": 1}
+    },
+    {
         "committer_date": "2025-03-29 03:33:07",
         "commit_id": "7a470c93206",
         "index": 81000,
         "message": "[ROCm] change preferred blas lib defaults (#150212)",
-        "completeness": 36.34,
+        "completeness": 36.3375,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -13,7 +1565,7 @@
         "commit_id": "284b7668980",
         "index": 81045,
         "message": "[dynamic shapes] C++ bindings for guard_or_false/true (#150148)",
-        "completeness": 36.33,
+        "completeness": 36.333,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 2},
             "missingFunctionDocStringCount": 2,
@@ -26,7 +1578,7 @@
         "commit_id": "925fd4aa2e4",
         "index": 81050,
         "message": "[export] min/max ranges for dim hints (#149590)",
-        "completeness": 36.33,
+        "completeness": 36.333,
         "diff": {"otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 1}},
         "symbols": {"added": 3}
     },
@@ -35,7 +1587,7 @@
         "commit_id": "a10b765bf15",
         "index": 81075,
         "message": "[pytree] add APIs to determine a class is a namedtuple or PyStructSequence (#113257)",
-        "completeness": 36.34,
+        "completeness": 36.3443,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": 2},
             "otherSymbolCounts": {"withKnownType": -4, "withUnknownType": -3},
@@ -49,7 +1601,7 @@
         "commit_id": "35c45a4a315",
         "index": 81082,
         "message": "[Reland] Launch kernel on current stream & remove `record_stream` entirely (#150398)",
-        "completeness": 36.32,
+        "completeness": 36.3194,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -4, "withUnknownType": 4},
@@ -63,7 +1615,7 @@
         "commit_id": "3b0cd9b542b",
         "index": 81088,
         "message": "[Quant][PT2E] add a lowering pass for x86 backend (#149708)",
-        "completeness": 36.32,
+        "completeness": 36.3171,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.267126763250138e-05,
@@ -76,7 +1628,7 @@
         "commit_id": "d2ad9aa2f29",
         "index": 81097,
         "message": "[dtensor][tp] add a ParallelStyle PrepareModuleInputOutput (#150372)",
-        "completeness": 36.32,
+        "completeness": 36.316,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2, "withAmbiguousType": 4},
             "completenessScore": -1.11709857249509e-05
@@ -88,7 +1640,7 @@
         "commit_id": "b70d105c779",
         "index": 81103,
         "message": "infer dynamic shapes through additional inputs (#150144)",
-        "completeness": 36.31,
+        "completeness": 36.3086,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 5},
             "completenessScore": -7.353787370972809e-05
@@ -100,7 +1652,7 @@
         "commit_id": "c69c3c885e8",
         "index": 81132,
         "message": "Add needs_exact_strides operator tag for Inductor to force exact strides (#148063)",
-        "completeness": 36.31,
+        "completeness": 36.3086,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -109,7 +1661,7 @@
         "commit_id": "d41c22b5781",
         "index": 81202,
         "message": "Revert \"[fx] Move Node._prepend/Node._remove_from_list to C++ (#148261)\" (#150542)",
-        "completeness": 36.32,
+        "completeness": 36.3245,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 4},
             "otherSymbolCounts": {"withKnownType": -4},
@@ -122,7 +1674,7 @@
         "commit_id": "861d2cc02cc",
         "index": 81237,
         "message": "Add a param for save format in Storage Writer (#150025)",
-        "completeness": 36.34,
+        "completeness": 36.3364,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 3},
             "otherSymbolCounts": {"withKnownType": 1},
@@ -136,7 +1688,7 @@
         "commit_id": "6c38b9be730",
         "index": 81254,
         "message": "[typing] Add type hints to `__init__` methods in `torch.distributions`. (#144197)",
-        "completeness": 36.33,
+        "completeness": 36.3308,
         "diagnostics": {"added": 121, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {
@@ -153,7 +1705,7 @@
         "commit_id": "eba05e2d3ef",
         "index": 81285,
         "message": "[AO] Refactor convert and add QuantAffinePlaceholderObserver (#150644)",
-        "completeness": 36.33,
+        "completeness": 36.3285,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.2638820001641413e-05
@@ -165,7 +1717,7 @@
         "commit_id": "78fe079c97f",
         "index": 81287,
         "message": "Support having no metadata file for HuggingFaceStorageReader (#150701)",
-        "completeness": 36.32,
+        "completeness": 36.324,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 2},
             "missingFunctionDocStringCount": 2,
@@ -178,7 +1730,7 @@
         "commit_id": "c714d2fc0ee",
         "index": 81347,
         "message": "[hop] support base_hop._gen_schema (#149688)",
-        "completeness": 36.32,
+        "completeness": 36.324,
         "diff": {"otherSymbolCounts": {"withKnownType": 3}},
         "symbols": {"added": 3}
     },
@@ -187,7 +1739,7 @@
         "commit_id": "f237ee54bfb",
         "index": 81358,
         "message": "ProcessGroupGloo: support lazy_init (#150801)",
-        "completeness": 36.32,
+        "completeness": 36.324,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {"otherSymbolCounts": {"withKnownType": -1, "withUnknownType": 1}},
         "symbols": {}
@@ -197,7 +1749,7 @@
         "commit_id": "4273e5d15cf",
         "index": 81388,
         "message": "Expose is_available API for torch.backends.mkldnn (#147432)",
-        "completeness": 36.32,
+        "completeness": 36.3217,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "missingFunctionDocStringCount": 1,
@@ -210,7 +1762,7 @@
         "commit_id": "73f3d6d9aaa",
         "index": 81390,
         "message": "Revert \"ProcessGroupGloo: support lazy_init (#150801)\"",
-        "completeness": 36.32,
+        "completeness": 36.3217,
         "diff": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1}},
         "symbols": {}
     },
@@ -219,7 +1771,7 @@
         "commit_id": "e6969c1bd8d",
         "index": 81393,
         "message": "[export] Symint support (nonstrict, Dim.DYNAMIC) (#150198)",
-        "completeness": 36.34,
+        "completeness": 36.341,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 6, "withUnknownType": 2},
             "completenessScore": 0.00019268086678803087
@@ -231,7 +1783,7 @@
         "commit_id": "5471e80fb4c",
         "index": 81394,
         "message": "Remove guard_size_oblivious from vector_norm decomposition. (#148809)",
-        "completeness": 36.34,
+        "completeness": 36.3387,
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": 1},
             "completenessScore": -2.2628264377266838e-05
@@ -243,7 +1795,7 @@
         "commit_id": "f304483e95b",
         "index": 81413,
         "message": "[ONNX] Add asdict method to VerificationInfo class (#151024)",
-        "completeness": 36.34,
+        "completeness": 36.3387,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -252,7 +1804,7 @@
         "commit_id": "df4e5294a66",
         "index": 81420,
         "message": "Reapply \"ProcessGroupGloo: support lazy_init (#150801)\" (#151031)",
-        "completeness": 36.34,
+        "completeness": 36.3387,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {"otherSymbolCounts": {"withKnownType": -1, "withUnknownType": 1}},
         "symbols": {}
@@ -262,7 +1814,7 @@
         "commit_id": "86370fd6580",
         "index": 81425,
         "message": "[dynamo] Allow guards to be dropped with custom filter functions. (#150936)",
-        "completeness": 36.33,
+        "completeness": 36.3325,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
@@ -275,7 +1827,7 @@
         "commit_id": "85549fe6de3",
         "index": 81457,
         "message": "Add `__all__` for `torch.utils.dlpack` (#149026)",
-        "completeness": 36.33,
+        "completeness": 36.3302,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "missingFunctionDocStringCount": 1,
@@ -288,7 +1840,7 @@
         "commit_id": "304633152c2",
         "index": 81497,
         "message": "Clean up duplicated code in lr_scheduler (#150984)",
-        "completeness": 36.31,
+        "completeness": 36.3138,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {
@@ -306,7 +1858,7 @@
         "commit_id": "8494d5582a1",
         "index": 81500,
         "message": "Propagate callable parameter types using ParamSpec (#142306) (#151014)",
-        "completeness": 36.31,
+        "completeness": 36.3099,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
@@ -319,7 +1871,7 @@
         "commit_id": "bbc5fe85045",
         "index": 81508,
         "message": "Add inductor standalone_compile API (#150670)",
-        "completeness": 36.32,
+        "completeness": 36.3161,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1},
             "completenessScore": 6.22703779811773e-05
@@ -331,7 +1883,7 @@
         "commit_id": "5a64476ed64",
         "index": 81510,
         "message": "[Easy] Add `output_size` in forward method of ConvTranspose2d (#150609)",
-        "completeness": 36.32,
+        "completeness": 36.3161,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -340,7 +1892,7 @@
         "commit_id": "24b3ab92550",
         "index": 81515,
         "message": "Revert \"Add inductor standalone_compile API (#150670)\"",
-        "completeness": 36.31,
+        "completeness": 36.3099,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withAmbiguousType": 1},
@@ -353,7 +1905,7 @@
         "commit_id": "6dddd6520da",
         "index": 81523,
         "message": "[dynamic shapes] add sym_and, sym_or (#150456)",
-        "completeness": 36.31,
+        "completeness": 36.3076,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": -1, "withUnknownType": 2},
@@ -366,7 +1918,7 @@
         "commit_id": "c9aef508984",
         "index": 81536,
         "message": "Add inductor standalone_compile API (#150670)",
-        "completeness": 36.31,
+        "completeness": 36.3138,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1},
             "completenessScore": 6.226650062268746e-05
@@ -378,7 +1930,7 @@
         "commit_id": "25803d3a22a",
         "index": 81542,
         "message": "Optimize typing in `lr_scheduler.py` (#151219)",
-        "completeness": 36.48,
+        "completeness": 36.4819,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 27, "withUnknownType": -27},
             "completenessScore": 0.0016811955168119508
@@ -390,7 +1942,7 @@
         "commit_id": "c5de6ff079e",
         "index": 81560,
         "message": "Remove ls from filesystem base (#151117)",
-        "completeness": 36.48,
+        "completeness": 36.4842,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -1},
             "missingFunctionDocStringCount": -1,
@@ -403,7 +1955,7 @@
         "commit_id": "74f6bc28a72",
         "index": 81564,
         "message": "Revert \"Add inductor standalone_compile API (#150670)\"",
-        "completeness": 36.48,
+        "completeness": 36.478,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withAmbiguousType": 1},
@@ -416,7 +1968,7 @@
         "commit_id": "f98150fc8e6",
         "index": 81578,
         "message": "Warn user of existing lock file to avoid infinite waiting (#149382)",
-        "completeness": 36.48,
+        "completeness": 36.4757,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
@@ -429,7 +1981,7 @@
         "commit_id": "3cf0e2d8ec8",
         "index": 81588,
         "message": "Add inductor standalone_compile API (#150670)",
-        "completeness": 36.48,
+        "completeness": 36.4819,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1},
             "completenessScore": 6.226650062263195e-05
@@ -441,7 +1993,7 @@
         "commit_id": "2ed2cb58051",
         "index": 81673,
         "message": "add generalized pareto distribution (GPD) (#135968)",
-        "completeness": 36.45,
+        "completeness": 36.453,
         "diff": {
             "exportedSymbolCounts": {
                 "withKnownType": 3,
@@ -459,7 +2011,7 @@
         "commit_id": "d8bafd23ab2",
         "index": 81685,
         "message": "[DDP] add one option to allow skipping all reduce unused parameters (#151503)",
-        "completeness": 36.45,
+        "completeness": 36.4507,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": 1},
@@ -472,7 +2024,7 @@
         "commit_id": "98c892749bd",
         "index": 81692,
         "message": "c10d/Store: add nonblocking mode to queue_pop (#151485)",
-        "completeness": 36.45,
+        "completeness": 36.4546,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "otherSymbolCounts": {"withKnownType": 4},
@@ -487,7 +2039,7 @@
         "commit_id": "eb1f85a2a00",
         "index": 81703,
         "message": "Support C++ statically_known_true (#151346)",
-        "completeness": 36.45,
+        "completeness": 36.4524,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "missingFunctionDocStringCount": 1,
@@ -500,7 +2052,7 @@
         "commit_id": "adf5f38eae0",
         "index": 81745,
         "message": "Don't specialize min/max (#151347)",
-        "completeness": 36.45,
+        "completeness": 36.4546,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -1},
             "completenessScore": 2.2665158882773095e-05
@@ -512,7 +2064,7 @@
         "commit_id": "dfdf731579d",
         "index": 81819,
         "message": "Do not generate long log messaged for suppressed data dependent errors. (#151023)",
-        "completeness": 36.46,
+        "completeness": 36.4586,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.950842977679114e-05
@@ -524,7 +2076,7 @@
         "commit_id": "bc6c0bc344e",
         "index": 81853,
         "message": "Revert \"Do not generate long log messaged for suppressed data dependent errors. (#151023)\"",
-        "completeness": 36.45,
+        "completeness": 36.4546,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.950842977679114e-05
@@ -536,7 +2088,7 @@
         "commit_id": "f9bdfe90ae6",
         "index": 81879,
         "message": "[MegaCache] Return None on no compilation (#151921)",
-        "completeness": 36.45,
+        "completeness": 36.4546,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -545,7 +2097,7 @@
         "commit_id": "2ee8de54b17",
         "index": 81923,
         "message": "[dynamic shapes] user-code friendly statically_known_true, has_static_value (#151601)",
-        "completeness": 36.45,
+        "completeness": 36.4524,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.2665158882773095e-05
@@ -557,7 +2109,7 @@
         "commit_id": "81c4369d813",
         "index": 81951,
         "message": "[dynamo] Add guard serialization for tensor matches. (#151318)",
-        "completeness": 36.45,
+        "completeness": 36.4524,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 1},
@@ -570,7 +2122,7 @@
         "commit_id": "b1d055fd6a0",
         "index": 81954,
         "message": "Revert \"[dynamo] Add guard serialization for tensor matches. (#151318)\"",
-        "completeness": 36.45,
+        "completeness": 36.4524,
         "diff": {
             "otherSymbolCounts": {"withKnownType": -2, "withUnknownType": -1},
             "missingFunctionDocStringCount": -1
@@ -582,7 +2134,7 @@
         "commit_id": "33c75cae0a9",
         "index": 81977,
         "message": "Add torch.accelerator.device_index as accelerator's device switch context (#148864)",
-        "completeness": 36.46,
+        "completeness": 36.4636,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 4, "withAmbiguousType": 2},
             "completenessScore": 0.00011266982586294327
@@ -594,7 +2146,7 @@
         "commit_id": "a34c28e0d25",
         "index": 81981,
         "message": "[dynamo] Add guard serialization for tensor matches. (#151318)",
-        "completeness": 36.46,
+        "completeness": 36.4636,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 1},
@@ -607,7 +2159,7 @@
         "commit_id": "861945100ec",
         "index": 82033,
         "message": "[Kineto] Enable OOM observer (#152160)",
-        "completeness": 36.47,
+        "completeness": 36.4676,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.948564911215868e-05
@@ -619,7 +2171,7 @@
         "commit_id": "98bd2bd1abc",
         "index": 82037,
         "message": "Do not generate long log messages for suppressed data dependent errors. (#151023)",
-        "completeness": 36.47,
+        "completeness": 36.4715,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.94807416240206e-05
@@ -631,7 +2183,7 @@
         "commit_id": "13966d0bf55",
         "index": 82041,
         "message": "[BE] Migrate dtype_abbrs into one location (#152229)",
-        "completeness": 36.47,
+        "completeness": 36.4738,
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": -1},
             "completenessScore": 2.266579992094009e-05
@@ -643,7 +2195,7 @@
         "commit_id": "119cdcc926e",
         "index": 82093,
         "message": "Add rich support to torch.distributed.tensor.debug.visualize_sharding (#152027)",
-        "completeness": 36.48,
+        "completeness": 36.4761,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -1},
             "completenessScore": 2.26686172981605e-05
@@ -655,7 +2207,7 @@
         "commit_id": "7a3cae4b200",
         "index": 82195,
         "message": "Configurable logging for cpp_extensions.py (#152260)",
-        "completeness": 36.47,
+        "completeness": 36.4738,
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": 1},
             "completenessScore": -2.26686172981605e-05
@@ -667,7 +2219,7 @@
         "commit_id": "3f10091d3c0",
         "index": 82204,
         "message": "Clean up conda usage in benchmark scripts (#152552)",
-        "completeness": 36.45,
+        "completeness": 36.449,
         "diff": {
             "exportedSymbolCounts": {
                 "withKnownType": -8,
@@ -685,7 +2237,7 @@
         "commit_id": "376529c78b7",
         "index": 82299,
         "message": "consolidate guard_or_x and definitely_x (#152463)",
-        "completeness": 36.45,
+        "completeness": 36.4535,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -2},
             "completenessScore": 4.534022263358306e-05
@@ -697,7 +2249,7 @@
         "commit_id": "d457b4492d1",
         "index": 82305,
         "message": "Optimize `Sequential` methods description (#147304)",
-        "completeness": 36.45,
+        "completeness": 36.4535,
         "diff": {"missingFunctionDocStringCount": -2},
         "symbols": {}
     },
@@ -706,7 +2258,7 @@
         "commit_id": "97dfd8dd53f",
         "index": 82414,
         "message": "[invoke_subgraph] Run missing graph passes recursively (#152675)",
-        "completeness": 36.46,
+        "completeness": 36.4575,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.952140120816461e-05
@@ -718,7 +2270,7 @@
         "commit_id": "e32a16a9dad",
         "index": 82427,
         "message": "Correct torch.xpu.is_bf16_supported return False if no XPU detected (#152317)",
-        "completeness": 36.46,
+        "completeness": 36.4637,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
             "completenessScore": 6.21929224454143e-05
@@ -730,7 +2282,7 @@
         "commit_id": "93a0a7a0bf3",
         "index": 82473,
         "message": "Fix bug visualizing 1D Tensor using rich (#152871)",
-        "completeness": 36.47,
+        "completeness": 36.4677,
         "diff": {
             "exportedSymbolCounts": {
                 "withKnownType": 1,
@@ -747,7 +2299,7 @@
         "commit_id": "94ca3a4666d",
         "index": 82513,
         "message": "Add torch._C.Tag.needs_contiguous_strides (#152859)",
-        "completeness": 36.47,
+        "completeness": 36.4677,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -756,7 +2308,7 @@
         "commit_id": "7cdf5048ea4",
         "index": 82545,
         "message": "Fix evaluate_expr to include suppress_guards_tls in cache key (#152661)",
-        "completeness": 36.46,
+        "completeness": 36.4614,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
@@ -769,7 +2321,7 @@
         "commit_id": "4c11b261586",
         "index": 82626,
         "message": "refine fp32 precision api (#125888)",
-        "completeness": 36.44,
+        "completeness": 36.4405,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 11},
@@ -785,7 +2337,7 @@
         "commit_id": "70c8047c2d5",
         "index": 82627,
         "message": "include user stacks with constraint violation error message (#152924)",
-        "completeness": 36.44,
+        "completeness": 36.4444,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.949514241408103e-05
@@ -797,7 +2349,7 @@
         "commit_id": "fdc387ec7c9",
         "index": 82634,
         "message": "Revert \"refine fp32 precision api (#125888)\"",
-        "completeness": 36.47,
+        "completeness": 36.4654,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": -11},
             "otherSymbolCounts": {"withKnownType": -2, "withUnknownType": -4},
@@ -812,7 +2364,7 @@
         "commit_id": "0104ac0f6f3",
         "index": 82639,
         "message": "[Ez][BE]: Fix click ImportError in torch/csrc/jit (#153323)",
-        "completeness": 36.46,
+        "completeness": 36.4631,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
@@ -826,7 +2378,7 @@
         "commit_id": "f05b38aa267",
         "index": 82679,
         "message": "[BE]: Improve decorator typing for Optimizer subclasses (#153374)",
-        "completeness": 36.53,
+        "completeness": 36.5253,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 10, "withUnknownType": -10},
             "completenessScore": 0.0006218132073125271
@@ -838,7 +2390,7 @@
         "commit_id": "d51bc273781",
         "index": 82739,
         "message": "[export] Make draft_export public (#153219)",
-        "completeness": 36.52,
+        "completeness": 36.523,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.2710506620393645e-05
@@ -850,7 +2402,7 @@
         "commit_id": "4c5cf18ee05",
         "index": 82749,
         "message": "[device_mesh] improve device selection logic (#150897)",
-        "completeness": 36.53,
+        "completeness": 36.527,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.946590602660338e-05
@@ -862,7 +2414,7 @@
         "commit_id": "a54bf43baad",
         "index": 82779,
         "message": "Fix support of MixtureSameFamily [bugfix]. (#151317)",
-        "completeness": 36.52,
+        "completeness": 36.5235,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2, "withUnknownType": 5},
             "completenessScore": -3.460871503474516e-05
@@ -874,7 +2426,7 @@
         "commit_id": "f7a5aa1d8d3",
         "index": 82819,
         "message": "[torchgen] Refactor and simplify `gen_pyi.py` to use Generic TypeAlias (PEP 585) and Union Type (PEP 604) (#150727)",
-        "completeness": 36.65,
+        "completeness": 36.6478,
         "diagnostics": {"added": 164, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 20, "withUnknownType": -20},
@@ -888,7 +2440,7 @@
         "commit_id": "22b124335e0",
         "index": 82820,
         "message": "[BE] Update `.pyi` stub template to use Generic TypeAlias (PEP 585) and Union Type (PEP 604) (#150728)",
-        "completeness": 36.65,
+        "completeness": 36.654,
         "diagnostics": {"added": 10, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {
@@ -906,7 +2458,7 @@
         "commit_id": "a4c828199e0",
         "index": 82833,
         "message": "[BE] Add `__all__` to `torch/nn/functional.pyi` and `torch/return_types.pyi` (#150729)",
-        "completeness": 36.66,
+        "completeness": 36.658,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
@@ -920,7 +2472,7 @@
         "commit_id": "3fe42d4d5d1",
         "index": 82861,
         "message": "[export] Dynamo symint support (#152677)",
-        "completeness": 36.68,
+        "completeness": 36.6787,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 7, "withUnknownType": 3},
@@ -934,7 +2486,7 @@
         "commit_id": "f7fb2f66e3b",
         "index": 82890,
         "message": "cleanup, refactor and add missing  self._dde_suppressed checks (#152657)",
-        "completeness": 36.68,
+        "completeness": 36.6849,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
             "completenessScore": 6.210408644891086e-05
@@ -946,7 +2498,7 @@
         "commit_id": "1748fa529a9",
         "index": 82893,
         "message": "Revert \"cleanup, refactor and add missing  self._dde_suppressed checks (#152657)\"",
-        "completeness": 36.68,
+        "completeness": 36.6787,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
@@ -959,7 +2511,7 @@
         "commit_id": "9b2a45ac7d2",
         "index": 82905,
         "message": "Refactor `torch/utils/data/datapipes/gen_pyi.py` with `torchgen` (#150626)",
-        "completeness": 36.69,
+        "completeness": 36.6865,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
@@ -972,7 +2524,7 @@
         "commit_id": "b4fb801b2d5",
         "index": 82907,
         "message": "[export] Move PT2 constants to torch::_export (#153206)",
-        "completeness": 36.77,
+        "completeness": 36.7651,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 20},
             "completenessScore": 0.0007853319584940621,
@@ -985,7 +2537,7 @@
         "commit_id": "f3daedb263d",
         "index": 82926,
         "message": "[BE]: Remove redundant copy (#153629)",
-        "completeness": 36.79,
+        "completeness": 36.7899,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": -4},
             "completenessScore": 0.0002480774001488162
@@ -997,7 +2549,7 @@
         "commit_id": "c5cba39d469",
         "index": 82931,
         "message": "Improve torch.ops typing (#153558)",
-        "completeness": 36.81,
+        "completeness": 36.8085,
         "diagnostics": {"added": 28, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {
@@ -1021,7 +2573,7 @@
         "commit_id": "0ec8fe46d7c",
         "index": 82934,
         "message": "cleanup, refactor and add missing  self._dde_suppressed checks (#152657)",
-        "completeness": 36.81,
+        "completeness": 36.8147,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
             "completenessScore": 6.201935003724568e-05
@@ -1033,7 +2585,7 @@
         "commit_id": "d81217be2e4",
         "index": 82960,
         "message": "Revert \"Improve torch.ops typing (#153558)\"",
-        "completeness": 36.8,
+        "completeness": 36.7961,
         "diagnostics": {"added": 62, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {
@@ -1057,7 +2609,7 @@
         "commit_id": "ffd49d538e8",
         "index": 83027,
         "message": "[BE][Ez]: Improve typing in torch/modules/container.py (#153728)",
-        "completeness": 36.8,
+        "completeness": 36.8023,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
             "completenessScore": 6.201935003719017e-05
@@ -1069,7 +2621,7 @@
         "commit_id": "b7d08defe9c",
         "index": 83034,
         "message": "[BE]: Type previously untyped decorators (#153726)",
-        "completeness": 37.03,
+        "completeness": 37.0318,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 37, "withUnknownType": -37},
             "otherSymbolCounts": {"withKnownType": 4, "withUnknownType": -4},
@@ -1082,7 +2634,7 @@
         "commit_id": "bb7e30c1658",
         "index": 83039,
         "message": "[MegaCache] Make MegaCache generic to allow external plugins registration (#152977)",
-        "completeness": 37.03,
+        "completeness": 37.0318,
         "diff": {"otherSymbolCounts": {"withKnownType": -2}, "missingFunctionDocStringCount": 2},
         "symbols": {"added": 3, "removed": 5}
     },
@@ -1091,7 +2643,7 @@
         "commit_id": "7d3dab6b901",
         "index": 83092,
         "message": "Revert \"[BE]: Type previously untyped decorators (#153726)\"",
-        "completeness": 36.8,
+        "completeness": 36.8023,
         "diagnostics": {"added": 50, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -37, "withUnknownType": 37},
@@ -1105,7 +2657,7 @@
         "commit_id": "9e089bb5b67",
         "index": 83126,
         "message": "change guard_or impl for better perf and simplicity (#153674)",
-        "completeness": 36.8,
+        "completeness": 36.7984,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.919724473605557e-05
@@ -1117,7 +2669,7 @@
         "commit_id": "7e80f23516a",
         "index": 83128,
         "message": "[export] Move PT2ArchiveWriter/Reader to torch/export (#153795)",
-        "completeness": 36.8,
+        "completeness": 36.7977,
         "diff": {
             "exportedSymbolCounts": {
                 "withKnownType": 1,
@@ -1138,7 +2690,7 @@
         "commit_id": "4ff19ecf665",
         "index": 83136,
         "message": "Revert \"[export] Move PT2ArchiveWriter/Reader to torch/export (#153795)\"",
-        "completeness": 36.8,
+        "completeness": 36.7984,
         "diff": {
             "exportedSymbolCounts": {
                 "withKnownType": -1,
@@ -1159,7 +2711,7 @@
         "commit_id": "3b21d792259",
         "index": 83139,
         "message": "[export] Move PT2ArchiveWriter/Reader to torch/export (#153795)",
-        "completeness": 36.8,
+        "completeness": 36.7977,
         "diff": {
             "exportedSymbolCounts": {
                 "withKnownType": 1,
@@ -1180,7 +2732,7 @@
         "commit_id": "6503b4a96ed",
         "index": 83168,
         "message": "Update to using mypy 1.15 (#154054)",
-        "completeness": 36.81,
+        "completeness": 36.8101,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {
@@ -1197,7 +2749,7 @@
         "commit_id": "53ecb8159aa",
         "index": 83171,
         "message": "Introduce statically_known_false (#154291)",
-        "completeness": 36.81,
+        "completeness": 36.8078,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.2825150556626816e-05
@@ -1209,7 +2761,7 @@
         "commit_id": "7d11c61c26c",
         "index": 83188,
         "message": "Re-enable FakeTensor caching for SymInts (#152662)",
-        "completeness": 36.8,
+        "completeness": 36.8016,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
@@ -1222,7 +2774,7 @@
         "commit_id": "f55f2f42a7b",
         "index": 83195,
         "message": "Add missing docstring for `sym_ite` (#154201)",
-        "completeness": 36.8,
+        "completeness": 36.8016,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -1231,7 +2783,7 @@
         "commit_id": "3f64502c984",
         "index": 83197,
         "message": "Revert \"Re-enable FakeTensor caching for SymInts (#152662)\"",
-        "completeness": 36.81,
+        "completeness": 36.8078,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
             "completenessScore": 6.200781298443259e-05
@@ -1243,7 +2795,7 @@
         "commit_id": "839c9c61565",
         "index": 83198,
         "message": "Use property instead of ClassVar for `Uniform.arg_constraints` and `Wishart.arg_constraints` (#154361)",
-        "completeness": 36.81,
+        "completeness": 36.8078,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {"exportedSymbolCounts": {"withAmbiguousType": -2, "withUnknownType": 2}},
         "symbols": {}
@@ -1253,7 +2805,7 @@
         "commit_id": "c52a002a220",
         "index": 83221,
         "message": "Add getDeviceProperties api to torch mtia device (#153577)",
-        "completeness": 36.81,
+        "completeness": 36.8056,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.282232005673679e-05
@@ -1265,7 +2817,7 @@
         "commit_id": "7ae204c3b67",
         "index": 83225,
         "message": "[BE][CI][Easy] Run `lintrunner` on generated `.pyi` stub files (#150732)",
-        "completeness": 36.81,
+        "completeness": 36.8095,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.918063391677995e-05
@@ -1277,7 +2829,7 @@
         "commit_id": "2560c1f3f00",
         "index": 83229,
         "message": "add sticky cache pgo (#154418)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.917577580969667e-05
@@ -1289,7 +2841,7 @@
         "commit_id": "70fbd5e08c8",
         "index": 83230,
         "message": "[ez] Add docblock for resolve_unbacked_bindings (#154374)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -1298,7 +2850,7 @@
         "commit_id": "5075df6feec",
         "index": 83234,
         "message": "Make torch importable if compiled without TensorPipe (#154382)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {
             "otherSymbolCounts": {"withKnownType": -7, "withUnknownType": -2},
@@ -1312,7 +2864,7 @@
         "commit_id": "4fd8a54a414",
         "index": 83241,
         "message": "[ez] add docblock for is_accessor_node (#154375)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -1321,7 +2873,7 @@
         "commit_id": "b82fb57b672",
         "index": 83266,
         "message": "[ez] add docblock for RuntimeAssert (#154401)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingClassDocStringCount": -1},
         "symbols": {}
     },
@@ -1330,7 +2882,7 @@
         "commit_id": "dcdaef5206d",
         "index": 83270,
         "message": "[ez] add docblock for free_symbols (#154378)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -1339,7 +2891,7 @@
         "commit_id": "07405a6cffc",
         "index": 83271,
         "message": "[ez] add docblock for free_unbacked_symbols (#154379)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -1348,7 +2900,7 @@
         "commit_id": "08c29deb5fe",
         "index": 83272,
         "message": "[ez] add docblock to is_symbol_binding_fx_node (#154380)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -1357,7 +2909,7 @@
         "commit_id": "8e25ba6963d",
         "index": 83273,
         "message": "[ez] add docblock for find_symbol_binding_fx_nodes (#154381)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -1366,7 +2918,7 @@
         "commit_id": "35a473e3644",
         "index": 83292,
         "message": "[ez] add docblock for guard_scalar (#154385)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -1375,7 +2927,7 @@
         "commit_id": "473a93eb589",
         "index": 83293,
         "message": "[ez] add docblock for _ShapeGuardPrinter (#154402)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingFunctionDocStringCount": -2, "missingClassDocStringCount": -1},
         "symbols": {}
     },
@@ -1384,7 +2936,7 @@
         "commit_id": "476e0a643a2",
         "index": 83294,
         "message": "[ez] add docblock for ShapeGuardPythonPrinter (#154403)",
-        "completeness": 36.81,
+        "completeness": 36.8134,
         "diff": {"missingFunctionDocStringCount": -2, "missingClassDocStringCount": -1},
         "symbols": {}
     },
@@ -1393,7 +2945,7 @@
         "commit_id": "d23aa7e182e",
         "index": 83297,
         "message": "Add deprecation warning for `torch.ao.quantization` (#153892)",
-        "completeness": 36.82,
+        "completeness": 36.8173,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.917091860611288e-05
@@ -1405,7 +2957,7 @@
         "commit_id": "3b38989b5f8",
         "index": 83298,
         "message": "Remove MemPoolContext  (#154042)",
-        "completeness": 36.8,
+        "completeness": 36.8016,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -4},
@@ -1421,7 +2973,7 @@
         "commit_id": "e7318b863db",
         "index": 83313,
         "message": "[ez] add docblock to cast_symbool_to_symint_guardless (#154400)",
-        "completeness": 36.8,
+        "completeness": 36.8016,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -1430,7 +2982,7 @@
         "commit_id": "ed348e70269",
         "index": 83315,
         "message": "Add docblock for TrackedFake (#154396)",
-        "completeness": 36.8,
+        "completeness": 36.8016,
         "diff": {"missingClassDocStringCount": -1},
         "symbols": {}
     },
@@ -1439,7 +2991,7 @@
         "commit_id": "d865b784e4a",
         "index": 83323,
         "message": "Support unbacked whitelist (#154295)",
-        "completeness": 36.81,
+        "completeness": 36.8056,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.91854929276958e-05
@@ -1451,7 +3003,7 @@
         "commit_id": "946a4c2bdca",
         "index": 83334,
         "message": "BE: Type previously untyped decorators (#154515)",
-        "completeness": 37.04,
+        "completeness": 37.035,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 37, "withUnknownType": -37},
             "otherSymbolCounts": {"withKnownType": 4, "withUnknownType": -4},
@@ -1464,7 +3016,7 @@
         "commit_id": "9c06dff1ce9",
         "index": 83387,
         "message": "[multigraph] use specializations in compile_and_call_fx_graph (#153449)",
-        "completeness": 37.07,
+        "completeness": 37.0694,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 10, "withUnknownType": 2},
@@ -1484,7 +3036,7 @@
         "commit_id": "20ee5f9044c",
         "index": 83388,
         "message": "remove allow-untyped-defs from elastic_distributed_sampler.py (#154620)",
-        "completeness": 37.09,
+        "completeness": 37.0919,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {
@@ -1501,7 +3053,7 @@
         "commit_id": "d173ba5a756",
         "index": 83393,
         "message": "Revert \"Remove MemPoolContext  (#154042)\"",
-        "completeness": 37.11,
+        "completeness": 37.1075,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 4},
             "otherSymbolCounts": {"withKnownType": 3},
@@ -1516,7 +3068,7 @@
         "commit_id": "0df96e3921d",
         "index": 83395,
         "message": "remove allow-untyped-defs from torch/ao/quantization/stubs.py (#154622)",
-        "completeness": 37.12,
+        "completeness": 37.116,
         "diagnostics": {"added": 8, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -2},
@@ -1529,7 +3081,7 @@
         "commit_id": "d66a55def0c",
         "index": 83398,
         "message": "remove allow-untyped-defs from torch/distributed/elastic/utils/logging.py (#154625)",
-        "completeness": 37.12,
+        "completeness": 37.1222,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
             "completenessScore": 6.194251734387146e-05
@@ -1541,7 +3093,7 @@
         "commit_id": "dc82e911e7f",
         "index": 83403,
         "message": "remove allow-untyped-defs from torch/utils/data/datapipes/iter/filelister.py (#154624)",
-        "completeness": 37.13,
+        "completeness": 37.1283,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
             "completenessScore": 6.194251734392697e-05
@@ -1553,7 +3105,7 @@
         "commit_id": "ba3f91af97c",
         "index": 83410,
         "message": "Type hints for distributions/utils (#154712)",
-        "completeness": 37.13,
+        "completeness": 37.1345,
         "diagnostics": {"added": 6, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1},
@@ -1566,7 +3118,7 @@
         "commit_id": "8002d22ce35",
         "index": 83413,
         "message": "[dynamo] Trace into descriptor with `__set__` (#154176)",
-        "completeness": 37.13,
+        "completeness": 37.1345,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {"otherSymbolCounts": {"withUnknownType": 3}, "missingFunctionDocStringCount": 2},
         "symbols": {"added": 3}
@@ -1576,7 +3128,7 @@
         "commit_id": "fc0135ca118",
         "index": 83417,
         "message": "Re-enable FakeTensor caching for SymInts (#152662)",
-        "completeness": 37.13,
+        "completeness": 37.1283,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": 1},
@@ -1589,7 +3141,7 @@
         "commit_id": "f01e628e3b3",
         "index": 83453,
         "message": "Resubmit Remove MemPoolContext  (#154042) (#154746)",
-        "completeness": 37.11,
+        "completeness": 37.1128,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -4},
@@ -1605,7 +3157,7 @@
         "commit_id": "9ce2732b685",
         "index": 83469,
         "message": "[BE][Ez]: Fully type nn.utils.clip_grad (#154801)",
-        "completeness": 37.15,
+        "completeness": 37.1499,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 6, "withUnknownType": -6},
             "completenessScore": 0.0003717472118959231
@@ -1617,7 +3169,7 @@
         "commit_id": "0350c7e72c7",
         "index": 83478,
         "message": "[BE] Introduce torch.AcceleratorError (#152023)",
-        "completeness": 37.16,
+        "completeness": 37.1577,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "otherSymbolCounts": {"withKnownType": 1},
@@ -1631,7 +3183,7 @@
         "commit_id": "ea5b9eca74e",
         "index": 83538,
         "message": "Combine sticky pgo key with job id (#154863)",
-        "completeness": 37.15,
+        "completeness": 37.1538,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.893332185805898e-05
@@ -1643,7 +3195,7 @@
         "commit_id": "ff92b42fc33",
         "index": 83551,
         "message": "[c10d][gloo] Integrate vendor generic FR into gloo (#152614)",
-        "completeness": 37.15,
+        "completeness": 37.1538,
         "diff": {"otherSymbolCounts": {"withKnownType": 3}},
         "symbols": {"added": 3}
     },
@@ -1669,7 +3221,7 @@
         "commit_id": "50de6ae2536",
         "index": 83580,
         "message": "Revert \"[BE][Ez]: Fully type nn.utils.clip_grad (#154801)\"",
-        "completeness": 37.12,
+        "completeness": 37.1229,
         "diagnostics": {"added": 10, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -6, "withUnknownType": 6},
@@ -1682,7 +3234,7 @@
         "commit_id": "3e57de1251b",
         "index": 83585,
         "message": "[ONNX] Create support for rotary embeddings (#154745)",
-        "completeness": 37.12,
+        "completeness": 37.1183,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 2},
             "completenessScore": -4.5992510489645255e-05
@@ -1694,7 +3246,7 @@
         "commit_id": "d2bfd97d71c",
         "index": 83594,
         "message": "[export] Refactor pt2 save/load (#152495)",
-        "completeness": 37.12,
+        "completeness": 37.1183,
         "diff": {"otherSymbolCounts": {"withKnownType": 2}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 2}
     },
@@ -1703,7 +3255,7 @@
         "commit_id": "e1180c7228b",
         "index": 83687,
         "message": "Add Intel GPU info collection to the collect env script (#137846)",
-        "completeness": 37.11,
+        "completeness": 37.1107,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 5},
             "missingFunctionDocStringCount": 5,
@@ -1716,7 +3268,7 @@
         "commit_id": "0db3e0cf296",
         "index": 83694,
         "message": "Revert \"Add Intel GPU info collection to the collect env script (#137846)\"",
-        "completeness": 37.12,
+        "completeness": 37.1183,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": -5},
             "missingFunctionDocStringCount": -5,
@@ -1729,7 +3281,7 @@
         "commit_id": "c6b4f98625b",
         "index": 83696,
         "message": "Add Intel GPU info collection to the collect env script (#137846)",
-        "completeness": 37.11,
+        "completeness": 37.113,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 4},
             "missingFunctionDocStringCount": 4,
@@ -1742,7 +3294,7 @@
         "commit_id": "abf4da0d242",
         "index": 83752,
         "message": "[Profiler] Induce Inductor Import before Profiling (#155243)",
-        "completeness": 37.11,
+        "completeness": 37.113,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": 1}},
         "symbols": {"added": 1}
     },
@@ -1751,7 +3303,7 @@
         "commit_id": "6fb62931593",
         "index": 83765,
         "message": "Revert \"Add Intel GPU info collection to the collect env script (#137846)\"",
-        "completeness": 37.12,
+        "completeness": 37.1183,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": -4},
             "missingFunctionDocStringCount": -4,
@@ -1764,7 +3316,7 @@
         "commit_id": "e15848669f8",
         "index": 83768,
         "message": "[1/n]adding torch.distributed.run option to provide destination for event logging (#154644) (#155268)",
-        "completeness": 37.13,
+        "completeness": 37.126,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.789624578424803e-05
@@ -1776,7 +3328,7 @@
         "commit_id": "c4b93e6579c",
         "index": 83865,
         "message": "Replace frame_traced_fn hook with get_traced_code() util (#155249)",
-        "completeness": 37.13,
+        "completeness": 37.126,
         "diff": {"missingFunctionDocStringCount": 1},
         "symbols": {"added": 1, "removed": 1}
     },
@@ -1785,7 +3337,7 @@
         "commit_id": "5264f8cd8d0",
         "index": 83872,
         "message": "Add Intel GPU info collection to the collect env script (#137846)",
-        "completeness": 37.12,
+        "completeness": 37.1207,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 4},
             "missingFunctionDocStringCount": 4,
@@ -1798,7 +3350,7 @@
         "commit_id": "5b9db4335e6",
         "index": 83877,
         "message": "Include c++ stack traces when we hit constraint violation (#155603)",
-        "completeness": 37.12,
+        "completeness": 37.1246,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.893211377992145e-05
@@ -1810,7 +3362,7 @@
         "commit_id": "45c5a232373",
         "index": 83888,
         "message": "Revert \"Add Intel GPU info collection to the collect env script (#137846)\"",
-        "completeness": 37.13,
+        "completeness": 37.1299,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": -4},
             "missingFunctionDocStringCount": -4,
@@ -1823,7 +3375,7 @@
         "commit_id": "18bf6addc47",
         "index": 83890,
         "message": "set_grad_enabled add str and repr for prints (#155681)",
-        "completeness": 37.14,
+        "completeness": 37.1377,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.786730331449387e-05
@@ -1835,7 +3387,7 @@
         "commit_id": "bc3972b80a7",
         "index": 83922,
         "message": "[reland] Add stack_trace on make_fx (#155486)",
-        "completeness": 37.14,
+        "completeness": 37.1416,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.8926418952145436e-05
@@ -1847,7 +3399,7 @@
         "commit_id": "db01f1032ff",
         "index": 83995,
         "message": "Support XPU in memory tracker (#150703)",
-        "completeness": 37.15,
+        "completeness": 37.1455,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.892159834301134e-05
@@ -1859,7 +3411,7 @@
         "commit_id": "60204406835",
         "index": 84023,
         "message": "remove allow-untyped-defs from adaround_fake_quantize.py (#155621)",
-        "completeness": 37.16,
+        "completeness": 37.1579,
         "diff": {
             "exportedSymbolCounts": {
                 "withKnownType": 2,
@@ -1875,7 +3427,7 @@
         "commit_id": "b2fc9cfea16",
         "index": 84032,
         "message": "[precompile] Add CompilePackage to serialize dynamo states. (#155118)",
-        "completeness": 37.16,
+        "completeness": 37.1579,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "otherSymbolCounts": {"withKnownType": 25, "withUnknownType": 1},
@@ -1889,7 +3441,7 @@
         "commit_id": "3819584f12e",
         "index": 84033,
         "message": "[precompile] Implement PrecompileContext for recording precompile artifacts, integrate with CompilePackage (#154415)",
-        "completeness": 37.16,
+        "completeness": 37.1579,
         "diff": {"otherSymbolCounts": {"withKnownType": 2}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 3, "removed": 1}
     },
@@ -1898,7 +3450,7 @@
         "commit_id": "a5938ff4312",
         "index": 84036,
         "message": "[BE][c10d/Store]add check in pyi (#155855) (#155865)",
-        "completeness": 37.16,
+        "completeness": 37.1579,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -1907,7 +3459,7 @@
         "commit_id": "4628f1b7a93",
         "index": 84047,
         "message": "[Hierarchical-Compile] Track mutations for setitem (#155880)",
-        "completeness": 37.16,
+        "completeness": 37.1579,
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -1916,7 +3468,7 @@
         "commit_id": "bf798a2f016",
         "index": 84050,
         "message": "Change _hfstorage to hfstorage (#155837)",
-        "completeness": 37.21,
+        "completeness": 37.2063,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 16, "withUnknownType": 6},
             "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 20},
@@ -1932,7 +3484,7 @@
         "commit_id": "54976bca103",
         "index": 84139,
         "message": "[dynamo] Provide helper functions for guard filter hook (#155083)",
-        "completeness": 37.2,
+        "completeness": 37.1971,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 4},
             "completenessScore": -9.200366583461683e-05
@@ -1944,7 +3496,7 @@
         "commit_id": "0a0023d9840",
         "index": 84213,
         "message": "Enable NCCL zero-copy (user buffer registration) for FSDP2 (#150564)",
-        "completeness": 37.2,
+        "completeness": 37.1971,
         "diff": {
             "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 2},
             "missingFunctionDocStringCount": 2
@@ -1956,7 +3508,7 @@
         "commit_id": "38e1e5d54ce",
         "index": 84250,
         "message": "Add get_pipeline_order() for Gpipe and 1F1B (#155935)",
-        "completeness": 37.2,
+        "completeness": 37.201,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.8822351426714974e-05
@@ -1968,7 +3520,7 @@
         "commit_id": "9ed0060225a",
         "index": 84259,
         "message": "Provide access to the cudaGraph_t underlying a CUDAGraph. (#155164)",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 2},
@@ -1984,7 +3536,7 @@
         "commit_id": "920f6e681ec",
         "index": 84268,
         "message": "[dynamo] add set_fullgraph decorator/context manager (#154289)",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": 1}},
         "symbols": {"added": 1}
     },
@@ -1993,7 +3545,7 @@
         "commit_id": "3c8c48f7934",
         "index": 84269,
         "message": "[dynamo] fix set_fullgraph for nested calls (#154782)",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
@@ -2003,7 +3555,7 @@
         "commit_id": "a6a3a441442",
         "index": 84271,
         "message": "[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": 1}},
         "symbols": {"added": 1}
     },
@@ -2012,7 +3564,7 @@
         "commit_id": "8f02161d101",
         "index": 84280,
         "message": "Revert \"[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)\"",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": -1}},
         "symbols": {"removed": 1}
     },
@@ -2021,7 +3573,7 @@
         "commit_id": "408d9884b07",
         "index": 84287,
         "message": "Revert \"[dynamo] fix set_fullgraph for nested calls (#154782)\"",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diff": {"otherSymbolCounts": {"withUnknownType": -1}, "missingFunctionDocStringCount": -1},
         "symbols": {"removed": 1}
     },
@@ -2030,7 +3582,7 @@
         "commit_id": "c5d3e7a4ff4",
         "index": 84288,
         "message": "Revert \"[dynamo] add set_fullgraph decorator/context manager (#154289)\"",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": -1}},
         "symbols": {"removed": 1}
     },
@@ -2039,7 +3591,7 @@
         "commit_id": "cbafba57941",
         "index": 84298,
         "message": "Allow forcing FSDP2 to always use SUM reductions (#155915)",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diff": {"otherSymbolCounts": {"withKnownType": 2}},
         "symbols": {"added": 2}
     },
@@ -2048,7 +3600,7 @@
         "commit_id": "d4ad2804299",
         "index": 84323,
         "message": "Enable querying the build and runtime NCCL versions (#156305)",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diff": {"otherSymbolCounts": {"withUnknownType": 2}, "missingFunctionDocStringCount": 2},
         "symbols": {"added": 2}
     },
@@ -2057,7 +3609,7 @@
         "commit_id": "6e185c53124",
         "index": 84352,
         "message": "Upgrade to DLPack 1.0. (#145000)",
-        "completeness": 37.22,
+        "completeness": 37.2181,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 5, "withUnknownType": -1},
@@ -2071,7 +3623,7 @@
         "commit_id": "2c372a05025",
         "index": 84379,
         "message": "[dynamo] add set_fullgraph decorator/context manager (#154289)",
-        "completeness": 37.22,
+        "completeness": 37.2181,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": 1}},
         "symbols": {"added": 1}
     },
@@ -2080,7 +3632,7 @@
         "commit_id": "537b0877a87",
         "index": 84380,
         "message": "[dynamo] fix set_fullgraph for nested calls (#154782)",
-        "completeness": 37.22,
+        "completeness": 37.2181,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
@@ -2090,7 +3642,7 @@
         "commit_id": "0aed855b2bd",
         "index": 84382,
         "message": "[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)",
-        "completeness": 37.22,
+        "completeness": 37.2181,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": 1}},
         "symbols": {"added": 1}
     },
@@ -2099,7 +3651,7 @@
         "commit_id": "b4442f42a93",
         "index": 84385,
         "message": "Revert \"Upgrade to DLPack 1.0. (#145000)\"",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -5, "withUnknownType": 1},
             "missingFunctionDocStringCount": 1,
@@ -2112,7 +3664,7 @@
         "commit_id": "754c04aa062",
         "index": 84406,
         "message": "Revert \"[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)\"",
-        "completeness": 37.2,
+        "completeness": 37.1964,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": -1}},
         "symbols": {"removed": 1}
     },
@@ -2121,7 +3673,7 @@
         "commit_id": "fbbab794ef6",
         "index": 84412,
         "message": "[ONNX] Implement Attention-23 (#156431)",
-        "completeness": 37.19,
+        "completeness": 37.1941,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.2989101149062385e-05
@@ -2133,7 +3685,7 @@
         "commit_id": "554b5680405",
         "index": 84425,
         "message": "Add internal use only utility to allow externally visible side effects within HOPs (#155715)",
-        "completeness": 37.19,
+        "completeness": 37.1941,
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -2142,7 +3694,7 @@
         "commit_id": "fab85fc5f99",
         "index": 84443,
         "message": "[compile][hierarchical compilation] Release nested_compile_region API (#156449)",
-        "completeness": 37.19,
+        "completeness": 37.1918,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.298625965579948e-05
@@ -2154,7 +3706,7 @@
         "commit_id": "f70c80105eb",
         "index": 84451,
         "message": "Enables NCCL symmetric memory kernels through mempool registration (#155134)",
-        "completeness": 37.2,
+        "completeness": 37.1956,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "otherSymbolCounts": {"withKnownType": 1},
@@ -2167,7 +3719,7 @@
         "commit_id": "c10eeb5bad7",
         "index": 84473,
         "message": "Revert \"[dynamo] fix set_fullgraph for nested calls (#154782)\"",
-        "completeness": 37.2,
+        "completeness": 37.1956,
         "diff": {"otherSymbolCounts": {"withUnknownType": -1}, "missingFunctionDocStringCount": -1},
         "symbols": {"removed": 1}
     },
@@ -2176,7 +3728,7 @@
         "commit_id": "5e56db59d46",
         "index": 84474,
         "message": "Revert \"[dynamo] add set_fullgraph decorator/context manager (#154289)\"",
-        "completeness": 37.2,
+        "completeness": 37.1956,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": -1}},
         "symbols": {"removed": 1}
     },
@@ -2185,7 +3737,7 @@
         "commit_id": "54b8087f638",
         "index": 84477,
         "message": "Improve torch.ops typing (#154555)",
-        "completeness": 37.21,
+        "completeness": 37.2142,
         "diagnostics": {"added": 64, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {
@@ -2207,7 +3759,7 @@
         "commit_id": "2e9bd03f607",
         "index": 84505,
         "message": "Implemented `Size.__radd__` (#152554)",
-        "completeness": 37.21,
+        "completeness": 37.2142,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -2216,7 +3768,7 @@
         "commit_id": "5dd9652389e",
         "index": 84536,
         "message": "Clean up HF components (#155707)",
-        "completeness": 37.17,
+        "completeness": 37.1715,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -11},
             "completenessScore": -0.0004270879508683212
@@ -2228,7 +3780,7 @@
         "commit_id": "17eb649d559",
         "index": 84551,
         "message": "Implement guard collectives (optimized version) (#156562)",
-        "completeness": 37.17,
+        "completeness": 37.1692,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.2985085214921597e-05
@@ -2240,7 +3792,7 @@
         "commit_id": "35e44067c4d",
         "index": 84559,
         "message": "Add unified memory APIs for torch.accelerator (#152932)",
-        "completeness": 37.15,
+        "completeness": 37.1487,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 14},
             "completenessScore": -0.00020500097727915723,
@@ -2253,7 +3805,7 @@
         "commit_id": "e2c9d8d6414",
         "index": 84568,
         "message": "Fix non-bitwise type annotations for Tensor operators (see #145838) (#146845)",
-        "completeness": 37.15,
+        "completeness": 37.1487,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "otherSymbolCounts": {
@@ -2269,7 +3821,7 @@
         "commit_id": "6459a5c7a92",
         "index": 84596,
         "message": "Revert \"Add unified memory APIs for torch.accelerator (#152932)\"",
-        "completeness": 37.17,
+        "completeness": 37.1692,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -3, "withUnknownType": -14},
             "completenessScore": 0.00020500097727915723,
@@ -2282,7 +3834,7 @@
         "commit_id": "204db27a0c4",
         "index": 84646,
         "message": "Consolidate stack trace in Tracer (#156257)",
-        "completeness": 37.17,
+        "completeness": 37.1653,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.885400946074258e-05
@@ -2294,7 +3846,7 @@
         "commit_id": "53e0b9c3936",
         "index": 84675,
         "message": "refine fp32 precision api (#125888)",
-        "completeness": 37.14,
+        "completeness": 37.1439,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 11},
@@ -2310,7 +3862,7 @@
         "commit_id": "7b7eafe7ba1",
         "index": 84696,
         "message": "[dynamo] add set_fullgraph decorator/context manager (#154289)",
-        "completeness": 37.14,
+        "completeness": 37.1439,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": 1}},
         "symbols": {"added": 1}
     },
@@ -2319,7 +3871,7 @@
         "commit_id": "36666033aba",
         "index": 84697,
         "message": "[dynamo] fix set_fullgraph for nested calls (#154782)",
-        "completeness": 37.14,
+        "completeness": 37.1439,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
@@ -2329,7 +3881,7 @@
         "commit_id": "80d89974c17",
         "index": 84700,
         "message": "[dynamo] raise hard error if error is encountered while tracing resume function prologue (#154564)",
-        "completeness": 37.14,
+        "completeness": 37.1439,
         "diff": {"otherSymbolCounts": {"withAmbiguousType": 1}},
         "symbols": {"added": 1}
     },
@@ -2338,7 +3890,7 @@
         "commit_id": "5692cbb818f",
         "index": 84789,
         "message": "[ONNX] Delete symbolic caffe2 (#157102)",
-        "completeness": 37.12,
+        "completeness": 37.1156,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -12, "withUnknownType": -8},
             "missingFunctionDocStringCount": -19,
@@ -2352,7 +3904,7 @@
         "commit_id": "836bb1941b5",
         "index": 84805,
         "message": "[hop] support torch.func.functional_call in hop subgraph (#155886)",
-        "completeness": 37.12,
+        "completeness": 37.1156,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {"otherSymbolCounts": {"withUnknownType": 3}},
         "symbols": {"added": 3}
@@ -2362,7 +3914,7 @@
         "commit_id": "2796f31b5e3",
         "index": 84808,
         "message": "[DCP] OSS Zero Overhead Checkpointing Implementation (#156207)",
-        "completeness": 37.21,
+        "completeness": 37.2082,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 25, "withUnknownType": 2},
@@ -2376,7 +3928,7 @@
         "commit_id": "b54eac2a5ed",
         "index": 84835,
         "message": "Upgrade to DLPack 1.0. (#145000)",
-        "completeness": 37.23,
+        "completeness": 37.2298,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 5, "withUnknownType": -1},
@@ -2390,7 +3942,7 @@
         "commit_id": "f096820d0f8",
         "index": 84849,
         "message": "[precompile] Detect source code changes for save/load. (#156432)",
-        "completeness": 37.23,
+        "completeness": 37.2298,
         "diff": {"otherSymbolCounts": {"withKnownType": 2}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 2}
     },
@@ -2399,7 +3951,7 @@
         "commit_id": "7709ff55123",
         "index": 84854,
         "message": "[remove untyped defs] batch 1 (#157011)",
-        "completeness": 37.3,
+        "completeness": 37.3039,
         "diagnostics": {"added": 8, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 12, "withUnknownType": -12},
@@ -2412,7 +3964,7 @@
         "commit_id": "b60569ed946",
         "index": 84856,
         "message": "HF - consolidate shards of safetensors files to full tensors in finish step (#156705)",
-        "completeness": 37.32,
+        "completeness": 37.3233,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 5},
             "completenessScore": 0.00019351830443004037
@@ -2424,7 +3976,7 @@
         "commit_id": "a767e50adca",
         "index": 84872,
         "message": "remove allow-untyped-defs from torch/fx/experimental/migrate_gradual_types/util.py (#157236)",
-        "completeness": 37.35,
+        "completeness": 37.3542,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 5, "withUnknownType": -5},
             "completenessScore": 0.0003086610284585567
@@ -2436,7 +3988,7 @@
         "commit_id": "0f9c1b374fb",
         "index": 84880,
         "message": "[dynamo] Ensure global state guard is preserved across serialization. (#157285)",
-        "completeness": 37.35,
+        "completeness": 37.3542,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -2445,7 +3997,7 @@
         "commit_id": "0364db7cd14",
         "index": 84910,
         "message": "[PT] support custom all_gather and reduce_scatter comms (#155189)",
-        "completeness": 37.35,
+        "completeness": 37.3542,
         "diff": {"otherSymbolCounts": {"withUnknownType": 8}},
         "symbols": {"added": 8}
     },
@@ -2454,7 +4006,7 @@
         "commit_id": "bdb78191662",
         "index": 84915,
         "message": "[dynamo, nested graph breaks] remove recursive cell/freevar in instruction tx (#154078)",
-        "completeness": 37.35,
+        "completeness": 37.3542,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -2464,7 +4016,7 @@
         "commit_id": "156bc243f0e",
         "index": 84925,
         "message": "Back out \"Include c++ stack traces when we hit constraint violation (#155603)\" (#157406)",
-        "completeness": 37.35,
+        "completeness": 37.3503,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.867504774413e-05
@@ -2476,7 +4028,7 @@
         "commit_id": "e20784f228a",
         "index": 84938,
         "message": "[dynamo] Support BUILTIN_MATCH serialization. (#157016)",
-        "completeness": 37.35,
+        "completeness": 37.3503,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -2485,7 +4037,7 @@
         "commit_id": "7081b8233a6",
         "index": 84987,
         "message": "[BE] Accelerator agnostic timer.py (#157131)",
-        "completeness": 37.35,
+        "completeness": 37.3526,
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": -1},
             "completenessScore": 2.3060005037489617e-05
@@ -2497,7 +4049,7 @@
         "commit_id": "e466dab164d",
         "index": 85046,
         "message": "[WIP] Automatically load and save dynamo entries via caching_precompile (#155913)",
-        "completeness": 37.35,
+        "completeness": 37.3526,
         "diff": {"otherSymbolCounts": {"withKnownType": 4}, "missingFunctionDocStringCount": 3},
         "symbols": {"added": 4}
     },
@@ -2506,7 +4058,7 @@
         "commit_id": "ae1094b72b7",
         "index": 85057,
         "message": "Revert \"[WIP] Automatically load and save dynamo entries via caching_precompile (#155913)\"",
-        "completeness": 37.35,
+        "completeness": 37.3526,
         "diff": {"otherSymbolCounts": {"withKnownType": -4}, "missingFunctionDocStringCount": -3},
         "symbols": {"removed": 4}
     },
@@ -2515,7 +4067,7 @@
         "commit_id": "5c79a55e7e5",
         "index": 85070,
         "message": "[oss] Add version to metadata (#155343)",
-        "completeness": 37.36,
+        "completeness": 37.3603,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.734724839830731e-05
@@ -2527,7 +4079,7 @@
         "commit_id": "ed6df0e3242",
         "index": 85071,
         "message": "correctly import torch.version (#157584)",
-        "completeness": 37.36,
+        "completeness": 37.3642,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.866646241690308e-05
@@ -2539,7 +4091,7 @@
         "commit_id": "be56a8d7ac0",
         "index": 85079,
         "message": "Automatically load and save dynamo entries via caching_precompile (#155913)",
-        "completeness": 37.36,
+        "completeness": 37.3642,
         "diff": {"otherSymbolCounts": {"withKnownType": 4}, "missingFunctionDocStringCount": 3},
         "symbols": {"added": 4}
     },
@@ -2548,7 +4100,7 @@
         "commit_id": "9d8cf24b3be",
         "index": 85080,
         "message": "remove allow-untyped-defs from torch/_classes.py (#157231)",
-        "completeness": 37.36,
+        "completeness": 37.3642,
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": 1, "withUnknownType": -1},
             "otherSymbolCounts": {
@@ -2565,7 +4117,7 @@
         "commit_id": "60b41de0ca0",
         "index": 85082,
         "message": "remove allow-untyped-defs from torch/ao/nn/quantized/modules/rnn.py (#157234)",
-        "completeness": 37.37,
+        "completeness": 37.3704,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
@@ -2578,7 +4130,7 @@
         "commit_id": "5dc75f72d4e",
         "index": 85115,
         "message": "Simplify the base classes of `_PyFutureMeta` (#157757)",
-        "completeness": 37.37,
+        "completeness": 37.3704,
         "diff": {"otherSymbolCounts": {"withKnownType": -1}, "missingClassDocStringCount": -1},
         "symbols": {"removed": 1}
     },
@@ -2587,7 +4139,7 @@
         "commit_id": "1b3d69b59f9",
         "index": 85138,
         "message": "Work: block_current_stream API (#156883)",
-        "completeness": 37.37,
+        "completeness": 37.3704,
         "diff": {
             "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": -1},
             "missingFunctionDocStringCount": 1
@@ -2599,7 +4151,7 @@
         "commit_id": "c515385b0ac",
         "index": 85146,
         "message": "Add Intel GPU info collection to the collect env script (#157351)",
-        "completeness": 37.36,
+        "completeness": 37.365,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 4},
             "missingFunctionDocStringCount": 4,
@@ -2612,7 +4164,7 @@
         "commit_id": "8d070187e34",
         "index": 85147,
         "message": "fix type hints for interpolation functions (#157202)",
-        "completeness": 37.36,
+        "completeness": 37.365,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -2622,7 +4174,7 @@
         "commit_id": "fcc682be4bd",
         "index": 85165,
         "message": "[BE][Ez]: Fully type nn.utils.clip_grad (#154801)",
-        "completeness": 37.4,
+        "completeness": 37.402,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 6, "withUnknownType": -6},
             "completenessScore": 0.0003702560937982047
@@ -2634,7 +4186,7 @@
         "commit_id": "163f0d8f2ab",
         "index": 85181,
         "message": "[BE][Ez]: Auto add return type annotations for methods in torch/nn/module (#157925)",
-        "completeness": 37.44,
+        "completeness": 37.4391,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 6, "withUnknownType": -6},
             "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
@@ -2647,7 +4199,7 @@
         "commit_id": "a1dad2f2d2c",
         "index": 85184,
         "message": "[BE][Ez]: Autotype torch/profiler with ruff ANN (#157923)",
-        "completeness": 37.49,
+        "completeness": 37.4884,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 8, "withUnknownType": -8},
             "otherSymbolCounts": {"withKnownType": 9, "withUnknownType": -9},
@@ -2660,7 +4212,7 @@
         "commit_id": "3404c1f0cfe",
         "index": 85196,
         "message": "[HF][DCP] Upload local consolidated files to remote storage if needed (#157371)",
-        "completeness": 37.49,
+        "completeness": 37.4923,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.85731028649805e-05
@@ -2672,7 +4224,7 @@
         "commit_id": "ba0d0de5e65",
         "index": 85213,
         "message": "Enable set SDPA backend by torch.nn.attention.sdpa_kernel on XPU (#156669)",
-        "completeness": 37.49,
+        "completeness": 37.4923,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -2681,7 +4233,7 @@
         "commit_id": "9bf41633d76",
         "index": 85247,
         "message": "Allow Custom Time Unit When Printing Profiler Table (#157913)",
-        "completeness": 37.49,
+        "completeness": 37.4923,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -2691,7 +4243,7 @@
         "commit_id": "b4fc42ca807",
         "index": 85272,
         "message": "Add `torch.segment_reduce` docs (#154352)",
-        "completeness": 37.49,
+        "completeness": 37.4923,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -2700,7 +4252,7 @@
         "commit_id": "2a8795a981c",
         "index": 85308,
         "message": "[c10d] ProcessGroupGloo: support per operation timeouts (#158128)",
-        "completeness": 37.49,
+        "completeness": 37.4923,
         "diff": {"otherSymbolCounts": {"withKnownType": 2}, "missingFunctionDocStringCount": 2},
         "symbols": {"added": 2}
     },
@@ -2709,7 +4261,7 @@
         "commit_id": "0d77364ee3f",
         "index": 85311,
         "message": "dist2: cleanup non-option methods on PG (missing, timeouts) (#158123)",
-        "completeness": 37.49,
+        "completeness": 37.4923,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {"missingFunctionDocStringCount": -1, "missingDefaultParamCount": -1},
         "symbols": {}
@@ -2731,7 +4283,7 @@
         "commit_id": "2eff14c4455",
         "index": 85319,
         "message": "[ONNX] Delete torch.onnx.dynamo_export (#158130)",
-        "completeness": 37.48,
+        "completeness": 37.4807,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -3, "withUnknownType": -1},
             "completenessScore": -9.260020127566104e-05
@@ -2743,7 +4295,7 @@
         "commit_id": "6b84cb29f97",
         "index": 85327,
         "message": "[dynamo] trace through torch.get_device_module (#157980)",
-        "completeness": 37.48,
+        "completeness": 37.4807,
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -2752,7 +4304,7 @@
         "commit_id": "9508d73307b",
         "index": 85332,
         "message": "remove allow-untyped-defs from torch/ao/nn/intrinsic/quantized/dynamic/modules/linear_relu.py (#157848)",
-        "completeness": 37.49,
+        "completeness": 37.4931,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2, "withUnknownType": -2},
@@ -2765,7 +4317,7 @@
         "commit_id": "6b2bef10afa",
         "index": 85358,
         "message": "[c10d] Prototype of `group_split` for dist2 work (#157716)",
-        "completeness": 37.49,
+        "completeness": 37.4931,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -2774,7 +4326,7 @@
         "commit_id": "1c6057fd179",
         "index": 85369,
         "message": "add eq function to NodeSource (#158170)",
-        "completeness": 37.49,
+        "completeness": 37.4907,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.3138149124468654e-05
@@ -2786,7 +4338,7 @@
         "commit_id": "b7b1109f49f",
         "index": 85396,
         "message": "Expose opt_einsum in torch.backends (#157740)",
-        "completeness": 37.49,
+        "completeness": 37.4946,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.857405552210036e-05
@@ -2798,7 +4350,7 @@
         "commit_id": "5606c516fd8",
         "index": 85408,
         "message": "[ONNX] Remove legacy Dort (#158258)",
-        "completeness": 37.49,
+        "completeness": 37.4907,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.857405552210036e-05
@@ -2810,7 +4362,7 @@
         "commit_id": "011026205a9",
         "index": 85410,
         "message": "make node source hashable (#158322)",
-        "completeness": 37.49,
+        "completeness": 37.4884,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.313529344427634e-05
@@ -2822,7 +4374,7 @@
         "commit_id": "250ae2531c5",
         "index": 85411,
         "message": "Fix types in graphs.py (#158192)",
-        "completeness": 37.6,
+        "completeness": 37.5995,
         "diagnostics": {"added": 7, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 18, "withUnknownType": -18},
@@ -2837,7 +4389,7 @@
         "commit_id": "651b4a68f2a",
         "index": 85425,
         "message": "[hop][dynamo] track run-ahead sym variables in side effects (#158273)",
-        "completeness": 37.6,
+        "completeness": 37.5995,
         "diff": {},
         "symbols": {"added": 1, "removed": 1}
     },
@@ -2846,7 +4398,7 @@
         "commit_id": "54848905398",
         "index": 85440,
         "message": "Add better typing to avaialbe kernel options for flex attention (#158383)",
-        "completeness": 37.58,
+        "completeness": 37.5847,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 7, "withUnknownType": 18},
@@ -2859,7 +4411,7 @@
         "commit_id": "82b1c482929",
         "index": 85466,
         "message": "[hop] add supports_higher_order_operators flag to TorchDispatchMode (#158077)",
-        "completeness": 37.58,
+        "completeness": 37.5847,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -2868,7 +4420,7 @@
         "commit_id": "da05b7fb94f",
         "index": 85467,
         "message": "[cond] add _FlopCounterMode support for cond  (#158067)",
-        "completeness": 37.58,
+        "completeness": 37.5847,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -2877,7 +4429,7 @@
         "commit_id": "f58a680d09e",
         "index": 85475,
         "message": "[c10d]Prototype of remote_group_merge (#158287)",
-        "completeness": 37.58,
+        "completeness": 37.5847,
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -2886,7 +4438,7 @@
         "commit_id": "5951fcd50ac",
         "index": 85484,
         "message": "[Dynamo][Better Engineering] Support typing in codegen.py (#158386)",
-        "completeness": 37.58,
+        "completeness": 37.5847,
         "diagnostics": {"added": 4, "removed": 0},
         "diff": {
             "otherSymbolCounts": {"withKnownType": 46, "withUnknownType": -30},
@@ -2900,7 +4452,7 @@
         "commit_id": "1d584761622",
         "index": 85489,
         "message": "[PP] Add eval() API to schedule (#157795)",
-        "completeness": 37.58,
+        "completeness": 37.5847,
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}},
         "symbols": {"added": 1}
     },
@@ -2909,7 +4461,7 @@
         "commit_id": "2ad5c25cfc6",
         "index": 85500,
         "message": "Add unified memory APIs for torch.accelerator (#152932)",
-        "completeness": 37.56,
+        "completeness": 37.5639,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 14},
             "completenessScore": -0.00020861711955089124,
@@ -2934,7 +4486,7 @@
         "commit_id": "0b9fb91f17e",
         "index": 85509,
         "message": "[BE] Remove __reduce_deploy__ (#158291)",
-        "completeness": 37.56,
+        "completeness": 37.5646,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -2},
             "missingFunctionDocStringCount": -1,
@@ -2947,7 +4499,7 @@
         "commit_id": "2ecf083b724",
         "index": 85532,
         "message": "Add torch compile force disable caches alias (#158072)",
-        "completeness": 37.57,
+        "completeness": 37.5685,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.84335861794427e-05
@@ -2959,7 +4511,7 @@
         "commit_id": "b0e325c2c85",
         "index": 85560,
         "message": "[Dynamo][Better Engineering] Add type coverage to decorators (#158509)",
-        "completeness": 37.58,
+        "completeness": 37.5762,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "otherSymbolCounts": {
@@ -2978,7 +4530,7 @@
         "commit_id": "89d842fec52",
         "index": 85569,
         "message": "Make torch.distributed.breakpoint() set a long timeout (#158481)",
-        "completeness": 37.58,
+        "completeness": 37.5762,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -2988,7 +4540,7 @@
         "commit_id": "9a7c2f1f64b",
         "index": 85573,
         "message": "Revert \"Add torch compile force disable caches alias (#158072)\"",
-        "completeness": 37.57,
+        "completeness": 37.5723,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.842412414878371e-05
@@ -3000,7 +4552,7 @@
         "commit_id": "e3351b3ddff",
         "index": 85609,
         "message": "Revert \"[DCP][HF] [ez]Change where sharded tensors are saved (#158069)\"",
-        "completeness": 37.57,
+        "completeness": 37.5746,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -1},
             "completenessScore": 2.3128547550321787e-05
@@ -3012,7 +4564,7 @@
         "commit_id": "f73594164a3",
         "index": 85634,
         "message": "[BE] document Adadelta and Adagrad APIs properly (#158483)",
-        "completeness": 37.57,
+        "completeness": 37.5746,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -3021,7 +4573,7 @@
         "commit_id": "a10f15718d9",
         "index": 85641,
         "message": "[DLPack] Add support for missing keyword-arguments. (#150218)",
-        "completeness": 37.57,
+        "completeness": 37.5746,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -3031,7 +4583,7 @@
         "commit_id": "4b02bd76d3e",
         "index": 85647,
         "message": "DCP safetensors test fix (#158685)",
-        "completeness": 37.57,
+        "completeness": 37.5723,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.3128547550321787e-05
@@ -3074,7 +4626,7 @@
         "commit_id": "920f26c7617",
         "index": 85702,
         "message": "Revert \"[BE] Remove __reduce_deploy__ (#158291)\"",
-        "completeness": 37.57,
+        "completeness": 37.5654,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 2},
             "missingFunctionDocStringCount": 1,
@@ -3087,7 +4639,7 @@
         "commit_id": "ee5a434f8ce",
         "index": 85704,
         "message": "Revert \"[BE] remove torch deploy - conditionals (#158288)\"",
-        "completeness": 37.57,
+        "completeness": 37.5692,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
@@ -3100,7 +4652,7 @@
         "commit_id": "2c37acfd891",
         "index": 85709,
         "message": "[AOTI][CPU] Consider bias=None case for fbgemm_linear_fp16_weight (#158535)",
-        "completeness": 37.57,
+        "completeness": 37.5692,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -3110,7 +4662,7 @@
         "commit_id": "63413113332",
         "index": 85712,
         "message": "Revert \"Add unified memory APIs for torch.accelerator (#152932)\"",
-        "completeness": 37.59,
+        "completeness": 37.5901,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -3, "withUnknownType": -14},
             "completenessScore": 0.0002086348321794218,
@@ -3123,7 +4675,7 @@
         "commit_id": "37ded2ac906",
         "index": 85744,
         "message": "Using torch.accelerator in comm_mode_features_example.py and visualize_sharding_example.py (#157317)",
-        "completeness": 37.59,
+        "completeness": 37.5878,
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": 1},
             "completenessScore": -2.3155164625143776e-05
@@ -3135,7 +4687,7 @@
         "commit_id": "ab26d4fbeb5",
         "index": 85800,
         "message": "[BE] remove torch deploy - conditionals (#158288)",
-        "completeness": 37.58,
+        "completeness": 37.5839,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.844774303207732e-05
@@ -3147,7 +4699,7 @@
         "commit_id": "9c68c4d08f4",
         "index": 85802,
         "message": "[BE] Remove __reduce_deploy__ (#158291)",
-        "completeness": 37.59,
+        "completeness": 37.5886,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -2},
             "missingFunctionDocStringCount": -1,
@@ -3160,7 +4712,7 @@
         "commit_id": "7f649ed4f83",
         "index": 85813,
         "message": "Add basic torch.hash_tensor op (#154149)",
-        "completeness": 37.59,
+        "completeness": 37.5862,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "otherSymbolCounts": {"withUnknownType": 1},
@@ -3173,7 +4725,7 @@
         "commit_id": "abcb24f4de1",
         "index": 85848,
         "message": "[Dynamo][Better Engineering] Add typing annotations to guard and source (#158397)",
-        "completeness": 37.66,
+        "completeness": 37.6602,
         "diagnostics": {"added": 11, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 12, "withUnknownType": -12},
@@ -3192,7 +4744,7 @@
         "commit_id": "e20736bf1d4",
         "index": 85867,
         "message": "Dont't GC as often when collecting cudagraphs (#158193)",
-        "completeness": 37.66,
+        "completeness": 37.664,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.840314333314332e-05
@@ -3204,7 +4756,7 @@
         "commit_id": "9b29166f57c",
         "index": 85885,
         "message": "[ROCm] add flag torch.backends.miopen.immediate (#158951)",
-        "completeness": 37.67,
+        "completeness": 37.6663,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 4},
             "missingFunctionDocStringCount": 2,
@@ -3219,7 +4771,7 @@
         "commit_id": "02ca965560e",
         "index": 85891,
         "message": "Device agnostic for DCP (#158337)",
-        "completeness": 37.67,
+        "completeness": 37.6663,
         "diff": {},
         "symbols": {"added": 1, "removed": 1}
     },
@@ -3228,7 +4780,7 @@
         "commit_id": "bf311141d6b",
         "index": 85900,
         "message": "Track descriptors for all inputs/outputs of AOTAutograd traced graph (#158624)",
-        "completeness": 37.67,
+        "completeness": 37.6663,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -3237,7 +4789,7 @@
         "commit_id": "a9f6770edd8",
         "index": 85907,
         "message": "Revert \"[BE] Remove __reduce_deploy__ (#158291)\"",
-        "completeness": 37.66,
+        "completeness": 37.6616,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 2},
             "missingFunctionDocStringCount": 1,
@@ -3250,7 +4802,7 @@
         "commit_id": "f8fafdc7a6d",
         "index": 85909,
         "message": "Revert \"[BE] remove torch deploy - conditionals (#158288)\"",
-        "completeness": 37.67,
+        "completeness": 37.6655,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
@@ -3263,7 +4815,7 @@
         "commit_id": "7ef3c3357d8",
         "index": 85938,
         "message": "NUMA binding integration with elastic agent and torchrun (#149334)",
-        "completeness": 37.73,
+        "completeness": 37.7298,
         "diff": {
             "exportedSymbolCounts": {
                 "withKnownType": 18,
@@ -3281,7 +4833,7 @@
         "commit_id": "9e8f27cc795",
         "index": 85942,
         "message": "[BE] Make torch.nn.modules.* satisfy the docs coverage test (#158491)",
-        "completeness": 37.73,
+        "completeness": 37.7298,
         "diff": {"missingFunctionDocStringCount": -134},
         "symbols": {}
     },
@@ -3290,7 +4842,7 @@
         "commit_id": "1e79872f2e8",
         "index": 85943,
         "message": "[BE] More torch.nn docs coverage test (except for torch.nn.parallel) (#158654)",
-        "completeness": 37.73,
+        "completeness": 37.7298,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -3299,7 +4851,7 @@
         "commit_id": "cd68559d045",
         "index": 85960,
         "message": "[Inductor] Support native Inductor as backend for MTIA (#158526)",
-        "completeness": 37.72,
+        "completeness": 37.7229,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 3},
             "missingFunctionDocStringCount": 1,
@@ -3312,7 +4864,7 @@
         "commit_id": "fe0ff12dab7",
         "index": 85966,
         "message": "Revert \"[Inductor] Support native Inductor as backend for MTIA (#158526)\"",
-        "completeness": 37.73,
+        "completeness": 37.7298,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -3},
             "missingFunctionDocStringCount": -1,
@@ -3325,7 +4877,7 @@
         "commit_id": "2d1e92307d3",
         "index": 85994,
         "message": "Partitioner: Fix to align partition node order with original graph (#157892)",
-        "completeness": 37.73,
+        "completeness": 37.7298,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -3335,7 +4887,7 @@
         "commit_id": "67e68e07852",
         "index": 86013,
         "message": "[c10d] Cleanup split_group logic using the newly built splitGroup (#158488)",
-        "completeness": 37.73,
+        "completeness": 37.7298,
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -3344,7 +4896,7 @@
         "commit_id": "c55e72bea14",
         "index": 86028,
         "message": "[Re-land][Inductor] Support native Inductor as backend for MTIA (#159211)",
-        "completeness": 37.72,
+        "completeness": 37.7229,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 3},
             "missingFunctionDocStringCount": 1,
@@ -3357,7 +4909,7 @@
         "commit_id": "6162e650b0e",
         "index": 86031,
         "message": "[BE] remove torch deploy - conditionals (#158288)",
-        "completeness": 37.72,
+        "completeness": 37.719,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.828905164821039e-05
@@ -3369,7 +4921,7 @@
         "commit_id": "d987a6f7f00",
         "index": 86041,
         "message": "Revert \"[Dynamo][Better Engineering] Add typing annotations to guard and source (#158397)\"",
-        "completeness": 37.65,
+        "completeness": 37.6453,
         "diagnostics": {"added": 113, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -12, "withUnknownType": 12},
@@ -3388,7 +4940,7 @@
         "commit_id": "c0c24b61ff4",
         "index": 86044,
         "message": "Revert \"Partitioner: Fix to align partition node order with original graph (#157892)\"",
-        "completeness": 37.65,
+        "completeness": 37.6453,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -3398,7 +4950,7 @@
         "commit_id": "b57d1ef110b",
         "index": 86062,
         "message": "[BE] Remove __reduce_deploy__ (#158291)",
-        "completeness": 37.65,
+        "completeness": 37.6499,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -2},
             "missingFunctionDocStringCount": -1,
@@ -3411,7 +4963,7 @@
         "commit_id": "73ee3233807",
         "index": 86100,
         "message": "[ONNX] RMS Norm (#159377)",
-        "completeness": 37.65,
+        "completeness": 37.6499,
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}},
         "symbols": {"added": 1}
     },
@@ -3420,7 +4972,7 @@
         "commit_id": "2b1ae29960e",
         "index": 86115,
         "message": "[Dynamo][Better Engineering] Add typing annotations to guard and source (#158397) (#159491)",
-        "completeness": 37.72,
+        "completeness": 37.7237,
         "diagnostics": {"added": 11, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 12, "withUnknownType": -12},
@@ -3439,7 +4991,7 @@
         "commit_id": "de7376537f2",
         "index": 86117,
         "message": "Fix ep deepcopy when there is python builitin name (#159478)",
-        "completeness": 37.72,
+        "completeness": 37.7213,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.3194581419083704e-05
@@ -3451,7 +5003,7 @@
         "commit_id": "b1fb552974a",
         "index": 86160,
         "message": "Revert \"Fix ep deepcopy when there is python builitin name (#159478)\"",
-        "completeness": 37.72,
+        "completeness": 37.7237,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -1},
             "completenessScore": 2.3194581419083704e-05
@@ -3463,7 +5015,7 @@
         "commit_id": "5e8b95605f5",
         "index": 86202,
         "message": "[PP] Support OVERLAP_F_B computation type (#158978)",
-        "completeness": 37.72,
+        "completeness": 37.7213,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "otherSymbolCounts": {"withKnownType": 1},
@@ -3476,7 +5028,7 @@
         "commit_id": "a29ed5e1acc",
         "index": 86234,
         "message": "Add torch compile force disable caches alias (#158072)",
-        "completeness": 37.73,
+        "completeness": 37.7252,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.828997985738658e-05
@@ -3488,7 +5040,7 @@
         "commit_id": "a7f3bdf5506",
         "index": 86277,
         "message": "[Dynamo][Better Engineering] Type coverage for `torch/_dynamo/utils.py` (#159580)",
-        "completeness": 37.73,
+        "completeness": 37.7252,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {"exportedSymbolCounts": {"withAmbiguousType": 1, "withUnknownType": -1}},
         "symbols": {}
@@ -3498,7 +5050,7 @@
         "commit_id": "fd6655a0f5e",
         "index": 86278,
         "message": "Feature: Implement support for `cudnn_batch_norm_out` kernel to replace the autogen approach. (#123020)",
-        "completeness": 37.73,
+        "completeness": 37.7252,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -3508,7 +5060,7 @@
         "commit_id": "b6c53383fe2",
         "index": 86300,
         "message": "[Dynamo][Better Engineering] Type annotation for `torch/_dynamo/output_graph.py` (#159602)",
-        "completeness": 37.73,
+        "completeness": 37.7252,
         "diagnostics": {"added": 20, "removed": 0},
         "diff": {
             "otherSymbolCounts": {
@@ -3526,7 +5078,7 @@
         "commit_id": "aeb5321b636",
         "index": 86307,
         "message": "Allow controlling PG backend and options via init_device_mesh (#159371)",
-        "completeness": 37.73,
+        "completeness": 37.7252,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -3535,7 +5087,7 @@
         "commit_id": "fb35a9ea4ac",
         "index": 86322,
         "message": "[export] Improve error messages (#159881)",
-        "completeness": 37.73,
+        "completeness": 37.729,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.828527188004527e-05
@@ -3547,7 +5099,7 @@
         "commit_id": "15f1173e5d7",
         "index": 86334,
         "message": "Add unified memory APIs for torch.accelerator (#152932)",
-        "completeness": 37.71,
+        "completeness": 37.708,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 14},
             "completenessScore": -0.00020966227960494965,
@@ -3560,7 +5112,7 @@
         "commit_id": "8ce81bcee1d",
         "index": 86336,
         "message": "[Torch Package] Make get names of OrderedImporters support fallback to importers (#155743)",
-        "completeness": 37.71,
+        "completeness": 37.7095,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": 1},
             "missingFunctionDocStringCount": 1,
@@ -3573,7 +5125,7 @@
         "commit_id": "40c4d61f9ab",
         "index": 86376,
         "message": "[Dynamo][Better Engineering] Typing `torch/_dynamo/guards.py` (#159315)",
-        "completeness": 37.71,
+        "completeness": 37.7095,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {
             "otherSymbolCounts": {
@@ -3591,7 +5143,7 @@
         "commit_id": "2507ae63f29",
         "index": 86377,
         "message": "Partitioner: Fix to align partition node order with original graph (#157892)",
-        "completeness": 37.72,
+        "completeness": 37.7157,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1},
             "completenessScore": 6.14062020264372e-05
@@ -3603,7 +5155,7 @@
         "commit_id": "74da2604c9d",
         "index": 86409,
         "message": "Revert \"Add unified memory APIs for torch.accelerator (#152932)\"",
-        "completeness": 37.74,
+        "completeness": 37.7367,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -3, "withUnknownType": -14},
             "completenessScore": 0.00020971644814266055,
@@ -3616,7 +5168,7 @@
         "commit_id": "69cc606fda9",
         "index": 86416,
         "message": "HF component update to not use fsspec components (#159405)",
-        "completeness": 37.74,
+        "completeness": 37.7367,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {
             "otherSymbolCounts": {"withKnownType": -2, "withUnknownType": -20},
@@ -3630,7 +5182,7 @@
         "commit_id": "84f7e88aef0",
         "index": 86460,
         "message": "Add unified memory APIs for torch.accelerator (#152932)",
-        "completeness": 37.72,
+        "completeness": 37.7157,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 14},
             "completenessScore": -0.00020971644814266055,
@@ -3643,7 +5195,7 @@
         "commit_id": "9b803cdbe29",
         "index": 86477,
         "message": "[BE] Remove more optim entries from docs coverage ignore list (#160194)",
-        "completeness": 37.72,
+        "completeness": 37.718,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": -1},
             "missingFunctionDocStringCount": -2,
@@ -3656,7 +5208,7 @@
         "commit_id": "f990490a238",
         "index": 86562,
         "message": "Add `label_smoothing` param in `nn.BCELoss` and `nn.BCEWithLogitsLoss` (#150282)",
-        "completeness": 37.73,
+        "completeness": 37.7257,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.648531818243987e-05
@@ -3668,7 +5220,7 @@
         "commit_id": "7e913949557",
         "index": 86581,
         "message": "Support NUMA Binding for Callable Entrypoints (#160163)",
-        "completeness": 37.74,
+        "completeness": 37.7356,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2, "withUnknownType": -1},
             "completenessScore": 9.963427645609535e-05
@@ -3680,7 +5232,7 @@
         "commit_id": "8e6a3138581",
         "index": 86582,
         "message": "Add ownership token when needed on GradientEdge (#160098)",
-        "completeness": 37.73,
+        "completeness": 37.7333,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.3167741505125683e-05
@@ -3692,7 +5244,7 @@
         "commit_id": "641ee747815",
         "index": 86625,
         "message": "Revert \"Add `label_smoothing` param in `nn.BCELoss` and `nn.BCEWithLogitsLoss` (#150282)\"",
-        "completeness": 37.73,
+        "completeness": 37.7257,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -2},
             "completenessScore": -7.646653495096967e-05
@@ -3704,7 +5256,7 @@
         "commit_id": "6ee175195ac",
         "index": 86638,
         "message": "[DCP][OSS] Rank local checkpointing in DCP without collectives (#147758)",
-        "completeness": 37.72,
+        "completeness": 37.7187,
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": 3},
             "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": -1},
@@ -3717,7 +5269,7 @@
         "commit_id": "1196bb1c2e4",
         "index": 86649,
         "message": "Add utility to get computed kernel in torch.library (#158393)",
-        "completeness": 37.72,
+        "completeness": 37.7164,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 5},
@@ -3732,7 +5284,7 @@
         "commit_id": "6da11d9aafc",
         "index": 86655,
         "message": "[C10D] Add check_rng_sync util (#160283)",
-        "completeness": 37.71,
+        "completeness": 37.7141,
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": 1},
             "completenessScore": -2.3151672962740122e-05
@@ -3744,7 +5296,7 @@
         "commit_id": "a06ec54d400",
         "index": 86660,
         "message": "[MPS] Add API to query GPU core count (#160414)",
-        "completeness": 37.72,
+        "completeness": 37.7217,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.645728195387891e-05
@@ -3756,7 +5308,7 @@
         "commit_id": "194fcfcfbda",
         "index": 86670,
         "message": "Add support for param mutation under inference mode (#159661)",
-        "completeness": 37.73,
+        "completeness": 37.7294,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.643851367356014e-05
@@ -3768,7 +5320,7 @@
         "commit_id": "198b5fd2d47",
         "index": 86688,
         "message": "[PP] Add DualPipeV schedule (#159591)",
-        "completeness": 37.72,
+        "completeness": 37.7208,
         "diff": {
             "exportedSymbolCounts": {
                 "withKnownType": 2,
@@ -3785,7 +5337,7 @@
         "commit_id": "858fb80b9b2",
         "index": 86738,
         "message": "[PT2]: Add Static Dispatch Kernel for wrapped_fbgemm_linear_fp16_weight (#160451)",
-        "completeness": 37.72,
+        "completeness": 37.7208,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {"missingFunctionDocStringCount": -2},
         "symbols": {}
@@ -3795,7 +5347,7 @@
         "commit_id": "aa99e0958f7",
         "index": 86740,
         "message": "Separate provenance tracking to different levels (#160383)",
-        "completeness": 37.72,
+        "completeness": 37.7185,
         "diff": {
             "exportedSymbolCounts": {"withAmbiguousType": 1},
             "completenessScore": -2.313450150903673e-05
@@ -3807,7 +5359,7 @@
         "commit_id": "f019da2979a",
         "index": 86798,
         "message": "Implement `list(UserDefinedObject)` via `force_unpack_var_sequence` (#159864)",
-        "completeness": 37.72,
+        "completeness": 37.7185,
         "diff": {
             "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 1},
             "missingFunctionDocStringCount": 2
@@ -3819,7 +5371,7 @@
         "commit_id": "63e1b58a134",
         "index": 86807,
         "message": "[easy] [Precompile] Refactor guards, improve typing (#160530)",
-        "completeness": 37.72,
+        "completeness": 37.7185,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -3829,7 +5381,7 @@
         "commit_id": "075a2e69678",
         "index": 86809,
         "message": "[PGO] add extra read/write keys (#160715)",
-        "completeness": 37.73,
+        "completeness": 37.7261,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.638622522798677e-05
@@ -3841,7 +5393,7 @@
         "commit_id": "4014672b30f",
         "index": 86828,
         "message": "Replace guard_serialization_mode with save_guards, remove load cases (#160531)",
-        "completeness": 37.73,
+        "completeness": 37.7261,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -3850,7 +5402,7 @@
         "commit_id": "284b7190054",
         "index": 86876,
         "message": "Remove the uncessary empty file (#160728)",
-        "completeness": 37.73,
+        "completeness": 37.7261,
         "diff": {"filesAnalyzed": -2},
         "symbols": {}
     },
@@ -3859,7 +5411,7 @@
         "commit_id": "54cc63b467f",
         "index": 86915,
         "message": "[BE][Dynamo] Type coverage for symbolic_convert (#160922)",
-        "completeness": 37.73,
+        "completeness": 37.7261,
         "diagnostics": {"added": 10, "removed": 0},
         "diff": {
             "otherSymbolCounts": {
@@ -3877,7 +5429,7 @@
         "commit_id": "0533ff2ccba",
         "index": 86923,
         "message": "[rfc] add hint_override kwarg to mark_dynamic (#161007)",
-        "completeness": 37.73,
+        "completeness": 37.7261,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -3886,7 +5438,7 @@
         "commit_id": "90ea9ccefe3",
         "index": 86927,
         "message": "Revert \"[rfc] add hint_override kwarg to mark_dynamic (#161007)\"",
-        "completeness": 37.73,
+        "completeness": 37.7261,
         "diff": {"otherSymbolCounts": {"withKnownType": -1}},
         "symbols": {"removed": 1}
     },
@@ -3895,7 +5447,7 @@
         "commit_id": "5255e65c01b",
         "index": 86935,
         "message": "[dynamo] Refactor convert_frame to remove usage of nonlocal tracer output return. [4/n] (#160899)",
-        "completeness": 37.73,
+        "completeness": 37.7261,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -3904,7 +5456,7 @@
         "commit_id": "9a415701991",
         "index": 86965,
         "message": "[rfc] add hint_override kwarg to mark_dynamic (#161007)",
-        "completeness": 37.73,
+        "completeness": 37.7261,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -3913,7 +5465,7 @@
         "commit_id": "18271148d32",
         "index": 86979,
         "message": "[dist] expose unsafe_get_ptr for dist.ProcessGroupNCCL.NCCLConfig (#161136)",
-        "completeness": 37.73,
+        "completeness": 37.7261,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -3922,7 +5474,7 @@
         "commit_id": "3caddd4daa5",
         "index": 86980,
         "message": "[ROCm] SDPA fix mem fault when dropout is enabled (#154864)",
-        "completeness": 37.73,
+        "completeness": 37.7299,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.818608665512313e-05
@@ -3934,7 +5486,7 @@
         "commit_id": "96682103026",
         "index": 86986,
         "message": "Allow bypasses for Precompile when guards, etc. cannot be serialized (#160902)",
-        "completeness": 37.73,
+        "completeness": 37.7299,
         "diff": {"otherSymbolCounts": {"withKnownType": 2}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 2}
     },
@@ -3943,7 +5495,7 @@
         "commit_id": "46429be7232",
         "index": 87003,
         "message": "[DCP][HF] Add option to parallelize reads in HF Storage Reader (#160205)",
-        "completeness": 37.73,
+        "completeness": 37.7338,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.818140383127222e-05
@@ -3955,7 +5507,7 @@
         "commit_id": "9b4adc4db74",
         "index": 87022,
         "message": "[fr] [xpu] Add FlightRecorder support for ProcessGroupXCCL (#158568)",
-        "completeness": 37.73,
+        "completeness": 37.7338,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}, "missingClassDocStringCount": 1},
         "symbols": {"added": 5, "removed": 4}
     },
@@ -3964,7 +5516,7 @@
         "commit_id": "4c36c8a9946",
         "index": 87048,
         "message": "[dynamo] Support method calls on complex ConstantVariables (#161122)",
-        "completeness": 37.73,
+        "completeness": 37.7338,
         "diff": {"otherSymbolCounts": {"withUnknownType": -1}, "missingFunctionDocStringCount": -1},
         "symbols": {"removed": 1}
     },
@@ -3973,7 +5525,7 @@
         "commit_id": "419a2dbf5f6",
         "index": 87051,
         "message": "[ONNX] Remove enable_fake_mode and exporter_legacy (#161222)",
-        "completeness": 37.73,
+        "completeness": 37.7299,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.818140383127222e-05
@@ -3985,7 +5537,7 @@
         "commit_id": "cd31be28ec5",
         "index": 87068,
         "message": "Reland D80238201: [Torch.Export] Add flat arg paths in error message (#160919)",
-        "completeness": 37.73,
+        "completeness": 37.7338,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.818140383127222e-05
@@ -3997,7 +5549,7 @@
         "commit_id": "33346b58148",
         "index": 87070,
         "message": "Support NUMA Binding for Callable Entrypoints, Take 2 (#161183)",
-        "completeness": 37.73,
+        "completeness": 37.7338,
         "diff": {},
         "symbols": {"added": 2, "removed": 2}
     },
@@ -4006,7 +5558,7 @@
         "commit_id": "74280d09132",
         "index": 87075,
         "message": "[muon] Introduce Muon optimizer to PyTorch (#160213)",
-        "completeness": 37.73,
+        "completeness": 37.7315,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 2},
@@ -4020,7 +5572,7 @@
         "commit_id": "726dce3c944",
         "index": 87076,
         "message": "[nccl symm mem] don't use arg for mempool, correctly use symmetric registration in hooks (#161238)",
-        "completeness": 37.73,
+        "completeness": 37.7276,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "otherSymbolCounts": {"withKnownType": -1},
@@ -4033,7 +5585,7 @@
         "commit_id": "1113e7de30d",
         "index": 87087,
         "message": "[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)",
-        "completeness": 37.73,
+        "completeness": 37.7276,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -4042,7 +5594,7 @@
         "commit_id": "3e210f90c2c",
         "index": 87102,
         "message": "Revert \"[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)\"",
-        "completeness": 37.73,
+        "completeness": 37.7276,
         "diff": {"otherSymbolCounts": {"withKnownType": -1}},
         "symbols": {"removed": 1}
     },
@@ -4051,7 +5603,7 @@
         "commit_id": "cf94cadbeee",
         "index": 87105,
         "message": "[CUDAGraph] Add getter for cuda graph exec (#161294)",
-        "completeness": 37.73,
+        "completeness": 37.7315,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "otherSymbolCounts": {"withKnownType": 1},
@@ -4065,7 +5617,7 @@
         "commit_id": "447d34b5f80",
         "index": 87113,
         "message": "[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)",
-        "completeness": 37.73,
+        "completeness": 37.7315,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -4074,7 +5626,7 @@
         "commit_id": "2df9b437e37",
         "index": 87120,
         "message": "[dynamo, nested graph breaks] implement new resume frame stack/locals/cell layout convention (#157971)",
-        "completeness": 37.73,
+        "completeness": 37.7315,
         "diff": {"otherSymbolCounts": {"withKnownType": -3}, "missingFunctionDocStringCount": -3},
         "symbols": {"removed": 3}
     },
@@ -4083,7 +5635,7 @@
         "commit_id": "9a756c2d710",
         "index": 87122,
         "message": "[dynamo, nested graph breaks] add nested graph break tests (#144516)",
-        "completeness": 37.73,
+        "completeness": 37.7315,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -4092,7 +5644,7 @@
         "commit_id": "ef0ef6f93f7",
         "index": 87125,
         "message": "[dynamo, nested graph breaks] support nested closures (#159817)",
-        "completeness": 37.73,
+        "completeness": 37.7315,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}},
         "symbols": {"added": 1}
@@ -4102,7 +5654,7 @@
         "commit_id": "089ad1d88bf",
         "index": 87128,
         "message": "[1/n][export] Refactor PT2 Archive weight saving and loading (#160394)",
-        "completeness": 37.74,
+        "completeness": 37.7391,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.634691871472032e-05
@@ -4114,7 +5666,7 @@
         "commit_id": "e795450a35b",
         "index": 87146,
         "message": "Revert \"[dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#160900)\"",
-        "completeness": 37.74,
+        "completeness": 37.7391,
         "diff": {"otherSymbolCounts": {"withKnownType": -1}},
         "symbols": {"removed": 1}
     },
@@ -4123,7 +5675,7 @@
         "commit_id": "ba6ce66698f",
         "index": 87153,
         "message": "[dynamo] lift backed symint output of item() (#161198)",
-        "completeness": 37.74,
+        "completeness": 37.7391,
         "diff": {},
         "symbols": {"added": 1, "removed": 1}
     },
@@ -4132,7 +5684,7 @@
         "commit_id": "f0e0a6897ee",
         "index": 87156,
         "message": "type misc init and tools for dynamo (#161293)",
-        "completeness": 37.74,
+        "completeness": 37.7391,
         "diff": {
             "otherSymbolCounts": {
                 "withKnownType": 56,
@@ -4147,7 +5699,7 @@
         "commit_id": "74124d1b467",
         "index": 87161,
         "message": "[reland] [dynamo] Refactor convert_frame.compile_frame to be self contained function. [5/n] (#161514)",
-        "completeness": 37.74,
+        "completeness": 37.7391,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -4156,7 +5708,7 @@
         "commit_id": "9f6e1b8730d",
         "index": 87166,
         "message": "Revert \"[ROCm] SDPA fix mem fault when dropout is enabled (#154864)\"",
-        "completeness": 37.74,
+        "completeness": 37.7353,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.817111900672465e-05
@@ -4168,7 +5720,7 @@
         "commit_id": "a7aa480e55e",
         "index": 87167,
         "message": "Revert \"[dynamo, nested graph breaks] support nested closures (#159817)\"",
-        "completeness": 37.74,
+        "completeness": 37.7353,
         "diff": {"otherSymbolCounts": {"withUnknownType": -1}},
         "symbols": {"removed": 1}
     },
@@ -4177,7 +5729,7 @@
         "commit_id": "6686974ddd7",
         "index": 87171,
         "message": "Revert \"[dynamo, nested graph breaks] add nested graph break tests (#144516)\"",
-        "completeness": 37.74,
+        "completeness": 37.7353,
         "diff": {"otherSymbolCounts": {"withKnownType": -1}, "missingFunctionDocStringCount": -1},
         "symbols": {"removed": 1}
     },
@@ -4186,7 +5738,7 @@
         "commit_id": "dbc903a94a4",
         "index": 87182,
         "message": "[APS IR] Minfor fix - use GetAttrKey in get_keystr to match with flat args path in unflatten (#161453)",
-        "completeness": 37.74,
+        "completeness": 37.7353,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -4195,7 +5747,7 @@
         "commit_id": "8b78ba07b14",
         "index": 87194,
         "message": "[dynamo, nested graph breaks] add nested graph break tests (#144516)",
-        "completeness": 37.74,
+        "completeness": 37.7353,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -4204,7 +5756,7 @@
         "commit_id": "3d406429b0a",
         "index": 87199,
         "message": "[dynamo][vllm] Support typing.get_type_hints (#161362)",
-        "completeness": 37.74,
+        "completeness": 37.7353,
         "diff": {
             "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 2},
             "missingFunctionDocStringCount": 2
@@ -4216,7 +5768,7 @@
         "commit_id": "c36d18d7e86",
         "index": 87227,
         "message": "[rfc] aot precompile with custom backend api (#161383)",
-        "completeness": 37.73,
+        "completeness": 37.733,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "otherSymbolCounts": {"withKnownType": 10},
@@ -4230,7 +5782,7 @@
         "commit_id": "d0a242e5472",
         "index": 87238,
         "message": "[dynamo, nested graph breaks] support nested closures (#159817)",
-        "completeness": 37.73,
+        "completeness": 37.733,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {"otherSymbolCounts": {"withUnknownType": 1}},
         "symbols": {"added": 1}
@@ -4240,7 +5792,7 @@
         "commit_id": "97a548b640f",
         "index": 87250,
         "message": "[PGO] skip allowlist logging for empty graphs (#161530)",
-        "completeness": 37.73,
+        "completeness": 37.733,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}, "missingFunctionDocStringCount": 1},
         "symbols": {"added": 1}
     },
@@ -4249,7 +5801,7 @@
         "commit_id": "768a1017c55",
         "index": 87254,
         "message": "Allow parallel start NUMA binding (#161576)",
-        "completeness": 37.73,
+        "completeness": 37.7291,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -1},
             "completenessScore": -3.817487748630777e-05
@@ -4261,7 +5813,7 @@
         "commit_id": "5edc3d814f4",
         "index": 87261,
         "message": "Add option for TorchDispatchMode to ignore torch.compile internals (#161648)",
-        "completeness": 37.73,
+        "completeness": 37.7291,
         "diff": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 1}},
         "symbols": {"added": 2}
     },
@@ -4270,7 +5822,7 @@
         "commit_id": "196232bb935",
         "index": 87275,
         "message": "kill allow_complex_guards_as_runtime_asserts (#160198)",
-        "completeness": 37.72,
+        "completeness": 37.7215,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -2},
             "completenessScore": -7.636379932030035e-05
@@ -4282,7 +5834,7 @@
         "commit_id": "a8270dd1248",
         "index": 87285,
         "message": "Revert \"kill allow_complex_guards_as_runtime_asserts (#160198)\"",
-        "completeness": 37.73,
+        "completeness": 37.7291,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.636379932030035e-05
@@ -4294,7 +5846,7 @@
         "commit_id": "69d91b94ba5",
         "index": 87296,
         "message": "kill allow_complex_guards_as_runtime_asserts (#160198)",
-        "completeness": 37.72,
+        "completeness": 37.7215,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -2},
             "completenessScore": -7.636379932030035e-05
@@ -4306,7 +5858,7 @@
         "commit_id": "47742081c99",
         "index": 87308,
         "message": "Revert \"kill allow_complex_guards_as_runtime_asserts (#160198)\"",
-        "completeness": 37.73,
+        "completeness": 37.7291,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2},
             "completenessScore": 7.636379932030035e-05
@@ -4318,7 +5870,7 @@
         "commit_id": "9a665ca3c47",
         "index": 87400,
         "message": "Add __init__.pyi to torch/linalg (#160750)",
-        "completeness": 37.74,
+        "completeness": 37.7391,
         "diagnostics": {"added": 150, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 2, "withAmbiguousType": -1},
@@ -4334,7 +5886,7 @@
         "commit_id": "13d66e2a66e",
         "index": 87424,
         "message": "[BE][Easy] restore #157584 after #158288 (#158541)",
-        "completeness": 37.74,
+        "completeness": 37.7429,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.816643916620954e-05
@@ -4346,7 +5898,7 @@
         "commit_id": "524b78d4f67",
         "index": 87438,
         "message": "[ONNX] Refactor torchscript based exporter (#161323)",
-        "completeness": 37.56,
+        "completeness": 37.5561,
         "diagnostics": {"added": 3, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {
@@ -4370,7 +5922,7 @@
         "commit_id": "d6b74568e2c",
         "index": 87444,
         "message": "Revert \"Add __init__.pyi to torch/linalg (#160750)\"",
-        "completeness": 37.55,
+        "completeness": 37.5461,
         "diagnostics": {"added": 42, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -2, "withAmbiguousType": 1},
@@ -4386,7 +5938,7 @@
         "commit_id": "d5643e8f3a6",
         "index": 87477,
         "message": "[dynamo, nested graph breaks] support nested graph breaks that cause skipped frames (#160470)",
-        "completeness": 37.55,
+        "completeness": 37.5461,
         "diff": {"missingFunctionDocStringCount": -1},
         "symbols": {}
     },
@@ -4395,7 +5947,7 @@
         "commit_id": "f4c33cd44ac",
         "index": 87513,
         "message": "[pt2e] Avoid getting model device once per node (#159901)",
-        "completeness": 37.55,
+        "completeness": 37.5461,
         "diagnostics": {"added": 2, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -4405,7 +5957,7 @@
         "commit_id": "3c45af079af",
         "index": 87532,
         "message": "kill allow_complex_guards_as_runtime_asserts (#161794)",
-        "completeness": 37.54,
+        "completeness": 37.5385,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -2},
             "completenessScore": -7.686627917985467e-05
@@ -4417,7 +5969,7 @@
         "commit_id": "12814701555",
         "index": 87534,
         "message": "[DCP][HuggingFace] Add Support for dequantization of SafeTensors checkpoints (#160682)",
-        "completeness": 37.56,
+        "completeness": 37.5592,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 6, "withUnknownType": 1},
             "missingFunctionDocStringCount": 1,
@@ -4431,7 +5983,7 @@
         "commit_id": "f36f2859537",
         "index": 87573,
         "message": "[dynamo] change error_on_graph_break/fullgraph semantics (#161747)",
-        "completeness": 37.56,
+        "completeness": 37.5592,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -4440,7 +5992,7 @@
         "commit_id": "0d71a9dd5b4",
         "index": 87600,
         "message": "fix incorrect interaction between DDPOptimizer and donated buffers (#160745)",
-        "completeness": 37.56,
+        "completeness": 37.5592,
         "diff": {"otherSymbolCounts": {"withKnownType": 5}, "missingClassDocStringCount": 1},
         "symbols": {"added": 5}
     },
@@ -4449,7 +6001,7 @@
         "commit_id": "486b20b73cf",
         "index": 87659,
         "message": "Add return-max-scores to flex-attention (#161667)",
-        "completeness": 37.59,
+        "completeness": 37.5945,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 11, "withUnknownType": 3},
@@ -4462,7 +6014,7 @@
         "commit_id": "047603d35bd",
         "index": 87683,
         "message": "New export implementation with flat inp/out (#162167)",
-        "completeness": 37.59,
+        "completeness": 37.5945,
         "diff": {
             "otherSymbolCounts": {"withKnownType": 10, "withAmbiguousType": 1},
             "missingClassDocStringCount": 1
@@ -4474,7 +6026,7 @@
         "commit_id": "b919560c4a7",
         "index": 87691,
         "message": "[nativert] AOTI lowering and packaging as NativeRT delegate (#162285)",
-        "completeness": 37.59,
+        "completeness": 37.5898,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 7},
             "missingFunctionDocStringCount": 1,
@@ -4489,7 +6041,7 @@
         "commit_id": "104f2680e03",
         "index": 87695,
         "message": "Revert \"Add return-max-scores to flex-attention (#161667)\"",
-        "completeness": 37.55,
+        "completeness": 37.5546,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": -11, "withUnknownType": -3},
@@ -4502,7 +6054,7 @@
         "commit_id": "eb9073a6b71",
         "index": 87707,
         "message": "[easy] [precompile] Convert CompileArtifacts to callable (#162169)",
-        "completeness": 37.56,
+        "completeness": 37.5607,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
             "completenessScore": 6.147415011986679e-05
@@ -4514,7 +6066,7 @@
         "commit_id": "fecd9686f54",
         "index": 87743,
         "message": "Graph split event tracker (#159795)",
-        "completeness": 37.57,
+        "completeness": 37.5721,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 12, "withUnknownType": 15},
             "missingFunctionDocStringCount": 1,
@@ -4527,7 +6079,7 @@
         "commit_id": "711c8c821e8",
         "index": 87746,
         "message": "shape guards (#161178)",
-        "completeness": 37.57,
+        "completeness": 37.5721,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {},
         "symbols": {}
@@ -4537,7 +6089,7 @@
         "commit_id": "ac9ccd0dc2d",
         "index": 87747,
         "message": "Add return-max-scores to flex-attention (#161667)",
-        "completeness": 37.61,
+        "completeness": 37.6073,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 11, "withUnknownType": 3},
@@ -4550,7 +6102,7 @@
         "commit_id": "d8b6622bb6a",
         "index": 87763,
         "message": "testing infra and some fixes (#162183)",
-        "completeness": 37.61,
+        "completeness": 37.6073,
         "diff": {"otherSymbolCounts": {"withKnownType": 1}},
         "symbols": {"added": 1}
     },
@@ -4559,7 +6111,7 @@
         "commit_id": "60d009267e5",
         "index": 87775,
         "message": "Revert \"testing infra and some fixes (#162183)\"",
-        "completeness": 37.61,
+        "completeness": 37.6073,
         "diff": {"otherSymbolCounts": {"withKnownType": -1}},
         "symbols": {"removed": 1}
     },
@@ -4568,7 +6120,7 @@
         "commit_id": "b498299953f",
         "index": 87811,
         "message": "154849 Add support to handle IGUSR1 and SIGUSR2 in multiprocessing (#160690)",
-        "completeness": 37.61,
+        "completeness": 37.6111,
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 1},
             "completenessScore": 3.825660108158768e-05
@@ -4580,7 +6132,7 @@
         "commit_id": "c66e58b7d0d",
         "index": 87822,
         "message": "[ONNX] Expose the testing module (#162495)",
-        "completeness": 37.61,
+        "completeness": 37.6088,
         "diff": {
             "exportedSymbolCounts": {"withUnknownType": 1},
             "completenessScore": -2.306016858133475e-05,
@@ -4593,7 +6145,7 @@
         "commit_id": "11e97bc7bd4",
         "index": 87834,
         "message": "[cpp_extension] Add abstract base class to OrderedDictWrapper, and clarify torch.nn.Module typing",
-        "completeness": 37.65,
+        "completeness": 37.6533,
         "diagnostics": {"added": 1, "removed": 0},
         "diff": {
             "exportedSymbolCounts": {"withKnownType": 8, "withUnknownType": -6},

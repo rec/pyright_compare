@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-04 12:16:38",
+            "commit_id": "e3e45d90d85",
+            "message": "[Inductor] Record Triton\u2019s Base32 Cache Key in `.best_config` for Debugging (#147019)"
+        },
+        "after": {
+            "committer_date": "2025-03-04 12:37:06",
+            "commit_id": "16d07988fc8",
+            "message": "add supports_coalescing property in c10d::Backend  to determine whether backend supports coalescing (#135338)"
+        }
+    },
+    "filename": "pyright_compare.080049.e3e45d90d85-16d07988fc8.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0525}},
+        "symbols": {"added": ["torch._C._distributed_c10d.Backend.supports_coalescing"]}
+    },
+    "completeness": [0.3622289081108186, 0.3622289081108186]
+}

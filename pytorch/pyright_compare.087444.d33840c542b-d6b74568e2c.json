@@ -11,7 +11,7 @@
             "message": "Revert \"Add __init__.pyi to torch/linalg (#160750)\""
         }
     },
-    "completenessScore": [0.375561, 0.375461],
+    "completeness": [0.375561, 0.375461],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~391"}, {"name": "11e97bc7bd4~390"}],
         "absolute": {

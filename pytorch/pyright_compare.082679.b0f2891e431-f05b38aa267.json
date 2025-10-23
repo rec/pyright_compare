@@ -11,7 +11,7 @@
             "message": "[BE]: Improve decorator typing for Optimizer subclasses (#153374)"
         }
     },
-    "completenessScore": [0.364631, 0.365253],
+    "completeness": [0.364631, 0.365253],
     "filename": "full-run/pyright_compare.082679.b0f2891e431-f05b38aa267.json",
     "diff": {
         "absolute": {

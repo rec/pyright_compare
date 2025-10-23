@@ -11,7 +11,7 @@
             "message": "remove allow-untyped-defs from torch/_classes.py (#157231)"
         }
     },
-    "completenessScore": [0.373642, 0.373642],
+    "completeness": [0.373642, 0.373642],
     "filename": "pyright_compare.085080.be56a8d7ac0-9d8cf24b3be.json",
     "diff": {
         "absolute": {

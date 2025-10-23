@@ -1,0 +1,43 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-13 18:02:33",
+            "commit_id": "65e8862b9a8",
+            "message": "Revert \"[cond] make cond re-dispatch in proxy mode (#146954)\""
+        },
+        "after": {
+            "committer_date": "2025-02-13 18:04:26",
+            "commit_id": "9a883007a2f",
+            "message": "Revert \"Implement cuda graphs implementation of torch.cond and torch.while_loop (#140979)\""
+        }
+    },
+    "filename": "pyright_compare.079412.65e8862b9a8-9a883007a2f.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "otherSymbolCounts": {"withKnownType": -1, "withUnknownType": -4},
+            "missingFunctionDocStringCount": -5,
+            "completenessScore": -4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.0173},
+            "otherSymbolCounts": {
+                "withKnownType": -0.0531,
+                "withUnknownType": -0.2345
+            },
+            "missingFunctionDocStringCount": -0.1422,
+            "completenessScore": -0.0111
+        },
+        "symbols": {
+            "removed": [
+                "torch._C._CUDAGraph.begin_capture_to_if_node",
+                "torch._C._CUDAGraph.begin_capture_to_while_loop_node",
+                "torch._C._CUDAGraph.end_capture_to_conditional_node",
+                "torch._C._CUDAGraph.get_currently_capturing_graph",
+                "torch._C._CUDAGraph.set_conditional_handle",
+                "torch.cuda.graphs.thread_cuda_stream_capture_mode"
+            ]
+        }
+    },
+    "completeness": [0.3623853211009174, 0.36234525230943254]
+}

@@ -11,7 +11,7 @@
             "message": "Allow bypasses for Precompile when guards, etc. cannot be serialized (#160902)"
         }
     },
-    "completenessScore": [0.377299, 0.377299],
+    "completeness": [0.377299, 0.377299],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~849"}, {"name": "11e97bc7bd4~848"}],
         "absolute": {

@@ -1,0 +1,38 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-24 16:33:29",
+            "commit_id": "9132f4b7ce5",
+            "message": "[dynamo][guards] Log guard latency to tlparse (#145509)"
+        },
+        "after": {
+            "committer_date": "2025-01-24 16:47:32",
+            "commit_id": "c0861d092ce",
+            "message": "[PGNCCL] Add an API to get the status/error code at the PG level (#144498)"
+        }
+    },
+    "filename": "pyright_compare.078581.9132f4b7ce5-c0861d092ce.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 6},
+            "missingFunctionDocStringCount": 1,
+            "missingClassDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.3188},
+            "missingFunctionDocStringCount": 0.0285,
+            "missingClassDocStringCount": 0.0974
+        },
+        "symbols": {
+            "added": [
+                "torch._C._distributed_c10d.Backend.get_error",
+                "torch._C._distributed_c10d.ErrorType",
+                "torch._C._distributed_c10d.ErrorType.COMM_ERROR",
+                "torch._C._distributed_c10d.ErrorType.REMOTE_ERROR",
+                "torch._C._distributed_c10d.ErrorType.SUCCESS",
+                "torch._C._distributed_c10d.ErrorType.TIMEOUT"
+            ]
+        }
+    },
+    "completeness": [0.36182264459689095, 0.36182264459689095]
+}

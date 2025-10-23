@@ -11,7 +11,7 @@
             "message": "Resubmit Remove MemPoolContext  (#154042) (#154746)"
         }
     },
-    "completenessScore": [0.371283, 0.371128],
+    "completeness": [0.371283, 0.371128],
     "filename": "full-run/pyright_compare.083453.932733e0e69-f01e628e3b3.json",
     "diff": {
         "absolute": {

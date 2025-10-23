@@ -11,7 +11,7 @@
             "message": "[AO] Refactor convert and add QuantAffinePlaceholderObserver (#150644)"
         }
     },
-    "completenessScore": [0.363308, 0.363285],
+    "completeness": [0.363308, 0.363285],
     "filename": "full-run/pyright_compare.081285.5653fb35250-eba05e2d3ef.json",
     "diff": {
         "absolute": {

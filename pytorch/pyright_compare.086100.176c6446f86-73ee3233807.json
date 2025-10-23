@@ -11,7 +11,7 @@
             "message": "[ONNX] RMS Norm (#159377)"
         }
     },
-    "completenessScore": [0.376499, 0.376499],
+    "completeness": [0.376499, 0.376499],
     "filename": "full-run/pyright_compare.086100.176c6446f86-73ee3233807.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withUnknownType": 1}},

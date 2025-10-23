@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-28 03:06:38",
+            "commit_id": "78f02bf07ce",
+            "message": "[bug] handle case when remote peer closes connection (#145757)"
+        },
+        "after": {
+            "committer_date": "2025-01-28 03:07:17",
+            "commit_id": "90106492928",
+            "message": "Revert \"Add option to serialization config to reduce random reads from get_record_offset when loading with mmap=True (#143880)\""
+        }
+    },
+    "filename": "pyright_compare.078694.78f02bf07ce-90106492928.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.0174},
+            "completenessScore": -0.0111
+        },
+        "symbols": {
+            "removed": [
+                "torch.utils.serialization.config.load.calculate_storage_offsets"
+            ]
+        }
+    },
+    "completeness": [0.3621948150012585, 0.3621546787489774]
+}

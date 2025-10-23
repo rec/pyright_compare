@@ -1,0 +1,63 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-17 01:51:37",
+            "commit_id": "ba3f1c29eef",
+            "message": "[dcp] Add extension mechanism (#143358)"
+        },
+        "after": {
+            "committer_date": "2025-01-17 01:51:37",
+            "commit_id": "9c909bf3bb1",
+            "message": "[dcp] Integrate stream extensions into DCP impl (#143359)"
+        }
+    },
+    "filename": "pyright_compare.078310.ba3f1c29eef-9c909bf3bb1.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "otherSymbolCounts": {
+                "withKnownType": 12,
+                "withAmbiguousType": 3,
+                "withUnknownType": 3
+            },
+            "missingFunctionDocStringCount": 3,
+            "missingClassDocStringCount": 1,
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.1227},
+            "otherSymbolCounts": {
+                "withKnownType": 0.6441,
+                "withAmbiguousType": 4.4776,
+                "withUnknownType": 0.1764
+            },
+            "missingFunctionDocStringCount": 0.0857,
+            "missingClassDocStringCount": 0.0975,
+            "completenessScore": -0.0063
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint._extension.Extension",
+                "torch.distributed.checkpoint._extension.Extension.from_descriptor",
+                "torch.distributed.checkpoint._extension.Extension.get_descriptor",
+                "torch.distributed.checkpoint._extension.Extension.registry_name",
+                "torch.distributed.checkpoint._extension.ExtensionRegistry",
+                "torch.distributed.checkpoint._extension.ExtensionRegistry.__init__",
+                "torch.distributed.checkpoint._extension.ExtensionRegistry.extensions",
+                "torch.distributed.checkpoint._extension.ExtensionRegistry.from_descriptor_list",
+                "torch.distributed.checkpoint._extension.ExtensionRegistry.register",
+                "torch.distributed.checkpoint.filesystem.FileSystemReader.transforms",
+                "torch.distributed.checkpoint.filesystem._FileSystemWriter.transforms",
+                "torch.distributed.checkpoint.filesystem._StorageReaderTransforms",
+                "torch.distributed.checkpoint.filesystem._StorageReaderTransforms.__init__",
+                "torch.distributed.checkpoint.filesystem._StorageReaderTransforms.extension_registry",
+                "torch.distributed.checkpoint.filesystem._StorageReaderTransforms.transform_load_stream",
+                "torch.distributed.checkpoint.filesystem._StorageWriterTransforms",
+                "torch.distributed.checkpoint.filesystem._StorageWriterTransforms.__init__",
+                "torch.distributed.checkpoint.filesystem._StorageWriterTransforms.extensions",
+                "torch.distributed.checkpoint.filesystem._StorageWriterTransforms.transform_save_stream"
+            ]
+        }
+    },
+    "completeness": [0.3607754279959718, 0.360752722008937]
+}

@@ -11,7 +11,7 @@
             "message": "[export] Improve error messages (#159881)"
         }
     },
-    "completenessScore": [0.377252, 0.37729],
+    "completeness": [0.377252, 0.37729],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1513"}, {"name": "11e97bc7bd4~1512"}],
         "absolute": {

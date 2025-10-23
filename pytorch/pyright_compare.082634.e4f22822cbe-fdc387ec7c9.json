@@ -11,7 +11,7 @@
             "message": "Revert \"refine fp32 precision api (#125888)\""
         }
     },
-    "completenessScore": [0.364444, 0.364654],
+    "completeness": [0.364444, 0.364654],
     "filename": "full-run/pyright_compare.082634.e4f22822cbe-fdc387ec7c9.json",
     "diff": {
         "absolute": {

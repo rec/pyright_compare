@@ -11,7 +11,7 @@
             "message": "[dynamo] Allow guards to be dropped with custom filter functions. (#150936)"
         }
     },
-    "completenessScore": [0.363387, 0.363325],
+    "completeness": [0.363387, 0.363325],
     "filename": "full-run/pyright_compare.081425.4b0cf9fc001-86370fd6580.json",
     "diff": {
         "absolute": {

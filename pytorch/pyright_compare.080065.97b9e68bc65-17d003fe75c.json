@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-04 19:40:21",
+            "commit_id": "97b9e68bc65",
+            "message": "Revert \"[fx] Move Node._prepend/Node._remove_from_list to C++ (#148261)\""
+        },
+        "after": {
+            "committer_date": "2025-03-04 19:40:21",
+            "commit_id": "17d003fe75c",
+            "message": "Revert \"[fx] Move Node._update_args_kwargs to C++ (#148260)\""
+        }
+    },
+    "filename": "pyright_compare.080065.97b9e68bc65-17d003fe75c.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": -1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": -0.0526}},
+        "symbols": {"removed": ["torch._C._NodeBase.__init__"]}
+    },
+    "completeness": [0.3624859040220524, 0.3624859040220524]
+}

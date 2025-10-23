@@ -11,7 +11,7 @@
             "message": "[PP] Support OVERLAP_F_B computation type (#158978)"
         }
     },
-    "completenessScore": [0.377237, 0.377213],
+    "completeness": [0.377237, 0.377213],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1633"}, {"name": "11e97bc7bd4~1632"}],
         "absolute": {

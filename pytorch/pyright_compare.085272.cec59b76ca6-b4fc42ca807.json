@@ -11,7 +11,7 @@
             "message": "Add `torch.segment_reduce` docs (#154352)"
         }
     },
-    "completenessScore": [0.374923, 0.374923],
+    "completeness": [0.374923, 0.374923],
     "filename": "pyright_compare.085272.cec59b76ca6-b4fc42ca807.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

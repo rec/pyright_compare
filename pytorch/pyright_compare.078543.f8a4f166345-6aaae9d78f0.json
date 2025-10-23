@@ -1,0 +1,57 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-23 23:36:15",
+            "commit_id": "f8a4f166345",
+            "message": "[c10d] fix memory leak on shutdown (#145507)"
+        },
+        "after": {
+            "committer_date": "2025-01-23 23:56:45",
+            "commit_id": "6aaae9d78f0",
+            "message": "Make torchelastic etcd rendezvous publicly importable (#145396)"
+        }
+    },
+    "filename": "pyright_compare.078543.f8a4f166345-6aaae9d78f0.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2, "withUnknownType": -2},
+            "otherSymbolCounts": {"withKnownType": 5},
+            "missingFunctionDocStringCount": 3,
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.000126
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0348,
+                "withUnknownType": -0.0214
+            },
+            "otherSymbolCounts": {"withKnownType": 0.2664},
+            "missingFunctionDocStringCount": 0.0855,
+            "missingClassDocStringCount": 0.0974,
+            "completenessScore": 0.0348
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.elastic.rendezvous._etcd_stub.Client",
+                "torch.distributed.elastic.rendezvous._etcd_stub.Client.__init__",
+                "torch.distributed.elastic.rendezvous._etcd_stub.Client.read",
+                "torch.distributed.elastic.rendezvous._etcd_stub.Client.test_and_set",
+                "torch.distributed.elastic.rendezvous._etcd_stub.Client.write"
+            ],
+            "common": {
+                "torch.distributed.elastic.rendezvous.etcd_rendezvous_backend.EtcdRendezvousBackend": {
+                    "isTypeKnown": true
+                },
+                "torch.distributed.elastic.rendezvous.etcd_rendezvous_backend.EtcdRendezvousBackend.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"client\" is unknown"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3616967713512493, 0.36182264459689095]
+}

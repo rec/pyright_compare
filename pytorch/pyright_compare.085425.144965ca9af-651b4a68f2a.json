@@ -11,7 +11,7 @@
             "message": "[hop][dynamo] track run-ahead sym variables in side effects (#158273)"
         }
     },
-    "completenessScore": [0.375995, 0.375995],
+    "completeness": [0.375995, 0.375995],
     "filename": "pyright_compare.085425.144965ca9af-651b4a68f2a.json",
     "diff": {
         "symbols": {

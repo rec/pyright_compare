@@ -11,7 +11,7 @@
             "message": "[BE][Ez]: Autotype torch/profiler with ruff ANN (#157923)"
         }
     },
-    "completenessScore": [0.374391, 0.374884],
+    "completeness": [0.374391, 0.374884],
     "filename": "pyright_compare.085184.53ab73090eb-a1dad2f2d2c.json",
     "diff": {
         "absolute": {

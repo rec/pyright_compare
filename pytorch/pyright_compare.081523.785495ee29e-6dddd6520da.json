@@ -11,7 +11,7 @@
             "message": "[dynamic shapes] add sym_and, sym_or (#150456)"
         }
     },
-    "completenessScore": [0.363099, 0.363076],
+    "completeness": [0.363099, 0.363076],
     "filename": "full-run/pyright_compare.081523.785495ee29e-6dddd6520da.json",
     "diff": {
         "absolute": {

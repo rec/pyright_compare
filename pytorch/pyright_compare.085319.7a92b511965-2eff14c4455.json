@@ -11,7 +11,7 @@
             "message": "[ONNX] Delete torch.onnx.dynamo_export (#158130)"
         }
     },
-    "completenessScore": [0.3749, 0.374807],
+    "completeness": [0.3749, 0.374807],
     "filename": "pyright_compare.085319.7a92b511965-2eff14c4455.json",
     "diff": {
         "absolute": {

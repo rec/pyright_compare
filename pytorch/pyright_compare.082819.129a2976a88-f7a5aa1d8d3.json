@@ -11,7 +11,7 @@
             "message": "[torchgen] Refactor and simplify `gen_pyi.py` to use Generic TypeAlias (PEP 585) and Union Type (PEP 604) (#150727)"
         }
     },
-    "completenessScore": [0.365235, 0.366478],
+    "completeness": [0.365235, 0.366478],
     "filename": "full-run/pyright_compare.082819.129a2976a88-f7a5aa1d8d3.json",
     "diff": {
         "absolute": {

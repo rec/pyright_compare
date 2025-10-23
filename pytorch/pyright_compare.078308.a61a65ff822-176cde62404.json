@@ -1,0 +1,26 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-17 01:41:01",
+            "commit_id": "a61a65ff822",
+            "message": "[MPSInductor] Add `Worker.current_device` method (#145023)"
+        },
+        "after": {
+            "committer_date": "2025-01-17 01:49:28",
+            "commit_id": "176cde62404",
+            "message": "Use torch with statement in torch distributed module (#144951)"
+        }
+    },
+    "filename": "pyright_compare.078308.a61a65ff822-176cde62404.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 1}},
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.0537,
+                "withUnknownType": 0.0588
+            }
+        },
+        "symbols": {"added": ["torch._C.Stream.__enter__", "torch._C.Stream.__exit__"]}
+    },
+    "completeness": [0.3607754279959718, 0.3607754279959718]
+}

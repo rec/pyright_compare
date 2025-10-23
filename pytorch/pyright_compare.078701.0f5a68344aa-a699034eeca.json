@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-28 05:58:51",
+            "commit_id": "0f5a68344aa",
+            "message": "[BE][Inductor] Simplify `custom_op` tests (#145814)"
+        },
+        "after": {
+            "committer_date": "2025-01-28 07:07:14",
+            "commit_id": "a699034eeca",
+            "message": "Record inputs at time of tracing, constrain to them for triton fn (#145448)"
+        }
+    },
+    "filename": "pyright_compare.078701.0f5a68344aa-a699034eeca.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0107},
+            "missingFunctionDocStringCount": 0.0285,
+            "completenessScore": -0.0063
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.proxy_tensor.PythonKeyTracer.create_node"
+            ]
+        }
+    },
+    "completeness": [0.3621546787489774, 0.3621318902592499]
+}

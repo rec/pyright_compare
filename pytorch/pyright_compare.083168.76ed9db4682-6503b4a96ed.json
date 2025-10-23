@@ -11,7 +11,7 @@
             "message": "Update to using mypy 1.15 (#154054)"
         }
     },
-    "completenessScore": [0.367977, 0.368101],
+    "completeness": [0.367977, 0.368101],
     "filename": "full-run/pyright_compare.083168.76ed9db4682-6503b4a96ed.json",
     "diff": {
         "absolute": {

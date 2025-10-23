@@ -11,7 +11,7 @@
             "message": "testing infra and some fixes (#162183)"
         }
     },
-    "completenessScore": [0.376073, 0.376073],
+    "completeness": [0.376073, 0.376073],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~72"}, {"name": "11e97bc7bd4~71"}],
         "absolute": {"otherSymbolCounts": {"withKnownType": 1}},

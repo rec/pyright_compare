@@ -11,7 +11,7 @@
             "message": "[reland] Add stack_trace on make_fx (#155486)"
         }
     },
-    "completenessScore": [0.371377, 0.371416],
+    "completeness": [0.371377, 0.371416],
     "filename": "full-run/pyright_compare.083922.9bd0830ed8d-bc3972b80a7.json",
     "diff": {
         "absolute": {

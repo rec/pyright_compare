@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-20 23:02:07",
+            "commit_id": "bf34e228c52",
+            "message": "[export] Beef up guard_added logs (#149465)"
+        },
+        "after": {
+            "committer_date": "2025-03-20 23:07:45",
+            "commit_id": "f47aa081308",
+            "message": "[export] Support python assertion with symints. (#149444)"
+        }
+    },
+    "filename": "pyright_compare.080715.bf34e228c52-f47aa081308.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "completenessScore": 8e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0345},
+            "completenessScore": 0.022
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.trace_asserts",
+                "torch.fx.experimental.symbolic_shapes.ShapeEnvSettings.trace_asserts"
+            ]
+        }
+    },
+    "completeness": [0.3628512422554603, 0.36293098053939055]
+}

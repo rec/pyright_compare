@@ -11,7 +11,7 @@
             "message": "Warn user of existing lock file to avoid infinite waiting (#149382)"
         }
     },
-    "completenessScore": [0.36478, 0.364757],
+    "completeness": [0.36478, 0.364757],
     "filename": "full-run/pyright_compare.081578.bd4cf30e31a-f98150fc8e6.json",
     "diff": {
         "absolute": {

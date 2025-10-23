@@ -1,0 +1,64 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-31 05:08:11",
+            "commit_id": "f9227e7c337",
+            "message": "Expose ToIValueAllowNumbersAsTensors to TORCH_PYTHON_API so we can use it in monarch (#146087)"
+        },
+        "after": {
+            "committer_date": "2025-01-31 05:34:28",
+            "commit_id": "57d8278ab90",
+            "message": "pickler for GraphModule (#141659)"
+        }
+    },
+    "filename": "pyright_compare.078885.f9227e7c337-57d8278ab90.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": -7, "withUnknownType": -2},
+            "missingClassDocStringCount": -1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": -0.3704,
+                "withUnknownType": -0.1174
+            },
+            "missingClassDocStringCount": -0.0973
+        },
+        "symbols": {
+            "common": {
+                "torch._subclasses.meta_utils.MetaConverter.meta_tensor": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"callback_\" is partially unknown\n\u00a0\u00a0Parameter type is \"_MetaTensorCallback[_TensorT@MetaConverter]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"callback\" is partially unknown\n\u00a0\u00a0Parameter type is \"_MetaTensorCallback[_TensorT@MetaConverter]\""
+                        ]
+                    }
+                },
+                "torch._subclasses.meta_utils._MetaTensorCallback.__call__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"device\" is partially unknown\n\u00a0\u00a0Parameter type is \"device | str\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"kwargs\" is partially unknown\n\u00a0\u00a0Parameter type is \"*_MetaTensorCallbackKwargs\""
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.__delitem__",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.__init__",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.__new__",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.device",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.get",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.pop",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.setdefault",
+                "torch._subclasses.meta_utils._MetaTensorCallbackKwargs.update"
+            ]
+        }
+    },
+    "completeness": [0.3622349462027308, 0.3622349462027308]
+}

@@ -11,7 +11,7 @@
             "message": "Allow parallel start NUMA binding (#161576)"
         }
     },
-    "completenessScore": [0.37733, 0.377291],
+    "completeness": [0.37733, 0.377291],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~581"}, {"name": "11e97bc7bd4~580"}],
         "absolute": {

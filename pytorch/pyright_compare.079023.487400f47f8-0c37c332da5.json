@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-04 04:39:39",
+            "commit_id": "487400f47f8",
+            "message": "[dynamo] Support functools.partial variables through inspect.signature (#146339)"
+        },
+        "after": {
+            "committer_date": "2025-02-04 04:42:30",
+            "commit_id": "0c37c332da5",
+            "message": "[export] Additionally save pytree namedtuple field names (#145956)"
+        }
+    },
+    "filename": "pyright_compare.079023.487400f47f8-0c37c332da5.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.1222},
+            "completenessScore": -0.0063
+        },
+        "symbols": {"added": ["torch.export.unflatten.UnflattenedModule.meta"]}
+    },
+    "completeness": [0.362315193457062, 0.36229240060392554]
+}

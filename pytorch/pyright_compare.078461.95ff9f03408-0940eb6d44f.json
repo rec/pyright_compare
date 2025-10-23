@@ -1,0 +1,37 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-22 19:56:31",
+            "commit_id": "95ff9f03408",
+            "message": "[Doc] Add period at the end of the sentence (#145384)"
+        },
+        "after": {
+            "committer_date": "2025-01-22 20:11:49",
+            "commit_id": "0940eb6d44f",
+            "message": "Reverting the PR adding Kleidiai-based int4 kernels (#145392)"
+        }
+    },
+    "filename": "pyright_compare.078461.95ff9f03408-0940eb6d44f.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withUnknownType": -1},
+            "completenessScore": -1.7e-05,
+            "filesAnalyzed": -1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.0174,
+                "withUnknownType": -0.0107
+            },
+            "completenessScore": -0.0048,
+            "filesAnalyzed": -0.1155
+        },
+        "symbols": {
+            "removed": [
+                "torch.backends.kleidiai",
+                "torch.backends.kleidiai.is_available"
+            ]
+        }
+    },
+    "completeness": [0.3616967713512493, 0.3616793604834141]
+}

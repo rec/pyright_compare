@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-16 19:41:41",
+            "commit_id": "b8abdaa286f",
+            "message": "Make functionalization `ViewMeta` serializable with pickle. (#143712)"
+        },
+        "after": {
+            "committer_date": "2025-01-16 19:50:31",
+            "commit_id": "3908be676c7",
+            "message": "Fix loading older state_dict into AdamW after refactor (#144972)"
+        }
+    },
+    "filename": "pyright_compare.078278.b8abdaa286f-3908be676c7.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0107},
+            "completenessScore": -0.0063
+        },
+        "symbols": {"added": ["torch.optim.adamw.AdamW.__setstate__"]}
+    },
+    "completeness": [0.36094153187739947, 0.36091881686595345]
+}

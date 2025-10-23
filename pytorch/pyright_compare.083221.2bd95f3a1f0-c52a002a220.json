@@ -11,7 +11,7 @@
             "message": "Add getDeviceProperties api to torch mtia device (#153577)"
         }
     },
-    "completenessScore": [0.368078, 0.368056],
+    "completeness": [0.368078, 0.368056],
     "filename": "full-run/pyright_compare.083221.2bd95f3a1f0-c52a002a220.json",
     "diff": {
         "absolute": {

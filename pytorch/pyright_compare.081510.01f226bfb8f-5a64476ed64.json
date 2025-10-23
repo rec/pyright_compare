@@ -11,7 +11,7 @@
             "message": "[Easy] Add `output_size` in forward method of ConvTranspose2d (#150609)"
         }
     },
-    "completenessScore": [0.363161, 0.363161],
+    "completeness": [0.363161, 0.363161],
     "filename": "full-run/pyright_compare.081510.01f226bfb8f-5a64476ed64.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

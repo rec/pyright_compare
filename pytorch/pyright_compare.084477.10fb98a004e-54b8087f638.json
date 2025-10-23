@@ -11,7 +11,7 @@
             "message": "Improve torch.ops typing (#154555)"
         }
     },
-    "completenessScore": [0.371956, 0.372142],
+    "completeness": [0.371956, 0.372142],
     "filename": "full-run/pyright_compare.084477.10fb98a004e-54b8087f638.json",
     "diff": {
         "absolute": {

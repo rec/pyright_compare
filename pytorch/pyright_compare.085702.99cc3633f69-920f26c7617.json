@@ -11,7 +11,7 @@
             "message": "Revert \"[BE] Remove __reduce_deploy__ (#158291)\""
         }
     },
-    "completenessScore": [0.3757, 0.375654],
+    "completeness": [0.3757, 0.375654],
     "filename": "pyright_compare.085702.99cc3633f69-920f26c7617.json",
     "diff": {
         "absolute": {

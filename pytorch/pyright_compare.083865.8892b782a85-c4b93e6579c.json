@@ -11,7 +11,7 @@
             "message": "Replace frame_traced_fn hook with get_traced_code() util (#155249)"
         }
     },
-    "completenessScore": [0.37126, 0.37126],
+    "completeness": [0.37126, 0.37126],
     "filename": "full-run/pyright_compare.083865.8892b782a85-c4b93e6579c.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": 1},

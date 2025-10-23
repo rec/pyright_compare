@@ -11,7 +11,7 @@
             "message": "[BE] More torch.nn docs coverage test (except for torch.nn.parallel) (#158654)"
         }
     },
-    "completenessScore": [0.377298, 0.377298],
+    "completeness": [0.377298, 0.377298],
     "filename": "full-run/pyright_compare.085943.9e8f27cc795-1e79872f2e8.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

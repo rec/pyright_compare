@@ -11,7 +11,7 @@
             "message": "Allow forcing FSDP2 to always use SUM reductions (#155915)"
         }
     },
-    "completenessScore": [0.371964, 0.371964],
+    "completeness": [0.371964, 0.371964],
     "filename": "full-run/pyright_compare.084298.9944cd0949e-cbafba57941.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 2}},

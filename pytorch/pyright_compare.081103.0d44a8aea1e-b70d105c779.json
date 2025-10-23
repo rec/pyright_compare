@@ -11,7 +11,7 @@
             "message": "infer dynamic shapes through additional inputs (#150144)"
         }
     },
-    "completenessScore": [0.36316, 0.363086],
+    "completeness": [0.36316, 0.363086],
     "filename": "full-run/pyright_compare.081103.0d44a8aea1e-b70d105c779.json",
     "diff": {
         "absolute": {

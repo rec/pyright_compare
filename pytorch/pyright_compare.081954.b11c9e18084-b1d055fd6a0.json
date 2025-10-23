@@ -11,7 +11,7 @@
             "message": "Revert \"[dynamo] Add guard serialization for tensor matches. (#151318)\""
         }
     },
-    "completenessScore": [0.364524, 0.364524],
+    "completeness": [0.364524, 0.364524],
     "filename": "full-run/pyright_compare.081954.b11c9e18084-b1d055fd6a0.json",
     "diff": {
         "absolute": {

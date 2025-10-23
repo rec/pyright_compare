@@ -11,7 +11,7 @@
             "message": "[Kineto] Enable OOM observer (#152160)"
         }
     },
-    "completenessScore": [0.364636, 0.364676],
+    "completeness": [0.364636, 0.364676],
     "filename": "full-run/pyright_compare.082033.c4b08547506-861945100ec.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "[DCP] OSS Zero Overhead Checkpointing Implementation (#156207)"
         }
     },
-    "completenessScore": [0.371156, 0.372082],
+    "completeness": [0.371156, 0.372082],
     "filename": "full-run/pyright_compare.084808.bccb8473fed-2796f31b5e3.json",
     "diff": {
         "absolute": {

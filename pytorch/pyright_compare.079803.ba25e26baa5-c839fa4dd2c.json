@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-26 04:22:16",
+            "commit_id": "ba25e26baa5",
+            "message": "[ROCm] Use IPT=8 for block radix sort (#147657)"
+        },
+        "after": {
+            "committer_date": "2025-02-26 05:05:06",
+            "commit_id": "c839fa4dd2c",
+            "message": "[Resubmit] Record input strides at time of tracing, constrain to them for triton fn (#147861)"
+        }
+    },
+    "filename": "pyright_compare.079803.ba25e26baa5-c839fa4dd2c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0107},
+            "missingFunctionDocStringCount": 0.0285,
+            "completenessScore": -0.0063
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.proxy_tensor.PythonKeyTracer.create_node"
+            ]
+        }
+    },
+    "completeness": [0.36237698238575816, 0.36235426852200076]
+}

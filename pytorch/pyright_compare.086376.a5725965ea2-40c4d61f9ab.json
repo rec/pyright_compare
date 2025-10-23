@@ -11,7 +11,7 @@
             "message": "[Dynamo][Better Engineering] Typing `torch/_dynamo/guards.py` (#159315)"
         }
     },
-    "completenessScore": [0.377095, 0.377095],
+    "completeness": [0.377095, 0.377095],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1459"}, {"name": "11e97bc7bd4~1458"}],
         "absolute": {

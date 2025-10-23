@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-20 01:02:32",
+            "commit_id": "02e21c78543",
+            "message": "Fix spelling (#149277)"
+        },
+        "after": {
+            "committer_date": "2025-03-20 01:22:05",
+            "commit_id": "1442230a267",
+            "message": "Supporting non-tensor-data write_size in planner write items. (#149434)"
+        }
+    },
+    "filename": "pyright_compare.080669.02e21c78543-1442230a267.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 9},
+            "missingClassDocStringCount": 1,
+            "completenessScore": 0.000359
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.1552},
+            "missingClassDocStringCount": 0.0972,
+            "completenessScore": 0.0988
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.planner.BytesIOWriteData",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__dataclass_fields__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__eq__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__hash__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__init__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__match_args__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.__new__",
+                "torch.distributed.checkpoint.planner.BytesIOWriteData.nbytes",
+                "torch.distributed.checkpoint.planner.WriteItem.bytes_io_data"
+            ]
+        }
+    },
+    "completeness": [0.3628512422554603, 0.3632099074305729]
+}

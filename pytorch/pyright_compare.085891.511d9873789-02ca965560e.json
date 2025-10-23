@@ -11,7 +11,7 @@
             "message": "Device agnostic for DCP (#158337)"
         }
     },
-    "completenessScore": [0.376663, 0.376663],
+    "completeness": [0.376663, 0.376663],
     "filename": "pyright_compare.085891.511d9873789-02ca965560e.json",
     "diff": {
         "symbols": {

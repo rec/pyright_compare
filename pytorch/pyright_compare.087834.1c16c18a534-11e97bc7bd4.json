@@ -11,7 +11,7 @@
             "message": "[cpp_extension] Add abstract base class to OrderedDictWrapper, and clarify torch.nn.Module typing"
         }
     },
-    "completenessScore": [0.376088, 0.376533],
+    "completeness": [0.376088, 0.376533],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1"}, {"name": "11e97bc7bd4~0"}],
         "absolute": {

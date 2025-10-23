@@ -11,7 +11,7 @@
             "message": "Use property instead of ClassVar for `Uniform.arg_constraints` and `Wishart.arg_constraints` (#154361)"
         }
     },
-    "completenessScore": [0.368078, 0.368078],
+    "completeness": [0.368078, 0.368078],
     "filename": "full-run/pyright_compare.083198.3f64502c984-839c9c61565.json",
     "diff": {
         "absolute": {

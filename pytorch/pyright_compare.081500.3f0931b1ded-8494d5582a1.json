@@ -11,7 +11,7 @@
             "message": "Propagate callable parameter types using ParamSpec (#142306) (#151014)"
         }
     },
-    "completenessScore": [0.363138, 0.363099],
+    "completeness": [0.363138, 0.363099],
     "filename": "full-run/pyright_compare.081500.3f0931b1ded-8494d5582a1.json",
     "diff": {
         "absolute": {

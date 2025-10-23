@@ -11,7 +11,7 @@
             "message": "Revert \"[dynamo, nested graph breaks] add nested graph break tests (#144516)\""
         }
     },
-    "completenessScore": [0.377353, 0.377353],
+    "completeness": [0.377353, 0.377353],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~664"}, {"name": "11e97bc7bd4~663"}],
         "absolute": {

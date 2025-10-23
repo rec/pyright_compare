@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-30 16:01:38",
+            "commit_id": "50086ab537e",
+            "message": "[ONNX] Delete `rename_dynamic_shapes_with_model_inputs` (#146002)"
+        },
+        "after": {
+            "committer_date": "2025-01-30 16:01:52",
+            "commit_id": "5fa28bbe407",
+            "message": "Revert \"[c10d] Add NCCL memory allocator (#145675)\""
+        }
+    },
+    "filename": "pyright_compare.078831.50086ab537e-5fa28bbe407.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": -1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": -0.0529}},
+        "symbols": {"removed": ["torch._C._distributed_c10d.Backend.mem_allocator"]}
+    },
+    "completeness": [0.3622349462027308, 0.3622349462027308]
+}

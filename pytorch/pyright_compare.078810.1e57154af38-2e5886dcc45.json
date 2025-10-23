@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-29 22:27:52",
+            "commit_id": "1e57154af38",
+            "message": "Require that all HOPs be imported at `import torch` time (#145939)"
+        },
+        "after": {
+            "committer_date": "2025-01-29 22:33:16",
+            "commit_id": "2e5886dcc45",
+            "message": "Add fake_impl for unique_consecutive (#145649)"
+        }
+    },
+    "filename": "pyright_compare.078810.1e57154af38-2e5886dcc45.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withUnknownType": 1}},
+        "percent": {"otherSymbolCounts": {"withUnknownType": 0.0587}},
+        "symbols": {
+            "added": [
+                "torch._subclasses.fake_tensor.FakeTensor.unique_consecutive_memo"
+            ]
+        }
+    },
+    "completeness": [0.3622349462027308, 0.3622349462027308]
+}

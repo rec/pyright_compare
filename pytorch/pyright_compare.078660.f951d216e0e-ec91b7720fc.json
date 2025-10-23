@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-27 18:26:04",
+            "commit_id": "f951d216e0e",
+            "message": "[autocast][pytorch] Support autocast for MTIA (policy) (#145666)"
+        },
+        "after": {
+            "committer_date": "2025-01-27 19:22:43",
+            "commit_id": "ec91b7720fc",
+            "message": "[Custom Ops] Add a new API to allow users to register an autocast for the custom op (#145588)"
+        }
+    },
+    "filename": "pyright_compare.078660.f951d216e0e-ec91b7720fc.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "otherSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0107},
+            "otherSymbolCounts": {"withUnknownType": 0.0588},
+            "completenessScore": -0.0063
+        },
+        "symbols": {
+            "added": [
+                "torch._library.custom_ops.CustomOpDef.register_autocast",
+                "torch.library.register_autocast"
+            ]
+        }
+    },
+    "completeness": [0.36217747010698553, 0.3621546787489774]
+}

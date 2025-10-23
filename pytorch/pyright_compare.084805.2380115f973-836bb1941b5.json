@@ -11,7 +11,7 @@
             "message": "[hop] support torch.func.functional_call in hop subgraph (#155886)"
         }
     },
-    "completenessScore": [0.371156, 0.371156],
+    "completeness": [0.371156, 0.371156],
     "filename": "full-run/pyright_compare.084805.2380115f973-836bb1941b5.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withUnknownType": 3}},

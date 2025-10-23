@@ -11,7 +11,7 @@
             "message": "Combine sticky pgo key with job id (#154863)"
         }
     },
-    "completenessScore": [0.371577, 0.371538],
+    "completeness": [0.371577, 0.371538],
     "filename": "full-run/pyright_compare.083538.a4da1d4a471-ea5b9eca74e.json",
     "diff": {
         "absolute": {

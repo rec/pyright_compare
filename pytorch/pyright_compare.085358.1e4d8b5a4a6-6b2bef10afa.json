@@ -11,7 +11,7 @@
             "message": "[c10d] Prototype of `group_split` for dist2 work (#157716)"
         }
     },
-    "completenessScore": [0.374931, 0.374931],
+    "completeness": [0.374931, 0.374931],
     "filename": "pyright_compare.085358.1e4d8b5a4a6-6b2bef10afa.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Back out \"Include c++ stack traces when we hit constraint violation (#155603)\" (#157406)"
         }
     },
-    "completenessScore": [0.373542, 0.373503],
+    "completeness": [0.373542, 0.373503],
     "filename": "full-run/pyright_compare.084925.bd6b5fddbf5-156bc243f0e.json",
     "diff": {
         "absolute": {

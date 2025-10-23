@@ -11,7 +11,7 @@
             "message": "Configurable logging for cpp_extensions.py (#152260)"
         }
     },
-    "completenessScore": [0.364761, 0.364738],
+    "completeness": [0.364761, 0.364738],
     "filename": "full-run/pyright_compare.082195.05933e08ca5-7a3cae4b200.json",
     "diff": {
         "absolute": {

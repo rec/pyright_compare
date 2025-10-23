@@ -1,0 +1,825 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-19 07:06:10",
+            "commit_id": "78bff1e8c1b",
+            "message": "PEP585 update - torch/_functorch (#145139)"
+        },
+        "after": {
+            "committer_date": "2025-01-19 10:20:00",
+            "commit_id": "9e0437a04a2",
+            "message": "PEP585 update - torch/ao/quantization (#145140)"
+        }
+    },
+    "filename": "pyright_compare.078376.78bff1e8c1b-9e0437a04a2.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 8, "withUnknownType": -8},
+            "completenessScore": 0.000503
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.1395,
+                "withUnknownType": -0.0856
+            },
+            "completenessScore": 0.1395
+        },
+        "symbols": {
+            "common": {
+                "torch.ao.quantization.backend_config.onednn.linear_configs": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[BackendPatternConfig]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"List[BackendPatternConfig]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.backend_config.utils.get_fuser_method_mapping": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.backend_config.utils.get_fusion_pattern_to_extra_inputs_getter": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.backend_config.utils.get_fusion_pattern_to_root_node_getter": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.backend_config.utils.get_module_to_qat_module": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, type[Module]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, type[Module]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.backend_config.utils.get_pattern_to_dtype_configs": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, list[DTypeConfig]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, List[DTypeConfig]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.backend_config.utils.get_pattern_to_input_type_to_index": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, dict[str, int]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Dict[str, int]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fuser_method_mappings.get_fuser_method_new": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fuser_method_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"fuser_method_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.convert.convert": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"convert_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"ConvertCustomConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | dict[str, Any] | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"convert_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"ConvertCustomConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | Dict[str, Any] | None\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.convert.convert_custom_module": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"custom_module_class_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[QuantType, Dict[Type[Unknown], Type[Unknown]]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.custom_config.ConvertCustomConfig.observed_to_quantized_mapping": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 2 for class \"dict\" has partially unknown type\n\u00a0\u00a0Type is [object Object]"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.custom_config.ConvertCustomConfig.set_observed_to_quantized_mapping": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"observed_class\" is partially unknown\n\u00a0\u00a0Parameter type is \"Type[Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"type\" has unknown type",
+                            "Type of parameter \"quantized_class\" is partially unknown\n\u00a0\u00a0Parameter type is \"Type[Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"type\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.custom_config.PrepareCustomConfig.float_to_observed_mapping": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 2 for class \"dict\" has partially unknown type\n\u00a0\u00a0Type is [object Object]"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.custom_config.PrepareCustomConfig.non_traceable_module_classes": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"list\" has partially unknown type\n\u00a0\u00a0Type is [object Object]"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.custom_config.PrepareCustomConfig.set_float_to_observed_mapping": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"float_class\" is partially unknown\n\u00a0\u00a0Parameter type is \"Type[Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"type\" has unknown type",
+                            "Type of parameter \"observed_class\" is partially unknown\n\u00a0\u00a0Parameter type is \"Type[Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"type\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.custom_config.PrepareCustomConfig.set_non_traceable_module_classes": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"module_classes\" is partially unknown\n\u00a0\u00a0Parameter type is \"List[Type[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.custom_config.PrepareCustomConfig.set_standalone_module_class": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"module_class\" is partially unknown\n\u00a0\u00a0Parameter type is \"Type[Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"type\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.custom_config.PrepareCustomConfig.standalone_module_classes": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0Type is [object Object]"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.fuse.fuse": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"fuse_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"FuseCustomConfig | dict[str, Any] | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"fuse_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"FuseCustomConfig | Dict[str, Any] | None\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.fuse_handler.DefaultFuseHandler.fuse": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fuser_method_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"fuser_method_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.fuse_handler.FuseHandler.fuse": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fuser_method_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"fuser_method_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.graph_module.FusedGraphModule.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | dict[str, Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | Dict[str, Any]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.graph_module.ObservedGraphModule.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | dict[str, Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | Dict[str, Any]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.graph_module.ObservedStandaloneGraphModule.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | dict[str, Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | Dict[str, Any]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.graph_module.QuantizedGraphModule.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | dict[str, Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"root\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module | Dict[str, Any]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.pattern_utils.get_default_fusion_patterns": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.pattern_utils.get_default_output_activation_post_process_map": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, ObserverBase]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, ObserverBase]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.pattern_utils.get_default_quant_patterns": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.prepare.insert_observers_for_model": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"node_name_to_match_result_with_qconfig\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[str, tuple[Node, list[Node], ((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any | None, QuantizeHandler, QConfig | None]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"node_name_to_match_result_with_qconfig\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[str, tuple[Node, List[Node], ((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any | None, QuantizeHandler, QConfig | None]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.prepare.prepare": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"_equalization_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | dict[str, Any] | None\"",
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"prepare_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"PrepareCustomConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | dict[str, Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"_equalization_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | Dict[str, Any] | None\"",
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"prepare_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"PrepareCustomConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | Dict[str, Any]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.prepare.propagate_dtypes_for_known_nodes": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"node_name_to_match_result_with_qconfig\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[str, tuple[Node, list[Node], ((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any | None, QuantizeHandler, QConfig | None]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"node_name_to_match_result_with_qconfig\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[str, tuple[Node, List[Node], ((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any | None, QuantizeHandler, QConfig | None]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.tracer.QuantizationTracer.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"skipped_module_classes\" is partially unknown\n\u00a0\u00a0Parameter type is \"list[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"skipped_module_classes\" is partially unknown\n\u00a0\u00a0Parameter type is \"List[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fx.utils.get_custom_module_class_keys": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"custom_module_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[QuantType, Dict[Type[Unknown], Type[Unknown]]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_default_compare_output_module_list": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_default_dynamic_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_default_dynamic_sparse_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_default_float_to_quantized_operator_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | str, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | str, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_default_qat_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_default_qconfig_propagation_list": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_default_static_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_default_static_quant_reference_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_default_static_sparse_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_dynamic_quant_module_class": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"additional_dynamic_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"additional_dynamic_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_embedding_qat_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_embedding_static_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_fuser_method_new": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"fuser_method_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"fuser_method_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[((...) -> Unknown) | tuple[(...) -> Unknown, (...) -> Unknown] | tuple[(...) -> Unknown, tuple[(...) -> Unknown, (...) -> Unknown]] | Any, Sequential | ((...) -> Unknown)]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.get_static_quant_module_class": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"additional_static_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"additional_static_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.pt2e.graph_utils.get_equivalent_types": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"list[set[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"List[Set[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_default_compare_output_module_list": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_default_dynamic_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_default_dynamic_sparse_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_default_float_to_quantized_operator_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | str, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | str, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_default_qat_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_default_qconfig_propagation_list": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_default_static_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_default_static_quant_reference_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_default_static_sparse_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_dynamic_quant_module_class": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"additional_dynamic_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"additional_dynamic_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_embedding_qat_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_embedding_static_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantization_mappings.get_static_quant_module_class": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"additional_static_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"additional_static_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantize_fx.convert_fx": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"convert_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"ConvertCustomConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | dict[str, Any] | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"convert_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"ConvertCustomConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | Dict[str, Any] | None\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantize_fx.convert_to_reference_fx": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"convert_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"ConvertCustomConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | dict[str, Any] | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"convert_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"ConvertCustomConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | Dict[str, Any] | None\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantize_fx.fuse_fx": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"fuse_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"FuseCustomConfig | dict[str, Any] | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"fuse_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"FuseCustomConfig | Dict[str, Any] | None\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantize_fx.prepare_fx": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"_equalization_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | dict[str, Any] | None\"",
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"prepare_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"PrepareCustomConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | dict[str, Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"_equalization_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | Dict[str, Any] | None\"",
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"prepare_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"PrepareCustomConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | Dict[str, Any]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantize_fx.prepare_qat_fx": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"prepare_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"PrepareCustomConfig | dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | dict[str, Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"backend_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"BackendConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"prepare_custom_config\" is partially unknown\n\u00a0\u00a0Parameter type is \"PrepareCustomConfig | Dict[str, Any] | None\"",
+                            "Type of parameter \"qconfig_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfigMapping | Dict[str, Any]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantizer.embedding_quantizer.EmbeddingQuantizer.get_supported_operator_for_quantization_config": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"list[list[(...) -> Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"List[List[(...) -> Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantizer.x86_inductor_quantizer.X86InductorQuantizer.module_function_to_aten_operator_type": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[(...) -> Unknown, OpOverloadPacket]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Dict[(...) -> Unknown, OpOverloadPacket]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantizer.xnnpack_quantizer.XNNPACKQuantizer.get_supported_operator_for_quantization_config": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"list[list[(...) -> Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"List[List[(...) -> Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantizer.xnnpack_quantizer.XNNPACKQuantizer.supported_config_and_operators": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[OperatorConfig]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"List[OperatorConfig]\""
+                        ]
+                    }
+                },
+                "torch.quantization.get_default_compare_output_module_list": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.quantization.get_default_dynamic_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.quantization.get_default_float_to_quantized_operator_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[((...) -> Unknown) | str, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[((...) -> Unknown) | str, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.quantization.get_default_qat_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.quantization.get_default_qconfig_propagation_list": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Set[(...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"set\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.quantization.get_default_static_quant_module_mappings": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Dict[(...) -> Unknown, Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.quantization.get_dynamic_quant_module_class": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"additional_dynamic_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"additional_dynamic_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.quantization.get_static_quant_module_class": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"additional_static_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"additional_static_quant_mapping\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dict[(...) -> Unknown, Any] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.3607929515418502, 0.3612964128382631]
+}

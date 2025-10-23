@@ -1,0 +1,43 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-05 21:25:06",
+            "commit_id": "98b5d455fd5",
+            "message": "[opcheck] Improve error reporting; allow atol/rtol overrides (#146488)"
+        },
+        "after": {
+            "committer_date": "2025-02-05 21:26:45",
+            "commit_id": "4ee7d0de86e",
+            "message": "Add generate_stage_to_rank_mapping utility (#146193)"
+        }
+    },
+    "filename": "pyright_compare.079110.98b5d455fd5-4ee7d0de86e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.1221},
+            "completenessScore": -0.0063
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.pipelining.schedules.ScheduleZBVZeroBubble.stage_index_to_group_rank"
+            ],
+            "common": {
+                "torch.distributed.pipelining.schedules.PipelineScheduleMulti.stage_index_to_group_rank": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Dict[int, int]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[int, int]\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.36229240060392554, 0.36226961061835566]
+}

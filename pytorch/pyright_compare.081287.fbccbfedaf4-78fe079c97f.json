@@ -11,7 +11,7 @@
             "message": "Support having no metadata file for HuggingFaceStorageReader (#150701)"
         }
     },
-    "completenessScore": [0.363285, 0.36324],
+    "completeness": [0.363285, 0.36324],
     "filename": "full-run/pyright_compare.081287.fbccbfedaf4-78fe079c97f.json",
     "diff": {
         "absolute": {

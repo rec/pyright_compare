@@ -11,7 +11,7 @@
             "message": "Add deprecation warning for `torch.ao.quantization` (#153892)"
         }
     },
-    "completenessScore": [0.368134, 0.368173],
+    "completeness": [0.368134, 0.368173],
     "filename": "full-run/pyright_compare.083297.5bf74753f69-d23aa7e182e.json",
     "diff": {
         "absolute": {

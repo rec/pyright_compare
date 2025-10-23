@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-27 23:57:30",
+            "commit_id": "7db0afabaaf",
+            "message": "Remove lexicographical sorting of storage keys in torch.save (#143879)"
+        },
+        "after": {
+            "committer_date": "2025-01-27 23:57:30",
+            "commit_id": "db3685a35cd",
+            "message": "Add option to serialization config to reduce random reads from get_record_offset when loading with mmap=True (#143880)"
+        }
+    },
+    "filename": "pyright_compare.078683.7db0afabaaf-db3685a35cd.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0174},
+            "completenessScore": 0.0111
+        },
+        "symbols": {
+            "added": [
+                "torch.utils.serialization.config.load.calculate_storage_offsets"
+            ]
+        }
+    },
+    "completeness": [0.3621546787489774, 0.3621948150012585]
+}

@@ -11,7 +11,7 @@
             "message": "Add basic torch.hash_tensor op (#154149)"
         }
     },
-    "completenessScore": [0.375886, 0.375862],
+    "completeness": [0.375886, 0.375862],
     "filename": "pyright_compare.085813.86df3ff1f18-7f649ed4f83.json",
     "diff": {
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "Add torch compile force disable caches alias (#158072)"
         }
     },
-    "completenessScore": [0.377213, 0.377252],
+    "completeness": [0.377213, 0.377252],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1601"}, {"name": "11e97bc7bd4~1600"}],
         "absolute": {

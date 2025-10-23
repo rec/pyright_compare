@@ -11,7 +11,7 @@
             "message": "[export] min/max ranges for dim hints (#149590)"
         }
     },
-    "completenessScore": [0.36333, 0.36333],
+    "completeness": [0.36333, 0.36333],
     "filename": "full-run/pyright_compare.081050.dfcd98e6841-925fd4aa2e4.json",
     "diff": {
         "absolute": {"otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 1}},

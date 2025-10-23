@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-29 23:02:23",
+            "commit_id": "b60120d0df9",
+            "message": "Revert \"[ATen][CUDA] Implement 128 bit vectorization v2 (#145746)\""
+        },
+        "after": {
+            "committer_date": "2025-01-29 23:20:22",
+            "commit_id": "18a7a04c4ad",
+            "message": "[c10d] Add NCCL memory allocator (#145675)"
+        }
+    },
+    "filename": "pyright_compare.078814.b60120d0df9-18a7a04c4ad.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0529}},
+        "symbols": {"added": ["torch._C._distributed_c10d.Backend.mem_allocator"]}
+    },
+    "completeness": [0.3622349462027308, 0.3622349462027308]
+}

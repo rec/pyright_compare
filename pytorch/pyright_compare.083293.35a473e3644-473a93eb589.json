@@ -11,7 +11,7 @@
             "message": "[ez] add docblock for _ShapeGuardPrinter (#154402)"
         }
     },
-    "completenessScore": [0.368134, 0.368134],
+    "completeness": [0.368134, 0.368134],
     "filename": "full-run/pyright_compare.083293.35a473e3644-473a93eb589.json",
     "diff": {
         "absolute": {

@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-27 16:06:42",
+            "commit_id": "efc975feb26",
+            "message": "Revert \"[triton] Warp specialization support in torchinductor (#148503)\""
+        },
+        "after": {
+            "committer_date": "2025-03-27 16:23:07",
+            "commit_id": "c830d750e6a",
+            "message": "[graph partition] support splitting on custom ops (#149782)"
+        }
+    },
+    "filename": "pyright_compare.080936.efc975feb26-c830d750e6a.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0523}},
+        "symbols": {"added": ["torch._C.Tag.cudagraph_unsafe"]}
+    },
+    "completeness": [0.36333520845052814, 0.36333520845052814]
+}

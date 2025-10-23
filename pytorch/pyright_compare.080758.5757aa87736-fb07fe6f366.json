@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-21 21:12:36",
+            "commit_id": "5757aa87736",
+            "message": "Cudagraph fix + comment cleanup (#149741)"
+        },
+        "after": {
+            "committer_date": "2025-03-21 21:31:58",
+            "commit_id": "fb07fe6f366",
+            "message": "pretty print graph signature (#149710)"
+        }
+    },
+    "filename": "pyright_compare.080758.5757aa87736-fb07fe6f366.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 3},
+            "completenessScore": -6.8e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.0321},
+            "completenessScore": -0.0188
+        },
+        "symbols": {
+            "added": [
+                "torch.export.graph_signature.ExportGraphSignature.__str__",
+                "torch.export.graph_signature.InputSpec.__str__",
+                "torch.export.graph_signature.OutputSpec.__str__"
+            ]
+        }
+    },
+    "completeness": [0.36348859018443264, 0.36342042755344417]
+}

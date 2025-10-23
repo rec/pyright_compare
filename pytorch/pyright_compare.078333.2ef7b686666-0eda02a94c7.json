@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-17 19:41:18",
+            "commit_id": "2ef7b686666",
+            "message": "[inductor] fix TORCH_LOGS=\"benchmarking\" (#144997)"
+        },
+        "after": {
+            "committer_date": "2025-01-17 20:10:22",
+            "commit_id": "0eda02a94c7",
+            "message": "Prevent legacy_load when weights_only=True (correctly) (#145020)"
+        }
+    },
+    "filename": "pyright_compare.078333.2ef7b686666-0eda02a94c7.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0174},
+            "completenessScore": 0.0112
+        },
+        "symbols": {"added": ["torch.serialization.UNSAFE_MESSAGE"]}
+    },
+    "completeness": [0.360752722008937, 0.3607929515418502]
+}

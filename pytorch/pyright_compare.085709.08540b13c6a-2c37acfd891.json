@@ -11,7 +11,7 @@
             "message": "[AOTI][CPU] Consider bias=None case for fbgemm_linear_fp16_weight (#158535)"
         }
     },
-    "completenessScore": [0.375692, 0.375692],
+    "completeness": [0.375692, 0.375692],
     "filename": "pyright_compare.085709.08540b13c6a-2c37acfd891.json",
     "diff": {
         "symbols": {

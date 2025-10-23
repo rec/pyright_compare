@@ -11,7 +11,7 @@
             "message": "[BE][Ez]: Fully type nn.utils.clip_grad (#154801)"
         }
     },
-    "completenessScore": [0.371128, 0.371499],
+    "completeness": [0.371128, 0.371499],
     "filename": "full-run/pyright_compare.083469.dbad6d71c72-9ce2732b685.json",
     "diff": {
         "absolute": {

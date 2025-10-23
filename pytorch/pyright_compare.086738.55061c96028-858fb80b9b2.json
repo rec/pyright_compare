@@ -11,7 +11,7 @@
             "message": "[PT2]: Add Static Dispatch Kernel for wrapped_fbgemm_linear_fp16_weight (#160451)"
         }
     },
-    "completenessScore": [0.377208, 0.377208],
+    "completeness": [0.377208, 0.377208],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1097"}, {"name": "11e97bc7bd4~1096"}],
         "absolute": {"missingFunctionDocStringCount": -2},

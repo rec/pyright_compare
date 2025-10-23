@@ -11,7 +11,7 @@
             "message": "[dynamo, nested graph breaks] support nested graph breaks that cause skipped frames (#160470)"
         }
     },
-    "completenessScore": [0.375461, 0.375461],
+    "completeness": [0.375461, 0.375461],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~358"}, {"name": "11e97bc7bd4~357"}],
         "absolute": {"missingFunctionDocStringCount": -1},

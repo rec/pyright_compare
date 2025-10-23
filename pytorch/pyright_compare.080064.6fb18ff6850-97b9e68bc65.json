@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-04 19:40:21",
+            "commit_id": "6fb18ff6850",
+            "message": "Revert \"Better log message to update pr_time_benchmarks/expected_results.csv (#148303)\""
+        },
+        "after": {
+            "committer_date": "2025-03-04 19:40:21",
+            "commit_id": "97b9e68bc65",
+            "message": "Revert \"[fx] Move Node._prepend/Node._remove_from_list to C++ (#148261)\""
+        }
+    },
+    "filename": "pyright_compare.080064.6fb18ff6850-97b9e68bc65.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 4},
+            "otherSymbolCounts": {"withKnownType": -4},
+            "completenessScore": 0.00016
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0692},
+            "otherSymbolCounts": {"withKnownType": -0.2101},
+            "completenessScore": 0.0441
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.node.Node.__ge__",
+                "torch.fx.node.Node.__gt__",
+                "torch.fx.node.Node.__le__",
+                "torch.fx.node.Node.__lt__"
+            ],
+            "removed": [
+                "torch._C._NodeBase.__ge__",
+                "torch._C._NodeBase.__gt__",
+                "torch._C._NodeBase.__le__",
+                "torch._C._NodeBase.__lt__"
+            ]
+        }
+    },
+    "completeness": [0.3623261060283243, 0.3624859040220524]
+}

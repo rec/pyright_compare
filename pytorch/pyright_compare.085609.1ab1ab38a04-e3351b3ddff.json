@@ -11,7 +11,7 @@
             "message": "Revert \"[DCP][HF] [ez]Change where sharded tensors are saved (#158069)\""
         }
     },
-    "completenessScore": [0.375723, 0.375746],
+    "completeness": [0.375723, 0.375746],
     "filename": "pyright_compare.085609.1ab1ab38a04-e3351b3ddff.json",
     "diff": {
         "absolute": {

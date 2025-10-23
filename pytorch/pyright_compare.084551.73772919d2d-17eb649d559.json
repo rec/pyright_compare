@@ -11,7 +11,7 @@
             "message": "Implement guard collectives (optimized version) (#156562)"
         }
     },
-    "completenessScore": [0.371715, 0.371692],
+    "completeness": [0.371715, 0.371692],
     "filename": "full-run/pyright_compare.084551.73772919d2d-17eb649d559.json",
     "diff": {
         "absolute": {

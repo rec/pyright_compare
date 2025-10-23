@@ -11,7 +11,7 @@
             "message": "Add missing docstring for `sym_ite` (#154201)"
         }
     },
-    "completenessScore": [0.368016, 0.368016],
+    "completeness": [0.368016, 0.368016],
     "filename": "full-run/pyright_compare.083195.02445ec8f00-f55f2f42a7b.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

@@ -11,7 +11,7 @@
             "message": "[ez] add docblock for free_unbacked_symbols (#154379)"
         }
     },
-    "completenessScore": [0.368134, 0.368134],
+    "completeness": [0.368134, 0.368134],
     "filename": "full-run/pyright_compare.083271.dcdaef5206d-07405a6cffc.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -1},

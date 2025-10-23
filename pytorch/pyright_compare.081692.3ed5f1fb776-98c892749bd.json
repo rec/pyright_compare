@@ -11,7 +11,7 @@
             "message": "c10d/Store: add nonblocking mode to queue_pop (#151485)"
         }
     },
-    "completenessScore": [0.364507, 0.364546],
+    "completeness": [0.364507, 0.364546],
     "filename": "full-run/pyright_compare.081692.3ed5f1fb776-98c892749bd.json",
     "diff": {
         "absolute": {

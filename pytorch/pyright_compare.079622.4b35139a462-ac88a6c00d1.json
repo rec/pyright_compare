@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-21 00:29:58",
+            "commit_id": "4b35139a462",
+            "message": "[ROCm][TunableOp] Fix TunableOp warmup environment variable. (#147412)"
+        },
+        "after": {
+            "committer_date": "2025-02-21 01:32:34",
+            "commit_id": "ac88a6c00d1",
+            "message": "[fx] demote node prepend to self log from warning to debug (#147538)"
+        }
+    },
+    "filename": "pyright_compare.079622.4b35139a462-ac88a6c00d1.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "completenessScore": -2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.1215},
+            "completenessScore": -0.0063
+        },
+        "symbols": {"added": ["torch.fx.node.log"]}
+    },
+    "completeness": [0.36260907778266055, 0.362586315128688]
+}

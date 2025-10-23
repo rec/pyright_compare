@@ -11,7 +11,7 @@
             "message": "[easy] [Precompile] Refactor guards, improve typing (#160530)"
         }
     },
-    "completenessScore": [0.377185, 0.377185],
+    "completeness": [0.377185, 0.377185],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1028"}, {"name": "11e97bc7bd4~1027"}],
         "symbols": {

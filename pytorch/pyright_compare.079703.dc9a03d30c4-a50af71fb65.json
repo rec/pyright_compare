@@ -1,0 +1,73 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-24 08:31:11",
+            "commit_id": "dc9a03d30c4",
+            "message": "[Window] Fix invalid file path on windows. (#147708)"
+        },
+        "after": {
+            "committer_date": "2025-02-24 09:14:08",
+            "commit_id": "a50af71fb65",
+            "message": "[FX] Refactor immutable collections implementation (#144640)"
+        }
+    },
+    "filename": "pyright_compare.079703.dc9a03d30c4-a50af71fb65.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withAmbiguousType": 20},
+            "completenessScore": -0.000295
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.0693,
+                "withAmbiguousType": 2.4272
+            },
+            "completenessScore": -0.0813
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.immutable_collections.immutable_dict.__delitem__",
+                "torch.fx.immutable_collections.immutable_dict.__hash__",
+                "torch.fx.immutable_collections.immutable_dict.__ior__",
+                "torch.fx.immutable_collections.immutable_dict.__reduce__",
+                "torch.fx.immutable_collections.immutable_dict.__setitem__",
+                "torch.fx.immutable_collections.immutable_dict.clear",
+                "torch.fx.immutable_collections.immutable_dict.pop",
+                "torch.fx.immutable_collections.immutable_dict.popitem",
+                "torch.fx.immutable_collections.immutable_dict.setdefault",
+                "torch.fx.immutable_collections.immutable_dict.update",
+                "torch.fx.immutable_collections.immutable_list.__delitem__",
+                "torch.fx.immutable_collections.immutable_list.__hash__",
+                "torch.fx.immutable_collections.immutable_list.__iadd__",
+                "torch.fx.immutable_collections.immutable_list.__imul__",
+                "torch.fx.immutable_collections.immutable_list.__reduce__",
+                "torch.fx.immutable_collections.immutable_list.__setitem__",
+                "torch.fx.immutable_collections.immutable_list.append",
+                "torch.fx.immutable_collections.immutable_list.clear",
+                "torch.fx.immutable_collections.immutable_list.extend",
+                "torch.fx.immutable_collections.immutable_list.insert",
+                "torch.fx.immutable_collections.immutable_list.pop",
+                "torch.fx.immutable_collections.immutable_list.remove",
+                "torch.fx.immutable_collections.immutable_list.reverse",
+                "torch.fx.immutable_collections.immutable_list.sort"
+            ],
+            "common": {
+                "torch.fx.immutable_collections.immutable_dict": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.fx.immutable_collections.immutable_list": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "completeness": [0.36263184329482673, 0.3623370110330993]
+}

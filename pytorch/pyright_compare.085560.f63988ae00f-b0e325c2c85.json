@@ -11,7 +11,7 @@
             "message": "[Dynamo][Better Engineering] Add type coverage to decorators (#158509)"
         }
     },
-    "completenessScore": [0.375685, 0.375762],
+    "completeness": [0.375685, 0.375762],
     "filename": "pyright_compare.085560.f63988ae00f-b0e325c2c85.json",
     "diff": {
         "absolute": {

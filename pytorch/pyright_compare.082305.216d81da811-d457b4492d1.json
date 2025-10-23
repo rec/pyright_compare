@@ -11,7 +11,7 @@
             "message": "Optimize `Sequential` methods description (#147304)"
         }
     },
-    "completenessScore": [0.364535, 0.364535],
+    "completeness": [0.364535, 0.364535],
     "filename": "full-run/pyright_compare.082305.216d81da811-d457b4492d1.json",
     "diff": {
         "absolute": {"missingFunctionDocStringCount": -2},

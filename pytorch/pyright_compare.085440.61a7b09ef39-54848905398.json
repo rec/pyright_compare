@@ -11,7 +11,7 @@
             "message": "Add better typing to avaialbe kernel options for flex attention (#158383)"
         }
     },
-    "completenessScore": [0.375995, 0.375847],
+    "completeness": [0.375995, 0.375847],
     "filename": "pyright_compare.085440.61a7b09ef39-54848905398.json",
     "diff": {
         "absolute": {

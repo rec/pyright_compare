@@ -11,7 +11,7 @@
             "message": "[ONNX] Refactor torchscript based exporter (#161323)"
         }
     },
-    "completenessScore": [0.377429, 0.375561],
+    "completeness": [0.377429, 0.375561],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~397"}, {"name": "11e97bc7bd4~396"}],
         "absolute": {

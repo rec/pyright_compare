@@ -11,7 +11,7 @@
             "message": "Add `__all__` for `torch.utils.dlpack` (#149026)"
         }
     },
-    "completenessScore": [0.363325, 0.363302],
+    "completeness": [0.363325, 0.363302],
     "filename": "full-run/pyright_compare.081457.2a909cab169-85549fe6de3.json",
     "diff": {
         "absolute": {

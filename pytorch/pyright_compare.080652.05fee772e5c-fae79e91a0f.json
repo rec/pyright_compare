@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-19 19:35:08",
+            "commit_id": "05fee772e5c",
+            "message": "Fix with effect lowering for list return type (#149510)"
+        },
+        "after": {
+            "committer_date": "2025-03-19 19:57:18",
+            "commit_id": "fae79e91a0f",
+            "message": "Remove torch.export.export_for_inference (#149078)"
+        }
+    },
+    "filename": "pyright_compare.080652.05fee772e5c-fae79e91a0f.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "completenessScore": 2.3e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.0107},
+            "completenessScore": 0.0063
+        },
+        "symbols": {"removed": ["torch.export.export_for_inference"]}
+    },
+    "completeness": [0.362828535669587, 0.3628512422554603]
+}

@@ -11,7 +11,7 @@
             "message": "Add torch.accelerator.device_index as accelerator's device switch context (#148864)"
         }
     },
-    "completenessScore": [0.364524, 0.364636],
+    "completeness": [0.364524, 0.364636],
     "filename": "full-run/pyright_compare.081977.f38dae76ee8-33c75cae0a9.json",
     "diff": {
         "absolute": {

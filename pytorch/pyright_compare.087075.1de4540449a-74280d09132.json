@@ -11,7 +11,7 @@
             "message": "[muon] Introduce Muon optimizer to PyTorch (#160213)"
         }
     },
-    "completenessScore": [0.377338, 0.377315],
+    "completeness": [0.377338, 0.377315],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~760"}, {"name": "11e97bc7bd4~759"}],
         "absolute": {

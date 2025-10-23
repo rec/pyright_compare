@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-01-30 16:54:08",
+            "commit_id": "7796e308d06",
+            "message": "Record inputs at time of tracing, constrain to them for triton fn (#145448)"
+        },
+        "after": {
+            "committer_date": "2025-01-30 18:19:00",
+            "commit_id": "51ee9b154e1",
+            "message": "[c10d] Add NCCL memory allocator (#145675)"
+        }
+    },
+    "filename": "pyright_compare.078836.7796e308d06-51ee9b154e1.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0529}},
+        "symbols": {"added": ["torch._C._distributed_c10d.Backend.mem_allocator"]}
+    },
+    "completeness": [0.3622349462027308, 0.3622349462027308]
+}

@@ -1,0 +1,43 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-11 16:49:00",
+            "commit_id": "e3839bd6036",
+            "message": "[BE] Strip `#pragma once` when embedding the headers (#146871)"
+        },
+        "after": {
+            "committer_date": "2025-02-11 18:16:15",
+            "commit_id": "c7515da7b00",
+            "message": "Implement cuda graphs implementation of torch.cond and torch.while_loop (#140979)"
+        }
+    },
+    "filename": "pyright_compare.079303.e3839bd6036-c7515da7b00.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 4},
+            "missingFunctionDocStringCount": 5,
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0174},
+            "otherSymbolCounts": {
+                "withKnownType": 0.0531,
+                "withUnknownType": 0.235
+            },
+            "missingFunctionDocStringCount": 0.1423,
+            "completenessScore": 0.0111
+        },
+        "symbols": {
+            "added": [
+                "torch._C._CUDAGraph.begin_capture_to_if_node",
+                "torch._C._CUDAGraph.begin_capture_to_while_loop_node",
+                "torch._C._CUDAGraph.end_capture_to_conditional_node",
+                "torch._C._CUDAGraph.get_currently_capturing_graph",
+                "torch._C._CUDAGraph.set_conditional_handle",
+                "torch.cuda.graphs.thread_cuda_stream_capture_mode"
+            ]
+        }
+    },
+    "completeness": [0.36227601383212826, 0.3623161071293851]
+}

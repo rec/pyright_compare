@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-28 15:09:11",
+            "commit_id": "0a948f705bd",
+            "message": "[Dynamo] Fix `AssertionError` when dynamo traces `torch.functional.xxx()` functions (#148075)"
+        },
+        "after": {
+            "committer_date": "2025-02-28 15:43:14",
+            "commit_id": "4708cfdbd93",
+            "message": "Support whitelist of dynamic sources (#147979)"
+        }
+    },
+    "filename": "pyright_compare.079926.0a948f705bd-4708cfdbd93.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 4e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0173},
+            "completenessScore": 0.011
+        },
+        "symbols": {"added": ["torch.compiler.config.dynamic_sources"]}
+    },
+    "completeness": [0.36235426852200076, 0.36239423378251334]
+}

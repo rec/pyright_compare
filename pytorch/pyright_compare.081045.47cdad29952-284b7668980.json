@@ -11,7 +11,7 @@
             "message": "[dynamic shapes] C++ bindings for guard_or_false/true (#150148)"
         }
     },
-    "completenessScore": [0.363375, 0.36333],
+    "completeness": [0.363375, 0.36333],
     "filename": "full-run/pyright_compare.081045.47cdad29952-284b7668980.json",
     "diff": {
         "absolute": {

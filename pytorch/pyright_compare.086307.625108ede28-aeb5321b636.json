@@ -11,7 +11,7 @@
             "message": "Allow controlling PG backend and options via init_device_mesh (#159371)"
         }
     },
-    "completenessScore": [0.377252, 0.377252],
+    "completeness": [0.377252, 0.377252],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~1528"}, {"name": "11e97bc7bd4~1527"}],
         "absolute": {

@@ -11,7 +11,7 @@
             "message": "[dynamo] Trace into descriptor with `__set__` (#154176)"
         }
     },
-    "completenessScore": [0.371345, 0.371345],
+    "completeness": [0.371345, 0.371345],
     "filename": "full-run/pyright_compare.083413.31f95b5d2e8-8002d22ce35.json",
     "diff": {
         "absolute": {

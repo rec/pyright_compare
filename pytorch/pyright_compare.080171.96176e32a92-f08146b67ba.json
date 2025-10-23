@@ -1,0 +1,64 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-06 18:32:48",
+            "commit_id": "96176e32a92",
+            "message": "Revert \"[ROCm] Bump AOTriton to 0.9.1b (#148433)\""
+        },
+        "after": {
+            "committer_date": "2025-03-06 18:59:02",
+            "commit_id": "f08146b67ba",
+            "message": "[pytree] add APIs to determine a class is a namedtuple or PyStructSequence (#113257)"
+        }
+    },
+    "filename": "pyright_compare.080171.96176e32a92-f08146b67ba.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": 2},
+            "otherSymbolCounts": {"withKnownType": -4, "withUnknownType": -3},
+            "missingClassDocStringCount": -1,
+            "completenessScore": 0.000114
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.069,
+                "withUnknownType": 0.0214
+            },
+            "otherSymbolCounts": {
+                "withKnownType": -0.2104,
+                "withUnknownType": -0.1764
+            },
+            "missingClassDocStringCount": -0.0973,
+            "completenessScore": 0.0314
+        },
+        "symbols": {
+            "added": [
+                "torch.autograd.forward_ad.UnpackedDualTensor.__eq__",
+                "torch.autograd.forward_ad.UnpackedDualTensor.__init__",
+                "torch.autograd.forward_ad.UnpackedDualTensor.__match_args__",
+                "torch.autograd.forward_ad.UnpackedDualTensor.__new__",
+                "torch.autograd.forward_ad.UnpackedDualTensor.primal",
+                "torch.autograd.forward_ad.UnpackedDualTensor.tangent"
+            ],
+            "common": {
+                "torch.autograd.forward_ad.UnpackedDualTensor": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of base class \"torch.autograd.forward_ad._UnpackedDualTensor\" is partially unknown"
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch.autograd.forward_ad._UnpackedDualTensor",
+                "torch.autograd.forward_ad._UnpackedDualTensor.__init__",
+                "torch.autograd.forward_ad._UnpackedDualTensor.__len__",
+                "torch.autograd.forward_ad._UnpackedDualTensor.__match_args__",
+                "torch.autograd.forward_ad._UnpackedDualTensor.__new__",
+                "torch.autograd.forward_ad._UnpackedDualTensor.primal",
+                "torch.autograd.forward_ad._UnpackedDualTensor.tangent"
+            ]
+        }
+    },
+    "completeness": [0.36301026796894564, 0.36312429590687195]
+}

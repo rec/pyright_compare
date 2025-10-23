@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-02-13 14:37:55",
+            "commit_id": "858bc0cea50",
+            "message": "Use 2022 as default VC_YEAR for windows builds (#147053)"
+        },
+        "after": {
+            "committer_date": "2025-02-13 15:11:48",
+            "commit_id": "8d94eb1e3bf",
+            "message": "[BE]: Make OrderedSet reversible (#146904)"
+        }
+    },
+    "filename": "pyright_compare.079397.858bc0cea50-8d94eb1e3bf.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0531}},
+        "symbols": {"added": ["torch.utils._ordered_set.OrderedSet.__reversed__"]}
+    },
+    "completeness": [0.36234525230943254, 0.36234525230943254]
+}

@@ -1,0 +1,35 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-21 03:56:00",
+            "commit_id": "ee6a0291653",
+            "message": "[XPU] Update triton commit to fix to fix level_zero not found by env var LEVEL_ZERO_V1_SDK_PATH. (#149511)"
+        },
+        "after": {
+            "committer_date": "2025-03-21 03:59:25",
+            "commit_id": "bf6621d08fe",
+            "message": "[Distributed] Add `repr` methods for `ParallelStyle`s (#149478)"
+        }
+    },
+    "filename": "pyright_compare.080729.ee6a0291653-bf6621d08fe.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 5},
+            "completenessScore": 0.000199
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.0862},
+            "completenessScore": 0.0549
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.tensor.parallel.style.ColwiseParallel.__repr__",
+                "torch.distributed.tensor.parallel.style.PrepareModuleInput.__repr__",
+                "torch.distributed.tensor.parallel.style.PrepareModuleOutput.__repr__",
+                "torch.distributed.tensor.parallel.style.RowwiseParallel.__repr__",
+                "torch.distributed.tensor.parallel.style.SequenceParallel.__repr__"
+            ]
+        }
+    },
+    "completeness": [0.36293098053939055, 0.3631302389590892]
+}

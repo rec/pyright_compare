@@ -11,7 +11,7 @@
             "message": "Add inductor standalone_compile API (#150670)"
         }
     },
-    "completenessScore": [0.364757, 0.364819],
+    "completeness": [0.364757, 0.364819],
     "filename": "full-run/pyright_compare.081588.9917feff508-3cf0e2d8ec8.json",
     "diff": {
         "absolute": {

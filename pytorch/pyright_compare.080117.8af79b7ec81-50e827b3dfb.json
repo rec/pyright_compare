@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-03-05 19:11:57",
+            "commit_id": "8af79b7ec81",
+            "message": "[ROCm] Bump AOTriton to 0.9.1b (#148433)"
+        },
+        "after": {
+            "committer_date": "2025-03-05 19:18:52",
+            "commit_id": "50e827b3dfb",
+            "message": "[ONNX] Create VerificationInterpreter (#148396)"
+        }
+    },
+    "filename": "pyright_compare.080117.8af79b7ec81-50e827b3dfb.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withUnknownType": 1}},
+        "percent": {"otherSymbolCounts": {"withUnknownType": 0.0588}},
+        "symbols": {
+            "added": [
+                "torch.onnx._internal.exporter._onnx_program.ONNXProgram.compute_values"
+            ]
+        }
+    },
+    "completeness": [0.362970383820675, 0.362970383820675]
+}

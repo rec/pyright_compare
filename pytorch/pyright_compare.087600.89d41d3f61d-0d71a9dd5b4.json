@@ -11,7 +11,7 @@
             "message": "fix incorrect interaction between DDPOptimizer and donated buffers (#160745)"
         }
     },
-    "completenessScore": [0.375592, 0.375592],
+    "completeness": [0.375592, 0.375592],
     "diff": {
         "commits": [{"name": "11e97bc7bd4~235"}, {"name": "11e97bc7bd4~234"}],
         "absolute": {

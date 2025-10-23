@@ -11,7 +11,7 @@
             "message": "[Ez][BE]: Fix click ImportError in torch/csrc/jit (#153323)"
         }
     },
-    "completenessScore": [0.364654, 0.364631],
+    "completeness": [0.364654, 0.364631],
     "filename": "full-run/pyright_compare.082639.c51bdf5acfb-0104ac0f6f3.json",
     "diff": {
         "absolute": {
