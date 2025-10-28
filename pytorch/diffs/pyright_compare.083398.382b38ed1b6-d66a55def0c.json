@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-30 07:32:57",
+            "commit_id": "382b38ed1b6",
+            "message": "remove allow-untyped-defs from torch/nn/utils/_expanded_weights/conv_expanded_weights.py (#154623)"
+        },
+        "after": {
+            "committer_date": "2025-05-30 07:37:56",
+            "commit_id": "d66a55def0c",
+            "message": "remove allow-untyped-defs from torch/distributed/elastic/utils/logging.py (#154625)"
+        }
+    },
+    "completeness": [0.37116, 0.371222],
+    "filename": "pyright_compare.083398.382b38ed1b6-d66a55def0c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 6.194251734387146e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016688918558077435,
+                "withUnknownType": -0.010716964955524596
+            },
+            "completenessScore": 0.01668891855806844
+        },
+        "symbols": {
+            "common": {
+                "torch.distributed.elastic.utils.logging.get_logger": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

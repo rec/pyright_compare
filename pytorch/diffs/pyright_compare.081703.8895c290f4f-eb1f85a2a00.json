@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-18 05:53:33",
+            "commit_id": "8895c290f4f",
+            "message": "[Easy] enable PYFMT for torch/quantization/eager (#150761)"
+        },
+        "after": {
+            "committer_date": "2025-04-18 06:42:12",
+            "commit_id": "eb1f85a2a00",
+            "message": "Support C++ statically_known_true (#151346)"
+        }
+    },
+    "completeness": [0.364546, 0.364524],
+    "filename": "pyright_compare.081703.8895c290f4f-eb1f85a2a00.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.2665158882773095e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010638297872340425},
+            "missingFunctionDocStringCount": 0.028208744710860368,
+            "completenessScore": -0.006217358865966905
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.sym_node.SymNode.statically_known_true"
+            ]
+        }
+    }
+}

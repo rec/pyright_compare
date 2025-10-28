@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-02 13:17:52",
+            "commit_id": "c41fbb4f783",
+            "message": "Change arg_kwarg_vals propagation strategy (#148046)"
+        },
+        "after": {
+            "committer_date": "2025-04-02 13:17:58",
+            "commit_id": "c69c3c885e8",
+            "message": "Add needs_exact_strides operator tag for Inductor to force exact strides (#148063)"
+        }
+    },
+    "completeness": [0.363086, 0.363086],
+    "filename": "pyright_compare.081132.c41fbb4f783-c69c3c885e8.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.0522466039707419}},
+        "symbols": {"added": ["torch._C.Tag.needs_exact_strides"]}
+    }
+}

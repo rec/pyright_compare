@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-28 05:37:25",
+            "commit_id": "07405a6cffc",
+            "message": "[ez] add docblock for free_unbacked_symbols (#154379)"
+        },
+        "after": {
+            "committer_date": "2025-05-28 05:41:19",
+            "commit_id": "08c29deb5fe",
+            "message": "[ez] add docblock to is_symbol_binding_fx_node (#154380)"
+        }
+    },
+    "completeness": [0.368134, 0.368134],
+    "filename": "pyright_compare.083272.07405a6cffc-08c29deb5fe.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -1},
+        "percent": {"missingFunctionDocStringCount": -0.028192839018889203},
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.is_symbol_binding_fx_node": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.fx.experimental.symbolic_shapes.is_symbol_binding_fx_node\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

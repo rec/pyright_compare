@@ -1,0 +1,76 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-26 10:24:18",
+            "commit_id": "de45c5f673c",
+            "message": "[aarch64] Add back NCCL lib to cuda arm wheel (#156888)"
+        },
+        "after": {
+            "committer_date": "2025-06-26 10:32:20",
+            "commit_id": "53e0b9c3936",
+            "message": "refine fp32 precision api (#125888)"
+        }
+    },
+    "completeness": [0.371653, 0.371439],
+    "filename": "pyright_compare.084675.de45c5f673c-53e0b9c3936.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 11},
+            "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 4},
+            "missingFunctionDocStringCount": 2,
+            "missingClassDocStringCount": 2,
+            "completenessScore": -0.00021379444528257796
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016638935108153077,
+                "withUnknownType": 0.11794981771391808
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.08658008658008658,
+                "withUnknownType": 0.1757469244288225
+            },
+            "missingFunctionDocStringCount": 0.05023863350916855,
+            "missingClassDocStringCount": 0.18885741265344666,
+            "completenessScore": -0.057525290759809784
+        },
+        "symbols": {
+            "added": [
+                "torch.backends.GenericModule",
+                "torch.backends.GenericModule.__init__",
+                "torch.backends.GenericModule.fp32_precision",
+                "torch.backends._FP32Precision",
+                "torch.backends._FP32Precision.__getattr__",
+                "torch.backends._FP32Precision.__init__",
+                "torch.backends._FP32Precision.__setattr__",
+                "torch.backends._FP32Precision.backend",
+                "torch.backends._FP32Precision.op",
+                "torch.backends.cudnn.CudnnModule.conv",
+                "torch.backends.cudnn.CudnnModule.fp32_precision",
+                "torch.backends.cudnn.CudnnModule.rnn",
+                "torch.backends.flags",
+                "torch.backends.mkldnn.MkldnnModule.conv",
+                "torch.backends.mkldnn.MkldnnModule.fp32_precision",
+                "torch.backends.mkldnn.MkldnnModule.matmul",
+                "torch.backends.mkldnn.MkldnnModule.rnn",
+                "torch.backends.set_flags"
+            ],
+            "common": {
+                "torch.backends.cudnn.set_flags": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"_fp32_precision\" is missing"
+                        ]
+                    }
+                },
+                "torch.backends.mkldnn.set_flags": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"_fp32_precision\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

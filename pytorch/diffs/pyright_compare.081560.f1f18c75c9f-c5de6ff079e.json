@@ -1,0 +1,33 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-15 13:08:26",
+            "commit_id": "f1f18c75c9f",
+            "message": "Gracefully handle optree less than minimum version, part 2 (#151257)"
+        },
+        "after": {
+            "committer_date": "2025-04-15 14:45:20",
+            "commit_id": "c5de6ff079e",
+            "message": "Remove ls from filesystem base (#151117)"
+        }
+    },
+    "completeness": [0.364819, 0.364842],
+    "filename": "pyright_compare.081560.f1f18c75c9f-c5de6ff079e.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": -1},
+            "missingFunctionDocStringCount": -1,
+            "completenessScore": 2.2717443623421207e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": -0.01065757220505169},
+            "missingFunctionDocStringCount": -0.028288543140028287,
+            "completenessScore": 0.006227037798125014
+        },
+        "symbols": {
+            "removed": [
+                "torch.distributed.checkpoint.filesystem.FileSystemBase.ls"
+            ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-13 18:52:41",
+            "commit_id": "344731fb257",
+            "message": "Add CUDA 12.9.1 sbsa nightly binaries (#155819)"
+        },
+        "after": {
+            "committer_date": "2025-06-13 18:59:31",
+            "commit_id": "4628f1b7a93",
+            "message": "[Hierarchical-Compile] Track mutations for setitem (#155880)"
+        }
+    },
+    "completeness": [0.371579, 0.371579],
+    "filename": "pyright_compare.084047.344731fb257-4628f1b7a93.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withUnknownType": 0.04397537379067722},
+            "missingFunctionDocStringCount": 0.025271670457417236
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.graph_region_tracker.GraphRegionTracker.add_node_mutation"
+            ]
+        }
+    }
+}

@@ -1,0 +1,228 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-30 23:25:30",
+            "commit_id": "fee2377f9ea",
+            "message": "Reapply D77381084 / #156964: Rename torch::standalone to headeronly (#157251)"
+        },
+        "after": {
+            "committer_date": "2025-06-30 23:54:40",
+            "commit_id": "7709ff55123",
+            "message": "[remove untyped defs] batch 1 (#157011)"
+        }
+    },
+    "completeness": [0.372298, 0.373039],
+    "filename": "pyright_compare.084854.fee2377f9ea-7709ff55123.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 12, "withUnknownType": -12},
+            "completenessScore": 0.0007410151908113782
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.19903798308177142,
+                "withUnknownType": -0.12861736334405144
+            },
+            "completenessScore": 0.19903798308176246
+        },
+        "symbols": {
+            "common": {
+                "torch.ao.nn.intrinsic.qat.modules.linear_relu.LinearReLU.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"bias\" is missing",
+                            "Type annotation for parameter \"in_features\" is missing",
+                            "Type annotation for parameter \"out_features\" is missing",
+                            "Type annotation for parameter \"qconfig\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.intrinsic.qat.modules.linear_relu.LinearReLU.forward": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"input\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"input\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.intrinsic.qat.modules.linear_relu.LinearReLU.from_float": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"mod\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"mod\" is missing",
+                            "Type annotation for parameter \"use_precomputed_fake_quant\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.intrinsic.qat.modules.linear_relu.LinearReLU.to_float": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"LinearReLU\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.pruning.scheduler.lambda_scheduler.LambdaSL.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"sparsifier\" is partially unknown\n\u00a0\u00a0Parameter type is \"BaseSparsifier\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"last_epoch\" is missing",
+                            "Type annotation for parameter \"sl_lambda\" is missing",
+                            "Type annotation for parameter \"sparsifier\" is missing",
+                            "Type annotation for parameter \"verbose\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.pruning.scheduler.lambda_scheduler.LambdaSL.get_sl": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.pruning.scheduler.lambda_scheduler.LambdaSL.sl_lambdas": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[(int) -> float]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"list\" has unknown type",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[Unknown]\""
+                        ]
+                    }
+                },
+                "torch.distributed.autograd.context": {
+                    "isTypeAmbiguous": true
+                },
+                "torch.distributed.autograd.context.__enter__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.distributed.autograd.context.__exit__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"traceback\" is missing",
+                            "Type annotation for parameter \"type\" is missing",
+                            "Type annotation for parameter \"value\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributed.autograd.is_available": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.iter.utils.IterableWrapperIterDataPipe": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of base class \"torch.utils.data.datapipes.datapipe.IterDataPipe\" is partially unknown"
+                        ],
+                        "removed": [
+                            "Type of base class \"torch.utils.data.datapipes.datapipe.IterDataPipe\" is partially unknown\n\u00a0\u00a0Type argument 1 for class \"IterDataPipe\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.iter.utils.IterableWrapperIterDataPipe.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"deepcopy\" is missing",
+                            "Type annotation for parameter \"iterable\" is missing"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.iter.utils.IterableWrapperIterDataPipe.__iter__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.iter.utils.IterableWrapperIterDataPipe.__len__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.iter.utils.IterableWrapperIterDataPipe.deepcopy": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"bool\""
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.map.utils.SequenceWrapperMapDataPipe": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of base class \"torch.utils.data.datapipes.datapipe.MapDataPipe\" is partially unknown"
+                        ],
+                        "removed": [
+                            "Type of base class \"torch.utils.data.datapipes.datapipe.MapDataPipe\" is partially unknown\n\u00a0\u00a0Type argument 1 for class \"MapDataPipe\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.map.utils.SequenceWrapperMapDataPipe.__getitem__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"index\" is missing"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.map.utils.SequenceWrapperMapDataPipe.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"deepcopy\" is missing",
+                            "Type annotation for parameter \"sequence\" is missing"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.map.utils.SequenceWrapperMapDataPipe.__len__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.map.utils.SequenceWrapperMapDataPipe.sequence": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Unknown\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

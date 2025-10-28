@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-11 15:20:48",
+            "commit_id": "dc5e8f7999c",
+            "message": "[cuBLASLt][cuBLAS] Support 2D bias and `beta != 1.0` in cuBLASLt (#154170)"
+        },
+        "after": {
+            "committer_date": "2025-06-11 16:01:03",
+            "commit_id": "18bf6addc47",
+            "message": "set_grad_enabled add str and repr for prints (#155681)"
+        }
+    },
+    "completeness": [0.371299, 0.371377],
+    "filename": "pyright_compare.083890.dc5e8f7999c-18bf6addc47.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "completenessScore": 7.786730331449387e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.03336113427856547},
+            "completenessScore": 0.020971567628287207
+        },
+        "symbols": {
+            "added": [
+                "torch.autograd.grad_mode.set_grad_enabled.__repr__",
+                "torch.autograd.grad_mode.set_grad_enabled.__str__"
+            ]
+        }
+    }
+}

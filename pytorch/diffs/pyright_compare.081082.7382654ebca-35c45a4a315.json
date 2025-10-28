@@ -1,0 +1,60 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-01 16:30:09",
+            "commit_id": "7382654ebca",
+            "message": "Update ExecuTorch pin to latest viable/strict 3/28/2025 (#150308)"
+        },
+        "after": {
+            "committer_date": "2025-04-01 16:46:07",
+            "commit_id": "35c45a4a315",
+            "message": "[Reland] Launch kernel on current stream & remove `record_stream` entirely (#150398)"
+        }
+    },
+    "completeness": [0.363443, 0.363194],
+    "filename": "pyright_compare.081082.7382654ebca-35c45a4a315.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -4, "withUnknownType": 4},
+            "otherSymbolCounts": {"withKnownType": 3, "withUnknownType": 3},
+            "completenessScore": -0.00024970347712088836
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.06870491240123669,
+                "withUnknownType": 0.0427715996578272
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.15698587127158556,
+                "withUnknownType": 0.17688679245283018
+            },
+            "completenessScore": -0.0687049124012283
+        },
+        "symbols": {
+            "added": [
+                "torch._C._distributed_c10d.AllToAllOptions.asyncOp",
+                "torch._C._distributed_c10d.AllreduceOptions.asyncOp",
+                "torch._C._distributed_c10d.AllreduceOptions.sparseIndices",
+                "torch._C._distributed_c10d.BarrierOptions.asyncOp",
+                "torch._C._distributed_c10d.GatherOptions.asyncOp",
+                "torch._C._distributed_c10d.ReduceOptions.asyncOp"
+            ],
+            "common": {
+                "torch._C._distributed_c10d.AllreduceCoalescedOptions": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of base class \"torch._C._distributed_c10d.AllreduceOptions\" is partially unknown"
+                        ]
+                    }
+                },
+                "torch._C._distributed_c10d.ProcessGroup.allreduce": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"opts\" is partially unknown\n\u00a0\u00a0Parameter type is \"AllreduceOptions\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

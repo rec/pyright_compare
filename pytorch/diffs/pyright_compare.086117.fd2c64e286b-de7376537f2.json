@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-30 23:03:11",
+            "commit_id": "fd2c64e286b",
+            "message": "Fix duplicated sources in inductor provenance tracking (#159484)"
+        },
+        "after": {
+            "committer_date": "2025-07-30 23:14:31",
+            "commit_id": "de7376537f2",
+            "message": "Fix ep deepcopy when there is python builitin name (#159478)"
+        }
+    },
+    "completeness": [0.377237, 0.377213],
+    "filename": "pyright_compare.086117.fd2c64e286b-de7376537f2.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.3194581419083704e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010763104079216447},
+            "completenessScore": -0.006148548942437789
+        },
+        "symbols": {"added": ["torch.export.exported_program.ExportedProgram.__deepcopy__"]}
+    }
+}

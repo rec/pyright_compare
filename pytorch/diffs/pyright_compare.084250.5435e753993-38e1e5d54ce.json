@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-17 23:30:27",
+            "commit_id": "5435e753993",
+            "message": "[ez] rename choice_timings -> choice_timings_fn (#156099)"
+        },
+        "after": {
+            "committer_date": "2025-06-17 23:39:17",
+            "commit_id": "38e1e5d54ce",
+            "message": "Add get_pipeline_order() for Gpipe and 1F1B (#155935)"
+        }
+    },
+    "completeness": [0.371971, 0.37201],
+    "filename": "pyright_compare.084250.5435e753993-38e1e5d54ce.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.8822351426714974e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.016619577862722286},
+            "completenessScore": 0.01043693462985776
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.pipelining.schedules.PipelineScheduleSingle.pipeline_order"
+            ]
+        }
+    }
+}

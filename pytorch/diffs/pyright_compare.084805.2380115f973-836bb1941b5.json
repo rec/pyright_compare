@@ -1,0 +1,39 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-28 23:31:15",
+            "commit_id": "2380115f973",
+            "message": "[BE] use `pathlib.Path` instead of `os.path.*` in `setup.py` (#156742)"
+        },
+        "after": {
+            "committer_date": "2025-06-28 23:47:46",
+            "commit_id": "836bb1941b5",
+            "message": "[hop] support torch.func.functional_call in hop subgraph (#155886)"
+        }
+    },
+    "completeness": [0.371156, 0.371156],
+    "filename": "pyright_compare.084805.2380115f973-836bb1941b5.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withUnknownType": 3}},
+        "percent": {"otherSymbolCounts": {"withUnknownType": 0.131521262604121}},
+        "symbols": {
+            "added": [
+                "torch._dynamo.side_effects.SideEffects.ignore_mutation_on_these_variables",
+                "torch._dynamo.side_effects.SideEffects.ignore_mutations_on",
+                "torch._dynamo.side_effects.SideEffects.stop_ignoring_mutations_on"
+            ],
+            "common": {
+                "torch._dynamo.side_effects.SideEffects.check_allowed_side_effect": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"item\" is partially unknown\n\u00a0\u00a0Parameter type is \"VariableTracker\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"item\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

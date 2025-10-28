@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-25 23:05:49",
+            "commit_id": "653c52fe522",
+            "message": "[MPS] Fix batch norm incorrect gradient (#156867)"
+        },
+        "after": {
+            "committer_date": "2025-06-25 23:07:10",
+            "commit_id": "204db27a0c4",
+            "message": "Consolidate stack trace in Tracer (#156257)"
+        }
+    },
+    "completeness": [0.371692, 0.371653],
+    "filename": "pyright_compare.084646.653c52fe522-204db27a0c4.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.885400946074258e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.01663616702711695},
+            "completenessScore": -0.010453286325056214
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.proxy_tensor.PythonKeyTracer.stack_trace"
+            ]
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-24 17:57:54",
+            "commit_id": "03970dfd4c6",
+            "message": "Add functionality for installing free variables (#151134)"
+        },
+        "after": {
+            "committer_date": "2025-04-24 18:07:01",
+            "commit_id": "81c4369d813",
+            "message": "[dynamo] Add guard serialization for tensor matches. (#151318)"
+        }
+    },
+    "completeness": [0.364524, 0.364524],
+    "filename": "pyright_compare.081951.03970dfd4c6-81c4369d813.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 2, "withUnknownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.10416666666666667,
+                "withUnknownType": 0.058823529411764705
+            },
+            "missingFunctionDocStringCount": 0.028192839018889203
+        },
+        "symbols": {
+            "added": [
+                "torch._C.DispatchKeySet.from_raw_repr",
+                "torch._subclasses.fake_tensor.FakeTensor.dispatch_keys",
+                "torch._subclasses.fake_tensor.FakeTensor.pytype"
+            ],
+            "common": {
+                "torch._subclasses.fake_tensor.FakeTensor.__new__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"pytype\" is partially unknown\n\u00a0\u00a0Parameter type is \"type[Tensor] | None\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.from_meta_and_device": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"pytype\" is partially unknown\n\u00a0\u00a0Parameter type is \"type[Tensor] | None\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

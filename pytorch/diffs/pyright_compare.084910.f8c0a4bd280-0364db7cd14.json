@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-02 01:49:01",
+            "commit_id": "f8c0a4bd280",
+            "message": "[inductor] enable bf32 test for mkldnn conv (#127293)"
+        },
+        "after": {
+            "committer_date": "2025-07-02 06:58:45",
+            "commit_id": "0364db7cd14",
+            "message": "[PT] support custom all_gather and reduce_scatter comms (#155189)"
+        }
+    },
+    "completeness": [0.373542, 0.373542],
+    "filename": "pyright_compare.084910.f8c0a4bd280-0364db7cd14.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withUnknownType": 8}},
+        "percent": {"otherSymbolCounts": {"withUnknownType": 0.3502626970227671}},
+        "symbols": {
+            "added": [
+                "torch.distributed.fsdp._fully_shard._fsdp_api.AllGather",
+                "torch.distributed.fsdp._fully_shard._fsdp_api.AllGather.__call__",
+                "torch.distributed.fsdp._fully_shard._fsdp_api.Comm",
+                "torch.distributed.fsdp._fully_shard._fsdp_api.Comm.allocate",
+                "torch.distributed.fsdp._fully_shard._fsdp_api.ReduceScatter",
+                "torch.distributed.fsdp._fully_shard._fsdp_api.ReduceScatter.__call__",
+                "torch.distributed.fsdp._fully_shard._fully_shard.FSDPModule.set_custom_all_gather",
+                "torch.distributed.fsdp._fully_shard._fully_shard.FSDPModule.set_custom_reduce_scatter"
+            ]
+        }
+    }
+}

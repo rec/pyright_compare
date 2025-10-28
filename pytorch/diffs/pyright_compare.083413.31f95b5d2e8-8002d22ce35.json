@@ -1,0 +1,42 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-30 15:54:14",
+            "commit_id": "31f95b5d2e8",
+            "message": "Revert \"inductor codecache: include private inductor configs in cache key (#153672)\""
+        },
+        "after": {
+            "committer_date": "2025-05-30 16:14:37",
+            "commit_id": "8002d22ce35",
+            "message": "[dynamo] Trace into descriptor with `__set__` (#154176)"
+        }
+    },
+    "completeness": [0.371345, 0.371345],
+    "filename": "pyright_compare.083413.31f95b5d2e8-8002d22ce35.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withUnknownType": 3},
+            "missingFunctionDocStringCount": 2
+        },
+        "percent": {
+            "otherSymbolCounts": {"withUnknownType": 0.13215859030837004},
+            "missingFunctionDocStringCount": 0.05070993914807302
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.variables.user_defined.UserDefinedObjectVariable.attrs_directly_modifed_on_dict",
+                "torch._dynamo.variables.user_defined.UserDefinedObjectVariable.should_skip_descriptor_setter",
+                "torch._dynamo.variables.user_defined.UserDefinedObjectVariable.try_get_descritor_and_setter_py_func"
+            ],
+            "common": {
+                "torch._dynamo.variables.user_defined.UserDefinedObjectVariable.method_setattr_standard": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"directly_update_dict\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

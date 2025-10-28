@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-29 03:26:09",
+            "commit_id": "775788f93bc",
+            "message": "[BE][PYFMT] migrate PYFMT for `test/[i-z]*/` to `ruff format` (#144556)"
+        },
+        "after": {
+            "committer_date": "2025-07-29 03:27:11",
+            "commit_id": "67e68e07852",
+            "message": "[c10d] Cleanup split_group logic using the newly built splitGroup (#158488)"
+        }
+    },
+    "completeness": [0.377298, 0.377298],
+    "filename": "pyright_compare.086013.775788f93bc-67e68e07852.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withUnknownType": 0.044111160123511246},
+            "missingFunctionDocStringCount": 0.02556237218813906
+        },
+        "symbols": {"added": ["torch._C._distributed_c10d.ProcessGroup.get_group_store"]}
+    }
+}

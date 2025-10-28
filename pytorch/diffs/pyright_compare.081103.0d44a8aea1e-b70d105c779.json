@@ -1,0 +1,39 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-01 20:54:18",
+            "commit_id": "0d44a8aea1e",
+            "message": "[Hierarchical Compile] Apply deduplication after output node creation (#150306)"
+        },
+        "after": {
+            "committer_date": "2025-04-01 21:13:39",
+            "commit_id": "b70d105c779",
+            "message": "infer dynamic shapes through additional inputs (#150144)"
+        }
+    },
+    "completeness": [0.36316, 0.363086],
+    "filename": "pyright_compare.081103.0d44a8aea1e-b70d105c779.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 5},
+            "completenessScore": -7.353787370972809e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.01718213058419244,
+                "withUnknownType": 0.05343593031954686
+            },
+            "completenessScore": -0.020249449554503474
+        },
+        "symbols": {
+            "added": [
+                "torch.export.AdditionalInputs",
+                "torch.export.dynamic_shapes.AdditionalInputs",
+                "torch.export.dynamic_shapes.AdditionalInputs.__init__",
+                "torch.export.dynamic_shapes.AdditionalInputs.add",
+                "torch.export.dynamic_shapes.AdditionalInputs.dynamic_shapes",
+                "torch.export.dynamic_shapes.AdditionalInputs.verify"
+            ]
+        }
+    }
+}

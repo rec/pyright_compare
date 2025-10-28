@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-27 14:10:00",
+            "commit_id": "0a7eef140b2",
+            "message": "Add `torch.Tensor._make_wrapper_subclass` to `torch/_C/__init__.pyi` (#154022)"
+        },
+        "after": {
+            "committer_date": "2025-05-27 14:58:02",
+            "commit_id": "7ae204c3b67",
+            "message": "[BE][CI][Easy] Run `lintrunner` on generated `.pyi` stub files (#150732)"
+        }
+    },
+    "completeness": [0.368056, 0.368095],
+    "filename": "pyright_compare.083225.0a7eef140b2-7ae204c3b67.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.918063391677995e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.016846361185983826},
+            "completenessScore": 0.01064530430946474
+        },
+        "symbols": {"added": ["torch.JitTypeT", "torch.T_co"], "removed": ["torch.ReturnVal"]}
+    }
+}

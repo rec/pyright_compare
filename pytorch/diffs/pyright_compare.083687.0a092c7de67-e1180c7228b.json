@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-05 22:32:28",
+            "commit_id": "0a092c7de67",
+            "message": "Enable CPP Extension Open Registration tests on Arm (#144774)"
+        },
+        "after": {
+            "committer_date": "2025-06-05 22:35:04",
+            "commit_id": "e1180c7228b",
+            "message": "Add Intel GPU info collection to the collect env script (#137846)"
+        }
+    },
+    "completeness": [0.371183, 0.371107],
+    "filename": "pyright_compare.083687.0a092c7de67-e1180c7228b.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 5},
+            "missingFunctionDocStringCount": 5,
+            "completenessScore": -7.59858403269198e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016688918558077435,
+                "withUnknownType": 0.0536480686695279
+            },
+            "missingFunctionDocStringCount": 0.12671059300557527,
+            "completenessScore": -0.020471285387140627
+        },
+        "symbols": {
+            "added": [
+                "torch.utils.collect_env.ONEAPI_PATTERNS",
+                "torch.utils.collect_env.detect_linux_pkg_manager",
+                "torch.utils.collect_env.get_intel_gpu_detected",
+                "torch.utils.collect_env.get_intel_gpu_driver_version",
+                "torch.utils.collect_env.get_intel_gpu_onboard",
+                "torch.utils.collect_env.get_linux_pkg_version"
+            ]
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-15 20:13:26",
+            "commit_id": "bd4cf30e31a",
+            "message": "Fix setUpClass() / tearDownClass() for device-specific tests (#151129)"
+        },
+        "after": {
+            "committer_date": "2025-04-15 20:25:29",
+            "commit_id": "f98150fc8e6",
+            "message": "Warn user of existing lock file to avoid infinite waiting (#149382)"
+        }
+    },
+    "completeness": [0.36478, 0.364757],
+    "filename": "pyright_compare.081578.bd4cf30e31a-f98150fc8e6.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.271356626482035e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010658708164570454},
+            "completenessScore": -0.006226650062252476
+        },
+        "symbols": {
+            "added": ["torch.utils.file_baton.FileBaton.warn_after_seconds"],
+            "common": {
+                "torch.utils.file_baton.FileBaton.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"warn_after_seconds\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

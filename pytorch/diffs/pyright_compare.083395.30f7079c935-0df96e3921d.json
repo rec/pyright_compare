@@ -1,0 +1,113 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-30 07:00:54",
+            "commit_id": "30f7079c935",
+            "message": "[FSDP2] allow different dtypes for no grad model params (#154103)"
+        },
+        "after": {
+            "committer_date": "2025-05-30 07:26:09",
+            "commit_id": "0df96e3921d",
+            "message": "remove allow-untyped-defs from torch/ao/quantization/stubs.py (#154622)"
+        }
+    },
+    "completeness": [0.371075, 0.37116],
+    "filename": "pyright_compare.083395.30f7079c935-0df96e3921d.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -2},
+            "completenessScore": 8.492781442703823e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016691704223001168,
+                "withUnknownType": -0.021429336762027216
+            },
+            "completenessScore": 0.022886989883567552
+        },
+        "symbols": {
+            "common": {
+                "torch.ao.quantization.stubs.DeQuantStub.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"qconfig\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.stubs.DeQuantStub.forward": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"x\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"x\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.stubs.DeQuantStub.qconfig": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type unknown for variable \"torch.ao.quantization.stubs.DeQuantStub.qconfig\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.stubs.QuantStub.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"qconfig\" is partially unknown\n\u00a0\u00a0Parameter type is \"QConfig | None\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"qconfig\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.stubs.QuantStub.forward": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"x\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"x\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.stubs.QuantStub.qconfig": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type unknown for variable \"torch.ao.quantization.stubs.QuantStub.qconfig\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.stubs.QuantWrapper.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"module\" is partially unknown\n\u00a0\u00a0Parameter type is \"Module\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"module\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.stubs.QuantWrapper.forward": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"X\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"X\" is missing"
+                        ]
+                    }
+                }
+            },
+            "removed": ["torch.ao.quantization.nn"]
+        }
+    }
+}

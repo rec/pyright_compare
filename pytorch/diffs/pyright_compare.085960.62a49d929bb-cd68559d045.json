@@ -1,0 +1,35 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-26 04:44:38",
+            "commit_id": "62a49d929bb",
+            "message": "[vllm hash update] update the pinned vllm hash (#159198)"
+        },
+        "after": {
+            "committer_date": "2025-07-26 08:16:34",
+            "commit_id": "cd68559d045",
+            "message": "[Inductor] Support native Inductor as backend for MTIA (#158526)"
+        }
+    },
+    "completeness": [0.377298, 0.377229],
+    "filename": "pyright_compare.085960.62a49d929bb-cd68559d045.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 3},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -6.95865292273945e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.03229278794402583},
+            "missingFunctionDocStringCount": 0.02556237218813906,
+            "completenessScore": -0.018443378827006467
+        },
+        "symbols": {
+            "added": [
+                "torch.mtia.is_bf16_supported",
+                "torch.mtia.memory.memory_allocated",
+                "torch.mtia.memory_allocated"
+            ]
+        }
+    }
+}

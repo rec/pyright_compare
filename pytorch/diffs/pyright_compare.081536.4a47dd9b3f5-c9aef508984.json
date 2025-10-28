@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-14 21:09:22",
+            "commit_id": "4a47dd9b3f5",
+            "message": "Revert \"[map] always turn on dynamo for map (#150962)\""
+        },
+        "after": {
+            "committer_date": "2025-04-14 22:00:09",
+            "commit_id": "c9aef508984",
+            "message": "Add inductor standalone_compile API (#150670)"
+        }
+    },
+    "completeness": [0.363076, 0.363138],
+    "filename": "pyright_compare.081536.4a47dd9b3f5-c9aef508984.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withAmbiguousType": -1},
+            "completenessScore": 6.226650062268746e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.017149717029669012,
+                "withAmbiguousType": -0.1221001221001221
+            },
+            "completenessScore": 0.017149717029675195
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.proxy_tensor.ProxyTorchDispatchMode.emulate_precision_casts": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"bool\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

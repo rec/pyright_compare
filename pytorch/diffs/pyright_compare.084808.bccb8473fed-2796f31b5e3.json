@@ -1,0 +1,81 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-29 01:53:02",
+            "commit_id": "bccb8473fed",
+            "message": "[ROCm] Allow use of rocSOLVER for Cholesky inversion. (#157154)"
+        },
+        "after": {
+            "committer_date": "2025-06-29 03:19:48",
+            "commit_id": "2796f31b5e3",
+            "message": "[DCP] OSS Zero Overhead Checkpointing Implementation (#156207)"
+        }
+    },
+    "completeness": [0.371156, 0.372082],
+    "filename": "pyright_compare.084808.bccb8473fed-2796f31b5e3.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 25, "withUnknownType": 2},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": 0.0009251870717773003
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.4167361226871145,
+                "withUnknownType": 0.021438525029477972
+            },
+            "missingFunctionDocStringCount": 0.025220680958385876,
+            "completenessScore": 0.24927152260604274
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.staging.AsyncStager.close",
+                "torch.distributed.checkpoint.staging.BlockingAsyncStager.close",
+                "torch.distributed.checkpoint.staging.DefaultStager",
+                "torch.distributed.checkpoint.staging.DefaultStager.__init__",
+                "torch.distributed.checkpoint.staging.DefaultStager.close",
+                "torch.distributed.checkpoint.staging.DefaultStager.stage",
+                "torch.distributed.checkpoint.staging.DefaultStager.synchronize_staging",
+                "torch.distributed.checkpoint.staging.StagingOptions",
+                "torch.distributed.checkpoint.staging.StagingOptions.__dataclass_fields__",
+                "torch.distributed.checkpoint.staging.StagingOptions.__eq__",
+                "torch.distributed.checkpoint.staging.StagingOptions.__hash__",
+                "torch.distributed.checkpoint.staging.StagingOptions.__init__",
+                "torch.distributed.checkpoint.staging.StagingOptions.__match_args__",
+                "torch.distributed.checkpoint.staging.StagingOptions.__new__",
+                "torch.distributed.checkpoint.staging.StagingOptions.use_async_staging",
+                "torch.distributed.checkpoint.staging.StagingOptions.use_cuda_non_blocking_copy",
+                "torch.distributed.checkpoint.staging.StagingOptions.use_pinned_memory",
+                "torch.distributed.checkpoint.staging.StagingOptions.use_shared_memory",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncSaveResponse",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncSaveResponse.__dataclass_fields__",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncSaveResponse.__eq__",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncSaveResponse.__hash__",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncSaveResponse.__init__",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncSaveResponse.__match_args__",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncSaveResponse.__new__",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncSaveResponse.staging_completion",
+                "torch.distributed.checkpoint.state_dict_saver.AsyncSaveResponse.upload_completion"
+            ],
+            "common": {
+                "torch.distributed.checkpoint.staging.AsyncStager.stage": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Future[dict[str, Unknown | Any]] | dict[str, Unknown | Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"Future\" has partially unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for type alias \"STATE_DICT_TYPE\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[str, Unknown | Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for type alias \"STATE_DICT_TYPE\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.distributed.checkpoint.state_dict_saver.save_state_dict": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"state_dict\" is partially unknown\n\u00a0\u00a0Parameter type is \"dict[str, Unknown | Any]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for type alias \"STATE_DICT_TYPE\" has unknown type\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

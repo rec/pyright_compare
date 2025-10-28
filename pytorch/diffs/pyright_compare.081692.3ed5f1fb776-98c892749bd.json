@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-18 01:53:26",
+            "commit_id": "3ed5f1fb776",
+            "message": "[CUDA][cuBLAS] Aten GEMM overload for FP32 output from FP16/BF16 inputs (#150812)"
+        },
+        "after": {
+            "committer_date": "2025-04-18 02:14:50",
+            "commit_id": "98c892749bd",
+            "message": "c10d/Store: add nonblocking mode to queue_pop (#151485)"
+        }
+    },
+    "completeness": [0.364507, 0.364546],
+    "filename": "pyright_compare.081692.3ed5f1fb776-98c892749bd.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "otherSymbolCounts": {"withKnownType": 4},
+            "missingFunctionDocStringCount": 3,
+            "missingClassDocStringCount": 1,
+            "completenessScore": 3.9513343149499836e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.017059024223814397},
+            "otherSymbolCounts": {"withKnownType": 0.20887728459530025},
+            "missingFunctionDocStringCount": 0.08469791078486731,
+            "missingClassDocStringCount": 0.0970873786407767,
+            "completenessScore": 0.010840218091611332
+        },
+        "symbols": {
+            "added": [
+                "torch._C._DistQueueEmptyError",
+                "torch._C._distributed_c10d.Store.queue_len",
+                "torch._C._distributed_c10d.Store.queue_pop",
+                "torch._C._distributed_c10d.Store.queue_push",
+                "torch.distributed.QueueEmptyError"
+            ]
+        }
+    }
+}

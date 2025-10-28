@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-10 14:32:26",
+            "commit_id": "596e44d26a5",
+            "message": "[inductor] Enable docstring_linter on _inductor (#144622)"
+        },
+        "after": {
+            "committer_date": "2025-04-10 15:06:23",
+            "commit_id": "e6969c1bd8d",
+            "message": "[export] Symint support (nonstrict, Dim.DYNAMIC) (#150198)"
+        }
+    },
+    "completeness": [0.363217, 0.36341],
+    "filename": "pyright_compare.081393.596e44d26a5-e6969c1bd8d.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 6, "withUnknownType": 2},
+            "completenessScore": 0.00019268086678803087
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.10291595197255575,
+                "withUnknownType": 0.02126528442317916
+            },
+            "completenessScore": 0.05304838066577502
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.symbolic_shapes.SymIntSymbolicContext",
+                "torch.fx.experimental.symbolic_shapes.SymIntSymbolicContext.__dataclass_fields__",
+                "torch.fx.experimental.symbolic_shapes.SymIntSymbolicContext.__eq__",
+                "torch.fx.experimental.symbolic_shapes.SymIntSymbolicContext.__hash__",
+                "torch.fx.experimental.symbolic_shapes.SymIntSymbolicContext.__init__",
+                "torch.fx.experimental.symbolic_shapes.SymIntSymbolicContext.__match_args__",
+                "torch.fx.experimental.symbolic_shapes.SymIntSymbolicContext.__new__",
+                "torch.fx.experimental.symbolic_shapes.SymIntSymbolicContext.constraint"
+            ]
+        }
+    }
+}

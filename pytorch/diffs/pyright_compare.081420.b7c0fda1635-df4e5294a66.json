@@ -1,0 +1,43 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-11 01:51:34",
+            "commit_id": "b7c0fda1635",
+            "message": "[MPS] Fix `determine_backend_memory_format` logic (#151042)"
+        },
+        "after": {
+            "committer_date": "2025-04-11 01:58:35",
+            "commit_id": "df4e5294a66",
+            "message": "Reapply \"ProcessGroupGloo: support lazy_init (#150801)\" (#151031)"
+        }
+    },
+    "completeness": [0.363387, 0.363387],
+    "filename": "pyright_compare.081420.b7c0fda1635-df4e5294a66.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": -1, "withUnknownType": 1}},
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": -0.05219206680584551,
+                "withUnknownType": 0.05885815185403178
+            }
+        },
+        "symbols": {
+            "common": {
+                "torch._C._distributed_c10d.ProcessGroupGloo.create_default_device": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"lazy_init\" is missing"
+                        ]
+                    }
+                },
+                "torch._C._distributed_c10d.ProcessGroupGloo.create_device": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"lazy_init\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

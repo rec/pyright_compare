@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-23 15:03:31",
+            "commit_id": "4b7abce6a4d",
+            "message": "Fix fake tensor caching when output has unbacked (#153034)"
+        },
+        "after": {
+            "committer_date": "2025-05-23 15:24:28",
+            "commit_id": "9e089bb5b67",
+            "message": "change guard_or impl for better perf and simplicity (#153674)"
+        }
+    },
+    "completeness": [0.368023, 0.367984],
+    "filename": "pyright_compare.083126.4b7abce6a4d-9e089bb5b67.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1},
+            "completenessScore": -3.919724473605557e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": -0.016852039096730706},
+            "completenessScore": -0.010650764646514325
+        },
+        "symbols": {
+            "removed": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.dde_suppressed"
+            ]
+        }
+    }
+}

@@ -1,0 +1,375 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-21 14:33:30",
+            "commit_id": "6c2c527cd67",
+            "message": "[BE] Remove extra semicolons from SymmetricMemory.hpp (#154034)"
+        },
+        "after": {
+            "committer_date": "2025-05-21 15:56:19",
+            "commit_id": "b7d08defe9c",
+            "message": "[BE]: Type previously untyped decorators (#153726)"
+        }
+    },
+    "completeness": [0.368023, 0.370318],
+    "filename": "pyright_compare.083034.6c2c527cd67-b7d08defe9c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 37, "withUnknownType": -37},
+            "otherSymbolCounts": {"withKnownType": 4, "withUnknownType": -4},
+            "completenessScore": 0.0022947159513768134
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.6235254465790361,
+                "withUnknownType": -0.39496157130657555
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.20833333333333334,
+                "withUnknownType": -0.23557126030624265
+            },
+            "completenessScore": 0.6235254465790316
+        },
+        "symbols": {
+            "common": {
+                "torch.ao.nn.quantizable.modules.activation.MultiheadAttention.dequantize": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.quantized.dynamic.modules.rnn.GRU.forward_packed": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"hx\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"input\" is partially unknown\n\u00a0\u00a0Parameter type is \"PackedSequence\""
+                        ]
+                    }
+                },
+                "torch.ao.nn.quantized.dynamic.modules.rnn.GRU.forward_tensor": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"hx\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"input\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.ao.nn.quantized.dynamic.modules.rnn.LSTM.forward_packed": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"input\" is partially unknown\n\u00a0\u00a0Parameter type is \"PackedSequence\""
+                        ]
+                    }
+                },
+                "torch.ao.nn.quantized.dynamic.modules.rnn.LSTM.forward_tensor": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"input\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.ao.nn.quantized.modules.conv._ConvNd.__getstate__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.quantized.modules.conv._ConvNd.__setstate__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"state\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.quantized.modules.embedding_ops.EmbeddingPackedParams.set_weight": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"weight\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.ao.nn.quantized.modules.linear.LinearPackedParams.set_weight_bias": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"bias\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"weight\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.ao.nn.sparse.quantized.linear.LinearPackedParams.__getstate__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.sparse.quantized.linear.LinearPackedParams.__setstate__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"state\" is missing"
+                        ]
+                    }
+                },
+                "torch.ao.nn.sparse.quantized.linear.LinearPackedParams.set_weight_bias": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"bias\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor | None\"",
+                            "Type of parameter \"weight\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fake_quantize.FakeQuantize.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fake_quantize.FakeQuantize.extra_repr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fake_quantize.FakeQuantizeBase.disable_fake_quant": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fake_quantize.FakeQuantizeBase.disable_observer": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fake_quantize.FixedQParamsFakeQuantize.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.fake_quantize.FixedQParamsFakeQuantize.extra_repr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.FixedQParamsObserver.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.HistogramObserver.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.MinMaxObserver.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.MinMaxObserver.extra_repr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.MinMaxObserver.reset_min_max_vals": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.NoopObserver.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.PerChannelMinMaxObserver.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.PerChannelMinMaxObserver.reset_min_max_vals": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.PlaceholderObserver.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.PlaceholderObserver.extra_repr": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.RecordingObserver.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.RecordingObserver.get_tensor_value": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.ReuseInputObserver.calculate_qparams": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.ao.quantization.observer.UniformQuantizationObserverBase.reset_min_max_vals": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.distributed.nn.api.remote_module._RemoteModule.__getstate__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.distributed.nn.api.remote_module._RemoteModule.__setstate__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"state\" is missing"
+                        ]
+                    }
+                },
+                "torch.jit.export": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"fn\" is missing"
+                        ]
+                    }
+                },
+                "torch.jit.unused": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"fn\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.container.ModuleDict.__getitem__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Module\""
+                        ]
+                    }
+                },
+                "torch.nn.modules.container.ModuleList.__dir__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.container.ModuleList.__repr__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.container.ParameterList.__dir__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.modules.container.Sequential.__dir__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

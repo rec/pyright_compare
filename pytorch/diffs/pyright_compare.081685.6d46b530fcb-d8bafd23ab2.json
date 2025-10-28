@@ -1,0 +1,40 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-17 22:18:00",
+            "commit_id": "6d46b530fcb",
+            "message": "Remove libdevice ops in inductor (#151562)"
+        },
+        "after": {
+            "committer_date": "2025-04-17 23:30:19",
+            "commit_id": "d8bafd23ab2",
+            "message": "[DDP] add one option to allow skipping all reduce unused parameters (#151503)"
+        }
+    },
+    "completeness": [0.36453, 0.364507],
+    "filename": "pyright_compare.081685.6d46b530fcb-d8bafd23ab2.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withAmbiguousType": 1},
+            "completenessScore": -2.266693004948639e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withAmbiguousType": 0.1221001221001221},
+            "completenessScore": -0.006218132073111406
+        },
+        "symbols": {
+            "added": [
+                "torch.nn.parallel.distributed.DistributedDataParallel.skip_all_reduce_unused_params"
+            ],
+            "common": {
+                "torch.nn.parallel.distributed.DistributedDataParallel.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"skip_all_reduce_unused_params\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

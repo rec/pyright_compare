@@ -1,0 +1,29 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-11 21:56:53",
+            "commit_id": "2a909cab169",
+            "message": "Update ninja missing error message (#147698)"
+        },
+        "after": {
+            "committer_date": "2025-04-11 22:03:24",
+            "commit_id": "85549fe6de3",
+            "message": "Add `__all__` for `torch.utils.dlpack` (#149026)"
+        }
+    },
+    "completeness": [0.363325, 0.363302],
+    "filename": "pyright_compare.081457.2a909cab169-85549fe6de3.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -2.262156971133411e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010629251700680272},
+            "missingFunctionDocStringCount": 0.02828054298642534,
+            "completenessScore": -0.006226262374704812
+        },
+        "symbols": {"added": ["torch.utils.dlpack.to_dlpack"]}
+    }
+}

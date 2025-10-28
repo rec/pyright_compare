@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-11 21:03:32",
+            "commit_id": "9bd0830ed8d",
+            "message": "[dynamic shapes] guard_or_false for cat, repeat (#155290)"
+        },
+        "after": {
+            "committer_date": "2025-06-11 21:27:43",
+            "commit_id": "bc3972b80a7",
+            "message": "[reland] Add stack_trace on make_fx (#155486)"
+        }
+    },
+    "completeness": [0.371377, 0.371416],
+    "filename": "pyright_compare.083922.9bd0830ed8d-bc3972b80a7.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.8926418952145436e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.01667500416875104},
+            "completenessScore": 0.01048163770617383
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.proxy_tensor.PythonKeyTracer.stack_trace"
+            ]
+        }
+    }
+}

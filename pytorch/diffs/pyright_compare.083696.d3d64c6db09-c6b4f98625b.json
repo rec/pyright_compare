@@ -1,0 +1,40 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-06 03:14:47",
+            "commit_id": "d3d64c6db09",
+            "message": "Revert \"Add pinned numpy and fix build (#155129)\""
+        },
+        "after": {
+            "committer_date": "2025-06-06 05:53:24",
+            "commit_id": "c6b4f98625b",
+            "message": "Add Intel GPU info collection to the collect env script (#137846)"
+        }
+    },
+    "completeness": [0.371183, 0.37113],
+    "filename": "pyright_compare.083696.d3d64c6db09-c6b4f98625b.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": 4},
+            "missingFunctionDocStringCount": 4,
+            "completenessScore": -5.3004259322086966e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016688918558077435,
+                "withUnknownType": 0.04291845493562232
+            },
+            "missingFunctionDocStringCount": 0.10136847440446022,
+            "completenessScore": -0.014279835751609645
+        },
+        "symbols": {
+            "added": [
+                "torch.utils.collect_env.ONEAPI_PATTERNS",
+                "torch.utils.collect_env.get_intel_gpu_detected",
+                "torch.utils.collect_env.get_intel_gpu_driver_version",
+                "torch.utils.collect_env.get_intel_gpu_onboard",
+                "torch.utils.collect_env.get_linux_pkg_version"
+            ]
+        }
+    }
+}

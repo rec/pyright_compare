@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-07 21:04:57",
+            "commit_id": "f1f49e56b07",
+            "message": "[CI] remove xfail sm89 job (#155244)"
+        },
+        "after": {
+            "committer_date": "2025-06-07 23:58:50",
+            "commit_id": "abf4da0d242",
+            "message": "[Profiler] Induce Inductor Import before Profiling (#155243)"
+        }
+    },
+    "completeness": [0.37113, 0.37113],
+    "filename": "pyright_compare.083752.f1f49e56b07-abf4da0d242.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withAmbiguousType": 1}},
+        "percent": {"otherSymbolCounts": {"withAmbiguousType": 0.9900990099009901}},
+        "symbols": {"added": ["torch.profiler.profiler._KinetoProfile.has_cudagraphs"]}
+    }
+}

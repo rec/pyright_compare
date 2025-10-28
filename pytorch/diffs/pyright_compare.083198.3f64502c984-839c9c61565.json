@@ -1,0 +1,54 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-26 17:13:22",
+            "commit_id": "3f64502c984",
+            "message": "Revert \"Re-enable FakeTensor caching for SymInts (#152662)\""
+        },
+        "after": {
+            "committer_date": "2025-05-26 17:48:28",
+            "commit_id": "839c9c61565",
+            "message": "Use property instead of ClassVar for `Uniform.arg_constraints` and `Wishart.arg_constraints` (#154361)"
+        }
+    },
+    "completeness": [0.368078, 0.368078],
+    "filename": "pyright_compare.083198.3f64502c984-839c9c61565.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withAmbiguousType": -2,
+                "withUnknownType": 2
+            }
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withAmbiguousType": -0.24271844660194175,
+                "withUnknownType": 0.02135155332550443
+            }
+        },
+        "symbols": {
+            "common": {
+                "torch.distributions.uniform.Uniform.arg_constraints": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type annotation is missing"
+                        ],
+                        "removed": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"property\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ]
+                    }
+                },
+                "torch.distributions.wishart.Wishart.arg_constraints": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type annotation is missing"
+                        ],
+                        "removed": [
+                            "Ambiguous base class override\n\u00a0\u00a0Type inferred in child class is \"property\"\n\u00a0\u00a0Inferred child class type is missing type annotation and could be inferred differently by type checkers"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

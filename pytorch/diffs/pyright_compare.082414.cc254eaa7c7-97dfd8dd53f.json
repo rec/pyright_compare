@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-06 02:55:34",
+            "commit_id": "cc254eaa7c7",
+            "message": "[inductor][refactor] Refactor the fetching of subgraph names (#152770)"
+        },
+        "after": {
+            "committer_date": "2025-05-06 02:55:34",
+            "commit_id": "97dfd8dd53f",
+            "message": "[invoke_subgraph] Run missing graph passes recursively (#152675)"
+        }
+    },
+    "completeness": [0.364535, 0.364575],
+    "filename": "pyright_compare.082414.cc254eaa7c7-97dfd8dd53f.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.952140120816461e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.017061934823408974},
+            "completenessScore": 0.010841581447276413
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.passes.fake_tensor_prop.FakeTensorProp.seen_subgraphs"
+            ]
+        }
+    }
+}

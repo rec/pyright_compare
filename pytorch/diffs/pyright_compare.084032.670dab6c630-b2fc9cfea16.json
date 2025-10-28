@@ -1,0 +1,70 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-13 11:12:13",
+            "commit_id": "670dab6c630",
+            "message": "[AOTI] Enable OP `test__weight_int4pack_mm_with_scales_and_zeros` in AOTI. (#155780)"
+        },
+        "after": {
+            "committer_date": "2025-06-13 13:54:10",
+            "commit_id": "b2fc9cfea16",
+            "message": "[precompile] Add CompilePackage to serialize dynamo states. (#155118)"
+        }
+    },
+    "completeness": [0.371579, 0.371579],
+    "filename": "pyright_compare.084032.670dab6c630-b2fc9cfea16.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 25, "withUnknownType": 1},
+            "missingFunctionDocStringCount": 8,
+            "missingClassDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 1.1125945705384959,
+                "withUnknownType": 0.04399472063352398
+            },
+            "missingFunctionDocStringCount": 0.20268558398783887,
+            "missingClassDocStringCount": 0.0946969696969697
+        },
+        "symbols": {
+            "added": [
+                "torch._dynamo.output_graph.OutputGraph.package",
+                "torch._dynamo.package.CompilePackage",
+                "torch._dynamo.package.CompilePackage.__init__",
+                "torch._dynamo.package.CompilePackage.add_backend_id",
+                "torch._dynamo.package.CompilePackage.add_guarded_code",
+                "torch._dynamo.package.CompilePackage.add_import_source",
+                "torch._dynamo.package.CompilePackage.add_resume_function",
+                "torch._dynamo.package.CompilePackage.cached_backends",
+                "torch._dynamo.package.CompilePackage.code_context",
+                "torch._dynamo.package.CompilePackage.install",
+                "torch._dynamo.package.CompilePackage.save",
+                "torch._dynamo.package.CompilePackage.source_id",
+                "torch._dynamo.package.CompilePackage.uninstall",
+                "torch._dynamo.package.CompilePackage.validate",
+                "torch._dynamo.package._DynamoCacheEntry",
+                "torch._dynamo.package._DynamoCacheEntry.__dataclass_fields__",
+                "torch._dynamo.package._DynamoCacheEntry.__eq__",
+                "torch._dynamo.package._DynamoCacheEntry.__hash__",
+                "torch._dynamo.package._DynamoCacheEntry.__init__",
+                "torch._dynamo.package._DynamoCacheEntry.__match_args__",
+                "torch._dynamo.package._DynamoCacheEntry.__new__",
+                "torch._dynamo.package._DynamoCacheEntry.backend_ids",
+                "torch._dynamo.package._DynamoCacheEntry.codes",
+                "torch._dynamo.package._DynamoCacheEntry.python_version",
+                "torch._dynamo.package._DynamoCacheEntry.torch_version",
+                "torch._dynamo.symbolic_convert.InstructionTranslatorBase.package"
+            ],
+            "common": {
+                "torch._dynamo.output_graph.OutputGraph.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type annotation for parameter \"package\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

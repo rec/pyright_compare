@@ -1,0 +1,52 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-24 18:52:10",
+            "commit_id": "b11c9e18084",
+            "message": "[CI][docker] Use install_cusparselt when possible in docker image  (#150600)"
+        },
+        "after": {
+            "committer_date": "2025-04-24 19:22:45",
+            "commit_id": "b1d055fd6a0",
+            "message": "Revert \"[dynamo] Add guard serialization for tensor matches. (#151318)\""
+        }
+    },
+    "completeness": [0.364524, 0.364524],
+    "filename": "pyright_compare.081954.b11c9e18084-b1d055fd6a0.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": -2, "withUnknownType": -1},
+            "missingFunctionDocStringCount": -1
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": -0.1040582726326743,
+                "withUnknownType": -0.058788947677836566
+            },
+            "missingFunctionDocStringCount": -0.02818489289740699
+        },
+        "symbols": {
+            "common": {
+                "torch._subclasses.fake_tensor.FakeTensor.__new__": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"pytype\" is partially unknown\n\u00a0\u00a0Parameter type is \"type[Tensor] | None\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorConverter.from_meta_and_device": {
+                    "diagnostics": {
+                        "removed": [
+                            "Type of parameter \"pytype\" is partially unknown\n\u00a0\u00a0Parameter type is \"type[Tensor] | None\""
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch._C.DispatchKeySet.from_raw_repr",
+                "torch._subclasses.fake_tensor.FakeTensor.dispatch_keys",
+                "torch._subclasses.fake_tensor.FakeTensor.pytype"
+            ]
+        }
+    }
+}

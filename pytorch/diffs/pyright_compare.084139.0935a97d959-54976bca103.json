@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-15 17:09:57",
+            "commit_id": "0935a97d959",
+            "message": "[Dynamo] Add torch.accelerator API to trace_rules (#155884)"
+        },
+        "after": {
+            "committer_date": "2025-06-15 17:49:36",
+            "commit_id": "54976bca103",
+            "message": "[dynamo] Provide helper functions for guard filter hook (#155083)"
+        }
+    },
+    "completeness": [0.372063, 0.371971],
+    "filename": "pyright_compare.084139.0935a97d959-54976bca103.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 4},
+            "completenessScore": -9.200366583461683e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.04289544235924933},
+            "completenessScore": -0.024727992087043765
+        },
+        "symbols": {
+            "added": [
+                "torch.compiler.keep_tensor_guards_unsafe",
+                "torch.compiler.skip_guard_on_all_nn_modules_unsafe",
+                "torch.compiler.skip_guard_on_globals_unsafe",
+                "torch.compiler.skip_guard_on_inbuilt_nn_modules_unsafe"
+            ]
+        }
+    }
+}

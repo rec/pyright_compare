@@ -1,0 +1,63 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-17 18:34:29",
+            "commit_id": "7e2081fa937",
+            "message": "Optimize `interpolate` saturate description (#151304)"
+        },
+        "after": {
+            "committer_date": "2025-04-17 18:51:02",
+            "commit_id": "2ed2cb58051",
+            "message": "add generalized pareto distribution (GPD) (#135968)"
+        }
+    },
+    "completeness": [0.364819, 0.36453],
+    "filename": "pyright_compare.081673.7e2081fa937-2ed2cb58051.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 3,
+                "withAmbiguousType": 1,
+                "withUnknownType": 17
+            },
+            "missingFunctionDocStringCount": 8,
+            "completenessScore": -0.0002898580915435822,
+            "filesAnalyzed": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.051203277009728626,
+                "withAmbiguousType": 0.12224938875305623,
+                "withUnknownType": 0.1811787274858787
+            },
+            "missingFunctionDocStringCount": 0.22637238256932654,
+            "completenessScore": -0.07945248250878871,
+            "filesAnalyzed": 0.11494252873563218
+        },
+        "symbols": {
+            "added": [
+                "torch.distributions.GeneralizedPareto",
+                "torch.distributions.generalized_pareto",
+                "torch.distributions.generalized_pareto.GeneralizedPareto",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.__init__",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.arg_constraints",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.cdf",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.concentration",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.entropy",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.expand",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.has_rsample",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.icdf",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.loc",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.log_cdf",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.log_prob",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.log_survival_function",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.mean",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.mode",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.rsample",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.scale",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.support",
+                "torch.distributions.generalized_pareto.GeneralizedPareto.variance"
+            ]
+        }
+    }
+}

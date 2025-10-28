@@ -1,0 +1,34 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-21 22:32:57",
+            "commit_id": "9e132b770e0",
+            "message": "[CUDA] Skip test on low vram machines (#156548)"
+        },
+        "after": {
+            "committer_date": "2025-06-21 23:24:04",
+            "commit_id": "f70c80105eb",
+            "message": "Enables NCCL symmetric memory kernels through mempool registration (#155134)"
+        }
+    },
+    "completeness": [0.371918, 0.371956],
+    "filename": "pyright_compare.084451.9e132b770e0-f70c80105eb.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "otherSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.8813639770651776e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.01661681621801263},
+            "otherSymbolCounts": {"withKnownType": 0.043802014892685065},
+            "completenessScore": 0.010436083501643675
+        },
+        "symbols": {
+            "added": [
+                "torch._C._MemPool.is_symmetric",
+                "torch.cuda.memory.MemPool.is_symmetric"
+            ]
+        }
+    }
+}

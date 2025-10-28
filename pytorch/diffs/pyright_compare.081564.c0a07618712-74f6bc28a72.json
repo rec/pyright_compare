@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-15 17:28:36",
+            "commit_id": "c0a07618712",
+            "message": "[Inductor] Refactor wrapper codegen to use Wrapper IR. (#150458)"
+        },
+        "after": {
+            "committer_date": "2025-04-15 17:35:59",
+            "commit_id": "74f6bc28a72",
+            "message": "Revert \"Add inductor standalone_compile API (#150670)\""
+        }
+    },
+    "completeness": [0.364842, 0.36478],
+    "filename": "pyright_compare.081564.c0a07618712-74f6bc28a72.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": -1, "withAmbiguousType": 1},
+            "completenessScore": -6.22703779812328e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": -0.017067759003242873,
+                "withAmbiguousType": 0.12224938875305623
+            },
+            "completenessScore": -0.017067759003253413
+        },
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.proxy_tensor.ProxyTorchDispatchMode.emulate_precision_casts": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"bool\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-01 00:21:22",
+            "commit_id": "4ebd2690654",
+            "message": "[Testing] Remove duplicate MPSInductor tests (#157328)"
+        },
+        "after": {
+            "committer_date": "2025-07-01 00:30:48",
+            "commit_id": "b60569ed946",
+            "message": "HF - consolidate shards of safetensors files to full tensors in finish step (#156705)"
+        }
+    },
+    "completeness": [0.373039, 0.373233],
+    "filename": "pyright_compare.084856.4ebd2690654-b60569ed946.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 5},
+            "completenessScore": 0.00019351830443004037
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.08276775368316504},
+            "completenessScore": 0.05187610365734272
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.consolidated_output_path",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.fqn_to_index_mapping",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.save_distributed",
+                "torch.distributed.checkpoint.hf_storage.HuggingFaceStorageWriter.thread_count_consolidation",
+                "torch.distributed.checkpoint.hf_storage.logger"
+            ]
+        }
+    }
+}

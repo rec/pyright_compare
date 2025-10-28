@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-14 07:24:30",
+            "commit_id": "01f226bfb8f",
+            "message": "Add check for ctc_loss targets param (#150981)"
+        },
+        "after": {
+            "committer_date": "2025-04-14 09:53:22",
+            "commit_id": "5a64476ed64",
+            "message": "[Easy] Add `output_size` in forward method of ConvTranspose2d (#150609)"
+        }
+    },
+    "completeness": [0.363161, 0.363161],
+    "filename": "pyright_compare.081510.01f226bfb8f-5a64476ed64.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -1},
+        "percent": {"missingFunctionDocStringCount": -0.02828054298642534},
+        "symbols": {
+            "common": {
+                "torch.nn.modules.conv.ConvTranspose2d.forward": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.nn.modules.conv.ConvTranspose2d.forward\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

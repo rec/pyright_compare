@@ -1,0 +1,39 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-01 19:15:25",
+            "commit_id": "5d6ac2dcede",
+            "message": "[dtensor] add op support for select_backward and slice_backward (#150357)"
+        },
+        "after": {
+            "committer_date": "2025-04-01 19:15:43",
+            "commit_id": "d2ad9aa2f29",
+            "message": "[dtensor][tp] add a ParallelStyle PrepareModuleInputOutput (#150372)"
+        }
+    },
+    "completeness": [0.363171, 0.36316],
+    "filename": "pyright_compare.081097.5d6ac2dcede-d2ad9aa2f29.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2, "withAmbiguousType": 4},
+            "completenessScore": -1.11709857249509e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.034376074252320386,
+                "withAmbiguousType": 0.47337278106508873
+            },
+            "completenessScore": -0.003075957224367711
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.tensor.parallel.PrepareModuleInputOutput",
+                "torch.distributed.tensor.parallel.style.PrepareModuleInputOutput",
+                "torch.distributed.tensor.parallel.style.PrepareModuleInputOutput.__init__",
+                "torch.distributed.tensor.parallel.style.PrepareModuleInputOutput.__repr__",
+                "torch.distributed.tensor.parallel.style.PrepareModuleInputOutput.prepare_module_input",
+                "torch.distributed.tensor.parallel.style.PrepareModuleInputOutput.prepare_module_output"
+            ]
+        }
+    }
+}

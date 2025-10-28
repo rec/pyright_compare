@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-28 05:41:19",
+            "commit_id": "08c29deb5fe",
+            "message": "[ez] add docblock to is_symbol_binding_fx_node (#154380)"
+        },
+        "after": {
+            "committer_date": "2025-05-28 05:44:26",
+            "commit_id": "8e25ba6963d",
+            "message": "[ez] add docblock for find_symbol_binding_fx_nodes (#154381)"
+        }
+    },
+    "completeness": [0.368134, 0.368134],
+    "filename": "pyright_compare.083273.08c29deb5fe-8e25ba6963d.json",
+    "diff": {
+        "absolute": {"missingFunctionDocStringCount": -1},
+        "percent": {"missingFunctionDocStringCount": -0.02820078962210942},
+        "symbols": {
+            "common": {
+                "torch.fx.experimental.symbolic_shapes.find_symbol_binding_fx_nodes": {
+                    "diagnostics": {
+                        "removed": [
+                            "No docstring found for function \"torch.fx.experimental.symbolic_shapes.find_symbol_binding_fx_nodes\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

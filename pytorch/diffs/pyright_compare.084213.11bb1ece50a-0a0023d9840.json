@@ -1,0 +1,36 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-17 12:42:40",
+            "commit_id": "11bb1ece50a",
+            "message": "[CI] Fix triton version split issue (#155670)"
+        },
+        "after": {
+            "committer_date": "2025-06-17 12:54:58",
+            "commit_id": "0a0023d9840",
+            "message": "Enable NCCL zero-copy (user buffer registration) for FSDP2 (#150564)"
+        }
+    },
+    "completeness": [0.371971, 0.371971],
+    "filename": "pyright_compare.084213.11bb1ece50a-0a0023d9840.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 1, "withUnknownType": 2},
+            "missingFunctionDocStringCount": 2
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.04391743522178305,
+                "withUnknownType": 0.08714596949891068
+            },
+            "missingFunctionDocStringCount": 0.050327126321087066
+        },
+        "symbols": {
+            "added": [
+                "torch._C._distributed_c10d.Backend.allocate_tensor",
+                "torch._C._distributed_c10d.Backend.supports_tensor_alloc",
+                "torch.distributed.fsdp._fully_shard._fully_shard.FSDPModule.set_allocate_memory_from_process_group_for_comm"
+            ]
+        }
+    }
+}

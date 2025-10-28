@@ -1,0 +1,88 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-30 03:19:49",
+            "commit_id": "9c06dff1ce9",
+            "message": "[multigraph] use specializations in compile_and_call_fx_graph (#153449)"
+        },
+        "after": {
+            "committer_date": "2025-05-30 03:29:45",
+            "commit_id": "20ee5f9044c",
+            "message": "remove allow-untyped-defs from elastic_distributed_sampler.py (#154620)"
+        }
+    },
+    "completeness": [0.370694, 0.370919],
+    "filename": "pyright_compare.083388.9c06dff1ce9-20ee5f9044c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 4,
+                "withAmbiguousType": -1,
+                "withUnknownType": -2
+            },
+            "completenessScore": 0.00022485013765388695
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.06685609226140732,
+                "withAmbiguousType": -0.12165450121654502,
+                "withUnknownType": -0.021424745581146223
+            },
+            "completenessScore": 0.06065654724609285
+        },
+        "symbols": {
+            "added": [
+                "torch.distributed.elastic.utils.data.elastic_distributed_sampler.T"
+            ],
+            "common": {
+                "torch.distributed.elastic.utils.data.elastic_distributed_sampler.ElasticDistributedSampler": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of base class \"torch.utils.data.distributed.DistributedSampler\" is partially unknown"
+                        ],
+                        "removed": [
+                            "Type of base class \"torch.utils.data.distributed.DistributedSampler\" is partially unknown\n\u00a0\u00a0Type argument 1 for class \"DistributedSampler\" has unknown type"
+                        ]
+                    }
+                },
+                "torch.distributed.elastic.utils.data.elastic_distributed_sampler.ElasticDistributedSampler.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"dataset\" is partially unknown\n\u00a0\u00a0Parameter type is \"Dataset[T@ElasticDistributedSampler]\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"dataset\" is missing",
+                            "Type annotation for parameter \"num_replicas\" is missing",
+                            "Type annotation for parameter \"rank\" is missing",
+                            "Type annotation for parameter \"start_index\" is missing"
+                        ]
+                    }
+                },
+                "torch.distributed.elastic.utils.data.elastic_distributed_sampler.ElasticDistributedSampler.__iter__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.distributed.elastic.utils.data.elastic_distributed_sampler.ElasticDistributedSampler.__len__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.distributed.elastic.utils.data.elastic_distributed_sampler.ElasticDistributedSampler.start_index": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"int\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

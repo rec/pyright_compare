@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-22 05:13:07",
+            "commit_id": "a09a3f4c30e",
+            "message": "[Hierarchical compile] Ensure output nodes are sorted last (#151295)"
+        },
+        "after": {
+            "committer_date": "2025-04-22 06:07:57",
+            "commit_id": "dfdf731579d",
+            "message": "Do not generate long log messaged for suppressed data dependent errors. (#151023)"
+        }
+    },
+    "completeness": [0.364546, 0.364586],
+    "filename": "pyright_compare.081819.a09a3f4c30e-dfdf731579d.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1},
+            "completenessScore": 3.950842977679114e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.017056114617090227},
+            "completenessScore": 0.010837695311276341
+        },
+        "symbols": {
+            "added": [
+                "torch.fx.experimental.symbolic_shapes.ShapeEnv.dde_suppressed"
+            ]
+        }
+    }
+}

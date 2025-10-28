@@ -1,0 +1,73 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-19 05:46:51",
+            "commit_id": "5506baa4ede",
+            "message": "Refactoring FSDP2 (_composable/fsdp) test cases to be device agnostic (#149848)"
+        },
+        "after": {
+            "committer_date": "2025-05-19 08:25:20",
+            "commit_id": "f3daedb263d",
+            "message": "[BE]: Remove redundant copy (#153629)"
+        }
+    },
+    "completeness": [0.367651, 0.367899],
+    "filename": "pyright_compare.082926.5506baa4ede-f3daedb263d.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 4, "withUnknownType": -4},
+            "completenessScore": 0.0002480774001488162
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.06747638326585695,
+                "withUnknownType": -0.042671218263281414
+            },
+            "completenessScore": 0.06747638326584872
+        },
+        "symbols": {
+            "common": {
+                "torch.nn.utils.convert_conv2d_weight_memory_format": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"memory_format\" is missing",
+                            "Type annotation for parameter \"module\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.utils.convert_conv3d_weight_memory_format": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"memory_format\" is missing",
+                            "Type annotation for parameter \"module\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.utils.memory_format.convert_conv2d_weight_memory_format": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"memory_format\" is missing",
+                            "Type annotation for parameter \"module\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.utils.memory_format.convert_conv3d_weight_memory_format": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"memory_format\" is missing",
+                            "Type annotation for parameter \"module\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

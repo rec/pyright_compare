@@ -1,0 +1,32 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-04 05:48:27",
+            "commit_id": "75b24c273b5",
+            "message": "Export `torch::utils::tensor_to_numpy` (#154178)"
+        },
+        "after": {
+            "committer_date": "2025-06-04 06:04:29",
+            "commit_id": "d2bfd97d71c",
+            "message": "[export] Refactor pt2 save/load (#152495)"
+        }
+    },
+    "completeness": [0.371183, 0.371183],
+    "filename": "pyright_compare.083594.75b24c273b5-d2bfd97d71c.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {"withKnownType": 2},
+            "missingFunctionDocStringCount": 1
+        },
+        "percent": {
+            "otherSymbolCounts": {"withKnownType": 0.08908685968819599},
+            "missingFunctionDocStringCount": 0.025348542458808618
+        },
+        "symbols": {
+            "added": [
+                "torch._C.PyTorchFileReader.get_all_records",
+                "torch.export.pt2_archive._package.PT2ArchiveReader.get_file_names"
+            ]
+        }
+    }
+}

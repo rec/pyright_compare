@@ -1,0 +1,41 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-21 05:20:45",
+            "commit_id": "a636a92ee9f",
+            "message": "[MTIA ATen Backend] Migrate \"_unsafe_view\" and \"view\" ops from out-of-tree to pytorch in-tree (#153670)"
+        },
+        "after": {
+            "committer_date": "2025-05-21 07:15:00",
+            "commit_id": "ffd49d538e8",
+            "message": "[BE][Ez]: Improve typing in torch/modules/container.py (#153728)"
+        }
+    },
+    "completeness": [0.367961, 0.368023],
+    "filename": "pyright_compare.083027.a636a92ee9f-ffd49d538e8.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 1, "withUnknownType": -1},
+            "completenessScore": 6.201935003719017e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.016854879487611663,
+                "withUnknownType": -0.010673497705197993
+            },
+            "completenessScore": 0.016854879487605834
+        },
+        "symbols": {
+            "common": {
+                "torch.nn.modules.container.Sequential.extend": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"sequential\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

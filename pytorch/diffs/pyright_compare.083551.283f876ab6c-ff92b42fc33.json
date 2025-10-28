@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-03 15:55:29",
+            "commit_id": "283f876ab6c",
+            "message": "[PP] Fix disabled flaky tests (#154856)"
+        },
+        "after": {
+            "committer_date": "2025-06-03 16:12:54",
+            "commit_id": "ff92b42fc33",
+            "message": "[c10d][gloo] Integrate vendor generic FR into gloo (#152614)"
+        }
+    },
+    "completeness": [0.371538, 0.371538],
+    "filename": "pyright_compare.083551.283f876ab6c-ff92b42fc33.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 3}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.13380909901873328}},
+        "symbols": {
+            "added": [
+                "torch._C._distributed_c10d.ProcessGroupGloo.Options.global_ranks_in_group",
+                "torch._C._distributed_c10d.ProcessGroupGloo.Options.group_name",
+                "torch._C._distributed_c10d.ProcessGroupGloo.options"
+            ]
+        }
+    }
+}

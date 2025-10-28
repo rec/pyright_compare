@@ -1,0 +1,46 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-25 03:54:30",
+            "commit_id": "1fced0c7d51",
+            "message": "[ROCm] enable hipblaslt on gfx908 for ROCm >= 6.3 (#159092)"
+        },
+        "after": {
+            "committer_date": "2025-07-25 04:01:51",
+            "commit_id": "9b29166f57c",
+            "message": "[ROCm] add flag torch.backends.miopen.immediate (#158951)"
+        }
+    },
+    "completeness": [0.37664, 0.376663],
+    "filename": "pyright_compare.085885.1fced0c7d51-9b29166f57c.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 3, "withUnknownType": 4},
+            "missingFunctionDocStringCount": 2,
+            "missingClassDocStringCount": 1,
+            "completenessScore": 2.238415998062626e-05,
+            "filesAnalyzed": 1
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.04906771344455348,
+                "withUnknownType": 0.04308951847463104
+            },
+            "missingFunctionDocStringCount": 0.04945598417408507,
+            "missingClassDocStringCount": 0.09267840593141798,
+            "completenessScore": 0.005943115292206511,
+            "filesAnalyzed": 0.11467889908256881
+        },
+        "symbols": {
+            "added": [
+                "torch.backends.miopen",
+                "torch.backends.miopen.MiopenModule",
+                "torch.backends.miopen.MiopenModule.__init__",
+                "torch.backends.miopen.MiopenModule.immediate",
+                "torch.backends.miopen.flags",
+                "torch.backends.miopen.immediate",
+                "torch.backends.miopen.set_flags"
+            ]
+        }
+    }
+}

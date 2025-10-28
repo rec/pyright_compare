@@ -1,0 +1,271 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-03 17:00:02",
+            "commit_id": "40142978d71",
+            "message": "Add type annotation to orthogonal_ (#154927)"
+        },
+        "after": {
+            "committer_date": "2025-06-03 17:33:32",
+            "commit_id": "31405a69fb9",
+            "message": "[typing] Add missing type annotations to torch.nn.init module (#154504)"
+        }
+    },
+    "completeness": [0.371538, 0.3716],
+    "filename": "pyright_compare.083554.40142978d71-31405a69fb9.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 1,
+                "withAmbiguousType": 11,
+                "withUnknownType": -12
+            },
+            "completenessScore": 6.195403010966771e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.01667500416875104,
+                "withAmbiguousType": 1.3414634146341464,
+                "withUnknownType": -0.1287001287001287
+            },
+            "completenessScore": 0.016675004168753487
+        },
+        "symbols": {
+            "common": {
+                "torch.nn.init.calculate_gain": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"nonlinearity\" is missing",
+                            "Type annotation for parameter \"param\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.init.constant": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, val: float) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.dirac": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, groups: int = 1) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.dirac_": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"tensor\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"groups\" is missing",
+                            "Type annotation for parameter \"tensor\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.init.eye": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.eye_": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"tensor\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"tensor\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.init.kaiming_normal": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, a: float = 0, mode: _FanMode = \"fan_in\", nonlinearity: _NonlinearityType = \"leaky_relu\", generator: Generator | None = None) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.kaiming_normal_": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.init.kaiming_uniform": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, a: float = 0, mode: _FanMode = \"fan_in\", nonlinearity: _NonlinearityType = \"leaky_relu\", generator: Generator | None = None) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.kaiming_uniform_": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.init.normal": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, mean: float = 0, std: float = 1, generator: Generator | None = None) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.orthogonal": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, gain: float = 1, generator: Generator | None = None) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.orthogonal_": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch.nn.init.sparse": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, sparsity: float, std: float = 0.01, generator: Generator | None = None) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.sparse_": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"Tensor\"",
+                            "Type of parameter \"tensor\" is partially unknown\n\u00a0\u00a0Parameter type is \"Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"sparsity\" is missing",
+                            "Type annotation for parameter \"std\" is missing",
+                            "Type annotation for parameter \"tensor\" is missing"
+                        ]
+                    }
+                },
+                "torch.nn.init.uniform": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, a: float = 0, b: float = 1, generator: Generator | None = None) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.xavier_normal": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, gain: float = 1, generator: Generator | None = None) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                },
+                "torch.nn.init.xavier_uniform": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(tensor: Tensor, gain: float = 1, generator: Generator | None = None) -> Tensor\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"(...) -> Unknown\""
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

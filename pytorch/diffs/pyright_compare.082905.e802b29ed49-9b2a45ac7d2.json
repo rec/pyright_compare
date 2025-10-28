@@ -1,0 +1,54 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-05-17 02:07:35",
+            "commit_id": "e802b29ed49",
+            "message": "[SDPA][EZ] Abate narrowing conversion warning spam in `flash_api.cpp` (#153643)"
+        },
+        "after": {
+            "committer_date": "2025-05-17 06:21:41",
+            "commit_id": "9b2a45ac7d2",
+            "message": "Refactor `torch/utils/data/datapipes/gen_pyi.py` with `torchgen` (#150626)"
+        }
+    },
+    "completeness": [0.366787, 0.366865],
+    "filename": "pyright_compare.082905.e802b29ed49-9b2a45ac7d2.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withKnownType": 2},
+            "completenessScore": 7.864049496186798e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withKnownType": 0.033863867253640365},
+            "completenessScore": 0.021440386892583783
+        },
+        "symbols": {
+            "added": [
+                "torch.utils.data.datapipes.gen_pyi.REPO_ROOT",
+                "torch.utils.data.datapipes.gen_pyi.__dir__"
+            ],
+            "common": {
+                "torch.utils.data.datapipes.datapipe.IterDataPipe.demux": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"list[IterDataPipe[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"List[IterDataPipe[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.utils.data.datapipes.datapipe.IterDataPipe.fork": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"list[IterDataPipe[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"List[IterDataPipe[Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 1 for class \"list\" has partially unknown type"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

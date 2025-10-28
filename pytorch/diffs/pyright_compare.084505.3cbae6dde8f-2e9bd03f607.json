@@ -1,0 +1,21 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-23 14:49:26",
+            "commit_id": "3cbae6dde8f",
+            "message": "[MPSInductor][BE] Fix multistage reduction check (#156567)"
+        },
+        "after": {
+            "committer_date": "2025-06-23 15:38:37",
+            "commit_id": "2e9bd03f607",
+            "message": "Implemented `Size.__radd__` (#152554)"
+        }
+    },
+    "completeness": [0.372142, 0.372142],
+    "filename": "pyright_compare.084505.3cbae6dde8f-2e9bd03f607.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.043478260869565216}},
+        "symbols": {"added": ["torch._C.Size.__radd__"]}
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-25 08:57:17",
+            "commit_id": "92e93bb580f",
+            "message": "[inductor][cpu] Stop lowering div to reciprocal multiplication to preserve precision when the divisor is a scalar and device is on cpu (#158231)"
+        },
+        "after": {
+            "committer_date": "2025-07-25 13:22:32",
+            "commit_id": "bf311141d6b",
+            "message": "Track descriptors for all inputs/outputs of AOTAutograd traced graph (#158624)"
+        }
+    },
+    "completeness": [0.376663, 0.376663],
+    "filename": "pyright_compare.085900.92e93bb580f-bf311141d6b.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 1}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.03856536829926726}},
+        "symbols": {
+            "added": [
+                "torch._functorch._aot_autograd.schemas.ViewAndMutationMeta.traced_tangents_descs"
+            ]
+        }
+    }
+}

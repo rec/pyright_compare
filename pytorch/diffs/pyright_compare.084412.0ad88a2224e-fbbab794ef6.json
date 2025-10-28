@@ -1,0 +1,27 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-20 23:06:33",
+            "commit_id": "0ad88a2224e",
+            "message": "Support environement var for autotune log (#156254)"
+        },
+        "after": {
+            "committer_date": "2025-06-20 23:54:57",
+            "commit_id": "fbbab794ef6",
+            "message": "[ONNX] Implement Attention-23 (#156431)"
+        }
+    },
+    "completeness": [0.371964, 0.371941],
+    "filename": "pyright_compare.084412.0ad88a2224e-fbbab794ef6.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.2989101149062385e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010716964955524596},
+            "completenessScore": -0.006180469715697579
+        },
+        "symbols": {"added": ["torch.onnx.ops.attention"]}
+    }
+}

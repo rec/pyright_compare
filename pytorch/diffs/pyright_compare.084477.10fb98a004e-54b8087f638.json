@@ -1,0 +1,865 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-22 15:05:08",
+            "commit_id": "10fb98a004e",
+            "message": "[Precompile] Hook up backend=\"inductor\"  (#155387)"
+        },
+        "after": {
+            "committer_date": "2025-06-22 15:52:27",
+            "commit_id": "54b8087f638",
+            "message": "Improve torch.ops typing (#154555)"
+        }
+    },
+    "completeness": [0.371956, 0.372142],
+    "filename": "pyright_compare.084477.10fb98a004e-54b8087f638.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {
+                "withKnownType": 3,
+                "withAmbiguousType": 5,
+                "withUnknownType": -8
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 16,
+                "withAmbiguousType": 3,
+                "withUnknownType": -14
+            },
+            "completenessScore": 0.00018539117538007854
+        },
+        "percent": {
+            "exportedSymbolCounts": {
+                "withKnownType": 0.04984216647283602,
+                "withAmbiguousType": 0.6024096385542169,
+                "withUnknownType": -0.08571734704810886
+            },
+            "otherSymbolCounts": {
+                "withKnownType": 0.7005253940455342,
+                "withAmbiguousType": 2.9411764705882355,
+                "withUnknownType": -0.6086956521739131
+            },
+            "completenessScore": 0.04984216647284318
+        },
+        "symbols": {
+            "added": [
+                "torch._ops.OpOverloadPacket.__file__",
+                "torch._ops._HigherOrderNamespace",
+                "torch._ops._HigherOrderNamespace.__file__",
+                "torch._ops._HigherOrderNamespace.__getattr__",
+                "torch._ops._HigherOrderNamespace.__init__",
+                "torch._ops._HigherOrderNamespace.__iter__",
+                "torch._ops._OpNamespace.__file__",
+                "torch._ops._Ops.higher_order"
+            ],
+            "common": {
+                "torch._ops.OpOverload.__call__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverload.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"op\" is missing",
+                            "Type annotation for parameter \"op_dk\" is missing",
+                            "Type annotation for parameter \"overloadpacket\" is missing",
+                            "Type annotation for parameter \"schema\" is missing",
+                            "Type annotation for parameter \"tags\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverload.decompose": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverload.has_kernel_for_any_dispatch_key": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"ks\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverload.has_kernel_for_dispatch_key": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"k\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverload.namespace": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverload.redispatch": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"keyset\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverloadPacket.__call__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"args\" is missing",
+                            "Type annotation for parameter \"kwargs\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverloadPacket.__getattr__": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"OpOverload[_P@OpOverloadPacket, _T@OpOverloadPacket]\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"key\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverloadPacket.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"op\" is missing",
+                            "Type annotation for parameter \"op_name\" is missing",
+                            "Type annotation for parameter \"overload_names\" is missing",
+                            "Type annotation for parameter \"qualified_op_name\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops.OpOverloadPacket.__iter__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._ops._OpNamespace.__getattr__": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"OpOverloadPacket[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type annotation for parameter \"op_name\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops._OpNamespace.__init__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops._OpNamespace.__iter__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._ops._Ops.__getattr__": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"name\" is missing"
+                        ]
+                    }
+                },
+                "torch._ops._Ops.__iter__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing"
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.can_run_unsafe_fallback": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.cpp_meta_supports_symint": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.dispatch": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.invalidate_written_to_constants": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.lift_fns": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[OpOverload[..., Any], Literal[True]]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0Type is [object Object]",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Unknown | Any, Literal[True]]\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.validate_and_convert_non_fake_tensors": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch._subclasses.fake_tensor.FakeTensorMode.wrap_meta_outputs_with_default_device_logic": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch.ao.ns.fx.graph_matcher.toq": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.ao.ns.fx.mappings.toq": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.ao.ns.fx.pattern_utils.toq": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.ao.ns.fx.utils.toq": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.ao.ns.fx.weight_utils.toq": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantizer.x86_inductor_quantizer.X86InductorQuantizer.module_function_to_aten_operator_type": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[(...) -> Unknown, OpOverloadPacket[..., Any]]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[(...) -> Unknown, OpOverloadPacket]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantizer.x86_inductor_quantizer.default_quantizable_ops": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[Unknown | OpOverload[..., Any]]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[Unknown | Any]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantizer.x86_inductor_quantizer.quantizable_ops": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[Unknown | OpOverload[..., Any]]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[Unknown | Any]\""
+                        ]
+                    }
+                },
+                "torch.ao.quantization.quantizer.xnnpack_quantizer.XNNPACKQuantizer.set_operator_type": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"operator_type\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverloadPacket[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"operator_type\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverloadPacket\""
+                        ]
+                    }
+                },
+                "torch.autograd.profiler.record_function.record": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Any\""
+                        ]
+                    }
+                },
+                "torch.distributed.tensor.examples.comm_mode_features_example.aten": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.distributed.tensor.examples.comm_mode_features_example.c10d_functional": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.distributed.tensor.examples.comm_mode_features_example.supported_ops": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[OpOverload[..., Any]]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"list\" has partially unknown type\n\u00a0\u00a0Type is [object Object]",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[Unknown | Any]\""
+                        ]
+                    }
+                },
+                "torch.distributed.tensor.examples.torchrec_sharding_example.aten": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.distributed.tensor.examples.torchrec_sharding_example.supported_ops": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[OpOverload[..., Any]]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"list\" has partially unknown type\n\u00a0\u00a0Type is [object Object]",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"list[Unknown | Any]\""
+                        ]
+                    }
+                },
+                "torch.distributed.tensor.experimental.register_sharding": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any] | list[OpOverload[..., Any]]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload | list[OpOverload]\""
+                        ]
+                    }
+                },
+                "torch.distributed.tensor.parallel.loss.aten": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.distributed.tensor.parallel.loss.customized_loss_ops": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[OpOverload[..., Any], (op_call: OpOverload[..., Any], args: tuple[object, ...], kwargs: dict[str, object]) -> object]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"dict\" has partially unknown type\n\u00a0\u00a0Type is [object Object]",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"dict[Unknown | Any, (op_call: OpOverload, args: tuple[object, ...], kwargs: dict[str, object]) -> object]\""
+                        ]
+                    }
+                },
+                "torch.export.decomp_utils.PRESERVED_ATEN_CIA_OPS": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"set\" has partially unknown type\n\u00a0\u00a0Type is [object Object]"
+                        ]
+                    }
+                },
+                "torch.fx._symbolic_trace.Tracer.create_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.DecompositionInterpreter.__init__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"decomposition_table\" is partially unknown\n\u00a0\u00a0Parameter type is \"Mapping[OpOverload[..., Any], (...) -> Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"Mapping\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"decomposition_table\" is partially unknown\n\u00a0\u00a0Parameter type is \"Mapping[OpOverload, (...) -> Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"Mapping\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.DecompositionInterpreter.decomposition_table": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Mapping[OpOverload[..., Any], (...) -> Unknown] | dict[OpOverload[..., Any], (...) -> Unknown]\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Mapping[OpOverload, (...) -> Unknown] | dict[OpOverload, (...) -> Unknown]\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.PreDispatchTorchFunctionMode.__torch_function__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any] | ((...) -> Unknown)\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload | ((...) -> Unknown)\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.ProxyTorchDispatchMode.__sym_dispatch__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.TorchFunctionMetadataMode.__torch_function__": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.aten": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.get_isolated_graphmodule": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"decomposition_table\" is partially unknown\n\u00a0\u00a0Parameter type is \"Mapping[OpOverload[..., Any], (...) -> Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"Mapping\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"decomposition_table\" is partially unknown\n\u00a0\u00a0Parameter type is \"Mapping[OpOverload, (...) -> Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"Mapping\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.make_fx": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"decomposition_table\" is partially unknown\n\u00a0\u00a0Parameter type is \"Mapping[OpOverload[..., Any], (...) -> Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"Mapping\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Type of parameter \"decomposition_table\" is partially unknown\n\u00a0\u00a0Parameter type is \"Mapping[OpOverload, (...) -> Unknown] | None\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"Mapping\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.maybe_handle_decomp": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.prim": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.proxy_tensor.proxy_call": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"func\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload\""
+                        ]
+                    }
+                },
+                "torch.fx.experimental.symbolic_shapes.aten": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.fx.graph.CodeGen.generate_output": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"output_args\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"output_args\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.graph.Graph.graph_copy": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[... | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None, ...] | Sequence[tuple[Argument, ...] | ... | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None] | Mapping[str, tuple[Argument, ...] | Sequence[Argument] | ... | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[... | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None, ...] | Sequence[tuple[Argument, ...] | ... | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None] | Mapping[str, tuple[Argument, ...] | Sequence[Argument] | ... | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.graph.Graph.output": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"result\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"result\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.interpreter.Interpreter.map_nodes_to_values": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"args\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\"",
+                            "Type of parameter \"args\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.Node.insert_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.Node.update_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.node.Node.update_kwarg": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"arg\" is partially unknown\n\u00a0\u00a0Parameter type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.fx.passes.dialect.common.cse_pass.aten": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                },
+                "torch.fx.passes.dialect.common.cse_pass.inplace_ops": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[OpOverloadPacket[..., Any]]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"set\" has partially unknown type\n\u00a0\u00a0Type is [object Object]",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[Unknown | Any]\""
+                        ]
+                    }
+                },
+                "torch.fx.passes.dialect.common.cse_pass.rand_ops": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[OpOverloadPacket[..., Any]]\""
+                        ],
+                        "removed": [
+                            "Type argument 1 for class \"set\" has partially unknown type\n\u00a0\u00a0Type is [object Object]",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"set[Unknown | Any]\""
+                        ]
+                    }
+                },
+                "torch.fx.proxy.TracerBase.create_arg": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload[..., Any] | SymInt | SymBool | SymFloat | None\""
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"tuple[Argument, ...] | Sequence[Argument] | Mapping[str, Argument] | slice[Any, Any, Any] | range | Node | str | int | float | bool | complex | dtype | Tensor | device | memory_format | layout | OpOverload | SymInt | SymBool | SymFloat | None\""
+                        ]
+                    }
+                },
+                "torch.library.opcheck": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload[..., Any] | OpOverloadPacket[..., Any] | CustomOpDef\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"OpOverload | OpOverloadPacket | CustomOpDef\""
+                        ]
+                    }
+                },
+                "torch.library.register_autocast": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload[..., Any] | Any\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload | Any\""
+                        ]
+                    }
+                },
+                "torch.library.register_autograd": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload[..., Any] | Any\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload | Any\""
+                        ]
+                    }
+                },
+                "torch.library.register_fake": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload[..., Any] | Any\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload | Any\""
+                        ]
+                    }
+                },
+                "torch.library.register_kernel": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload[..., Any] | Any\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload | Any\""
+                        ]
+                    }
+                },
+                "torch.library.register_torch_dispatch": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload[..., Any] | Any\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload | Any\""
+                        ]
+                    }
+                },
+                "torch.library.register_vmap": {
+                    "diagnostics": {
+                        "added": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload[..., Any] | Any\""
+                        ],
+                        "removed": [
+                            "Type of parameter \"op\" is partially unknown\n\u00a0\u00a0Parameter type is \"str | OpOverload | Any\""
+                        ]
+                    }
+                },
+                "torch.masked.maskedtensor.passthrough.PASSTHROUGH_FNS": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"list\" has partially unknown type\n\u00a0\u00a0Type is [object Object]"
+                        ]
+                    }
+                },
+                "torch.onnx.ops.aten_decompositions": {
+                    "diagnostics": {
+                        "added": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[OpOverload[..., Any], (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ],
+                        "removed": [
+                            "Return type is partially unknown\n\u00a0\u00a0Return type is \"dict[OpOverload, (...) -> Unknown]\"\n\u00a0\u00a0\u00a0\u00a0Type argument 2 for class \"dict\" has partially unknown type"
+                        ]
+                    }
+                },
+                "torch.quantized_gru": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"OpOverloadPacket[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type unknown for type alias \"torch.quantized_gru\""
+                        ]
+                    }
+                },
+                "torch.quantized_lstm": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"OpOverloadPacket[..., Any]\""
+                        ],
+                        "removed": [
+                            "Type unknown for type alias \"torch.quantized_lstm\""
+                        ]
+                    }
+                },
+                "torch.utils.checkpoint.SAC_IGNORED_OPS": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Type argument 1 for class \"set\" has partially unknown type\n\u00a0\u00a0Type is [object Object]"
+                        ]
+                    }
+                },
+                "torch.utils.flop_counter.aten": {
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_OpNamespace\""
+                        ],
+                        "removed": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace | _OpNamespace\"",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_PyOpNamespace\""
+                        ]
+                    }
+                }
+            },
+            "removed": [
+                "torch._ops._PyOpNamespace",
+                "torch._ops._PyOpNamespace.__getattr__",
+                "torch._ops._PyOpNamespace.__init__"
+            ]
+        }
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-24 15:37:43",
+            "commit_id": "cb853945a77",
+            "message": "[ez][CI] Update viable strict: change concurrency group to cancel in progress (#156619)"
+        },
+        "after": {
+            "committer_date": "2025-06-24 15:41:34",
+            "commit_id": "e2c9d8d6414",
+            "message": "Fix non-bitwise type annotations for Tensor operators (see #145838) (#146845)"
+        }
+    },
+    "completeness": [0.371487, 0.371487],
+    "filename": "pyright_compare.084568.cb853945a77-e2c9d8d6414.json",
+    "diff": {
+        "absolute": {
+            "otherSymbolCounts": {
+                "withKnownType": 9,
+                "withAmbiguousType": 1,
+                "withUnknownType": -10
+            }
+        },
+        "percent": {
+            "otherSymbolCounts": {
+                "withKnownType": 0.39113428943937417,
+                "withAmbiguousType": 0.9523809523809523,
+                "withUnknownType": -0.4374453193350831
+            }
+        },
+        "symbols": {
+            "common": {
+                "torch._tensor.Tensor.__floordiv__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._tensor.Tensor.__ipow__": {
+                    "isTypeAmbiguous": true,
+                    "diagnostics": {
+                        "added": [
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"Overload[(TensorBase, exponent: Tensor) -> Tensor, (TensorBase, exponent: Number | complex) -> Tensor]\""
+                        ],
+                        "removed": [
+                            "Type argument 2 for class \"_Wrapped\" has unknown type",
+                            "Type argument 3 for class \"_Wrapped\" has partially unknown type\n\u00a0\u00a0Type is [object Object]",
+                            "Type argument 4 for class \"_Wrapped\" has partially unknown type\n\u00a0\u00a0Type is [object Object]",
+                            "Type is missing type annotation and could be inferred differently by type checkers\n\u00a0\u00a0Inferred type is \"_Wrapped[..., Unknown, ..., Any | Unknown | _NotImplementedType]\""
+                        ]
+                    }
+                },
+                "torch._tensor.Tensor.__rdiv__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._tensor.Tensor.__rfloordiv__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._tensor.Tensor.__rlshift__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._tensor.Tensor.__rmatmul__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._tensor.Tensor.__rmod__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._tensor.Tensor.__rpow__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._tensor.Tensor.__rrshift__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                },
+                "torch._tensor.Tensor.__rsub__": {
+                    "isTypeKnown": true,
+                    "diagnostics": {
+                        "removed": [
+                            "Return type annotation is missing",
+                            "Type annotation for parameter \"other\" is missing"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

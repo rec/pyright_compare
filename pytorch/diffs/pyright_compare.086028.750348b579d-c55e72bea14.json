@@ -1,0 +1,35 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-07-29 16:24:33",
+            "commit_id": "750348b579d",
+            "message": "[NativeRT] Clean up use of TargetDevice in KernelFactory (#159298)"
+        },
+        "after": {
+            "committer_date": "2025-07-29 17:03:24",
+            "commit_id": "c55e72bea14",
+            "message": "[Re-land][Inductor] Support native Inductor as backend for MTIA (#159211)"
+        }
+    },
+    "completeness": [0.377298, 0.377229],
+    "filename": "pyright_compare.086028.750348b579d-c55e72bea14.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 3},
+            "missingFunctionDocStringCount": 1,
+            "completenessScore": -6.95865292273945e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.03229278794402583},
+            "missingFunctionDocStringCount": 0.025555839509327882,
+            "completenessScore": -0.018443378827006467
+        },
+        "symbols": {
+            "added": [
+                "torch.mtia.is_bf16_supported",
+                "torch.mtia.memory.memory_allocated",
+                "torch.mtia.memory_allocated"
+            ]
+        }
+    }
+}

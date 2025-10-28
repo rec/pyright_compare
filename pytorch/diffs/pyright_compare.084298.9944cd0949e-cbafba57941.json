@@ -1,0 +1,26 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-06-18 18:46:04",
+            "commit_id": "9944cd0949e",
+            "message": "Convert to markdown: quantization-accuracy-debugging.rst, quantization-backend-configuration.rst, quantization-support.rst, random.rst (#155520)"
+        },
+        "after": {
+            "committer_date": "2025-06-18 18:57:47",
+            "commit_id": "cbafba57941",
+            "message": "Allow forcing FSDP2 to always use SUM reductions (#155915)"
+        }
+    },
+    "completeness": [0.371964, 0.371964],
+    "filename": "pyright_compare.084298.9944cd0949e-cbafba57941.json",
+    "diff": {
+        "absolute": {"otherSymbolCounts": {"withKnownType": 2}},
+        "percent": {"otherSymbolCounts": {"withKnownType": 0.08768084173608066}},
+        "symbols": {
+            "added": [
+                "torch.distributed.fsdp._fully_shard._fully_shard.FSDPModule.set_force_sum_reduction_for_comms",
+                "torch.distributed.fsdp._fully_shard._fully_shard.FSDPModule.set_gradient_divide_factor"
+            ]
+        }
+    }
+}

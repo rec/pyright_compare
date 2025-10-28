@@ -1,0 +1,31 @@
+{
+    "commits": {
+        "before": {
+            "committer_date": "2025-04-07 20:52:45",
+            "commit_id": "5653fb35250",
+            "message": "[AO] Add Moving Average Affine Observer (#150643)"
+        },
+        "after": {
+            "committer_date": "2025-04-07 20:52:45",
+            "commit_id": "eba05e2d3ef",
+            "message": "[AO] Refactor convert and add QuantAffinePlaceholderObserver (#150644)"
+        }
+    },
+    "completeness": [0.363308, 0.363285],
+    "filename": "pyright_compare.081285.5653fb35250-eba05e2d3ef.json",
+    "diff": {
+        "absolute": {
+            "exportedSymbolCounts": {"withUnknownType": 1},
+            "completenessScore": -2.2638820001641413e-05
+        },
+        "percent": {
+            "exportedSymbolCounts": {"withUnknownType": 0.010637166258908627},
+            "completenessScore": -0.006231306081755398
+        },
+        "symbols": {
+            "added": [
+                "torch.ao.quantization.observer.AffineQuantizedObserverBase.convert"
+            ]
+        }
+    }
+}
