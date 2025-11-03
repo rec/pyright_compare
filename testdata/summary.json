@@ -1,0 +1,14 @@
+{
+    "committer_date": "2025-03-31 17:04:25",
+    "commit_id": "284b7668980",
+    "index": 81045,
+    "message": "[dynamic shapes] C++ bindings for guard_or_false/true (#150148)",
+    "completeness": 36.333,
+    "diagnostics": {"added": 0, "removed": 0},
+    "diff": {
+        "exportedSymbolCounts": {"withUnknownType": 2},
+        "missingFunctionDocStringCount": 2,
+        "completenessScore": -4.538502211498541e-05
+    },
+    "symbols": {"added": 2}
+}

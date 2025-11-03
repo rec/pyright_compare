@@ -1,0 +1,180 @@
+{
+    "version": "1.1.403",
+    "time": "1756918682345",
+    "generalDiagnostics": [],
+    "summary": {
+        "filesAnalyzed": 874,
+        "errorCount": 0,
+        "warningCount": 0,
+        "informationCount": 0,
+        "timeInSec": 19.236
+    },
+    "typeCompleteness": {
+        "packageName": "torch",
+        "packageRootDirectory": "/home/rec/git/pytorch/torch",
+        "moduleName": "torch",
+        "moduleRootDirectory": "/home/rec/git/pytorch/torch",
+        "ignoreUnknownTypesFromImports": true,
+        "pyTypedPath": "/home/rec/git/pytorch/torch/py.typed",
+        "exportedSymbolCounts": {
+            "withKnownType": 6151,
+            "withAmbiguousType": 846,
+            "withUnknownType": 9309
+        },
+        "otherSymbolCounts": {
+            "withKnownType": 3050,
+            "withAmbiguousType": 153,
+            "withUnknownType": 2152
+        },
+        "missingFunctionDocStringCount": 4146,
+        "missingClassDocStringCount": 1100,
+        "missingDefaultParamCount": 106,
+        "completenessScore": 0.37722310805838344,
+        "modules": [
+            {
+                "name": "torch.__config__"
+            },
+            {
+                "name": "torch.xpu.streams"
+            }
+        ],
+        "symbols": [
+            {
+                "category": "function",
+                "name": "torch.__config__.show",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": []
+            },
+            {
+                "category": "variable",
+                "name": "torch.old_flags",
+                "referenceCount": 2,
+                "isExported": true,
+                "isTypeKnown": false,
+                "isTypeAmbiguous": true,
+                "diagnostics": [
+                    {
+                        "file": "/home/rec/git/pytorch/torch/__init__.py",
+                        "severity": "error",
+                        "message": "Type is missing type annotation and could be inferred differently by type checkers\n  Inferred type is \"int\"",
+                        "range": {
+                            "start": {
+                                "line": 394,
+                                "character": 4
+                            },
+                            "end": {
+                                "line": 394,
+                                "character": 13
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "category": "function",
+                "name": "torch.DisableTorchFunction",
+                "referenceCount": 2,
+                "isExported": true,
+                "isTypeKnown": false,
+                "isTypeAmbiguous": true,
+                "diagnostics": [
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_C/__init__.pyi",
+                        "severity": "warning",
+                        "message": "No docstring found for function \"torch.DisableTorchFunction\""
+                    },
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_C/__init__.pyi",
+                        "severity": "error",
+                        "message": "Return type is unknown"
+                    }
+                ]
+            },
+            {
+                "category": "method",
+                "name": "torch._tensor.Tensor.backward",
+                "referenceCount": 1,
+                "isExported": false,
+                "isTypeKnown": false,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_tensor.py",
+                        "severity": "error",
+                        "message": "Type annotation for parameter \"gradient\" is missing",
+                        "range": {
+                            "start": {
+                                "line": 569,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 569,
+                                "character": 16
+                            }
+                        }
+                    },
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_tensor.py",
+                        "severity": "error",
+                        "message": "Type annotation for parameter \"retain_graph\" is missing",
+                        "range": {
+                            "start": {
+                                "line": 569,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 569,
+                                "character": 16
+                            }
+                        }
+                    },
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_tensor.py",
+                        "severity": "error",
+                        "message": "Return type annotation is missing",
+                        "range": {
+                            "start": {
+                                "line": 569,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 569,
+                                "character": 16
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "category": "class",
+                "name": "torch.device",
+                "referenceCount": 2,
+                "isExported": true,
+                "isTypeKnown": false,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "",
+                        "severity": "warning",
+                        "message": "No docstring found for class \"torch.device\""
+                    }
+                ]
+            },
+            {
+                "category": "function",
+                "name": "torch.xpu.random.initial_seed",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": [],
+                "alternateNames": [
+                    "torch.xpu.initial_seed"
+                ]
+            }
+        ]
+    }
+}

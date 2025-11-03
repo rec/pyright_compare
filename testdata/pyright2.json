@@ -1,0 +1,243 @@
+{
+    "version": "1.1.403",
+    "time": "1756918691231",
+    "generalDiagnostics": [],
+    "summary": {
+        "filesAnalyzed": 878,
+        "errorCount": 0,
+        "warningCount": 0,
+        "informationCount": 0,
+        "timeInSec": 19.404
+    },
+    "typeCompleteness": {
+        "packageName": "torch",
+        "packageRootDirectory": "/home/rec/git/pytorch/torch",
+        "moduleName": "torch",
+        "moduleRootDirectory": "/home/rec/git/pytorch/torch",
+        "ignoreUnknownTypesFromImports": true,
+        "pyTypedPath": "/home/rec/git/pytorch/torch/py.typed",
+        "exportedSymbolCounts": {
+            "withKnownType": 6158,
+            "withAmbiguousType": 844,
+            "withUnknownType": 9305
+        },
+        "otherSymbolCounts": {
+            "withKnownType": 3061,
+            "withAmbiguousType": 155,
+            "withUnknownType": 2145
+        },
+        "missingFunctionDocStringCount": 4101,
+        "missingClassDocStringCount": 1105,
+        "missingDefaultParamCount": 106,
+        "completenessScore": 0.38012414551531123,
+        "modules": [
+            {
+                "name": "torch.__config__"
+            },
+            {
+                "name": "torch.xpu.streams"
+            }
+        ],
+        "symbols": [
+            {
+                "category": "function",
+                "name": "torch.__config__.show",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": []
+            },
+            {
+                "category": "variable",
+                "name": "torch.old_flags",
+                "referenceCount": 2,
+                "isExported": true,
+                "isTypeKnown": false,
+                "isTypeAmbiguous": true,
+                "diagnostics": [
+                    {
+                        "file": "/home/rec/git/pytorch/torch/__init__.py",
+                        "severity": "error",
+                        "message": "Type is missing type annotation and could be inferred differently by type checkers\n  Inferred type is \"int\"",
+                        "range": {
+                            "start": {
+                                "line": 394,
+                                "character": 4
+                            },
+                            "end": {
+                                "line": 394,
+                                "character": 13
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "category": "function",
+                "name": "torch.DisableTorchFunction",
+                "referenceCount": 2,
+                "isExported": true,
+                "isTypeKnown": false,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_C/__init__.pyi",
+                        "severity": "warning",
+                        "message": "No docstring found for function \"torch.DisableTorchFunction\""
+                    }
+                ]
+            },
+            {
+                "category": "method",
+                "name": "torch._tensor.Tensor.backward",
+                "referenceCount": 1,
+                "isExported": false,
+                "isTypeKnown": false,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_tensor.py",
+                        "severity": "error",
+                        "message": "Type annotation for parameter \"gradient\" is missing",
+                        "range": {
+                            "start": {
+                                "line": 569,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 569,
+                                "character": 16
+                            }
+                        }
+                    },
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_tensor.py",
+                        "severity": "error",
+                        "message": "Type annotation for parameter \"retain_graph\" is missing",
+                        "range": {
+                            "start": {
+                                "line": 569,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 569,
+                                "character": 16
+                            }
+                        }
+                    },
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_tensor.py",
+                        "severity": "error",
+                        "message": "Type annotation for parameter \"create_graph\" is missing",
+                        "range": {
+                            "start": {
+                                "line": 569,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 569,
+                                "character": 16
+                            }
+                        }
+                    },
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_tensor.py",
+                        "severity": "error",
+                        "message": "Type annotation for parameter \"inputs\" is missing",
+                        "range": {
+                            "start": {
+                                "line": 569,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 569,
+                                "character": 16
+                            }
+                        }
+                    },
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_tensor.py",
+                        "severity": "error",
+                        "message": "Return type annotation is missing",
+                        "range": {
+                            "start": {
+                                "line": 569,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 569,
+                                "character": 16
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "category": "function",
+                "name": "torch._tensor.Tensor.detach_",
+                "referenceCount": 1,
+                "isExported": false,
+                "isTypeKnown": false,
+                "isTypeAmbiguous": true,
+                "diagnostics": [
+                    {
+                        "file": "/home/rec/git/pytorch/torch/_tensor.py",
+                        "severity": "error",
+                        "message": "Ambiguous base class override\n  Type inferred in child class is \"(self: Self@TensorBase) -> Tensor\"\n  Inferred child class type is missing type annotation and could be inferred differently by type checkers",
+                        "range": {
+                            "start": {
+                                "line": 786,
+                                "character": 4
+                            },
+                            "end": {
+                                "line": 786,
+                                "character": 11
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "category": "function",
+                "name": "torch.xpu.memory.max_memory_allocated",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": false,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "/home/rec/git/pytorch/torch/xpu/memory.py",
+                        "severity": "error",
+                        "message": "Type of parameter \"device\" is partially unknown\n  Parameter type is \"device | str | int | None\"",
+                        "range": {
+                            "start": {
+                                "line": 135,
+                                "character": 4
+                            },
+                            "end": {
+                                "line": 135,
+                                "character": 24
+                            }
+                        }
+                    }
+                ],
+                "alternateNames": [
+                    "torch.xpu.max_memory_allocated"
+                ]
+            },
+            {
+                "category": "function",
+                "name": "torch.xpu.random.initial_seed",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": [],
+                "alternateNames": [
+                    "torch.xpu.initial_seed"
+                ]
+            }
+        ]
+    }
+}
