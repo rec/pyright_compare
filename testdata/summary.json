@@ -3,6 +3,7 @@
     "commit_id": "284b7668980",
     "index": 81045,
     "message": "[dynamic shapes] C++ bindings for guard_or_false/true (#150148)",
+    "filename": "full-run/pyright_compare.081045.47cdad29952-284b7668980.json",
     "completeness": 36.333,
     "diagnostics": {"added": 0, "removed": 0},
     "diff": {
