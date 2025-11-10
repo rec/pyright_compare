@@ -35,8 +35,8 @@ torch.distributed.fsdp.fully_sharded_data_parallel.FullyShardedDataParallel.regi
 torch.distributed.optim.zero_redundancy_optimizer.ZeroRedundancyOptimizer.join_hook
 torch.fx.experimental.proxy_tensor.handle_sym_dispatch(args=)
 torch.fx.experimental.proxy_tensor.handle_sym_dispatch(kwargs=)
-torch.jit._script.RecursiveScriptClass.__getattr__
 torch.jit._script.RecursiveScriptClass.__iadd__
+torch.jit._script.RecursiveScriptClass.__iadd__(other=)
 torch.jit._script.RecursiveScriptClass.forward_magic_method
 torch.jit._script.RecursiveScriptModule.__copy__
 torch.jit._script.RecursiveScriptModule.__deepcopy__
